@@ -1,0 +1,23 @@
+{
+ "_doc": "Giải thích câu hỏi bài giun-toc. \"section\" là id mục trong content/lessons/giun-toc.md để nút \"Xem lý thuyết\" trỏ tới.",
+ "giun-toc-1": {
+  "section": "chu-trinh",
+  "explain": "Khác với giun đũa, ấu trùng giun tóc KHÔNG có giai đoạn chu du qua gan, tim, phổi: ấu trùng ra khỏi vỏ trứng, xuống ruột non rồi đến manh tràng, đại tràng để trưởng thành. Các ý A, B, D đúng."
+ },
+ "giun-toc-2": {
+  "section": "lam-sang",
+  "explain": "Nhiễm nặng gây hội chứng lỵ: đi cầu nhiều lần, phân nhầy máu; bệnh nhân phải rặn nhiều nên dễ biến chứng sa trực tràng (niêm mạc trực tràng lộn ra ngoài, có nhiều giun tóc bám). Rối loạn tiêu hóa, hội chứng lỵ, thiếu máu là biểu hiện của bệnh, còn sa trực tràng là biến chứng."
+ },
+ "giun-toc-3": {
+  "section": "chan-doan",
+  "explain": "Chẩn đoán xác định bằng xét nghiệm phân tìm trứng (soi trực tiếp hoặc tập trung Kato-Katz — đơn giản, tin cậy, định lượng được mức độ nhiễm). Nội soi đại trực tràng có thể thấy giun cắm trên niêm mạc."
+ },
+ "giun-toc-4": {
+  "section": "dich-te",
+  "explain": "Giun tóc và giun đũa có sinh thái gần giống nhau: cùng lây do nuốt trứng có ấu trùng qua tay bẩn, thức ăn, nước uống; trứng cần đất ẩm, bóng râm để phát triển. Vì vậy biện pháp phòng ngừa giống giun đũa, và người nhiễm giun tóc thường nhiễm kèm giun đũa."
+ },
+ "giun-toc-5": {
+  "section": "chu-trinh",
+  "explain": "Trứng phải ra ngoại cảnh khoảng 3 tuần mới thành trứng có ấu trùng lây nhiễm, không qua ký chủ trung gian → chu trình trực tiếp dài."
+ }
+}

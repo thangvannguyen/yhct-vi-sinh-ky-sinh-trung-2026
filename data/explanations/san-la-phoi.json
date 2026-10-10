@@ -1,0 +1,24 @@
+{
+ "_doc": "Giải thích câu hỏi bài san-la-phoi. \"section\" là id mục trong content/lessons/san-la-phoi.md để nút \"Xem lý thuyết\" trỏ tới.",
+ "san-la-phoi-1": {
+  "section": "chu-trinh",
+  "explain": "Nang ấu trùng nằm trong cơ của tôm, cua nước ngọt (ký chủ trung gian 2). Người bị bệnh khi ăn tôm cua nhiễm nang ấu trùng chưa nấu chín; ở Việt Nam món chính gây nhiễm là cua nướng, canh cua, giã cua lấy nước chữa bệnh.",
+  "tip": "Sán lá PHỔI ↔ CUA. Sán lá nhỏ gan ↔ CÁ."
+ },
+ "san-la-phoi-2": {
+  "section": "dich-te",
+  "explain": "Ổ bệnh sán lá phổi ở Việt Nam tập trung ở các tỉnh phía Bắc, đặc biệt vùng Tây Bắc (Lai Châu, Sơn La, Hòa Bình); không thấy ở miền Trung hay miền Nam."
+ },
+ "san-la-phoi-3": {
+  "section": "chan-doan",
+  "explain": "Bệnh sán lá phổi có triệu chứng rất giống lao nhưng xét nghiệm tìm trực khuẩn lao (BK) âm tính, không gầy sút nhanh, không sốt về chiều như lao, và bạch cầu toan tính tăng trong đa số trường hợp. Đáp án theo tài liệu: tất cả đều đúng."
+ },
+ "san-la-phoi-4": {
+  "section": "chan-doan",
+  "explain": "Chẩn đoán xác định dựa vào xét nghiệm đờm tìm thấy trứng sán (có thể kèm tinh thể Charcot-Leyden). Trẻ em hay nuốt đờm nên có thể tìm thấy trứng trong phân."
+ },
+ "san-la-phoi-5": {
+  "section": "chu-trinh",
+  "explain": "Ngoài người, các gia súc như chó, mèo, heo (lợn) có thể nhiễm sán lá phổi; tỷ lệ chó nhiễm ở vùng dịch tễ 9,8–34,5%. Kháng nguyên ELISA cũng được điều chế từ sán lấy ở chó, lợn vùng nội dịch."
+ }
+}

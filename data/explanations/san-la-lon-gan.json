@@ -1,0 +1,24 @@
+{
+ "_doc": "Giải thích câu hỏi bài san-la-lon-gan. \"section\" là id mục trong content/lessons/san-la-lon-gan.md để nút \"Xem lý thuyết\" trỏ tới.",
+ "san-la-lon-gan-1": {
+  "section": "hinh-the",
+  "explain": "Sán lá lớn ở gan gây bệnh ở người do 2 loài chính: Fasciola hepatica và Fasciola gigantica. Opisthorchis viverrini, Clonorchis sinensis là sán lá nhỏ ở gan; Fasciolopsis buski là sán lá ruột lớn."
+ },
+ "san-la-lon-gan-2": {
+  "section": "dich-te",
+  "explain": "Tại Việt Nam, hàng ngàn ca bệnh được xác định từ năm 1997 chủ yếu nhiễm loài F. gigantica. Ở châu Á và châu Phi có thể tồn tại đồng thời cả 2 loài."
+ },
+ "san-la-lon-gan-3": {
+  "section": "chan-doan",
+  "explain": "Theo Hướng dẫn của Bộ Y tế, chẩn đoán xác định dựa vào phối hợp: yếu tố dịch tễ (sống trong vùng lưu hành), dấu hiệu lâm sàng, bạch cầu ái toan tăng (> 8%), chẩn đoán hình ảnh (ổ hỗn hợp âm hình tổ ong), ELISA dương tính, và trứng sán trong phân/dịch mật."
+ },
+ "san-la-lon-gan-4": {
+  "section": "dich-te",
+  "explain": "Ốc Lymnaea spp. là ký chủ trung gian 1 phổ biến nhất; ở Việt Nam là L. viridis và L. swinhoei. (Bithynia — sán lá nhỏ gan; Melanoides — sán lá phổi; Planorbis — sán lá ruột lớn.)",
+  "tip": "Fasciola ↔ Lymnaea."
+ },
+ "san-la-lon-gan-5": {
+  "section": "dieu-tri",
+  "explain": "Triclabendazole là thuốc được lựa chọn, hiệu quả nhất và an toàn hiện nay (biệt dược Fasinex® dùng cho gia súc). Khi có biến chứng có thể phối hợp ngoại khoa."
+ }
+}

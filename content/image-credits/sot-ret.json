@@ -1,0 +1,38 @@
+{
+ "chu-trinh.jpg": {
+  "title": "File:Plasmodium life cycle CDC.tif",
+  "page": "https://commons.wikimedia.org/wiki/File:Plasmodium_life_cycle_CDC.tif",
+  "license": "Public domain",
+  "artist": "CDC / Alexander J. da Silva, Melanie Moser"
+ },
+ "anopheles.jpg": {
+  "title": "File:Anopheles gambiae mosquito feeding (CDC PHIL 1354).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Anopheles_gambiae_mosquito_feeding_(CDC_PHIL_1354).jpg",
+  "license": "Public domain",
+  "artist": "CDC / James D. Gathany"
+ },
+ "malariae.jpg": {
+  "title": "File:Band-form trophozoite of P. malariae in a thin blood smear.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Band-form_trophozoite_of_P._malariae_in_a_thin_blood_smear.jpg",
+  "license": "Public domain",
+  "artist": "CDC"
+ },
+ "falciparum-nhan.jpg": {
+  "title": "File:P. falciparum thin smear with ring forms.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:P._falciparum_thin_smear_with_ring_forms.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Jenkayaks"
+ },
+ "falciparum.jpg": {
+  "title": "File:Plasmodium falciparum 01.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Plasmodium_falciparum_01.png",
+  "license": "Public domain",
+  "artist": "CDC"
+ },
+ "vivax.jpg": {
+  "title": "File:Plasmodium vivax 01.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Plasmodium_vivax_01.png",
+  "license": "Public domain",
+  "artist": "CDC"
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "_doc": "Giải thích câu hỏi bài giun-chi. \"section\" là id mục trong content/lessons/giun-chi.md để nút \"Xem lý thuyết\" trỏ tới.",
+ "giun-chi-1": {
+  "section": "chan-doan",
+  "explain": "Khi lấy máu đêm tìm phôi âm tính mà vẫn nghi ngờ, làm phương pháp tập trung: kỹ thuật Knott, kỹ thuật Harris, màng lọc Millipore. Willis, Baermann, Harada-Mori là các kỹ thuật xét nghiệm phân."
+ },
+ "giun-chi-2": {
+  "section": "lam-sang",
+  "explain": "Phù voi do ứ trệ bạch huyết sau nhiều năm tái nhiễm; hai vị trí thường gặp nhất là chân và bìu. Đôi khi gặp ở cánh tay, môi lớn, vú."
+ },
+ "giun-chi-3": {
+  "section": "lam-sang",
+  "explain": "Mạch bạch huyết xơ hóa, tắc nghẽn rồi vỡ vào đường tiết niệu gây đái dưỡng trấp: nước tiểu trắng đục như nước vo gạo, trong chứa phôi giun chỉ."
+ },
+ "giun-chi-4": {
+  "section": "dich-te",
+  "explain": "Người trong tuổi lao động, làm việc ngoài trời, ở trần, lao động ban đêm dễ bị muỗi đốt nên tỷ lệ nhiễm cao hơn; người sống trong vùng nội dịch có nguy cơ cao. Cả ba ý đều đúng."
+ }
+}

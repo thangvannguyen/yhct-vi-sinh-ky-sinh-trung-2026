@@ -1,0 +1,24 @@
+{
+ "_doc": "Giải thích câu hỏi bài san-la-nho-gan. \"section\" là id mục trong content/lessons/san-la-nho-gan.md để nút \"Xem lý thuyết\" trỏ tới.",
+ "san-la-nho-gan-1": {
+  "section": "dich-te",
+  "explain": "Mèo — nhất là mèo nhà — nhiễm sán vì ăn cá sống; ngoài ra chó, heo, chuột, thỏ và thú hoang ăn cá cũng là tàng chủ. Tóm tắt bài nhấn mạnh: mèo là tàng chủ quan trọng của 2 loài sán này."
+ },
+ "san-la-nho-gan-2": {
+  "section": "hinh-the",
+  "explain": "Trứng 2 loài rất khó phân biệt. Phân biệt dựa vào sán trưởng thành, chủ yếu là tinh hoàn (dịch hoàn): Clonorchis sinensis có tinh hoàn phân nhiều nhánh nhỏ; Opisthorchis viverrini có tinh hoàn chia 2–3 thùy (hình búi tròn)."
+ },
+ "san-la-nho-gan-3": {
+  "section": "lam-sang",
+  "explain": "Nhiễm mạn tính có thể gây viêm đường mật tái đi tái lại, viêm tụy và ung thư đường mật — nguy cơ gấp 5 lần (nhiễm nặng gấp 15 lần) ở người nhiễm sán lá, theo nghiên cứu ở Thái Lan."
+ },
+ "san-la-nho-gan-4": {
+  "section": "chan-doan",
+  "explain": "Nhiễm sán lá nhỏ ở gan được chẩn đoán qua xét nghiệm phân tìm thấy trứng; nhiễm nhẹ cần xét nghiệm nhiều lần hoặc phương pháp tập trung. Tìm trứng trong đàm là chẩn đoán sán lá phổi."
+ },
+ "san-la-nho-gan-5": {
+  "section": "dich-te",
+  "explain": "Người nhiễm do ăn cá nước ngọt chưa chín có nang ấu trùng: miền Bắc làm gỏi (nộm) cá mè, miền Trung ăn gỏi cá diếc.",
+  "tip": "Gỏi cá → sán lá nhỏ ở gan."
+ }
+}

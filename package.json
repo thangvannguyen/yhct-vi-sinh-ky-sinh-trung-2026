@@ -1,0 +1,25 @@
+{
+  "name": "yhct-vi-sinh-ky-sinh-trung-2026",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Web học tập & ôn tập trắc nghiệm Vi Sinh – Ký Sinh Trùng 10-2026 — React + Tailwind",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-markdown": "^9.1.0",
+    "react-router-dom": "^7.6.0",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "tailwindcss": "^4.1.0",
+    "vite": "^7.0.0"
+  }
+}

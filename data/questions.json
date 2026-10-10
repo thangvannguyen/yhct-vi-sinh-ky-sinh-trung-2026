@@ -1,0 +1,2125 @@
+{
+ "parts": [
+  {
+   "id": "kst",
+   "title": "Ký sinh trùng",
+   "icon": "svg:giun-dua"
+  },
+  {
+   "id": "vs",
+   "title": "Vi sinh",
+   "icon": "svg:virus"
+  }
+ ],
+ "groups": [
+  {
+   "id": "giun",
+   "part": "kst",
+   "title": "Giun tròn"
+  },
+  {
+   "id": "san-la",
+   "part": "kst",
+   "title": "Sán lá"
+  },
+  {
+   "id": "san-dai",
+   "part": "kst",
+   "title": "Sán dải"
+  },
+  {
+   "id": "don-bao",
+   "part": "kst",
+   "title": "Đơn bào"
+  },
+  {
+   "id": "vi-nam",
+   "part": "kst",
+   "title": "Vi nấm"
+  },
+  {
+   "id": "virus",
+   "part": "vs",
+   "title": "Virus"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "giun-dua",
+   "num": 1,
+   "part": "kst",
+   "group": "giun",
+   "title": "Bệnh do giun đũa",
+   "latin": "Ascaris lumbricoides",
+   "short": "Giun đũa",
+   "icon": "svg:giun-dua",
+   "questions": [
+    {
+     "id": "giun-dua-1",
+     "type": "mcq",
+     "text": "Ascaris lumbricoides, có đặc điểm, ngoại lệ:",
+     "options": [
+      "A. Giun cái đuôi thẳng, giun đực đuôi cong",
+      "B. Giun cái có kích thước lớn hơn giun đực",
+      "C. Giun trưởng thành sống trong lòng ruột non",
+      "D. Người mắc bệnh do nuốt phải trứng mới sinh"
+     ],
+     "correct": "D. Người mắc bệnh do nuốt phải trứng mới sinh",
+     "answerText": null,
+     "explain": "Trứng giun đũa mới sinh (1 phôi bào) chưa có khả năng lây nhiễm — phải ở ngoại cảnh (đất ẩm, 20–30°C) ít nhất 10–15 ngày mới thành trứng chứa ấu trùng lây nhiễm. Người nhiễm do nuốt trứng có ấu trùng, nên D sai. A, B, C đều đúng: giun cái đuôi thẳng, to hơn (20–40 cm); giun đực đuôi cong (15–30 cm); giun trưởng thành sống ở lòng ruột non.",
+     "tip": "Giun đũa: trứng phải \"ủ\" ngoài đất mới lây — trứng mới đẻ thì vô hại.",
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-dua",
+      "sectionId": "chu-trinh"
+     }
+    },
+    {
+     "id": "giun-dua-2",
+     "type": "mcq",
+     "text": "Những hành vi sau có nguy cơ gây nhiễm giun đũa, ngoại lệ:",
+     "options": [
+      "A. Ăn rau sống không rửa kỹ",
+      "B. Ăn thịt, cá không nấu chín",
+      "C. Uống nước không đun sôi",
+      "D. Nghịch đất, ăn đất, mút tay"
+     ],
+     "correct": "B. Ăn thịt, cá không nấu chín",
+     "answerText": null,
+     "explain": "Người nhiễm giun đũa qua đường tiêu hóa do nuốt trứng có ấu trùng trong rau, quả, nước uống, thức ăn bị ruồi gián bâu, tay bẩn; trẻ nghịch đất, ăn đất, mút tay. Thịt, cá không chứa trứng giun đũa, nên ăn thịt cá chưa chín không gây nhiễm giun đũa.",
+     "tip": "Giun đũa = \"đất – tay – rau – nước\", không liên quan thịt cá.",
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-dua",
+      "sectionId": "chu-trinh"
+     }
+    },
+    {
+     "id": "giun-dua-3",
+     "type": "mcq",
+     "text": "Chẩn đoán xác định bệnh giun đũa đường ruột dựa vào:",
+     "options": [
+      "A. Xét nghiệm phân tìm giun trưởng thành",
+      "B. Xét nghiệm phân tìm trứng.",
+      "C. Chụp X-quang bụng có cản quang",
+      "D. Siêu âm bụng tổng quát"
+     ],
+     "correct": "B. Xét nghiệm phân tìm trứng.",
+     "answerText": null,
+     "explain": "Chẩn đoán xác định khi tìm thấy trứng hoặc giun trưởng thành. Số lượng trứng trong phân thường rất nhiều nên xét nghiệm phân soi trực tiếp tìm trứng là đủ. X-quang, siêu âm chỉ dùng khi có biến chứng tắc ruột, tắc đường mật.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-dua",
+      "sectionId": "chan-doan"
+     }
+    },
+    {
+     "id": "giun-dua-4",
+     "type": "mcq",
+     "text": "Giai đoạn ấu trùng giun đũa qua phổi:",
+     "options": [
+      "A. Công thức máu có bạch cầu toan tính không tăng",
+      "B. X-quang phổi có hình ảnh ấu trùng giun",
+      "C. Xét nghiệm phân có tinh thể Charcot-Leyden",
+      "D. Không cần điều trị, bệnh tự khỏi sau 1 - 2 tuần"
+     ],
+     "correct": "D. Không cần điều trị, bệnh tự khỏi sau 1 - 2 tuần",
+     "answerText": null,
+     "explain": "Giai đoạn ấu trùng qua phổi gây hội chứng Loeffler: ho, sốt, X-quang thâm nhiễm phổi giống lao, bạch cầu ái toan tăng cao (đến 40%), có thể có tinh thể Charcot-Leyden trong đàm (không phải trong phân). Các triệu chứng nhất thời, tự biến mất sau 1–2 tuần nên thường không cần điều trị; tẩy giun 2 tuần sau khi có triệu chứng ở phổi.",
+     "tip": "Loeffler: tự khỏi sau 1–2 tuần, Charcot-Leyden ở ĐÀM.",
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-dua",
+      "sectionId": "lam-sang"
+     }
+    },
+    {
+     "id": "giun-dua-5",
+     "type": "mcq",
+     "text": "Kể một biến chứng tại ruột do giun đũa: ……",
+     "options": [
+      "A. Cơ học",
+      "B. Ký sinh trùng lạc chỗ",
+      "C. Tắc ruột",
+      "D. Giun chui ống mật"
+     ],
+     "correct": "C. Tắc ruột",
+     "answerText": "Tắc ruột",
+     "explain": "Biến chứng ở ruột: tắc ruột non (giun cuộn thành búi, hay gặp ở trẻ nhỏ, tử vong 9% trường hợp nhập viện), xoắn ruột, lồng ruột, thoát vị bẹn.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-dua",
+      "sectionId": "lam-sang"
+     },
+     "fromFill": true
+    },
+    {
+     "id": "giun-dua-6",
+     "type": "mcq",
+     "text": "Kể một biến chứng ngoài ruột do giun đũa: ……",
+     "options": [
+      "A. Cơ học",
+      "B. Giun chui ống mật",
+      "C. Ký sinh trùng lạc chỗ",
+      "D. Tắc ruột"
+     ],
+     "correct": "B. Giun chui ống mật",
+     "answerText": "Giun chui ống mật",
+     "explain": "Giun đũa \"thích chu du\", di chuyển lạc chỗ. Biến chứng ngoài ruột thường gặp nhất là tắc mật do giun chui ống mật chủ; ngoài ra viêm túi mật, sỏi mật, viêm tụy cấp, viêm ruột thừa, áp-xe gan, viêm phúc mạc.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-dua",
+      "sectionId": "lam-sang"
+     },
+     "fromFill": true
+    },
+    {
+     "id": "giun-dua-7",
+     "type": "mcq",
+     "text": "Giun đũa di chuyển lên ống dẫn mật được gọi là hiện tượng ……",
+     "options": [
+      "A. Tắc ruột",
+      "B. Giun chui ống mật",
+      "C. Cơ học",
+      "D. Ký sinh trùng lạc chỗ"
+     ],
+     "correct": "D. Ký sinh trùng lạc chỗ",
+     "answerText": "Ký sinh trùng lạc chỗ",
+     "explain": "Giun trưởng thành di chuyển lạc chỗ đến phần phụ của ống tiêu hóa (như ống mật) — đó là hiện tượng ký sinh trùng lạc chỗ.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-dua",
+      "sectionId": "lam-sang"
+     },
+     "fromFill": true
+    },
+    {
+     "id": "giun-dua-8",
+     "type": "mcq",
+     "text": "Trong nhiễm giun đũa, ruồi hay gián là trung gian truyền bệnh ……",
+     "options": [
+      "A. Tắc ruột",
+      "B. Giun chui ống mật",
+      "C. Cơ học",
+      "D. Ký sinh trùng lạc chỗ"
+     ],
+     "correct": "C. Cơ học",
+     "answerText": "Cơ học",
+     "explain": "Ruồi, gián chỉ mang trứng giun đũa bám bên ngoài cơ thể đến thức ăn; trứng không phát triển trong ruồi gián — nên chúng là trung gian truyền bệnh cơ học.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-dua",
+      "sectionId": "chu-trinh"
+     },
+     "fromFill": true
+    }
+   ]
+  },
+  {
+   "id": "giun-kim",
+   "num": 2,
+   "part": "kst",
+   "group": "giun",
+   "title": "Bệnh do giun kim",
+   "latin": "Enterobius vermicularis",
+   "short": "Giun kim",
+   "icon": "svg:giun-kim",
+   "questions": [
+    {
+     "id": "giun-kim-1",
+     "type": "mcq",
+     "text": "Giun kim E. vermicularis trưởng thành ký sinh chủ yếu ở:",
+     "options": [
+      "A. Tá tràng",
+      "B. Manh tràng",
+      "C. Hỗng tràng",
+      "D. Trực tràng"
+     ],
+     "correct": "B. Manh tràng",
+     "answerText": null,
+     "explain": "Ấu trùng được phóng thích ở tá tràng, lột xác rồi di chuyển xuống manh tràng để trưởng thành. Giun kim là loại giun thường gặp nhất ở ruột già.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-kim",
+      "sectionId": "chu-trinh"
+     }
+    },
+    {
+     "id": "giun-kim-2",
+     "type": "mcq",
+     "text": "Trứng giun kim E. vermicularis có đặc điểm sau:",
+     "options": [
+      "A. Vỏ dày, hình bầu dục, đối xứng",
+      "B. Không thể phát tán vào không khí",
+      "C. Có tính lây nhiễm sau khi được sinh ra",
+      "D. Chủ yếu thải ra theo phân"
+     ],
+     "correct": "C. Có tính lây nhiễm sau khi được sinh ra",
+     "answerText": null,
+     "explain": "Trứng giun kim chứa sẵn phôi khi được đẻ ở rìa hậu môn; chỉ sau 4–8 giờ (điều kiện hiếu khí, 35–42°C) đã thành trứng có ấu trùng lây nhiễm. Trứng hình bầu dục lép một bên (không đối xứng), rất nhẹ nên phát tán được vào không khí, và không thải theo phân.",
+     "tip": "Trứng giun kim: \"đẻ ra là gần như lây ngay\".",
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-kim",
+      "sectionId": "chu-trinh"
+     }
+    },
+    {
+     "id": "giun-kim-3",
+     "type": "mcq",
+     "text": "Chu trình phát triển của giun kim E. vermicularis thuộc loại:",
+     "options": [
+      "A. Trực tiếp ngắn",
+      "B. Trực tiếp dài",
+      "C. Gián tiếp qua 1 ký chủ trung gian",
+      "D. Gián tiếp qua 2 ký chủ trung gian"
+     ],
+     "correct": "A. Trực tiếp ngắn",
+     "answerText": null,
+     "explain": "Chu trình không cần ký chủ trung gian, trứng không cần thời gian dài ở ngoại cảnh (chỉ vài giờ ở rìa hậu môn) và ấu trùng không chu du qua phổi → chu trình trực tiếp ngắn.",
+     "tip": "Trực tiếp NGẮN: giun kim. Trực tiếp DÀI: giun đũa, giun tóc, giun móc.",
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-kim",
+      "sectionId": "chu-trinh"
+     }
+    },
+    {
+     "id": "giun-kim-4",
+     "type": "mcq",
+     "text": "Giun kim E. vermicularis KHÔNG CÓ đặc điểm sau:",
+     "options": [
+      "A. Đẻ trứng ở vùng da quanh hậu môn",
+      "B. Đời sống ngắn, thường dưới 3 tháng",
+      "C. Đẻ nhiều lứa trong suốt đời sống",
+      "D. Giun đực chết sau khi giao phối"
+     ],
+     "correct": "C. Đẻ nhiều lứa trong suốt đời sống",
+     "answerText": null,
+     "explain": "Giun kim cái đẻ trứng ở rìa hậu môn rồi chết ngay sau khi đẻ — tức chỉ đẻ một lứa, không đẻ nhiều lứa. Các ý còn lại đúng: đời sống ngắn (giun cái 4–13 tuần), giun đực chết ngay sau giao hợp.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-kim",
+      "sectionId": "chu-trinh"
+     }
+    },
+    {
+     "id": "giun-kim-5",
+     "type": "mcq",
+     "text": "Bệnh giun kim E. vermicularis thường phổ biến ở:",
+     "options": [
+      "A. Phụ nữ",
+      "B. Trẻ em",
+      "C. Thanh niên",
+      "D. Người già"
+     ],
+     "correct": "B. Trẻ em",
+     "answerText": null,
+     "explain": "Trẻ em là đối tượng nguy cơ cao, dễ nhiễm hơn người lớn; tỷ lệ nhiễm cao nhất ở lứa tuổi 2–5 tuổi (nhà trẻ, mẫu giáo), có vùng lên đến 73,45%.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-kim",
+      "sectionId": "dich-te"
+     }
+    },
+    {
+     "id": "giun-kim-6",
+     "type": "mcq",
+     "text": "Nguồn chứa trứng giun kim E. vermicularis thường là, ngoại trừ:",
+     "options": [
+      "A. Các vật dụng để ngủ",
+      "B. Sàn nhà đồ chơi của trẻ",
+      "C. Không khí trong nhà",
+      "D. Đất trồng hoa màu"
+     ],
+     "correct": "D. Đất trồng hoa màu",
+     "answerText": null,
+     "explain": "Trứng giun kim phát tán trong không gian sinh hoạt của người bệnh: giường, chiếu, chăn gối, đồ ngủ, sàn nhà, đồ chơi, tay nắm cửa, và theo bụi vào không khí trong phòng. Trứng không cần phát triển trong đất, nên đất trồng hoa màu không phải nguồn chứa trứng giun kim.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-kim",
+      "sectionId": "dich-te"
+     }
+    },
+    {
+     "id": "giun-kim-7",
+     "type": "mcq",
+     "text": "Các phương thức nhiễm trứng giun kim E. vermicularis, ngoại trừ:",
+     "options": [
+      "A. Nuốt trứng qua tay dơ bị nhiễm",
+      "B. Hít trứng từ không khí bị nhiễm",
+      "C. Tay trần, chân đất khi làm vườn",
+      "D. Quan hệ tình dục ở người đồng tính"
+     ],
+     "correct": "C. Tay trần, chân đất khi làm vườn",
+     "answerText": null,
+     "explain": "Giun kim lây do nuốt trứng (tay dơ, ngậm tay sau khi gãi hậu môn) và hít trứng theo bụi trong không khí; theo đáp án của tài liệu, D cũng được tính là một phương thức nhiễm. Riêng \"tay trần, chân đất khi làm vườn\" là cách nhiễm giun móc (ấu trùng xuyên qua da) — trứng giun kim không phát triển trong đất.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-kim",
+      "sectionId": "chu-trinh"
+     }
+    },
+    {
+     "id": "giun-kim-8",
+     "type": "mcq",
+     "text": "Biểu hiện đặc trưng của nhiễm giun kim E. vermicularis là:",
+     "options": [
+      "A. Đau bụng rộng vùng quanh rốn",
+      "B. Suy dinh dưỡng, mệt mỏi",
+      "C. Ăn không tiêu, chướng bụng",
+      "D. Ngứa hậu môn vào ban đêm"
+     ],
+     "correct": "D. Ngứa hậu môn vào ban đêm",
+     "answerText": null,
+     "explain": "Dấu hiệu chính của bệnh là ngứa hậu môn vào buổi tối, lúc bệnh nhân ngủ — trùng với thời gian giun cái bò ra rìa hậu môn đẻ trứng. Các triệu chứng tiêu hóa khác không đặc hiệu.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-kim",
+      "sectionId": "lam-sang"
+     }
+    },
+    {
+     "id": "giun-kim-9",
+     "type": "mcq",
+     "text": "Phương pháp chẩn đoán xác định nhiễm giun kim E. vermicularis là:",
+     "options": [
+      "A. Tìm trứng trong phân",
+      "B. Graham (Scotch tape)",
+      "C. Soi trực tràng tìm trứng",
+      "D. Chụp X – quang ruột"
+     ],
+     "correct": "B. Graham (Scotch tape)",
+     "answerText": null,
+     "explain": "Trứng giun kim không thải theo phân nên xét nghiệm phân không được chọn. Phương pháp thích hợp nhất là tìm trứng ở vùng da quanh hậu môn bằng kỹ thuật Graham (băng keo trong – Scotch tape).",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-kim",
+      "sectionId": "chan-doan"
+     }
+    },
+    {
+     "id": "giun-kim-10",
+     "type": "mcq",
+     "text": "Thời điểm thu thập mẫu để xét nghiệm chẩn đoán bệnh giun kim E. vermicularis là:",
+     "options": [
+      "A. Trong ngày ngay sau khi đi tiêu",
+      "B. Sáng sớm sau khi làm vệ sinh",
+      "C. Buổi tối trước khi đi ngủ",
+      "D. Sáng sớm thức dậy chưa tắm rửa"
+     ],
+     "correct": "D. Sáng sớm thức dậy chưa tắm rửa",
+     "answerText": null,
+     "explain": "Kỹ thuật Graham thực hiện vào sáng sớm khi trẻ vừa thức dậy, chưa vệ sinh vùng hạ bộ. Vệ sinh hậu môn trước khi lấy mẫu sẽ làm sai kết quả.",
+     "tip": "Graham: sáng sớm — chưa tắm — chưa đi vệ sinh.",
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-kim",
+      "sectionId": "chan-doan"
+     }
+    }
+   ]
+  },
+  {
+   "id": "giun-toc",
+   "num": 3,
+   "part": "kst",
+   "group": "giun",
+   "title": "Bệnh do giun tóc",
+   "latin": "Trichuris trichiura",
+   "short": "Giun tóc",
+   "icon": "svg:giun-toc",
+   "questions": [
+    {
+     "id": "giun-toc-1",
+     "type": "mcq",
+     "text": "Chu trình phát triển của giun tóc có các đặc điểm sau, ngoại trừ:",
+     "options": [
+      "A. Người bị nhiễm khi nuốt trứng có chứa ấu trùng",
+      "B. Giun trưởng thành ký sinh ở manh tràng",
+      "C. Ấu trùng có giai đoạn chu du qua gan, tim, phổi",
+      "D. Thuộc chu trình phát triển trực tiếp dài"
+     ],
+     "correct": "C. Ấu trùng có giai đoạn chu du qua gan, tim, phổi",
+     "answerText": null,
+     "explain": "Khác với giun đũa, ấu trùng giun tóc KHÔNG có giai đoạn chu du qua gan, tim, phổi: ấu trùng ra khỏi vỏ trứng, xuống ruột non rồi đến manh tràng, đại tràng để trưởng thành. Các ý A, B, D đúng.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-toc",
+      "sectionId": "chu-trinh"
+     }
+    },
+    {
+     "id": "giun-toc-2",
+     "type": "mcq",
+     "text": "Biến chứng thường gặp của bệnh giun tóc",
+     "options": [
+      "A. Rối loạn tiêu hóa",
+      "B. Hội chứng lỵ",
+      "C. Sa trực tràng",
+      "D. Thiếu máu"
+     ],
+     "correct": "C. Sa trực tràng",
+     "answerText": null,
+     "explain": "Nhiễm nặng gây hội chứng lỵ: đi cầu nhiều lần, phân nhầy máu; bệnh nhân phải rặn nhiều nên dễ biến chứng sa trực tràng (niêm mạc trực tràng lộn ra ngoài, có nhiều giun tóc bám). Rối loạn tiêu hóa, hội chứng lỵ, thiếu máu là biểu hiện của bệnh, còn sa trực tràng là biến chứng.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-toc",
+      "sectionId": "lam-sang"
+     }
+    },
+    {
+     "id": "giun-toc-3",
+     "type": "mcq",
+     "text": "Chẩn đoán xác định bệnh giun tóc:",
+     "options": [
+      "A. Xét nghiệm phân tìm trứng",
+      "B. Xét nghiệm phân tìm giun trưởng thành",
+      "C. Xét nghiệm máu tìm tinh thể Charcot-Leyden",
+      "D. Xét nghiệm máu tìm bạch cầu ái toan tăng"
+     ],
+     "correct": "A. Xét nghiệm phân tìm trứng",
+     "answerText": null,
+     "explain": "Chẩn đoán xác định bằng xét nghiệm phân tìm trứng (soi trực tiếp hoặc tập trung Kato-Katz — đơn giản, tin cậy, định lượng được mức độ nhiễm). Nội soi đại trực tràng có thể thấy giun cắm trên niêm mạc.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-toc",
+      "sectionId": "chan-doan"
+     }
+    },
+    {
+     "id": "giun-toc-4",
+     "type": "mcq",
+     "text": "Phòng ngừa nhiễm giun tóc tương tự như phòng ngừa nhiễm:",
+     "options": [
+      "A. Giun móc",
+      "B. Giun đũa",
+      "C. Giun kim",
+      "D. Giun lươn"
+     ],
+     "correct": "B. Giun đũa",
+     "answerText": null,
+     "explain": "Giun tóc và giun đũa có sinh thái gần giống nhau: cùng lây do nuốt trứng có ấu trùng qua tay bẩn, thức ăn, nước uống; trứng cần đất ẩm, bóng râm để phát triển. Vì vậy biện pháp phòng ngừa giống giun đũa, và người nhiễm giun tóc thường nhiễm kèm giun đũa.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-toc",
+      "sectionId": "dich-te"
+     }
+    },
+    {
+     "id": "giun-toc-5",
+     "type": "mcq",
+     "text": "Chu trình phát triển của giun tóc thuộc loại:",
+     "options": [
+      "A. Trực tiếp ngắn",
+      "B. Trực tiếp dài",
+      "C. Gián tiếp qua 1 ký chủ trung gian",
+      "D. Gián tiếp qua 2 ký chủ trung gian"
+     ],
+     "correct": "B. Trực tiếp dài",
+     "answerText": null,
+     "explain": "Trứng phải ra ngoại cảnh khoảng 3 tuần mới thành trứng có ấu trùng lây nhiễm, không qua ký chủ trung gian → chu trình trực tiếp dài.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-toc",
+      "sectionId": "chu-trinh"
+     }
+    }
+   ]
+  },
+  {
+   "id": "giun-moc",
+   "num": 4,
+   "part": "kst",
+   "group": "giun",
+   "title": "Bệnh do giun móc",
+   "latin": "Ancylostoma duodenale – Necator americanus",
+   "short": "Giun móc",
+   "icon": "svg:giun-moc",
+   "questions": [
+    {
+     "id": "giun-moc-1",
+     "type": "mcq",
+     "text": "Chu trình phát triển của giun móc thuộc loại chu trình:",
+     "options": [
+      "A. Trực tiếp ngắn",
+      "B. Trực tiếp dài",
+      "C. Gián tiếp qua 1 ký chủ trung gian",
+      "D. Gián tiếp qua 2 ký chủ trung gian"
+     ],
+     "correct": "B. Trực tiếp dài",
+     "answerText": null,
+     "explain": "Trứng ra ngoại cảnh nở thành ấu trùng I (1–2 ngày), rồi thành ấu trùng II lây nhiễm (5–8 ngày); không qua ký chủ trung gian → chu trình trực tiếp dài.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-moc",
+      "sectionId": "chu-trinh"
+     }
+    },
+    {
+     "id": "giun-moc-2",
+     "type": "mcq",
+     "text": "Sau 3 năm thực hiện đơn thuần chương trình tẩy giun định kỳ mỗi 6 tháng cho học sinh cấp 1 trong toàn huyện (uống thuốc tại lớp có kiểm soát), kết quả điều tra cho thấy tỉ lệ nhiễm giun móc ở trẻ cấp 1 vẫn không thay đổi một cách có ý nghĩa thống kê. Biện pháp thích hợp cần được thực hiện tiếp theo là:",
+     "options": [
+      "A. Tăng liều tẩy giun: mỗi đợt xổ 2 liều, cách nhau 1 tuần",
+      "B. Hỗ trợ xây dựng hố xí hợp vệ sinh cho các hộ khó khăn, chưa có hố xí",
+      "C. Rắc vôi lên tất cả những vùng đất không tráng xi-măng trong toàn huyện",
+      "D. Phối hợp giáo dục phòng ngừa nhiễm giun móc cho dân trong huyện"
+     ],
+     "correct": "D. Phối hợp giáo dục phòng ngừa nhiễm giun móc cho dân trong huyện",
+     "answerText": null,
+     "explain": "Tẩy giun định kỳ đơn thuần không làm giảm tỷ lệ nhiễm vì người dân vẫn tái nhiễm từ đất bị ô nhiễm (phóng uế bừa bãi, dùng phân tươi, đi chân đất). Phòng bệnh phải phối hợp với giáo dục sức khỏe để thay đổi hành vi trong cộng đồng.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-moc",
+      "sectionId": "du-phong"
+     }
+    },
+    {
+     "id": "giun-moc-3",
+     "type": "mcq",
+     "text": "Nghề nghiệp sau đây có nguy cơ cao nhiễm giun móc",
+     "options": [
+      "A. Công nhân viên",
+      "B. Nông dân",
+      "C. Làm bánh tráng",
+      "D. Bán tôm cá"
+     ],
+     "correct": "B. Nông dân",
+     "answerText": null,
+     "explain": "Ấu trùng giun móc xuyên qua da (kẽ ngón tay, kẽ ngón chân). Tập quán đi chân đất, tiếp xúc với đất không mang dụng cụ bảo hộ lao động — điển hình là nông dân — tạo điều kiện nhiễm và tái nhiễm thường xuyên.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-moc",
+      "sectionId": "dich-te"
+     }
+    },
+    {
+     "id": "giun-moc-4",
+     "type": "mcq",
+     "text": "Ngoài triệu chứng rối loạn tiêu hóa, giun móc có thể gây ……",
+     "options": [
+      "A. Thiếu máu mạn",
+      "B. Tắc ruột",
+      "C. Ruột non",
+      "D. Sa trực tràng"
+     ],
+     "correct": "A. Thiếu máu mạn",
+     "answerText": "Thiếu máu mạn",
+     "explain": "Giai đoạn ở ruột biểu hiện chủ yếu là thiếu máu: giun trưởng thành hút máu và tiết chất kháng đông gây chảy máu rỉ rả tại chỗ bám. Nhiễm mạn gây thiếu máu thiếu sắt (hồng cầu nhỏ nhược sắc).",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": {
+      "kind": "extended",
+      "title": "Phương án bổ sung",
+      "body": "Câu này trong tài liệu là câu điền khuyết. Web chuyển thành trắc nghiệm; vì bài chỉ có 2 câu điền khuyết nên **2 phương án sai được thêm vào** (lấy từ nội dung lý thuyết) cho đủ 4 lựa chọn. **Đáp án đúng giữ nguyên theo tài liệu.**",
+      "sourceAnswer": "Thiếu máu mạn"
+     },
+     "lessonRef": {
+      "lessonId": "giun-moc",
+      "sectionId": "lam-sang"
+     },
+     "fromFill": true
+    },
+    {
+     "id": "giun-moc-5",
+     "type": "mcq",
+     "text": "Vị trí ký sinh chính của giun móc trong đường tiêu hóa của người là ……",
+     "options": [
+      "A. Dạ dày",
+      "B. Thiếu máu mạn",
+      "C. Ruột non",
+      "D. Manh tràng"
+     ],
+     "correct": "C. Ruột non",
+     "answerText": "Ruột non",
+     "explain": "Giun móc là giun hình ống ký sinh ở ruột non người; bộ phận miệng có răng bám chắc vào niêm mạc ruột non.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": {
+      "kind": "extended",
+      "title": "Phương án bổ sung",
+      "body": "Câu này trong tài liệu là câu điền khuyết. Web chuyển thành trắc nghiệm; vì bài chỉ có 2 câu điền khuyết nên **2 phương án sai được thêm vào** (lấy từ nội dung lý thuyết) cho đủ 4 lựa chọn. **Đáp án đúng giữ nguyên theo tài liệu.**",
+      "sourceAnswer": "Ruột non"
+     },
+     "lessonRef": {
+      "lessonId": "giun-moc",
+      "sectionId": "hinh-the"
+     },
+     "fromFill": true
+    }
+   ]
+  },
+  {
+   "id": "giun-chi",
+   "num": 5,
+   "part": "kst",
+   "group": "giun",
+   "title": "Bệnh do giun chỉ hệ bạch huyết",
+   "latin": "Wuchereria bancrofti – Brugia malayi",
+   "short": "Giun chỉ bạch huyết",
+   "icon": "svg:giun-chi",
+   "questions": [
+    {
+     "id": "giun-chi-1",
+     "type": "mcq",
+     "text": "Phương pháp tập trung tìm phôi giun chỉ:",
+     "options": [
+      "A. Baermann",
+      "B. Willis",
+      "C. Harada-Mori",
+      "D. Knott"
+     ],
+     "correct": "D. Knott",
+     "answerText": null,
+     "explain": "Khi lấy máu đêm tìm phôi âm tính mà vẫn nghi ngờ, làm phương pháp tập trung: kỹ thuật Knott, kỹ thuật Harris, màng lọc Millipore. Willis, Baermann, Harada-Mori là các kỹ thuật xét nghiệm phân.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-chi",
+      "sectionId": "chan-doan"
+     }
+    },
+    {
+     "id": "giun-chi-2",
+     "type": "mcq",
+     "text": "Cơ quan thường bị phù voi trong nhiễm giun chỉ W. bancrofti là:",
+     "options": [
+      "A. Vú",
+      "B. Chân và bìu",
+      "C. Môi lớn",
+      "D. Cổ tay"
+     ],
+     "correct": "B. Chân và bìu",
+     "answerText": null,
+     "explain": "Phù voi do ứ trệ bạch huyết sau nhiều năm tái nhiễm; hai vị trí thường gặp nhất là chân và bìu. Đôi khi gặp ở cánh tay, môi lớn, vú.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-chi",
+      "sectionId": "lam-sang"
+     }
+    },
+    {
+     "id": "giun-chi-3",
+     "type": "mcq",
+     "text": "Xét nghiệm nước tiểu dưỡng trấp, có thể tìm thấy:",
+     "options": [
+      "A. Giun chỉ trưởng thành",
+      "B. Trứng giun chỉ",
+      "C. Phôi giun chỉ",
+      "D. Tất cả đều đúng"
+     ],
+     "correct": "C. Phôi giun chỉ",
+     "answerText": null,
+     "explain": "Mạch bạch huyết xơ hóa, tắc nghẽn rồi vỡ vào đường tiết niệu gây đái dưỡng trấp: nước tiểu trắng đục như nước vo gạo, trong chứa phôi giun chỉ.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-chi",
+      "sectionId": "lam-sang"
+     }
+    },
+    {
+     "id": "giun-chi-4",
+     "type": "mcq",
+     "text": "Đối tượng có nguy cơ nhiễm giun chỉ hệ bạch huyết:",
+     "options": [
+      "A. Người lớn trong độ tuổi lao động",
+      "B. Sống trong vùng nội dịch",
+      "C. Làm việc ngoài trời, ở trần",
+      "D. A, B, C đúng"
+     ],
+     "correct": "D. A, B, C đúng",
+     "answerText": null,
+     "explain": "Người trong tuổi lao động, làm việc ngoài trời, ở trần, lao động ban đêm dễ bị muỗi đốt nên tỷ lệ nhiễm cao hơn; người sống trong vùng nội dịch có nguy cơ cao. Cả ba ý đều đúng.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-chi",
+      "sectionId": "dich-te"
+     }
+    }
+   ]
+  },
+  {
+   "id": "san-la-phoi",
+   "num": 6,
+   "part": "kst",
+   "group": "san-la",
+   "title": "Bệnh do sán lá phổi",
+   "latin": "Paragonimus spp.",
+   "short": "Sán lá phổi",
+   "icon": "svg:san-la-phoi",
+   "questions": [
+    {
+     "id": "san-la-phoi-1",
+     "type": "mcq",
+     "text": "Người nhiễm sán lá phổi do:",
+     "options": [
+      "A. Ăn thịt chó nấu không kỹ",
+      "B. Ăn thịt lợn nấu không kỹ",
+      "C. Ăn cua sống",
+      "D. Ăn cá sống"
+     ],
+     "correct": "C. Ăn cua sống",
+     "answerText": null,
+     "explain": "Nang ấu trùng nằm trong cơ của tôm, cua nước ngọt (ký chủ trung gian 2). Người bị bệnh khi ăn tôm cua nhiễm nang ấu trùng chưa nấu chín; ở Việt Nam món chính gây nhiễm là cua nướng, canh cua, giã cua lấy nước chữa bệnh.",
+     "tip": "Sán lá PHỔI ↔ CUA. Sán lá nhỏ gan ↔ CÁ.",
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-phoi",
+      "sectionId": "chu-trinh"
+     }
+    },
+    {
+     "id": "san-la-phoi-2",
+     "type": "mcq",
+     "text": "Vùng dịch tễ sán lá phổi ở Việt Nam:",
+     "options": [
+      "A. Đồng bằng sông Hồng",
+      "B. Đồng bằng sông Cửu Long",
+      "C. Các tỉnh ven biển miền Trung",
+      "D. Các tỉnh biên giới phía Bắc"
+     ],
+     "correct": "D. Các tỉnh biên giới phía Bắc",
+     "answerText": null,
+     "explain": "Ổ bệnh sán lá phổi ở Việt Nam tập trung ở các tỉnh phía Bắc, đặc biệt vùng Tây Bắc (Lai Châu, Sơn La, Hòa Bình); không thấy ở miền Trung hay miền Nam.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-phoi",
+      "sectionId": "dich-te"
+     }
+    },
+    {
+     "id": "san-la-phoi-3",
+     "type": "mcq",
+     "text": "Bệnh sán lá phổi dễ nhầm với bệnh lao, nhưng bệnh nhân:",
+     "options": [
+      "A. Có kết quả BK âm tính",
+      "B. Lâm sàng không có sốt",
+      "C. Có bạch cầu toan tính tăng",
+      "D. Tất cả đều đúng"
+     ],
+     "correct": "D. Tất cả đều đúng",
+     "answerText": null,
+     "explain": "Bệnh sán lá phổi có triệu chứng rất giống lao nhưng xét nghiệm tìm trực khuẩn lao (BK) âm tính, không gầy sút nhanh, không sốt về chiều như lao, và bạch cầu toan tính tăng trong đa số trường hợp. Đáp án theo tài liệu: tất cả đều đúng.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-phoi",
+      "sectionId": "chan-doan"
+     }
+    },
+    {
+     "id": "san-la-phoi-4",
+     "type": "mcq",
+     "text": "Chẩn đoán xác định bệnh sán lá phổi",
+     "options": [
+      "A. Xét nghiệm đàm tìm sán trưởng thành",
+      "B. Xét nghiệm đàm tìm sán non",
+      "C. Xét nghiệm đàm tìm trứng",
+      "D. Hút dịch tá tràng tìm trứng"
+     ],
+     "correct": "C. Xét nghiệm đàm tìm trứng",
+     "answerText": null,
+     "explain": "Chẩn đoán xác định dựa vào xét nghiệm đờm tìm thấy trứng sán (có thể kèm tinh thể Charcot-Leyden). Trẻ em hay nuốt đờm nên có thể tìm thấy trứng trong phân.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-phoi",
+      "sectionId": "chan-doan"
+     }
+    },
+    {
+     "id": "san-la-phoi-5",
+     "type": "mcq",
+     "text": "Tàng chủ của sán lá phổi ở Việt Nam",
+     "options": [
+      "A. Gà vịt",
+      "B. Trâu bò",
+      "C. Chó, lợn",
+      "D. Cừu"
+     ],
+     "correct": "C. Chó, lợn",
+     "answerText": null,
+     "explain": "Ngoài người, các gia súc như chó, mèo, heo (lợn) có thể nhiễm sán lá phổi; tỷ lệ chó nhiễm ở vùng dịch tễ 9,8–34,5%. Kháng nguyên ELISA cũng được điều chế từ sán lấy ở chó, lợn vùng nội dịch.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-phoi",
+      "sectionId": "chu-trinh"
+     }
+    }
+   ]
+  },
+  {
+   "id": "san-la-lon-gan",
+   "num": 7,
+   "part": "kst",
+   "group": "san-la",
+   "title": "Bệnh do sán lá lớn ở gan",
+   "latin": "Fasciola spp.",
+   "short": "Sán lá lớn ở gan",
+   "icon": "svg:san-la-lon-gan",
+   "questions": [
+    {
+     "id": "san-la-lon-gan-1",
+     "type": "mcq",
+     "text": "Bệnh sán lá lớn ở gan thường do 2 loài sau đây gây nên:",
+     "options": [
+      "A. Fasciola hepatica và Fasciola gigantica.",
+      "B. Fasciola gigantica và Opisthorchis viverrini.",
+      "C. Chlonorchis sinensis và Fasciola gigantica.",
+      "D. Opisthorchis viverrini và Fasciolopis buski."
+     ],
+     "correct": "A. Fasciola hepatica và Fasciola gigantica.",
+     "answerText": null,
+     "explain": "Sán lá lớn ở gan gây bệnh ở người do 2 loài chính: Fasciola hepatica và Fasciola gigantica. Opisthorchis viverrini, Clonorchis sinensis là sán lá nhỏ ở gan; Fasciolopsis buski là sán lá ruột lớn.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-lon-gan",
+      "sectionId": "hinh-the"
+     }
+    },
+    {
+     "id": "san-la-lon-gan-2",
+     "type": "mcq",
+     "text": "Tại Việt Nam, loài sán lá lớn ở gan Fasciola spp. thường gặp là:",
+     "options": [
+      "A. Loài duy nhất là Fasciola hepatica.",
+      "B. Loài duy nhất là Fasciola gigantica.",
+      "C. Loài Fasciola gigantica là phổ biến nhất.",
+      "D. Loài Fasciola hepatica là phổ biến nhất."
+     ],
+     "correct": "C. Loài Fasciola gigantica là phổ biến nhất.",
+     "answerText": null,
+     "explain": "Tại Việt Nam, hàng ngàn ca bệnh được xác định từ năm 1997 chủ yếu nhiễm loài F. gigantica. Ở châu Á và châu Phi có thể tồn tại đồng thời cả 2 loài.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-lon-gan",
+      "sectionId": "dich-te"
+     }
+    },
+    {
+     "id": "san-la-lon-gan-3",
+     "type": "mcq",
+     "text": "Chẩn đoán xác định ca bệnh sán lá lớn ở gan do Fasciola spp. thường dựa vào:",
+     "options": [
+      "A. Tiền sử bệnh liên quan, nhất là bệnh nhân sống ở vùng lưu hành.",
+      "B. Các triệu chứng lâm sàng tiêu hóa, gan mật.",
+      "C. Các xét nghiệm lâm sàng (bạch cầu ái toan, huyết thanh chẩn đoán ELISA, men gan, IgE, trứng sán trong phân) và chẩn đoán hình ảnh, nhất là siêu âm gan mật.",
+      "D. Các câu trên đều đúng."
+     ],
+     "correct": "D. Các câu trên đều đúng.",
+     "answerText": null,
+     "explain": "Theo Hướng dẫn của Bộ Y tế, chẩn đoán xác định dựa vào phối hợp: yếu tố dịch tễ (sống trong vùng lưu hành), dấu hiệu lâm sàng, bạch cầu ái toan tăng (> 8%), chẩn đoán hình ảnh (ổ hỗn hợp âm hình tổ ong), ELISA dương tính, và trứng sán trong phân/dịch mật.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-lon-gan",
+      "sectionId": "chan-doan"
+     }
+    },
+    {
+     "id": "san-la-lon-gan-4",
+     "type": "mcq",
+     "text": "Vật chủ trung gian truyền bệnh sán lá lớn ở gan Fasciola spp. thường là:",
+     "options": [
+      "A. Lymnaea spp.",
+      "B. Planorbis spp.",
+      "C. Bithynia spp.",
+      "D. Melanoides spp."
+     ],
+     "correct": "A. Lymnaea spp.",
+     "answerText": null,
+     "explain": "Ốc Lymnaea spp. là ký chủ trung gian 1 phổ biến nhất; ở Việt Nam là L. viridis và L. swinhoei. (Bithynia — sán lá nhỏ gan; Melanoides — sán lá phổi; Planorbis — sán lá ruột lớn.)",
+     "tip": "Fasciola ↔ Lymnaea.",
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-lon-gan",
+      "sectionId": "dich-te"
+     }
+    },
+    {
+     "id": "san-la-lon-gan-5",
+     "type": "mcq",
+     "text": "Thuốc điều trị bệnh sán lá lớn ở gan hiện được chọn lựa là:",
+     "options": [
+      "A. Metronidazole",
+      "B. Albendazole",
+      "C. Triclabendazole",
+      "D. Thiabendazole"
+     ],
+     "correct": "C. Triclabendazole",
+     "answerText": null,
+     "explain": "Triclabendazole là thuốc được lựa chọn, hiệu quả nhất và an toàn hiện nay (biệt dược Fasinex® dùng cho gia súc). Khi có biến chứng có thể phối hợp ngoại khoa.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-lon-gan",
+      "sectionId": "dieu-tri"
+     }
+    }
+   ]
+  },
+  {
+   "id": "san-la-nho-gan",
+   "num": 8,
+   "part": "kst",
+   "group": "san-la",
+   "title": "Bệnh do sán lá nhỏ ở gan",
+   "latin": "Clonorchis sinensis – Opisthorchis viverrini",
+   "short": "Sán lá nhỏ ở gan",
+   "icon": "svg:san-la-nho-gan",
+   "questions": [
+    {
+     "id": "san-la-nho-gan-1",
+     "type": "mcq",
+     "text": "Tàng chủ của sán lá nhỏ ở gan:",
+     "options": [
+      "A. Trâu, bò",
+      "B. Cừu",
+      "C. Mèo",
+      "D. Heo"
+     ],
+     "correct": "C. Mèo",
+     "answerText": null,
+     "explain": "Mèo — nhất là mèo nhà — nhiễm sán vì ăn cá sống; ngoài ra chó, heo, chuột, thỏ và thú hoang ăn cá cũng là tàng chủ. Tóm tắt bài nhấn mạnh: mèo là tàng chủ quan trọng của 2 loài sán này.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-nho-gan",
+      "sectionId": "dich-te"
+     }
+    },
+    {
+     "id": "san-la-nho-gan-2",
+     "type": "mcq",
+     "text": "Về phương diện hình thể, phân biệt Clonorchis sinensis và Opisthorchis viverrini chủ yếu dựa vào cấu tạo của:",
+     "options": [
+      "A. Tử cung",
+      "B. Buồng trứng",
+      "C. Trứng",
+      "D. Dịch hoàn"
+     ],
+     "correct": "D. Dịch hoàn",
+     "answerText": null,
+     "explain": "Trứng 2 loài rất khó phân biệt. Phân biệt dựa vào sán trưởng thành, chủ yếu là tinh hoàn (dịch hoàn): Clonorchis sinensis có tinh hoàn phân nhiều nhánh nhỏ; Opisthorchis viverrini có tinh hoàn chia 2–3 thùy (hình búi tròn).",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-nho-gan",
+      "sectionId": "hinh-the"
+     }
+    },
+    {
+     "id": "san-la-nho-gan-3",
+     "type": "mcq",
+     "text": "Nhiễm Opisthorchis ở người có liên hệ đến:",
+     "options": [
+      "A. Nhiễm trùng đường niệu dục",
+      "B. Ung thư đường niệu dục",
+      "C. Ung thư bàng quang",
+      "D. Ung thư đường mật"
+     ],
+     "correct": "D. Ung thư đường mật",
+     "answerText": null,
+     "explain": "Nhiễm mạn tính có thể gây viêm đường mật tái đi tái lại, viêm tụy và ung thư đường mật — nguy cơ gấp 5 lần (nhiễm nặng gấp 15 lần) ở người nhiễm sán lá, theo nghiên cứu ở Thái Lan.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-nho-gan",
+      "sectionId": "lam-sang"
+     }
+    },
+    {
+     "id": "san-la-nho-gan-4",
+     "type": "mcq",
+     "text": "Chẩn đoán xác định bệnh do sán lá nhỏ ở gan, dựa vào:",
+     "options": [
+      "A. Tìm trứng trong đàm",
+      "B. Tìm sán trưởng thành trong phân",
+      "C. Tìm trứng trong phân",
+      "D. A và B đúng"
+     ],
+     "correct": "C. Tìm trứng trong phân",
+     "answerText": null,
+     "explain": "Nhiễm sán lá nhỏ ở gan được chẩn đoán qua xét nghiệm phân tìm thấy trứng; nhiễm nhẹ cần xét nghiệm nhiều lần hoặc phương pháp tập trung. Tìm trứng trong đàm là chẩn đoán sán lá phổi.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": {
+      "kind": "relabeled",
+      "title": "Tài liệu gốc đánh nhãn phương án bị trùng",
+      "body": "Trong tài liệu gốc, câu này có **hai phương án cùng ghi \"A.\"** (\"Tìm trứng trong đàm\" và \"Tìm sán trưởng thành trong phân\") do lỗi đánh số tự động của Word. Web gán lại A–D theo đúng thứ tự xuất hiện; khi đó đáp án **C** trong khóa \"4-C\" là **Tìm trứng trong phân**, khớp với phần lý thuyết.",
+      "sourceAnswer": "C"
+     },
+     "lessonRef": {
+      "lessonId": "san-la-nho-gan",
+      "sectionId": "chan-doan"
+     }
+    },
+    {
+     "id": "san-la-nho-gan-5",
+     "type": "mcq",
+     "text": "Ăn món nào sau đây có thể nhiễm sán lá nhỏ ở gan:",
+     "options": [
+      "A. Nem chua",
+      "B. Gỏi cá",
+      "C. Phở tái",
+      "D. Rau sống"
+     ],
+     "correct": "B. Gỏi cá",
+     "answerText": null,
+     "explain": "Người nhiễm do ăn cá nước ngọt chưa chín có nang ấu trùng: miền Bắc làm gỏi (nộm) cá mè, miền Trung ăn gỏi cá diếc.",
+     "tip": "Gỏi cá → sán lá nhỏ ở gan.",
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-nho-gan",
+      "sectionId": "dich-te"
+     }
+    }
+   ]
+  },
+  {
+   "id": "san-la-ruot",
+   "num": 9,
+   "part": "kst",
+   "group": "san-la",
+   "title": "Bệnh do sán lá ruột lớn",
+   "latin": "Fasciolopsis buski",
+   "short": "Sán lá ruột lớn",
+   "icon": "svg:san-la-ruot",
+   "questions": [
+    {
+     "id": "san-la-ruot-1",
+     "type": "mcq",
+     "text": "Người bị nhiễm sán lá ruột lớn Fasciolopsis buski do:",
+     "options": [
+      "A. Ăn rau sống mọc dưới nước có bào tử nang",
+      "B. Ăn cua nước ngọt chưa chín có nang ấu trùng",
+      "C. Ăn cá nước ngọt chưa chín có nang ấu trùng",
+      "D. Ăn rau sống mọc dưới nước có nang ấu trùng"
+     ],
+     "correct": "D. Ăn rau sống mọc dưới nước có nang ấu trùng",
+     "answerText": null,
+     "explain": "Nang ấu trùng metacercaria bám ở các cây, rau mọc dưới nước, người ăn các loại này sống sẽ mắc bệnh.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-ruot",
+      "sectionId": "chu-trinh"
+     }
+    },
+    {
+     "id": "san-la-ruot-2",
+     "type": "mcq",
+     "text": "Ký chủ có tỉ lệ nhiễm cao Fasciolopsis buski:",
+     "options": [
+      "A. Người",
+      "B. Heo",
+      "C. Trâu, bò",
+      "D. Cừu"
+     ],
+     "correct": "B. Heo",
+     "answerText": null,
+     "explain": "Heo là ký chủ chính của Fasciolopsis buski",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-ruot",
+      "sectionId": "dich-te"
+     }
+    },
+    {
+     "id": "san-la-ruot-3",
+     "type": "mcq",
+     "text": "Xét nghiệm phân trực tiếp chẩn đoán Fasciolopsis buski cần phân biệt thể nhận dạng của:",
+     "options": [
+      "A. Trứng của Fasciolopsis buski và trứng của Fasciola spp.",
+      "B. Ấu trùng lông của Fasciolopsis buski và ấu trùng lông của Fasciola spp.",
+      "C. Trứng của Fasciolopsis buski và trứng của Clonorchis sinensis.",
+      "D. Ấu trùng đuôi của Fasciolopsis buski và ấu trùng đuôi của Fasciola spp."
+     ],
+     "correct": "A. Trứng của Fasciolopsis buski và trứng của Fasciola spp.",
+     "answerText": null,
+     "explain": "Trứng của Fasciolopsis buski và trứng của Fasciola spp. rất giống nhau, khó phân biệt qua quan sát phân trực tiếp, phải kết hợp với các xét nghiệm khác hoặc tìm thấy sán trưởng thành.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-ruot",
+      "sectionId": "chan-doan"
+     }
+    },
+    {
+     "id": "san-la-ruot-4",
+     "type": "mcq",
+     "text": "Trường hợp nhiễm trên hàng trăm con Fasciolopsis buski biểu hiện lâm sàng có thể là:",
+     "options": [
+      "A. Phù voi ở các chi do tắc nghẽn mạch bạch huyết",
+      "B. Sa trực tràng do sán bám nhiều ở trực tràng",
+      "C. Phù toàn thân, phù mặt do hấp thu độc tố của sán",
+      "D. Đau các cơ khớp do sán non di chuyển trong cơ"
+     ],
+     "correct": "C. Phù toàn thân, phù mặt do hấp thu độc tố của sán",
+     "answerText": null,
+     "explain": "Sự hấp thụ độc tố của sán có thể làm phù toàn thân, bang bụng, phù mặt và các niêm mạc.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-ruot",
+      "sectionId": "lam-sang"
+     }
+    },
+    {
+     "id": "san-la-ruot-5",
+     "type": "mcq",
+     "text": "Nguyên tắc phòng ngừa bệnh sán lá ruột lớn Fasciolopsis buski:",
+     "options": [
+      "A. Không nuôi heo thả rong, tẩy sán cho heo và người bị bệnh",
+      "B. Nên nuôi heo trong chuồng trại có nước thải ra sông rạch",
+      "C. Làm vệ sinh chuồng nuôi heo định kỳ hàng tuần/ tháng",
+      "D. Không ăn thịt heo chưa chín hoặc thịt heo nuôi thả rong"
+     ],
+     "correct": "A. Không nuôi heo thả rong, tẩy sán cho heo và người bị bệnh",
+     "answerText": null,
+     "explain": "Không nuôi heo thả rong và tẩy sán cho heo và người bị nhiễm sán để hạn chế thải mầm bệnh ra môi trường.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-ruot",
+      "sectionId": "du-phong"
+     }
+    }
+   ]
+  },
+  {
+   "id": "san-dai-bo",
+   "num": 10,
+   "part": "kst",
+   "group": "san-dai",
+   "title": "Bệnh do sán dải bò",
+   "latin": "Taenia saginata",
+   "short": "Sán dải bò",
+   "icon": "svg:san-dai-bo",
+   "questions": [
+    {
+     "id": "san-dai-bo-1",
+     "type": "mcq",
+     "text": "Ký chủ trung gian của Taenia saginata là:",
+     "options": [
+      "A. Người",
+      "B. Trâu, bò",
+      "C. Heo",
+      "D. Chó"
+     ],
+     "correct": "B. Trâu, bò",
+     "answerText": null,
+     "explain": "Người là ký chủ vĩnh viễn (sán trưởng thành sống ở ruột non), trâu bò là ký chủ trung gian (mang nang ấu trùng trong cơ).",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-dai-bo",
+      "sectionId": "chu-trinh"
+     }
+    },
+    {
+     "id": "san-dai-bo-2",
+     "type": "mcq",
+     "text": "Ăn phở bò tái có khả năng nhiễm:",
+     "options": [
+      "A. Sán dải bò trưởng thành",
+      "B. Nang ấu trùng sán dải bò",
+      "C. Sán dải heo trưởng thành",
+      "D. Nang ấu trùng sán dải heo"
+     ],
+     "correct": "A. Sán dải bò trưởng thành",
+     "answerText": null,
+     "explain": "Thịt bò tái có thể chứa nang ấu trùng sán dải bò còn sống. Khi ăn vào, nang được giải phóng trong ruột, đầu lộn ra bám vào ruột non và phát triển thành sán dải bò trưởng thành sau 8–10 tuần. Người không mắc bệnh nang ấu trùng sán dải bò.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-dai-bo",
+      "sectionId": "chu-trinh"
+     }
+    },
+    {
+     "id": "san-dai-bo-3",
+     "type": "mcq",
+     "text": "Chẩn đoán nhiễm Taenia saginata khi tìm thấy …… trong phân.",
+     "options": [
+      "A. Nang ấu trùng",
+      "B. Trứng",
+      "C. Ấu trùng",
+      "D. 13 nhánh"
+     ],
+     "correct": "B. Trứng",
+     "answerText": "Trứng",
+     "explain": "Chẩn đoán bằng tìm đốt sán mang trứng trong phân hoặc quanh chỗ nằm ngủ, và tìm trứng trong phân (xét nghiệm phân hoặc kỹ thuật Graham).",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": {
+      "kind": "extended",
+      "title": "Phương án bổ sung",
+      "body": "Câu này trong tài liệu là câu điền khuyết. Web chuyển thành trắc nghiệm; vì bài chỉ có 2 câu điền khuyết nên **2 phương án sai được thêm vào** (lấy từ nội dung lý thuyết) cho đủ 4 lựa chọn. **Đáp án đúng giữ nguyên theo tài liệu.**",
+      "sourceAnswer": "Trứng"
+     },
+     "lessonRef": {
+      "lessonId": "san-dai-bo",
+      "sectionId": "chan-doan"
+     },
+     "fromFill": true
+    },
+    {
+     "id": "san-dai-bo-4",
+     "type": "mcq",
+     "text": "Đốt sán mang trứng của Taenia saginata có hơn …… tử cung.",
+     "options": [
+      "A. 40 nhánh",
+      "B. Trứng",
+      "C. 30 nhánh",
+      "D. 13 nhánh"
+     ],
+     "correct": "D. 13 nhánh",
+     "answerText": "13 nhánh",
+     "explain": "Đốt sán già của T. saginata có tử cung chia 15–30 nhánh mỗi bên, tức hơn 13 nhánh. Sán dải heo T. solium chỉ có 7–13 nhánh — đây là điểm định danh đốt sán.",
+     "tip": "Bò > 13 nhánh, heo ≤ 13 nhánh.",
+     "image": null,
+     "flag": null,
+     "answerNote": {
+      "kind": "extended",
+      "title": "Phương án bổ sung",
+      "body": "Câu này trong tài liệu là câu điền khuyết. Web chuyển thành trắc nghiệm; vì bài chỉ có 2 câu điền khuyết nên **2 phương án sai được thêm vào** (lấy từ nội dung lý thuyết) cho đủ 4 lựa chọn. **Đáp án đúng giữ nguyên theo tài liệu.**",
+      "sourceAnswer": "13 Nhánh"
+     },
+     "lessonRef": {
+      "lessonId": "san-dai-bo",
+      "sectionId": "hinh-the"
+     },
+     "fromFill": true
+    }
+   ]
+  },
+  {
+   "id": "san-dai-heo",
+   "num": 11,
+   "part": "kst",
+   "group": "san-dai",
+   "title": "Bệnh do sán dải heo",
+   "latin": "Taenia solium",
+   "short": "Sán dải heo",
+   "icon": "svg:san-dai-heo",
+   "questions": [
+    {
+     "id": "san-dai-heo-1",
+     "type": "mcq",
+     "text": "Vật chủ vừa là ký chủ vĩnh viễn vừa là ký chủ trung gian của sán dải heo T. solium là:",
+     "options": [
+      "A. Người",
+      "B. Heo",
+      "C. Bò",
+      "D. Mèo"
+     ],
+     "correct": "A. Người",
+     "answerText": null,
+     "explain": "Người là ký chủ vĩnh viễn khi ăn thịt heo có nang ấu trùng (sán trưởng thành ở ruột), và cũng có thể là ký chủ trung gian khi nuốt trứng (từ rau, nước, hoặc tự nhiễm) gây bệnh nang ấu trùng.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-dai-heo",
+      "sectionId": "chu-trinh"
+     }
+    },
+    {
+     "id": "san-dai-heo-2",
+     "type": "mcq",
+     "text": "Nhiễm sán dải heo trưởng thành T. solium thường không xảy ra ở cộng đồng:",
+     "options": [
+      "A. Phật giáo",
+      "B. Thiên chúa giáo",
+      "C. Hồi giáo",
+      "D. Ấn Độ giáo"
+     ],
+     "correct": "C. Hồi giáo",
+     "answerText": null,
+     "explain": "Bệnh sán dải heo trưởng thành lây do ăn thịt heo chưa chín; cộng đồng kiêng thịt heo (như Hồi giáo) gần như không nhiễm.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-dai-heo",
+      "sectionId": "dich-te"
+     }
+    },
+    {
+     "id": "san-dai-heo-3",
+     "type": "mcq",
+     "text": "Người bị nhiễm ấu trùng sán dải heo Cysticercus cellulosae là do:",
+     "options": [
+      "A. Ăn thịt heo không nấu chín",
+      "B. Ăn rau sống có ấu trùng.",
+      "C. Uống nước chưa nấu chín bị nhiễm trứng",
+      "D. Nuốt trứng có trong thịt heo"
+     ],
+     "correct": "C. Uống nước chưa nấu chín bị nhiễm trứng",
+     "answerText": null,
+     "explain": "Bệnh nang ấu trùng do nuốt TRỨNG sán (trong rau sống, nước uống) hoặc tự nhiễm. Ăn thịt heo chưa chín chỉ gây nhiễm sán trưởng thành; trong thịt heo không có trứng mà có nang ấu trùng.",
+     "tip": "Nuốt TRỨNG → bệnh nang ấu trùng. Ăn NANG (gạo heo) → sán trưởng thành.",
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-dai-heo",
+      "sectionId": "chu-trinh"
+     }
+    },
+    {
+     "id": "san-dai-heo-4",
+     "type": "mcq",
+     "text": "Người bị nhiễm sán dải heo trưởng thành T. solium khi:",
+     "options": [
+      "A. Ăn thịt heo tái có nang ấu trùng",
+      "B. Ăn rau sống có ấu trùng",
+      "C. Uống nước chưa nấu chín bị nhiễm trứng",
+      "D. Nuốt trứng có trong thịt heo"
+     ],
+     "correct": "A. Ăn thịt heo tái có nang ấu trùng",
+     "answerText": null,
+     "explain": "Người nhiễm sán dải heo trưởng thành do ăn thịt heo có nang ấu trùng (\"gạo heo\") chưa nấu chín.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-dai-heo",
+      "sectionId": "chu-trinh"
+     }
+    },
+    {
+     "id": "san-dai-heo-5",
+     "type": "mcq",
+     "text": "Xét nghiệm nào sau đây không có giá trị trong chẩn đoán bệnh ấu trùng sán dải heo Cysticercus cellulosae",
+     "options": [
+      "A. CT scan / MRI não",
+      "B. Kỹ thuật miễn dịch học",
+      "C. PCR",
+      "D. Xét nghiệm phân"
+     ],
+     "correct": "D. Xét nghiệm phân",
+     "answerText": null,
+     "explain": "Bệnh nang ấu trùng chẩn đoán bằng phẫu thuật lấy nang, CT/MRI, kỹ thuật miễn dịch (ELISA, immunoblot, EITB) và PCR. Xét nghiệm phân chỉ giúp chẩn đoán nhiễm sán trưởng thành.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-dai-heo",
+      "sectionId": "chan-doan"
+     }
+    }
+   ]
+  },
+  {
+   "id": "trichomonas",
+   "num": 12,
+   "part": "kst",
+   "group": "don-bao",
+   "title": "Bệnh do Trichomonas vaginalis",
+   "latin": "Trichomonas vaginalis",
+   "short": "Trichomonas",
+   "icon": "svg:trichomonas",
+   "questions": [
+    {
+     "id": "trichomonas-1",
+     "type": "mcq",
+     "text": "Bệnh do Trichomonas vaginalis là bệnh chỉ xảy ra ở:",
+     "options": [
+      "A. Trẻ em dưới 13 tuổi",
+      "B. Giao hợp",
+      "C. Người lớn phái nữ",
+      "D. Người lớn cả hai phái"
+     ],
+     "correct": "D. Người lớn cả hai phái",
+     "answerText": null,
+     "explain": "T. vaginalis ký sinh ở âm đạo, niệu đạo nữ và niệu đạo nam, lây chủ yếu qua quan hệ tình dục — nên gặp ở người lớn cả hai phái (bệnh phổ biến ở phụ nữ tuổi sinh đẻ, nhưng nam giới nhiễm thường không triệu chứng và lây cho bạn tình).",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": {
+      "kind": "typo",
+      "title": "Lỗi trong tài liệu gốc",
+      "body": "Phương án **B. \"Giao hợp\"** trong tài liệu gốc có vẻ bị chép nhầm từ câu 2 (không phải một đối tượng mắc bệnh). Web giữ nguyên chữ của tài liệu; đáp án **D** không bị ảnh hưởng.",
+      "sourceAnswer": "D"
+     },
+     "lessonRef": {
+      "lessonId": "trichomonas",
+      "sectionId": "dich-te"
+     }
+    },
+    {
+     "id": "trichomonas-2",
+     "type": "mcq",
+     "text": "Đường lây truyền chủ yếu của Trichomonas vaginalis là:",
+     "options": [
+      "A. Truyền máu",
+      "B. Giao hợp",
+      "C. Âm đạo",
+      "D. Khăn lau"
+     ],
+     "correct": "B. Giao hợp",
+     "answerText": null,
+     "explain": "T. vaginalis xâm nhập trực tiếp qua giao hợp — đường lây chủ yếu; có thể lây gián tiếp qua khăn lau, bồn tắm, nước rửa, bàn cầu.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "trichomonas",
+      "sectionId": "chu-trinh"
+     }
+    },
+    {
+     "id": "trichomonas-3",
+     "type": "mcq",
+     "text": "Trichomonas vaginalis có thể ký sinh ở:",
+     "options": [
+      "A. Ruột già",
+      "B. Ruột non",
+      "C. Âm đạo",
+      "D. Tinh hoàn"
+     ],
+     "correct": "C. Âm đạo",
+     "answerText": null,
+     "explain": "Thể hoạt động ký sinh chủ yếu trong âm đạo nữ giới và niệu đạo nam giới; đôi khi gặp ở buồng trứng, vòi trứng, tử cung, bàng quang, túi tinh, mào tinh, tuyến tiền liệt.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "trichomonas",
+      "sectionId": "chu-trinh"
+     }
+    },
+    {
+     "id": "trichomonas-4",
+     "type": "mcq",
+     "text": "Biểu hiện lâm sàng do nhiễm Trichomonas vaginalis ở nam giới:",
+     "options": [
+      "A. Phần lớn nam giới nhiễm không có triệu chứng",
+      "B. Khi nhiễm không có triệu chứng sẽ không lây cho nữ giới",
+      "C. Khi có triệu chứng thì thường rầm rộ hơn ở nữ giới",
+      "D. Có triệu chứng của nhiễm trùng đường tiểu trên."
+     ],
+     "correct": "A. Phần lớn nam giới nhiễm không có triệu chứng",
+     "answerText": null,
+     "explain": "Đa số nam giới nhiễm không có triệu chứng; khi có thì kín đáo, không rầm rộ như nữ. Nhiễm không triệu chứng khiến người nam trở thành nguồn lây cho phụ nữ khác.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "trichomonas",
+      "sectionId": "lam-sang"
+     }
+    },
+    {
+     "id": "trichomonas-5",
+     "type": "mcq",
+     "text": "Nguyên tắc điều trị do Trichomonas vaginalis là:",
+     "options": [
+      "A. Chỉ điều trị khi người nhiễm có biểu hiện lâm sàng",
+      "B. Cần điều trị cho những người có tiếp xúc với bệnh nhân",
+      "C. Ở nữ giới, điều trị tại chỗ bằng thuốc đặt âm đạo là đủ",
+      "D. Điều trị đồng thời người bệnh và người có quan hệ tình dục"
+     ],
+     "correct": "D. Điều trị đồng thời người bệnh và người có quan hệ tình dục",
+     "answerText": null,
+     "explain": "Người nhiễm dù không có triệu chứng vẫn lây hoặc tái nhiễm cho bạn tình, nên phải điều trị đồng thời người bệnh và người có quan hệ tình dục; phối hợp điều trị tại chỗ và toàn thân.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "trichomonas",
+      "sectionId": "dieu-tri"
+     }
+    }
+   ]
+  },
+  {
+   "id": "balantidium",
+   "num": 13,
+   "part": "kst",
+   "group": "don-bao",
+   "title": "Bệnh do Balantidium coli",
+   "latin": "Balantidium coli",
+   "short": "Balantidium coli",
+   "icon": "svg:balantidium",
+   "questions": [
+    {
+     "id": "balantidium-1",
+     "type": "mcq",
+     "text": "Đặc điểm sau không thuộc về dạng hoạt động của Balantidium coli:",
+     "options": [
+      "A. Bề mặt có lông tơ nhỏ, ngắn, lay động.",
+      "B. Có bộ phận với chức năng miệng và hậu môn.",
+      "C. Di chuyển nhờ sự lay động của các lông tơ.",
+      "D. Có nhân lớn hình hạt đậu và nhân thể ở chỗ lõm nhân."
+     ],
+     "correct": "D. Có nhân lớn hình hạt đậu và nhân thể ở chỗ lõm nhân.",
+     "answerText": null,
+     "explain": "Thể hoạt động có một nhân lớn hình hạt đậu và một nhân nhỏ nằm ở chỗ lõm của nhân lớn",
+     "tip": "Thể hoạt động: 1 nhân LỚN hình hạt đậu + 1 nhân NHỎ nằm ở chỗ lõm — không phải \"nhân thể\".",
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "balantidium",
+      "sectionId": "hinh-the"
+     }
+    },
+    {
+     "id": "balantidium-2",
+     "type": "mcq",
+     "text": "Tàng chủ quan trọng của Balantidium coli:",
+     "options": [
+      "A. Heo",
+      "B. Khỉ",
+      "C. Bò",
+      "D. Chuột"
+     ],
+     "correct": "A. Heo",
+     "answerText": null,
+     "explain": "Balantidium coli ký sinh ở nhiều loài ký chủ nhưng heo có tỉ lệ nhiễm từ 20% đến 100%.",
+     "tip": "B. coli ↔ HEO (giống sán lá ruột lớn F. buski cũng gắn với heo).",
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "balantidium",
+      "sectionId": "dich-te"
+     }
+    },
+    {
+     "id": "balantidium-3",
+     "type": "mcq",
+     "text": "Trùng lông duy nhất ký sinh người:",
+     "options": [
+      "A. Trichomonas vaginalis",
+      "B. Balantidium coli",
+      "C. Giardia lamblia",
+      "D. Trypanosoma cruzi"
+     ],
+     "correct": "B. Balantidium coli",
+     "answerText": null,
+     "explain": "các đáp án A, C, D là trùng roi ký sinh ở người.",
+     "tip": "\"Trùng LÔNG duy nhất\" = Balantidium coli; Trichomonas, Giardia, Trypanosoma là trùng ROI.",
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "balantidium",
+      "sectionId": "dai-cuong"
+     }
+    },
+    {
+     "id": "balantidium-4",
+     "type": "mcq",
+     "text": "Người có nguy cơ cao bị nhiễm Balantidium coli:",
+     "options": [
+      "A. Hay ăn thịt heo chưa chín",
+      "B. Làm nghề bán thịt heo",
+      "C. Thường xuyên tiếp xúc phân heo",
+      "D. Người làm nghề chế biến thịt heo"
+     ],
+     "correct": "C. Thường xuyên tiếp xúc phân heo",
+     "answerText": null,
+     "explain": "Người bị nhiễm do nuốt phải bào nang từ phân heo vấy nhiễm thức ăn, nước uống. Nguy cơ cao ở người thường xuyên tiếp xúc phân heo (chăn nuôi, mổ heo, xử lý lòng ruột heo) trong điều kiện thiếu nước, vệ sinh kém. Ăn thịt heo chưa chín không lây B. coli.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "balantidium",
+      "sectionId": "dich-te"
+     }
+    },
+    {
+     "id": "balantidium-5",
+     "type": "mcq",
+     "text": "Xét nghiệm có thể thấy rõ nhân của dạng hoạt động và bào nang Balantidium coli:",
+     "options": [
+      "A. Phết phân tươi với Lugol",
+      "B. Phết phân cố định trong F2AM",
+      "C. Phết phân tươi với nước muối 0,85%",
+      "D. Phết phân nhuộm trichrome, H&E"
+     ],
+     "correct": "D. Phết phân nhuộm trichrome, H&E",
+     "answerText": null,
+     "explain": "Các kỹ thuật của đáp án A, B & C không nhìn thấy rõ nhân",
+     "tip": "Phết phân tươi khó thấy nhân → dễ bỏ sót vì tưởng là vật thể lạ; phải nhuộm trichrome, H&E, hematoxylin sắt.",
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "balantidium",
+      "sectionId": "chan-doan"
+     }
+    }
+   ]
+  },
+  {
+   "id": "sot-ret",
+   "num": 14,
+   "part": "kst",
+   "group": "don-bao",
+   "title": "Ký sinh trùng sốt rét",
+   "latin": "Plasmodium spp.",
+   "short": "Sốt rét",
+   "icon": "svg:sot-ret",
+   "questions": [
+    {
+     "id": "sot-ret-1",
+     "type": "mcq",
+     "text": "Thể ngủ (hypnozoite) của ký sinh trùng sốt rét:",
+     "options": [
+      "A. Gây nên các biến chứng của bệnh",
+      "B. Làm bệnh sốt rét tái phát",
+      "C. Chỉ gặp trong Plasmodium falciparum",
+      "D. Có thể phát hiện được trong máu ngoại biên."
+     ],
+     "correct": "B. Làm bệnh sốt rét tái phát",
+     "answerText": null,
+     "explain": "Với P. vivax và P. ovale, một số thoa trùng vào tế bào gan nhưng nằm yên (thể ngủ). Vài tháng đến cả năm sau chúng \"thức dậy\", phát triển thành phân liệt, vỡ ra tung mảnh trùng vào máu gây cơn tái phát. P. falciparum và P. malariae không có thể ngủ.",
+     "tip": "Thể ngủ: vivax + ovale → tái phát → diệt bằng primaquine.",
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "sot-ret",
+      "sectionId": "chu-trinh"
+     }
+    },
+    {
+     "id": "sot-ret-2",
+     "type": "mcq",
+     "text": "Giao bào của ký sinh trùng sốt rét:",
+     "options": [
+      "A. Sẽ phát triển cho ra thể tư dưỡng và phân liệt",
+      "B. Gây biến chứng khi xuất hiện trong máu",
+      "C. Sẽ tiếp tục phát triển trong cơ thể muỗi",
+      "D. Là thể vô tính của ký sinh trùng."
+     ],
+     "correct": "C. Sẽ tiếp tục phát triển trong cơ thể muỗi",
+     "answerText": null,
+     "explain": "Giao bào là thể hữu tính (đực và cái), không gây triệu chứng; khi muỗi Anopheles cái hút máu, chỉ giao bào tiếp tục phát triển trong dạ dày muỗi — là nguồn gốc lây lan bệnh.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "sot-ret",
+      "sectionId": "hinh-the"
+     }
+    },
+    {
+     "id": "sot-ret-3",
+     "type": "mcq",
+     "text": "Vectơ chính truyền bệnh sốt rét ở vùng rừng núi toàn quốc Việt nam là:",
+     "options": [
+      "A. Anopheles dirus",
+      "B. Anopheles minimus",
+      "C. Anopheles epiroticus",
+      "D. Anopheles jeyporiensis"
+     ],
+     "correct": "B. Anopheles minimus",
+     "answerText": null,
+     "explain": "Việt Nam có 3 vectơ chính: An. minimus (vùng rừng núi toàn quốc), An. dirus (rừng núi từ vĩ độ 20° Bắc trở vào), An. epiroticus (ven biển nước lợ miền Nam).",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "sot-ret",
+      "sectionId": "dich-te"
+     }
+    },
+    {
+     "id": "sot-ret-4",
+     "type": "mcq",
+     "text": "Người có nhóm máu Duffy âm tính sẽ không mắc sốt rét do:",
+     "options": [
+      "A. Plasmodium malariae",
+      "B. Plasmodium vivax",
+      "C. Plasmodium falciparum",
+      "D. Plasmodium knowlesi."
+     ],
+     "correct": "B. Plasmodium vivax",
+     "answerText": null,
+     "explain": "P. vivax không xâm nhập được hồng cầu của người nhóm máu Duffy âm tính (thường là người châu Phi da đen); P. falciparum cần glycophorin A trên màng hồng cầu.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "sot-ret",
+      "sectionId": "sinh-hoc"
+     }
+    },
+    {
+     "id": "sot-ret-5",
+     "type": "mcq",
+     "text": "HRP2 (Histidine Rich Protein 2) được dùng để chẩn đoán sốt rét do:",
+     "options": [
+      "A. Plasmodium falciparum",
+      "B. Plasmodium malariae",
+      "C. Plasmodium vivax",
+      "D. Plasmodium ovale."
+     ],
+     "correct": "A. Plasmodium falciparum",
+     "answerText": null,
+     "explain": "Test chẩn đoán nhanh phát hiện kháng nguyên của ký sinh trùng; HRP2 (histidine rich protein 2) là kháng nguyên của P. falciparum. Test cho kết quả trong khoảng 20 phút nhưng chỉ định tính.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "sot-ret",
+      "sectionId": "chan-doan"
+     }
+    },
+    {
+     "id": "sot-ret-6",
+     "type": "mcq",
+     "text": "Hiện tượng kết dính tế bào (cyto-adherence) và ẩn cư (sequestration) được thấy trong sốt rét do:",
+     "options": [
+      "A. Plasmodium malariae",
+      "B. Plasmodium vivax",
+      "C. Plasmodium ovale",
+      "D. Plasmodium falciparum"
+     ],
+     "correct": "D. Plasmodium falciparum",
+     "answerText": null,
+     "explain": "Hiện tượng kết dính tế bào và ẩn cư (hồng cầu nhiễm bám vào nội mạc mạch máu sâu ở não, phổi, ruột, tim, nhau thai) chỉ thấy ở P. falciparum, do các điểm u lồi trên bề mặt hồng cầu nhiễm — góp phần gây sốt rét nặng.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "sot-ret",
+      "sectionId": "benh-ly"
+     }
+    }
+   ]
+  },
+  {
+   "id": "cryptococcus",
+   "num": 15,
+   "part": "kst",
+   "group": "vi-nam",
+   "title": "Bệnh vi nấm Cryptococcus",
+   "latin": "Cryptococcus neoformans",
+   "short": "Cryptococcus",
+   "icon": "svg:cryptococcus",
+   "questions": []
+  },
+  {
+   "id": "nam-ngoai-da",
+   "num": 16,
+   "part": "kst",
+   "group": "vi-nam",
+   "title": "Bệnh do vi nấm ngoài da",
+   "latin": "Dermatophytes",
+   "short": "Vi nấm ngoài da",
+   "icon": "svg:nam-ngoai-da",
+   "questions": [
+    {
+     "id": "nam-ngoai-da-1",
+     "type": "mcq",
+     "text": "“Bệnh do vi nấm ngoài da” bao gồm:",
+     "options": [
+      "A. Các dạng bệnh ở da do bất kỳ loại vi nấm nào",
+      "B. Bệnh ở da, lông, tóc, móng do nhóm vi nấm ngoài da gây ra",
+      "C. Bệnh ở da do nhóm vi nấm ngoài da gây ra",
+      "D. Bệnh ở da, lông, tóc, móng do vi nấm gây ra."
+     ],
+     "correct": "B. Bệnh ở da, lông, tóc, móng do nhóm vi nấm ngoài da gây ra",
+     "answerText": null,
+     "explain": "Bệnh do vi nấm ngoài da bao gồm những biểu hiện bất thường ở da, lông, tóc, móng do NHÓM VI NẤM NGOÀI DA (Dermatophytes) gây ra — không phải bất kỳ loại vi nấm nào, và không chỉ ở da.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "nam-ngoai-da",
+      "sectionId": "dai-cuong"
+     }
+    },
+    {
+     "id": "nam-ngoai-da-2",
+     "type": "mcq",
+     "text": "Nhóm vi nấm ngoài da gồm có:",
+     "options": [
+      "A. Trichophyton spp., Piedraia hortai và Microsporum spp",
+      "B. Epidermophyton sp., Pityrosporum sp. và Trichosporon spp",
+      "C. Pityrosporum sp., Trichophyton spp. và Microsporum spp",
+      "D. Microsporum spp., Epidermophyton sp. và Trichophyton spp"
+     ],
+     "correct": "D. Microsporum spp., Epidermophyton sp. và Trichophyton spp",
+     "answerText": null,
+     "explain": "Vi nấm ngoài da có khoảng 40 loài chia thành 3 giống: Microsporum spp., Trichophyton spp. và Epidermophyton sp. — nấm sợi, phân nhánh, có vách ngăn, ưa mô keratin. Piedraia, Pityrosporum, Trichosporon không thuộc nhóm này.",
+     "tip": "3 giống: M – T – E (Microsporum, Trichophyton, Epidermophyton).",
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "nam-ngoai-da",
+      "sectionId": "dich-te"
+     }
+    },
+    {
+     "id": "nam-ngoai-da-3",
+     "type": "mcq",
+     "text": "Các vi nấm ngoài da gây bệnh cho người:",
+     "options": [
+      "A. Chỉ gồm các loại ưa người",
+      "B. Chỉ gồm các loại ưa đất",
+      "C. Có thể ưa đất, thú hoặc/ và người",
+      "D. Có thể ưa người hoặc/ và ưa thú"
+     ],
+     "correct": "C. Có thể ưa đất, thú hoặc/ và người",
+     "answerText": null,
+     "explain": "Tác nhân vi nấm ngoài da có 3 nhóm theo môi trường sống tự nhiên: ưa người, ưa thú và ưa đất — cả 3 nhóm đều có thể gây bệnh cho người. Việc phân nhóm cung cấp thông tin về nguồn nhiễm.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "nam-ngoai-da",
+      "sectionId": "dich-te"
+     }
+    },
+    {
+     "id": "nam-ngoai-da-4",
+     "type": "mcq",
+     "text": "Thể nấm đầu sau đây rất dễ gây dịch ở trường học:",
+     "options": [
+      "A. Mảng xám",
+      "B. Mưng mủ",
+      "C. Lõm chén",
+      "D. Có bội nhiễm"
+     ],
+     "correct": "A. Mảng xám",
+     "answerText": null,
+     "explain": "Nấm đầu mảng xám do loài ưa người như M. audouinii, M. ferrugineum, gặp ở trẻ 6–10 tuổi. Các trường hợp nhiễm Microsporum ưa người rất hay lây, dễ phát thành dịch lớn trong trường học hoặc nơi trẻ sống tập trung. Ngược lại, nấm đầu mưng mủ do nhóm ưa thú/ưa đất nên mức lây rất thấp.",
+     "tip": "Ưa NGƯỜI → hay lây, gây DỊCH, viêm nhẹ. Ưa THÚ/ĐẤT → ít lây, viêm nặng.",
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "nam-ngoai-da",
+      "sectionId": "nam-dau"
+     }
+    },
+    {
+     "id": "nam-ngoai-da-5",
+     "type": "mcq",
+     "text": "Tóc chắc chắn không mọc lại trong nấm đầu:",
+     "options": [
+      "A. Mảng xám",
+      "B. Chấm đen",
+      "C. Mưng mủ",
+      "D. Lõm chén"
+     ],
+     "correct": "D. Lõm chén",
+     "answerText": null,
+     "explain": "Nấm đầu lõm chén (do T. schoenleinii) gây viêm mủ, đóng mài lõm chén màu vàng lưu huỳnh; bệnh thường để lại di chứng sói đầu do da đầu bị teo và hóa sẹo. Nấm đầu mảng xám tóc gãy rụng nhưng không để sẹo.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "nam-ngoai-da",
+      "sectionId": "nam-dau"
+     }
+    },
+    {
+     "id": "nam-ngoai-da-6",
+     "type": "mcq",
+     "text": "Chẩn đoán xác định loài nấm gây ra bệnh vi nấm ngoài da chủ yếu dựa vào:",
+     "options": [
+      "A. Cấy bệnh phẩm",
+      "B. Soi trực tiếp bệnh phẩm",
+      "C. Khảo sát mô sinh thiết",
+      "D. Phản ứng miễn dịch học"
+     ],
+     "correct": "A. Cấy bệnh phẩm",
+     "answerText": null,
+     "explain": "Soi trực tiếp với KOH 10–20% chỉ cho bằng chứng nhiễm nấm (thấy sợi tơ nấm, bào tử đốt) nhưng không định danh chính xác tác nhân. Muốn xác định loài phải cấy (thường trên Sabouraud dextrose agar) và dựa vào đặc điểm khúm, bào tử đính lớn/nhỏ, các thử nghiệm sinh học.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "nam-ngoai-da",
+      "sectionId": "cay"
+     }
+    }
+   ]
+  },
+  {
+   "id": "virus-dai",
+   "num": 17,
+   "part": "vs",
+   "group": "virus",
+   "title": "Virus dại",
+   "latin": "Rabies virus",
+   "short": "Virus dại",
+   "icon": "svg:virus-dai",
+   "questions": []
+  },
+  {
+   "id": "virus-viem-gan",
+   "num": 18,
+   "part": "vs",
+   "group": "virus",
+   "title": "Các virus viêm gan",
+   "latin": "HAV · HBV · HCV · HDV · HEV",
+   "short": "Virus viêm gan",
+   "icon": "svg:virus-viem-gan",
+   "questions": []
+  }
+ ]
+}

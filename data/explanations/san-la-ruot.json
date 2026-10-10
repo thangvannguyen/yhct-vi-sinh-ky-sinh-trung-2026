@@ -1,0 +1,18 @@
+{
+ "_doc": "Giải thích câu hỏi bài san-la-ruot. \"section\" là id mục trong content/lessons/san-la-ruot.md để nút \"Xem lý thuyết\" trỏ tới.",
+ "san-la-ruot-1": {
+  "section": "chu-trinh"
+ },
+ "san-la-ruot-2": {
+  "section": "dich-te"
+ },
+ "san-la-ruot-3": {
+  "section": "chan-doan"
+ },
+ "san-la-ruot-4": {
+  "section": "lam-sang"
+ },
+ "san-la-ruot-5": {
+  "section": "du-phong"
+ }
+}

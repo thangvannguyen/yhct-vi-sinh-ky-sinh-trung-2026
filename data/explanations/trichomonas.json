@@ -1,0 +1,23 @@
+{
+ "_doc": "Giải thích câu hỏi bài trichomonas. \"section\" là id mục trong content/lessons/trichomonas.md để nút \"Xem lý thuyết\" trỏ tới.",
+ "trichomonas-1": {
+  "section": "dich-te",
+  "explain": "T. vaginalis ký sinh ở âm đạo, niệu đạo nữ và niệu đạo nam, lây chủ yếu qua quan hệ tình dục — nên gặp ở người lớn cả hai phái (bệnh phổ biến ở phụ nữ tuổi sinh đẻ, nhưng nam giới nhiễm thường không triệu chứng và lây cho bạn tình)."
+ },
+ "trichomonas-2": {
+  "section": "chu-trinh",
+  "explain": "T. vaginalis xâm nhập trực tiếp qua giao hợp — đường lây chủ yếu; có thể lây gián tiếp qua khăn lau, bồn tắm, nước rửa, bàn cầu."
+ },
+ "trichomonas-3": {
+  "section": "chu-trinh",
+  "explain": "Thể hoạt động ký sinh chủ yếu trong âm đạo nữ giới và niệu đạo nam giới; đôi khi gặp ở buồng trứng, vòi trứng, tử cung, bàng quang, túi tinh, mào tinh, tuyến tiền liệt."
+ },
+ "trichomonas-4": {
+  "section": "lam-sang",
+  "explain": "Đa số nam giới nhiễm không có triệu chứng; khi có thì kín đáo, không rầm rộ như nữ. Nhiễm không triệu chứng khiến người nam trở thành nguồn lây cho phụ nữ khác."
+ },
+ "trichomonas-5": {
+  "section": "dieu-tri",
+  "explain": "Người nhiễm dù không có triệu chứng vẫn lây hoặc tái nhiễm cho bạn tình, nên phải điều trị đồng thời người bệnh và người có quan hệ tình dục; phối hợp điều trị tại chỗ và toàn thân."
+ }
+}

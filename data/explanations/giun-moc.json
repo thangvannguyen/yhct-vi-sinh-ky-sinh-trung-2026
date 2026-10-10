@@ -1,0 +1,23 @@
+{
+ "_doc": "Giải thích câu hỏi bài giun-moc. \"section\" là id mục trong content/lessons/giun-moc.md để nút \"Xem lý thuyết\" trỏ tới.",
+ "giun-moc-1": {
+  "section": "chu-trinh",
+  "explain": "Trứng ra ngoại cảnh nở thành ấu trùng I (1–2 ngày), rồi thành ấu trùng II lây nhiễm (5–8 ngày); không qua ký chủ trung gian → chu trình trực tiếp dài."
+ },
+ "giun-moc-2": {
+  "section": "du-phong",
+  "explain": "Tẩy giun định kỳ đơn thuần không làm giảm tỷ lệ nhiễm vì người dân vẫn tái nhiễm từ đất bị ô nhiễm (phóng uế bừa bãi, dùng phân tươi, đi chân đất). Phòng bệnh phải phối hợp với giáo dục sức khỏe để thay đổi hành vi trong cộng đồng."
+ },
+ "giun-moc-3": {
+  "section": "dich-te",
+  "explain": "Ấu trùng giun móc xuyên qua da (kẽ ngón tay, kẽ ngón chân). Tập quán đi chân đất, tiếp xúc với đất không mang dụng cụ bảo hộ lao động — điển hình là nông dân — tạo điều kiện nhiễm và tái nhiễm thường xuyên."
+ },
+ "giun-moc-4": {
+  "section": "lam-sang",
+  "explain": "Giai đoạn ở ruột biểu hiện chủ yếu là thiếu máu: giun trưởng thành hút máu và tiết chất kháng đông gây chảy máu rỉ rả tại chỗ bám. Nhiễm mạn gây thiếu máu thiếu sắt (hồng cầu nhỏ nhược sắc)."
+ },
+ "giun-moc-5": {
+  "section": "hinh-the",
+  "explain": "Giun móc là giun hình ống ký sinh ở ruột non người; bộ phận miệng có răng bám chắc vào niêm mạc ruột non."
+ }
+}

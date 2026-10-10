@@ -1,0 +1,23 @@
+{
+ "_doc": "Giải thích câu hỏi bài balantidium. \"section\" là id mục trong content/lessons/balantidium.md để nút \"Xem lý thuyết\" trỏ tới.",
+ "balantidium-1": {
+  "section": "hinh-the",
+  "tip": "Thể hoạt động: 1 nhân LỚN hình hạt đậu + 1 nhân NHỎ nằm ở chỗ lõm — không phải \"nhân thể\"."
+ },
+ "balantidium-2": {
+  "section": "dich-te",
+  "tip": "B. coli ↔ HEO (giống sán lá ruột lớn F. buski cũng gắn với heo)."
+ },
+ "balantidium-3": {
+  "section": "dai-cuong",
+  "tip": "\"Trùng LÔNG duy nhất\" = Balantidium coli; Trichomonas, Giardia, Trypanosoma là trùng ROI."
+ },
+ "balantidium-4": {
+  "section": "dich-te",
+  "explain": "Người bị nhiễm do nuốt phải bào nang từ phân heo vấy nhiễm thức ăn, nước uống. Nguy cơ cao ở người thường xuyên tiếp xúc phân heo (chăn nuôi, mổ heo, xử lý lòng ruột heo) trong điều kiện thiếu nước, vệ sinh kém. Ăn thịt heo chưa chín không lây B. coli."
+ },
+ "balantidium-5": {
+  "section": "chan-doan",
+  "tip": "Phết phân tươi khó thấy nhân → dễ bỏ sót vì tưởng là vật thể lạ; phải nhuộm trichrome, H&E, hematoxylin sắt."
+ }
+}

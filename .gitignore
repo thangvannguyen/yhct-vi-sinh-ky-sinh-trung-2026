@@ -1,0 +1,17 @@
+# Local Claude Code settings
+.claude/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Node / Vite build
+node_modules/
+dist/
+*.local
+
+# Lecture text dumps — only a working aid for writing explanations, not shipped
+data/lecture_text/

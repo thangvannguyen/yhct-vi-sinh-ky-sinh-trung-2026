@@ -1,0 +1,29 @@
+{
+ "_doc": "Giải thích câu hỏi bài nam-ngoai-da. \"section\" là id mục trong content/lessons/nam-ngoai-da.md để nút \"Xem lý thuyết\" trỏ tới.",
+ "nam-ngoai-da-1": {
+  "section": "dai-cuong",
+  "explain": "Bệnh do vi nấm ngoài da bao gồm những biểu hiện bất thường ở da, lông, tóc, móng do NHÓM VI NẤM NGOÀI DA (Dermatophytes) gây ra — không phải bất kỳ loại vi nấm nào, và không chỉ ở da."
+ },
+ "nam-ngoai-da-2": {
+  "section": "dich-te",
+  "explain": "Vi nấm ngoài da có khoảng 40 loài chia thành 3 giống: Microsporum spp., Trichophyton spp. và Epidermophyton sp. — nấm sợi, phân nhánh, có vách ngăn, ưa mô keratin. Piedraia, Pityrosporum, Trichosporon không thuộc nhóm này.",
+  "tip": "3 giống: M – T – E (Microsporum, Trichophyton, Epidermophyton)."
+ },
+ "nam-ngoai-da-3": {
+  "section": "dich-te",
+  "explain": "Tác nhân vi nấm ngoài da có 3 nhóm theo môi trường sống tự nhiên: ưa người, ưa thú và ưa đất — cả 3 nhóm đều có thể gây bệnh cho người. Việc phân nhóm cung cấp thông tin về nguồn nhiễm."
+ },
+ "nam-ngoai-da-4": {
+  "section": "nam-dau",
+  "explain": "Nấm đầu mảng xám do loài ưa người như M. audouinii, M. ferrugineum, gặp ở trẻ 6–10 tuổi. Các trường hợp nhiễm Microsporum ưa người rất hay lây, dễ phát thành dịch lớn trong trường học hoặc nơi trẻ sống tập trung. Ngược lại, nấm đầu mưng mủ do nhóm ưa thú/ưa đất nên mức lây rất thấp.",
+  "tip": "Ưa NGƯỜI → hay lây, gây DỊCH, viêm nhẹ. Ưa THÚ/ĐẤT → ít lây, viêm nặng."
+ },
+ "nam-ngoai-da-5": {
+  "section": "nam-dau",
+  "explain": "Nấm đầu lõm chén (do T. schoenleinii) gây viêm mủ, đóng mài lõm chén màu vàng lưu huỳnh; bệnh thường để lại di chứng sói đầu do da đầu bị teo và hóa sẹo. Nấm đầu mảng xám tóc gãy rụng nhưng không để sẹo."
+ },
+ "nam-ngoai-da-6": {
+  "section": "cay",
+  "explain": "Soi trực tiếp với KOH 10–20% chỉ cho bằng chứng nhiễm nấm (thấy sợi tơ nấm, bào tử đốt) nhưng không định danh chính xác tác nhân. Muốn xác định loài phải cấy (thường trên Sabouraud dextrose agar) và dựa vào đặc điểm khúm, bào tử đính lớn/nhỏ, các thử nghiệm sinh học."
+ }
+}

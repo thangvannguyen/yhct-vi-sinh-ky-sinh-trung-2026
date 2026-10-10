@@ -1,0 +1,20 @@
+{
+ "_doc": "Giải thích câu hỏi bài san-dai-bo. \"section\" là id mục trong content/lessons/san-dai-bo.md để nút \"Xem lý thuyết\" trỏ tới.",
+ "san-dai-bo-1": {
+  "section": "chu-trinh",
+  "explain": "Người là ký chủ vĩnh viễn (sán trưởng thành sống ở ruột non), trâu bò là ký chủ trung gian (mang nang ấu trùng trong cơ)."
+ },
+ "san-dai-bo-2": {
+  "section": "chu-trinh",
+  "explain": "Thịt bò tái có thể chứa nang ấu trùng sán dải bò còn sống. Khi ăn vào, nang được giải phóng trong ruột, đầu lộn ra bám vào ruột non và phát triển thành sán dải bò trưởng thành sau 8–10 tuần. Người không mắc bệnh nang ấu trùng sán dải bò."
+ },
+ "san-dai-bo-3": {
+  "section": "chan-doan",
+  "explain": "Chẩn đoán bằng tìm đốt sán mang trứng trong phân hoặc quanh chỗ nằm ngủ, và tìm trứng trong phân (xét nghiệm phân hoặc kỹ thuật Graham)."
+ },
+ "san-dai-bo-4": {
+  "section": "hinh-the",
+  "explain": "Đốt sán già của T. saginata có tử cung chia 15–30 nhánh mỗi bên, tức hơn 13 nhánh. Sán dải heo T. solium chỉ có 7–13 nhánh — đây là điểm định danh đốt sán.",
+  "tip": "Bò > 13 nhánh, heo ≤ 13 nhánh."
+ }
+}

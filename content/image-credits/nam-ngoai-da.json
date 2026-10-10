@@ -1,0 +1,32 @@
+{
+ "m-canis.jpg": {
+  "title": "File:Microsporum canis 1.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Microsporum_canis_1.JPG",
+  "license": "CC BY-SA 3.0",
+  "artist": "Joel Mills"
+ },
+ "t-rubrum.jpg": {
+  "title": "File:Trichophyton rubrum var rodhaini.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Trichophyton_rubrum_var_rodhaini.jpg",
+  "license": "Public domain",
+  "artist": "CDC"
+ },
+ "e-floccosum.jpg": {
+  "title": "File:Macroconidia of the dermatophytic fungus Epidermophyton floccosum PHIL 4207 lores.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Macroconidia_of_the_dermatophytic_fungus_Epidermophyton_floccosum_PHIL_4207_lores.jpg",
+  "license": "Public domain",
+  "artist": "CDC"
+ },
+ "nam-than.jpg": {
+  "title": "File:Ringworm on the arm, or tinea corporis due to Trichophyton mentagrophytes PHIL 2938 lores.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ringworm_on_the_arm,_or_tinea_corporis_due_to_Trichophyton_mentagrophytes_PHIL_2938_lores.jpg",
+  "license": "Public domain",
+  "artist": "CDC/ Dr. Lucille K. Georg"
+ },
+ "t-rubrum-nho.jpg": {
+  "title": "File:Trichophyton rubrum microconidia.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Trichophyton_rubrum_microconidia.jpg",
+  "license": "CC0",
+  "artist": "Medmyco at English Wikipedia"
+ }
+}

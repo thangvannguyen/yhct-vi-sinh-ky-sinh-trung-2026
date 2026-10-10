@@ -1,0 +1,24 @@
+{
+ "_doc": "Giải thích câu hỏi bài san-dai-heo. \"section\" là id mục trong content/lessons/san-dai-heo.md để nút \"Xem lý thuyết\" trỏ tới.",
+ "san-dai-heo-1": {
+  "section": "chu-trinh",
+  "explain": "Người là ký chủ vĩnh viễn khi ăn thịt heo có nang ấu trùng (sán trưởng thành ở ruột), và cũng có thể là ký chủ trung gian khi nuốt trứng (từ rau, nước, hoặc tự nhiễm) gây bệnh nang ấu trùng."
+ },
+ "san-dai-heo-2": {
+  "section": "dich-te",
+  "explain": "Bệnh sán dải heo trưởng thành lây do ăn thịt heo chưa chín; cộng đồng kiêng thịt heo (như Hồi giáo) gần như không nhiễm."
+ },
+ "san-dai-heo-3": {
+  "section": "chu-trinh",
+  "explain": "Bệnh nang ấu trùng do nuốt TRỨNG sán (trong rau sống, nước uống) hoặc tự nhiễm. Ăn thịt heo chưa chín chỉ gây nhiễm sán trưởng thành; trong thịt heo không có trứng mà có nang ấu trùng.",
+  "tip": "Nuốt TRỨNG → bệnh nang ấu trùng. Ăn NANG (gạo heo) → sán trưởng thành."
+ },
+ "san-dai-heo-4": {
+  "section": "chu-trinh",
+  "explain": "Người nhiễm sán dải heo trưởng thành do ăn thịt heo có nang ấu trùng (\"gạo heo\") chưa nấu chín."
+ },
+ "san-dai-heo-5": {
+  "section": "chan-doan",
+  "explain": "Bệnh nang ấu trùng chẩn đoán bằng phẫu thuật lấy nang, CT/MRI, kỹ thuật miễn dịch (ELISA, immunoblot, EITB) và PCR. Xét nghiệm phân chỉ giúp chẩn đoán nhiễm sán trưởng thành."
+ }
+}

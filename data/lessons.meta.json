@@ -1,0 +1,35 @@
+{
+  "_doc": "Danh mục bài học — nguồn duy nhất cho thứ tự, nhóm, tiêu đề. Thêm bài mới: thêm 1 dòng vào `lessons` (id dạng slug, không đổi về sau), đặt file nguồn ở docs/source/, viết content/lessons/<id>.md. `num` tự đánh theo thứ tự trong mảng. `expectedQuestions` để parse_docx.py tự kiểm tra (0 = bài không có câu hỏi).",
+  "parts": [
+    { "id": "kst", "title": "Ký sinh trùng", "icon": "svg:giun-dua" },
+    { "id": "vs", "title": "Vi sinh", "icon": "svg:virus" }
+  ],
+  "groups": [
+    { "id": "giun", "part": "kst", "title": "Giun tròn" },
+    { "id": "san-la", "part": "kst", "title": "Sán lá" },
+    { "id": "san-dai", "part": "kst", "title": "Sán dải" },
+    { "id": "don-bao", "part": "kst", "title": "Đơn bào" },
+    { "id": "vi-nam", "part": "kst", "title": "Vi nấm" },
+    { "id": "virus", "part": "vs", "title": "Virus" }
+  ],
+  "lessons": [
+    { "id": "giun-dua", "group": "giun", "title": "Bệnh do giun đũa", "latin": "Ascaris lumbricoides", "short": "Giun đũa", "icon": "svg:giun-dua", "source": "4, BỆNH DO GIUN ĐŨA.docx", "expectedQuestions": 8 },
+    { "id": "giun-kim", "group": "giun", "title": "Bệnh do giun kim", "latin": "Enterobius vermicularis", "short": "Giun kim", "icon": "svg:giun-kim", "source": "3. BỆNH DO GIUN KIM.docx", "expectedQuestions": 10 },
+    { "id": "giun-toc", "group": "giun", "title": "Bệnh do giun tóc", "latin": "Trichuris trichiura", "short": "Giun tóc", "icon": "svg:giun-toc", "source": "5. BỆNH DO GIUN TÓC.docx", "expectedQuestions": 5 },
+    { "id": "giun-moc", "group": "giun", "title": "Bệnh do giun móc", "latin": "Ancylostoma duodenale – Necator americanus", "short": "Giun móc", "icon": "svg:giun-moc", "source": "6. BỆNH DO GIUN MÓC.docx", "expectedQuestions": 5 },
+    { "id": "giun-chi", "group": "giun", "title": "Bệnh do giun chỉ hệ bạch huyết", "latin": "Wuchereria bancrofti – Brugia malayi", "short": "Giun chỉ bạch huyết", "icon": "svg:giun-chi", "source": "13. BỆNH DO GIUN CHỈ HỆ BẠCH HUYẾT.docx", "expectedQuestions": 4 },
+    { "id": "san-la-phoi", "group": "san-la", "title": "Bệnh do sán lá phổi", "latin": "Paragonimus spp.", "short": "Sán lá phổi", "icon": "svg:san-la-phoi", "source": "2. SÁN LÁ PHỔI.docx", "expectedQuestions": 5 },
+    { "id": "san-la-lon-gan", "group": "san-la", "title": "Bệnh do sán lá lớn ở gan", "latin": "Fasciola spp.", "short": "Sán lá lớn ở gan", "icon": "svg:san-la-lon-gan", "source": "7. BỆNH DO SÁN LÁ LỚN Ở GAN FASCIOLA SPP.docx", "expectedQuestions": 5 },
+    { "id": "san-la-nho-gan", "group": "san-la", "title": "Bệnh do sán lá nhỏ ở gan", "latin": "Clonorchis sinensis – Opisthorchis viverrini", "short": "Sán lá nhỏ ở gan", "icon": "svg:san-la-nho-gan", "source": "8. BỆNH DO SÁN LÁ NHỎ Ở GAN.docx", "expectedQuestions": 5 },
+    { "id": "san-la-ruot", "group": "san-la", "title": "Bệnh do sán lá ruột lớn", "latin": "Fasciolopsis buski", "short": "Sán lá ruột lớn", "icon": "svg:san-la-ruot", "source": "9. BỆNH DO SÁN LÁ RUỘT LỚN FASCIOLOPSIS BUSKI.docx", "expectedQuestions": 5 },
+    { "id": "san-dai-bo", "group": "san-dai", "title": "Bệnh do sán dải bò", "latin": "Taenia saginata", "short": "Sán dải bò", "icon": "svg:san-dai-bo", "source": "3. BỆNH DO SÁN DẢI BÒ.docx", "expectedQuestions": 4 },
+    { "id": "san-dai-heo", "group": "san-dai", "title": "Bệnh do sán dải heo", "latin": "Taenia solium", "short": "Sán dải heo", "icon": "svg:san-dai-heo", "source": "4. BỆNH DO SÁN DẢI HEO.docx", "expectedQuestions": 5 },
+    { "id": "trichomonas", "group": "don-bao", "title": "Bệnh do Trichomonas vaginalis", "latin": "Trichomonas vaginalis", "short": "Trichomonas", "icon": "svg:trichomonas", "source": "5. BỆNH DO TRICHOMONAS VAGINALIS.docx", "expectedQuestions": 5 },
+    { "id": "balantidium", "group": "don-bao", "title": "Bệnh do Balantidium coli", "latin": "Balantidium coli", "short": "Balantidium coli", "icon": "svg:balantidium", "source": "6. BỆNH DO BALANTIDIUM COLI.docx", "expectedQuestions": 5 },
+    { "id": "sot-ret", "group": "don-bao", "title": "Ký sinh trùng sốt rét", "latin": "Plasmodium spp.", "short": "Sốt rét", "icon": "svg:sot-ret", "source": "KÝ SINH TRÙNG SỐT RÉT.docx", "expectedQuestions": 6 },
+    { "id": "cryptococcus", "group": "vi-nam", "title": "Bệnh vi nấm Cryptococcus", "latin": "Cryptococcus neoformans", "short": "Cryptococcus", "icon": "svg:cryptococcus", "source": "3. BỆNH VI NẤM CRYPTOCOCCUS.docx", "expectedQuestions": 0 },
+    { "id": "nam-ngoai-da", "group": "vi-nam", "title": "Bệnh do vi nấm ngoài da", "latin": "Dermatophytes", "short": "Vi nấm ngoài da", "icon": "svg:nam-ngoai-da", "source": "BỆNH DO VI NẤM NGOÀI DA.docx", "expectedQuestions": 6 },
+    { "id": "virus-dai", "group": "virus", "title": "Virus dại", "latin": "Rabies virus", "short": "Virus dại", "icon": "svg:virus-dai", "source": "3. VIRUS DẠI.docx", "expectedQuestions": 0 },
+    { "id": "virus-viem-gan", "group": "virus", "title": "Các virus viêm gan", "latin": "HAV · HBV · HCV · HDV · HEV", "short": "Virus viêm gan", "icon": "svg:virus-viem-gan", "source": "8. CÁC VIRUS VIÊM GAN.docx", "expectedQuestions": 0 }
+  ]
+}

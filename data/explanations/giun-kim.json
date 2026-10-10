@@ -1,0 +1,46 @@
+{
+ "_doc": "Giải thích câu hỏi bài giun-kim. \"section\" là id mục trong content/lessons/giun-kim.md để nút \"Xem lý thuyết\" trỏ tới.",
+ "giun-kim-1": {
+  "section": "chu-trinh",
+  "explain": "Ấu trùng được phóng thích ở tá tràng, lột xác rồi di chuyển xuống manh tràng để trưởng thành. Giun kim là loại giun thường gặp nhất ở ruột già."
+ },
+ "giun-kim-2": {
+  "section": "chu-trinh",
+  "explain": "Trứng giun kim chứa sẵn phôi khi được đẻ ở rìa hậu môn; chỉ sau 4–8 giờ (điều kiện hiếu khí, 35–42°C) đã thành trứng có ấu trùng lây nhiễm. Trứng hình bầu dục lép một bên (không đối xứng), rất nhẹ nên phát tán được vào không khí, và không thải theo phân.",
+  "tip": "Trứng giun kim: \"đẻ ra là gần như lây ngay\"."
+ },
+ "giun-kim-3": {
+  "section": "chu-trinh",
+  "explain": "Chu trình không cần ký chủ trung gian, trứng không cần thời gian dài ở ngoại cảnh (chỉ vài giờ ở rìa hậu môn) và ấu trùng không chu du qua phổi → chu trình trực tiếp ngắn.",
+  "tip": "Trực tiếp NGẮN: giun kim. Trực tiếp DÀI: giun đũa, giun tóc, giun móc."
+ },
+ "giun-kim-4": {
+  "section": "chu-trinh",
+  "explain": "Giun kim cái đẻ trứng ở rìa hậu môn rồi chết ngay sau khi đẻ — tức chỉ đẻ một lứa, không đẻ nhiều lứa. Các ý còn lại đúng: đời sống ngắn (giun cái 4–13 tuần), giun đực chết ngay sau giao hợp."
+ },
+ "giun-kim-5": {
+  "section": "dich-te",
+  "explain": "Trẻ em là đối tượng nguy cơ cao, dễ nhiễm hơn người lớn; tỷ lệ nhiễm cao nhất ở lứa tuổi 2–5 tuổi (nhà trẻ, mẫu giáo), có vùng lên đến 73,45%."
+ },
+ "giun-kim-6": {
+  "section": "dich-te",
+  "explain": "Trứng giun kim phát tán trong không gian sinh hoạt của người bệnh: giường, chiếu, chăn gối, đồ ngủ, sàn nhà, đồ chơi, tay nắm cửa, và theo bụi vào không khí trong phòng. Trứng không cần phát triển trong đất, nên đất trồng hoa màu không phải nguồn chứa trứng giun kim."
+ },
+ "giun-kim-7": {
+  "section": "chu-trinh",
+  "explain": "Giun kim lây do nuốt trứng (tay dơ, ngậm tay sau khi gãi hậu môn) và hít trứng theo bụi trong không khí; theo đáp án của tài liệu, D cũng được tính là một phương thức nhiễm. Riêng \"tay trần, chân đất khi làm vườn\" là cách nhiễm giun móc (ấu trùng xuyên qua da) — trứng giun kim không phát triển trong đất."
+ },
+ "giun-kim-8": {
+  "section": "lam-sang",
+  "explain": "Dấu hiệu chính của bệnh là ngứa hậu môn vào buổi tối, lúc bệnh nhân ngủ — trùng với thời gian giun cái bò ra rìa hậu môn đẻ trứng. Các triệu chứng tiêu hóa khác không đặc hiệu."
+ },
+ "giun-kim-9": {
+  "section": "chan-doan",
+  "explain": "Trứng giun kim không thải theo phân nên xét nghiệm phân không được chọn. Phương pháp thích hợp nhất là tìm trứng ở vùng da quanh hậu môn bằng kỹ thuật Graham (băng keo trong – Scotch tape)."
+ },
+ "giun-kim-10": {
+  "section": "chan-doan",
+  "explain": "Kỹ thuật Graham thực hiện vào sáng sớm khi trẻ vừa thức dậy, chưa vệ sinh vùng hạ bộ. Vệ sinh hậu môn trước khi lấy mẫu sẽ làm sai kết quả.",
+  "tip": "Graham: sáng sớm — chưa tắm — chưa đi vệ sinh."
+ }
+}

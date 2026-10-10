@@ -1,0 +1,28 @@
+{
+ "_doc": "Giải thích câu hỏi bài sot-ret. \"section\" là id mục trong content/lessons/sot-ret.md để nút \"Xem lý thuyết\" trỏ tới.",
+ "sot-ret-1": {
+  "section": "chu-trinh",
+  "explain": "Với P. vivax và P. ovale, một số thoa trùng vào tế bào gan nhưng nằm yên (thể ngủ). Vài tháng đến cả năm sau chúng \"thức dậy\", phát triển thành phân liệt, vỡ ra tung mảnh trùng vào máu gây cơn tái phát. P. falciparum và P. malariae không có thể ngủ.",
+  "tip": "Thể ngủ: vivax + ovale → tái phát → diệt bằng primaquine."
+ },
+ "sot-ret-2": {
+  "section": "hinh-the",
+  "explain": "Giao bào là thể hữu tính (đực và cái), không gây triệu chứng; khi muỗi Anopheles cái hút máu, chỉ giao bào tiếp tục phát triển trong dạ dày muỗi — là nguồn gốc lây lan bệnh."
+ },
+ "sot-ret-3": {
+  "section": "dich-te",
+  "explain": "Việt Nam có 3 vectơ chính: An. minimus (vùng rừng núi toàn quốc), An. dirus (rừng núi từ vĩ độ 20° Bắc trở vào), An. epiroticus (ven biển nước lợ miền Nam)."
+ },
+ "sot-ret-4": {
+  "section": "sinh-hoc",
+  "explain": "P. vivax không xâm nhập được hồng cầu của người nhóm máu Duffy âm tính (thường là người châu Phi da đen); P. falciparum cần glycophorin A trên màng hồng cầu."
+ },
+ "sot-ret-5": {
+  "section": "chan-doan",
+  "explain": "Test chẩn đoán nhanh phát hiện kháng nguyên của ký sinh trùng; HRP2 (histidine rich protein 2) là kháng nguyên của P. falciparum. Test cho kết quả trong khoảng 20 phút nhưng chỉ định tính."
+ },
+ "sot-ret-6": {
+  "section": "benh-ly",
+  "explain": "Hiện tượng kết dính tế bào và ẩn cư (hồng cầu nhiễm bám vào nội mạc mạch máu sâu ở não, phổi, ruột, tim, nhau thai) chỉ thấy ở P. falciparum, do các điểm u lồi trên bề mặt hồng cầu nhiễm — góp phần gây sốt rét nặng."
+ }
+}

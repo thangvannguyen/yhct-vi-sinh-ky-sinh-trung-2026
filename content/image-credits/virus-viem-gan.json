@@ -1,0 +1,26 @@
+{
+ "hbv.jpg": {
+  "title": "File:Hepatitis B virus 01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Hepatitis_B_virus_01.jpg",
+  "license": "Public domain",
+  "artist": "CDC"
+ },
+ "hav.jpg": {
+  "title": "File:Hepatitis A virus 02.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Hepatitis_A_virus_02.jpg",
+  "license": "Public domain",
+  "artist": "CDC"
+ },
+ "hev.jpg": {
+  "title": "File:Hepatitis E virus.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Hepatitis_E_virus.jpg",
+  "license": "Public domain",
+  "artist": "CDC"
+ },
+ "hcv.jpg": {
+  "title": "File:HCV pictures.png",
+  "page": "https://commons.wikimedia.org/wiki/File:HCV_pictures.png",
+  "license": "Public domain",
+  "artist": "Maria Teresa Catanese, Martina Kopp, Kunihiro Uryu , and Charles Rice"
+ }
+}

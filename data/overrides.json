@@ -1,0 +1,165 @@
+{
+ "_doc": "Sửa tay cho câu hỏi — KHÔNG sửa questions.base.json (file máy sinh ra). Khóa là id câu (<lessonId>-<số câu>). Trường: text (thay câu hỏi), options ({chỉ số 0-based: text mới, giữ tiền tố 'A. '}), answer (chữ cái/đáp án mới), answerText (đáp án điền khuyết hiển thị), noteKind ('corrected' | 'typo' | 'relabeled' | 'extended'), extraOptions (câu điền khuyết: phương án nhiễu thêm vào), noteWhy (lý do, hỗ trợ **in đậm**). Lý do từng chỗ sửa ghi ở data/review_needed.md.",
+ "giun-dua-2": {
+  "options": {
+   "1": "B. Ăn thịt, cá không nấu chín"
+  }
+ },
+ "giun-dua-4": {
+  "options": {
+   "0": "A. Công thức máu có bạch cầu toan tính không tăng",
+   "2": "C. Xét nghiệm phân có tinh thể Charcot-Leyden"
+  }
+ },
+ "giun-dua-5": {
+  "text": "Kể một biến chứng tại ruột do giun đũa: ……",
+  "answerText": "Tắc ruột"
+ },
+ "giun-dua-6": {
+  "text": "Kể một biến chứng ngoài ruột do giun đũa: ……",
+  "answerText": "Giun chui ống mật"
+ },
+ "giun-dua-7": {
+  "text": "Giun đũa di chuyển lên ống dẫn mật được gọi là hiện tượng ……",
+  "answerText": "Ký sinh trùng lạc chỗ"
+ },
+ "giun-dua-8": {
+  "text": "Trong nhiễm giun đũa, ruồi hay gián là trung gian truyền bệnh ……",
+  "answerText": "Cơ học"
+ },
+ "giun-kim-1": {
+  "options": {
+   "0": "A. Tá tràng",
+   "1": "B. Manh tràng",
+   "2": "C. Hỗng tràng",
+   "3": "D. Trực tràng"
+  }
+ },
+ "giun-kim-3": {
+  "options": {
+   "0": "A. Trực tiếp ngắn",
+   "2": "C. Gián tiếp qua 1 ký chủ trung gian",
+   "3": "D. Gián tiếp qua 2 ký chủ trung gian"
+  }
+ },
+ "giun-toc-3": {
+  "options": {
+   "1": "B. Xét nghiệm phân tìm giun trưởng thành"
+  }
+ },
+ "giun-toc-5": {
+  "options": {
+   "2": "C. Gián tiếp qua 1 ký chủ trung gian",
+   "3": "D. Gián tiếp qua 2 ký chủ trung gian"
+  }
+ },
+ "giun-moc-1": {
+  "options": {
+   "0": "A. Trực tiếp ngắn",
+   "3": "D. Gián tiếp qua 2 ký chủ trung gian"
+  }
+ },
+ "giun-moc-2": {
+  "text": "Sau 3 năm thực hiện đơn thuần chương trình tẩy giun định kỳ mỗi 6 tháng cho học sinh cấp 1 trong toàn huyện (uống thuốc tại lớp có kiểm soát), kết quả điều tra cho thấy tỉ lệ nhiễm giun móc ở trẻ cấp 1 vẫn không thay đổi một cách có ý nghĩa thống kê. Biện pháp thích hợp cần được thực hiện tiếp theo là:",
+  "options": {
+   "0": "A. Tăng liều tẩy giun: mỗi đợt xổ 2 liều, cách nhau 1 tuần",
+   "1": "B. Hỗ trợ xây dựng hố xí hợp vệ sinh cho các hộ khó khăn, chưa có hố xí",
+   "3": "D. Phối hợp giáo dục phòng ngừa nhiễm giun móc cho dân trong huyện"
+  }
+ },
+ "giun-moc-4": {
+  "text": "Ngoài triệu chứng rối loạn tiêu hóa, giun móc có thể gây ……",
+  "answerText": "Thiếu máu mạn",
+  "extraOptions": [
+   "Sa trực tràng",
+   "Tắc ruột"
+  ],
+  "noteKind": "extended",
+  "noteWhy": "Câu này trong tài liệu là câu điền khuyết. Web chuyển thành trắc nghiệm; vì bài chỉ có 2 câu điền khuyết nên **2 phương án sai được thêm vào** (lấy từ nội dung lý thuyết) cho đủ 4 lựa chọn. **Đáp án đúng giữ nguyên theo tài liệu.**"
+ },
+ "giun-moc-5": {
+  "text": "Vị trí ký sinh chính của giun móc trong đường tiêu hóa của người là ……",
+  "answerText": "Ruột non",
+  "extraOptions": [
+   "Manh tràng",
+   "Dạ dày"
+  ],
+  "noteKind": "extended",
+  "noteWhy": "Câu này trong tài liệu là câu điền khuyết. Web chuyển thành trắc nghiệm; vì bài chỉ có 2 câu điền khuyết nên **2 phương án sai được thêm vào** (lấy từ nội dung lý thuyết) cho đủ 4 lựa chọn. **Đáp án đúng giữ nguyên theo tài liệu.**"
+ },
+ "giun-chi-2": {
+  "text": "Cơ quan thường bị phù voi trong nhiễm giun chỉ W. bancrofti là:"
+ },
+ "san-la-nho-gan-4": {
+  "noteKind": "relabeled",
+  "noteWhy": "Trong tài liệu gốc, câu này có **hai phương án cùng ghi \"A.\"** (\"Tìm trứng trong đàm\" và \"Tìm sán trưởng thành trong phân\") do lỗi đánh số tự động của Word. Web gán lại A–D theo đúng thứ tự xuất hiện; khi đó đáp án **C** trong khóa \"4-C\" là **Tìm trứng trong phân**, khớp với phần lý thuyết."
+ },
+ "san-la-nho-gan-5": {
+  "text": "Ăn món nào sau đây có thể nhiễm sán lá nhỏ ở gan:"
+ },
+ "san-la-ruot-3": {
+  "options": {
+   "2": "C. Trứng của Fasciolopsis buski và trứng của Clonorchis sinensis."
+  }
+ },
+ "san-dai-bo-1": {
+  "text": "Ký chủ trung gian của Taenia saginata là:"
+ },
+ "san-dai-bo-2": {
+  "text": "Ăn phở bò tái có khả năng nhiễm:",
+  "options": {
+   "1": "B. Nang ấu trùng sán dải bò",
+   "2": "C. Sán dải heo trưởng thành",
+   "3": "D. Nang ấu trùng sán dải heo"
+  }
+ },
+ "san-dai-bo-3": {
+  "text": "Chẩn đoán nhiễm Taenia saginata khi tìm thấy …… trong phân.",
+  "answerText": "Trứng",
+  "extraOptions": [
+   "Ấu trùng",
+   "Nang ấu trùng"
+  ],
+  "noteKind": "extended",
+  "noteWhy": "Câu này trong tài liệu là câu điền khuyết. Web chuyển thành trắc nghiệm; vì bài chỉ có 2 câu điền khuyết nên **2 phương án sai được thêm vào** (lấy từ nội dung lý thuyết) cho đủ 4 lựa chọn. **Đáp án đúng giữ nguyên theo tài liệu.**"
+ },
+ "san-dai-bo-4": {
+  "text": "Đốt sán mang trứng của Taenia saginata có hơn …… tử cung.",
+  "answerText": "13 nhánh",
+  "extraOptions": [
+   "30 nhánh",
+   "40 nhánh"
+  ],
+  "noteKind": "extended",
+  "noteWhy": "Câu này trong tài liệu là câu điền khuyết. Web chuyển thành trắc nghiệm; vì bài chỉ có 2 câu điền khuyết nên **2 phương án sai được thêm vào** (lấy từ nội dung lý thuyết) cho đủ 4 lựa chọn. **Đáp án đúng giữ nguyên theo tài liệu.**"
+ },
+ "san-dai-heo-1": {
+  "text": "Vật chủ vừa là ký chủ vĩnh viễn vừa là ký chủ trung gian của sán dải heo T. solium là:"
+ },
+ "san-dai-heo-2": {
+  "options": {
+   "3": "D. Ấn Độ giáo"
+  }
+ },
+ "trichomonas-1": {
+  "noteKind": "typo",
+  "noteWhy": "Phương án **B. \"Giao hợp\"** trong tài liệu gốc có vẻ bị chép nhầm từ câu 2 (không phải một đối tượng mắc bệnh). Web giữ nguyên chữ của tài liệu; đáp án **D** không bị ảnh hưởng."
+ },
+ "sot-ret-5": {
+  "text": "HRP2 (Histidine Rich Protein 2) được dùng để chẩn đoán sốt rét do:"
+ },
+ "sot-ret-6": {
+  "text": "Hiện tượng kết dính tế bào (cyto-adherence) và ẩn cư (sequestration) được thấy trong sốt rét do:"
+ },
+ "balantidium-3": {
+  "options": {
+   "3": "D. Trypanosoma cruzi"
+  }
+ },
+ "balantidium-5": {
+  "text": "Xét nghiệm có thể thấy rõ nhân của dạng hoạt động và bào nang Balantidium coli:",
+  "options": {
+   "2": "C. Phết phân tươi với nước muối 0,85%"
+  }
+ }
+}

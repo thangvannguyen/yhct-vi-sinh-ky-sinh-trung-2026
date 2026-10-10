@@ -1,0 +1,38 @@
+{
+ "_doc": "Giải thích câu hỏi bài giun-dua. \"section\" là id mục trong content/lessons/giun-dua.md để nút \"Xem lý thuyết\" trỏ tới.",
+ "giun-dua-1": {
+  "section": "chu-trinh",
+  "explain": "Trứng giun đũa mới sinh (1 phôi bào) chưa có khả năng lây nhiễm — phải ở ngoại cảnh (đất ẩm, 20–30°C) ít nhất 10–15 ngày mới thành trứng chứa ấu trùng lây nhiễm. Người nhiễm do nuốt trứng có ấu trùng, nên D sai. A, B, C đều đúng: giun cái đuôi thẳng, to hơn (20–40 cm); giun đực đuôi cong (15–30 cm); giun trưởng thành sống ở lòng ruột non.",
+  "tip": "Giun đũa: trứng phải \"ủ\" ngoài đất mới lây — trứng mới đẻ thì vô hại."
+ },
+ "giun-dua-2": {
+  "section": "chu-trinh",
+  "explain": "Người nhiễm giun đũa qua đường tiêu hóa do nuốt trứng có ấu trùng trong rau, quả, nước uống, thức ăn bị ruồi gián bâu, tay bẩn; trẻ nghịch đất, ăn đất, mút tay. Thịt, cá không chứa trứng giun đũa, nên ăn thịt cá chưa chín không gây nhiễm giun đũa.",
+  "tip": "Giun đũa = \"đất – tay – rau – nước\", không liên quan thịt cá."
+ },
+ "giun-dua-3": {
+  "section": "chan-doan",
+  "explain": "Chẩn đoán xác định khi tìm thấy trứng hoặc giun trưởng thành. Số lượng trứng trong phân thường rất nhiều nên xét nghiệm phân soi trực tiếp tìm trứng là đủ. X-quang, siêu âm chỉ dùng khi có biến chứng tắc ruột, tắc đường mật."
+ },
+ "giun-dua-4": {
+  "section": "lam-sang",
+  "explain": "Giai đoạn ấu trùng qua phổi gây hội chứng Loeffler: ho, sốt, X-quang thâm nhiễm phổi giống lao, bạch cầu ái toan tăng cao (đến 40%), có thể có tinh thể Charcot-Leyden trong đàm (không phải trong phân). Các triệu chứng nhất thời, tự biến mất sau 1–2 tuần nên thường không cần điều trị; tẩy giun 2 tuần sau khi có triệu chứng ở phổi.",
+  "tip": "Loeffler: tự khỏi sau 1–2 tuần, Charcot-Leyden ở ĐÀM."
+ },
+ "giun-dua-5": {
+  "section": "lam-sang",
+  "explain": "Biến chứng ở ruột: tắc ruột non (giun cuộn thành búi, hay gặp ở trẻ nhỏ, tử vong 9% trường hợp nhập viện), xoắn ruột, lồng ruột, thoát vị bẹn."
+ },
+ "giun-dua-6": {
+  "section": "lam-sang",
+  "explain": "Giun đũa \"thích chu du\", di chuyển lạc chỗ. Biến chứng ngoài ruột thường gặp nhất là tắc mật do giun chui ống mật chủ; ngoài ra viêm túi mật, sỏi mật, viêm tụy cấp, viêm ruột thừa, áp-xe gan, viêm phúc mạc."
+ },
+ "giun-dua-7": {
+  "section": "lam-sang",
+  "explain": "Giun trưởng thành di chuyển lạc chỗ đến phần phụ của ống tiêu hóa (như ống mật) — đó là hiện tượng ký sinh trùng lạc chỗ."
+ },
+ "giun-dua-8": {
+  "section": "chu-trinh",
+  "explain": "Ruồi, gián chỉ mang trứng giun đũa bám bên ngoài cơ thể đến thức ăn; trứng không phát triển trong ruồi gián — nên chúng là trung gian truyền bệnh cơ học."
+ }
+}
