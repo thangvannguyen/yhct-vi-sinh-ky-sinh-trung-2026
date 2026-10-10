@@ -282,6 +282,16 @@ const ICONS = {
       <path d="M36 54 L 55 54 M 49.5 48.5 L 55 54 L 49.5 59.5" fill="none" stroke="#4ade80" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round" />
     </>
   ),
+  // Toàn bộ câu hỏi / tải về: tờ giấy có dòng chữ và mũi tên tải xuống.
+  'tai-ve': (
+    <>
+      <Shape d="M14 5 L 40 5 L 52 17 L 52 55 Q 52 59, 48 59 L 14 59 Q 10 59, 10 55 L 10 9 Q 10 5, 14 5 Z" fill="#ffffff" edge="#1e3a8a" w={3.2} />
+      <Shape d="M40 5 L 40 17 L 52 17 Z" fill="#bfdbfe" edge="#1e3a8a" w={2.6} />
+      <path d="M18 18 L 32 18 M 18 26 L 40 26 M 18 34 L 30 34" fill="none" stroke="#93c5fd" strokeWidth="3.4" strokeLinecap="round" />
+      <path d="M44 34 L 44 56 M 35 47 L 44 56 L 53 47" fill="none" stroke="#14532d" strokeWidth="9" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M44 34 L 44 56 M 35 47 L 44 56 L 53 47" fill="none" stroke="#4ade80" strokeWidth="4.4" strokeLinecap="round" strokeLinejoin="round" />
+    </>
+  ),
   // Ôn câu sai: vòng mũi tên ôn lại quanh dấu sai.
   'on-cau-sai': (
     <>

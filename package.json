@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "downloads": "node scripts/build_downloads.mjs"
   },
   "dependencies": {
     "react": "^19.1.0",
@@ -19,6 +20,8 @@
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.0",
     "@vitejs/plugin-react": "^5.0.0",
+    "docx": "^8.5.0",
+    "puppeteer-core": "^22.15.0",
     "tailwindcss": "^4.1.0",
     "vite": "^7.0.0"
   }

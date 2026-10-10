@@ -174,6 +174,12 @@ export default function Home() {
               : 'Chưa có câu nào sai — cứ học rồi quay lại đây'
           }
         />
+        <ModeCard
+          to="/questions"
+          emoji="svg:tai-ve"
+          title="Toàn bộ câu hỏi"
+          desc={`Xem cả ${TOTAL_QUESTIONS} câu trên một trang · tải về dạng PDF hoặc Word`}
+        />
       </div>
 
       {lastQuiz && (

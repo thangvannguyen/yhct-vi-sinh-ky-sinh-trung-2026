@@ -8,6 +8,7 @@ import ReviewWrong from './pages/ReviewWrong.jsx'
 import QuizSetup from './pages/QuizSetup.jsx'
 import QuizPlay from './pages/QuizPlay.jsx'
 import QuizResult from './pages/QuizResult.jsx'
+import AllQuestions from './pages/AllQuestions.jsx'
 
 // Gắn key theo bài để chuyển bài là mount lại từ đầu (vị trí đọc tiếp, mục đang
 // đọc… không bị mang sang bài khác).
@@ -28,6 +29,7 @@ export default function App() {
         <Route path="quiz-setup" element={<QuizSetup />} />
         <Route path="quiz" element={<QuizPlay />} />
         <Route path="quiz-result" element={<QuizResult />} />
+        <Route path="questions" element={<AllQuestions />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
     </Routes>
