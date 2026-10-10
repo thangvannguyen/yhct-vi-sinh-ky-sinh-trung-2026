@@ -217,10 +217,10 @@ Phối hợp nhiều biện pháp, đòi hỏi **mọi thành viên trong gia đ
 - **Giặt sạch thường xuyên:** quần áo, chăn mền, chiếu gối, drap giường, đồ chơi của trẻ.
 - **Cắt ngắn móng tay** cho trẻ.
 - **Ngăn hành vi nguy cơ:** mút tay, cắn móng tay, ngậm đồ chơi. **Rửa tay** trước khi ăn.
-
-![Học sinh rửa tay bằng nước sạch tại trường (ảnh ở Kenya): rửa tay trước khi ăn là một trong các biện pháp cắt đường lây trứng giun kim từ tay vào miệng](giun-kim/rua-tay.jpg)
 - **Rửa sạch vùng quanh hậu môn, đáy chậu mỗi sáng thức dậy.** Đây là hành vi **mang tính quyết định** để cắt đứt chu trình.
 - **Xổ giun thường xuyên cho cả nhà.**
+
+![Học sinh rửa tay bằng nước sạch tại trường (ảnh ở Kenya): rửa tay trước khi ăn là một trong các biện pháp cắt đường lây trứng giun kim từ tay vào miệng](giun-kim/rua-tay.jpg)
 
 ## Tóm tắt {#tom-tat}
 

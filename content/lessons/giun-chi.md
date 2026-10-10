@@ -159,11 +159,11 @@ Bệnh có tính chất **âm thầm, mạn tính**. Đặc thù của bệnh: n
 Mạch bạch huyết xơ hóa, tắc nghẽn rồi vỡ vào nội tạng, nhất là thận, ống dẫn tiểu, bàng quang:
 
 - **Đái dưỡng trấp:** nước tiểu trắng đục như nước vo gạo, **chứa phôi giun chỉ**.
-
-![Nước tiểu của bệnh nhân đái dưỡng trấp do giun chỉ: trắng đục như sữa, như nước vo gạo](giun-chi/dai-duong-trap.jpg)
 - Vỡ vào âm đạo, bìu.
 - Tiểu ra máu; bội nhiễm nhiều loại vi khuẩn với các đợt nhiễm khuẩn huyết, có thể tử vong.
 - Viêm tinh hoàn, ống mào tinh, thừng tinh tái diễn có thể gây **vô sinh**.
+
+![Nước tiểu của bệnh nhân đái dưỡng trấp do giun chỉ: trắng đục như sữa, như nước vo gạo](giun-chi/dai-duong-trap.jpg)
 
 ## 5. Chẩn đoán {#chan-doan}
 

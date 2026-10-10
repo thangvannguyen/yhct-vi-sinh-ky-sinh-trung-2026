@@ -126,9 +126,9 @@ Mức độ bệnh **phụ thuộc số lượng ký sinh trùng**:
 | **Mạn tính** | Tắc nghẽn đường mật, gây viêm đường mật trong gan, viêm ống mật chủ, viêm túi mật. Lâu ngày gây **xơ hóa, chít hẹp đường mật**, đau và vàng da |
 
 - Sán cũng có thể làm đường mật xơ hóa, dày lên, giãn rộng.
+- **Thiếu máu** là một trong những triệu chứng đặc trưng. Chảy máu đường mật có lẽ là yếu tố quan trọng góp phần gây thiếu máu.
 
 ![Gan cừu nhiễm F. hepatica: túi mật viêm, căng to (mũi tên); các ống mật dày lên, nổi rõ thành dải trắng trên mặt gan](san-la-lon-gan/duong-mat.jpg) ![Sán F. hepatica trưởng thành nằm trong ống mật đã được rạch mở (gan dê)](san-la-lon-gan/duong-mat-2.jpg)
-- **Thiếu máu** là một trong những triệu chứng đặc trưng. Chảy máu đường mật có lẽ là yếu tố quan trọng góp phần gây thiếu máu.
 
 ### 4.2. Triệu chứng lâm sàng {#trieu-chung}
 
@@ -205,9 +205,9 @@ Dựa vào **dịch tễ học vùng lưu hành, lâm sàng, cận lâm sàng v�
 | (i) Phát tán trứng | Quản lý phân |
 | (ii) Trung gian truyền bệnh | Diệt ốc, phá bỏ nơi ốc cư trú. **Không thực tế** và ảnh hưởng môi trường |
 | (iii) Nhiễm bệnh | **Không ăn cây thủy sinh chưa nấu chín**, làm sạch nơi chứa mầm bệnh |
+| (iv) Nguồn bệnh | Điều trị thuốc đặc hiệu cho bệnh nhân; phối hợp thú y điều trị cho súc vật mang bệnh |
 
 ![Cải xoong (Nasturtium officinale), loại rau thủy sinh hay truyền bệnh nhất: không ăn sống khi rau trồng ở nơi có thể nhiễm nang trùng](san-la-lon-gan/cai-xoong.jpg)
-| (iv) Nguồn bệnh | Điều trị thuốc đặc hiệu cho bệnh nhân; phối hợp thú y điều trị cho súc vật mang bệnh |
 
 **Các biện pháp tổng thể:**
 

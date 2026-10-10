@@ -197,10 +197,10 @@ Biểu hiện thường gặp nhất là **nang ấu trùng ở não**. Bệnh c
 ### 5.1. Nhiễm sán trưởng thành {#chan-doan-truong-thanh}
 
 - **Xét nghiệm phân:** đốt sán thường thải theo từng chuỗi ngắn **5 – 6 đốt, không di động**, số nhánh tử cung **< 13**, chiều dài gấp đôi chiều rộng.
-
-![Đốt sán già của T. solium nhuộm mực tàu: thân tử cung ở giữa, mỗi bên chỉ có khoảng 7 – 13 nhánh. Đếm số nhánh này giúp phân biệt với sán dải bò (15 – 30 nhánh)](san-dai-heo/dot-san.jpg)
 - Soi tươi phân có thể thấy trứng do đốt sán vỡ trong lòng ruột, nhưng **không phân biệt được** trứng *T. solium* với *T. saginata*.
 - Có thể dùng **phương pháp Graham** tìm trứng, giống như tìm trứng giun kim.
+
+![Đốt sán già của T. solium nhuộm mực tàu: thân tử cung ở giữa, mỗi bên chỉ có khoảng 7 – 13 nhánh. Đếm số nhánh này giúp phân biệt với sán dải bò (15 – 30 nhánh)](san-dai-heo/dot-san.jpg)
 
 ### 5.2. Bệnh ấu trùng sán dải heo {#chan-doan-nang}
 

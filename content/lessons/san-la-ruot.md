@@ -101,8 +101,6 @@
 **Tổn thương**
 
 - **Tại chỗ bám:** sán bám vào thành ruột làm giãn ruột non, xoắn tá tràng, loét xuất huyết, áp-xe, viêm xuất tiết, đôi khi xuất huyết.
-
-![Hình nội soi dạ dày – tá tràng: nhiều con F. buski màu hồng nhạt, dẹt như chiếc lá, bám ở hang vị (a) và tá tràng (b, c, d)](san-la-ruot/noi-soi.jpg)
 - **Do độc tố và dị ứng** với chất chuyển hóa của sán: **báng bụng, phù toàn thân, phù mặt** (phù hốc mắt, phù má).
 - **Nhiễm nặng:**
   - rối loạn tiết dịch ruột, tiết chất nhầy quá mức, tắc nghẽn lưu thông thức ăn;
@@ -112,6 +110,8 @@
 - **Hiếm gặp:**
   - sán bám vào lỗ ruột thừa gây viêm ruột thừa;
   - **nôn ra sán trưởng thành**, ví dụ: bé trai 15 tuổi người Trung Quốc năm 1874; một bé ở Việt Nam nôn ra 8 con sán còn sống (Le và cộng sự, 2003); một bé 11 tuổi ở Ấn Độ nôn ra 4 con (Indrani Mohanty và cộng sự, 2012).
+
+![Hình nội soi dạ dày – tá tràng: nhiều con F. buski màu hồng nhạt, dẹt như chiếc lá, bám ở hang vị (a) và tá tràng (b, c, d)](san-la-ruot/noi-soi.jpg)
 
 **Triệu chứng liên quan số lượng sán nhiễm**
 
