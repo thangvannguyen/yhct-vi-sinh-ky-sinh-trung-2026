@@ -165,7 +165,22 @@ function Paragraph({ node, children, ...props }) {
       <LessonFigure key={i} src={c.properties.src} alt={c.properties.alt} tile={tile} />
     ))
     if (!tile) return <div className="my-5">{figs}</div>
-    return <div className="my-5 grid gap-3 min-[560px]:grid-cols-2 min-[900px]:grid-cols-3">{figs}</div>
+    // Màn hình hẹp: dải ảnh cuộn ngang (ảnh sau ló ra một phần để gợi ý vuốt),
+    // đỡ phải cuộn dọc qua cả chồng ảnh. Màn hình rộng: lưới 3 cột.
+    return (
+      <div className="my-5">
+        <p className="mb-1.5 mt-0 text-[0.8em] text-text-muted min-[900px]:hidden">
+          Vuốt ngang để xem {figs.length} ảnh →
+        </p>
+        <div className="sh-scroll -mx-1 flex snap-x snap-mandatory gap-3 overflow-x-auto px-1 pb-2 min-[900px]:mx-0 min-[900px]:grid min-[900px]:grid-cols-3 min-[900px]:overflow-x-visible min-[900px]:px-0 min-[900px]:pb-0">
+          {figs.map((f, i) => (
+            <div key={i} className="flex w-[82%] shrink-0 snap-start min-[560px]:w-[46%] min-[900px]:w-auto [&>figure]:w-full">
+              {f}
+            </div>
+          ))}
+        </div>
+      </div>
+    )
   }
   return <p {...props}>{children}</p>
 }
