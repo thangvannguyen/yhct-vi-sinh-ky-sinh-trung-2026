@@ -41,7 +41,7 @@
 - Giun cái có tử cung, phần trên tử cung chứa nhiều trứng.
 - Trứng có một màng, sau này thành vỏ (áo) của ấu trùng. Ấu trùng mới đẻ giãy mạnh làm giãn màng trứng, nhưng màng vẫn còn tồn tại.
 
-![Phôi giun chỉ W. bancrofti (giọt máu dày, nhuộm hematoxylin): thân uốn đều, có vỏ bao; các nhân không đi đến mút đuôi](giun-chi/phoi-bancrofti.jpg) ![Phôi giun chỉ B. malayi (giọt máu dày, nhuộm hematoxylin): thân cuộn xoắn không đều, có vỏ bao](giun-chi/phoi-malayi.jpg)
+![Phôi giun chỉ W. bancrofti (giọt máu dày, nhuộm hematoxylin): thân uốn đều, có vỏ bao; các nhân không đi đến mút đuôi](giun-chi/phoi-bancrofti.jpg) ![Phôi giun chỉ B. malayi (giọt máu dày, nhuộm hematoxylin): thân cuộn xoắn không đều, có vỏ bao](giun-chi/phoi-malayi.jpg) ![Đầu phôi giun chỉ B. malayi (kim chỉ vào đầu phôi): khoảng trống ở đầu dài, chiều dài lớn hơn chiều rộng — khác với W. bancrofti có khoảng trống ở đầu ngắn](giun-chi/dau-phoi-malayi.jpg)
 
 > [!TIP] Mẹo nhớ phân biệt phôi
 > - ***Bancrofti*** **B**ò **đều**: thân uốn đều, nhân **không** tới mút đuôi.
