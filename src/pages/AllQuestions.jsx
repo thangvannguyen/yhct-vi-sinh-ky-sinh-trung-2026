@@ -5,9 +5,13 @@ import { hasLessonContent } from '../lib/lessons.js'
 import { BackLink, Container, SectionTitle, cx } from '../components/ui.jsx'
 import LessonIcon from '../components/LessonIcon.jsx'
 
-// File do scripts/build_downloads.mjs sinh lúc build (public/downloads/).
-const fileUrl = (withAnswers, ext) =>
-  `${import.meta.env.BASE_URL}downloads/vskst-cau-hoi${withAnswers ? '-dap-an' : ''}.${ext}`
+// Đồng bộ với MODES ở scripts/build_downloads.mjs (sinh file lúc build vào public/downloads/).
+const MODES = [
+  { id: 'none', suffix: '', tab: 'Không đáp án', sub: 'không đáp án' },
+  { id: 'answers', suffix: '-dap-an', tab: 'Có đáp án', sub: 'có đáp án' },
+  { id: 'explain', suffix: '-giai-thich', tab: 'Có giải thích', sub: 'có đáp án và giải thích' },
+]
+const fileUrl = (mode, ext) => `${import.meta.env.BASE_URL}downloads/vskst-cau-hoi${mode.suffix}.${ext}`
 
 // Đánh số liên tục 1…N theo thứ tự bài, giống file tải về.
 const NUMBER = {}
@@ -32,7 +36,7 @@ function DownloadButton({ href, label, sub }) {
   )
 }
 
-function QuestionBlock({ q, showAnswers }) {
+function QuestionBlock({ q, showAnswers, showExplain }) {
   const ref = q.lessonRef
   return (
     <div className="border-b border-border py-3.5 last:border-b-0">
@@ -51,7 +55,7 @@ function QuestionBlock({ q, showAnswers }) {
           )
         })}
       </ol>
-      {showAnswers && (q.explain || q.tip) && (
+      {showExplain && (q.explain || q.tip) && (
         <div className="mt-2.5 ml-3 rounded-[10px] border-l-[3px] border-success bg-success-soft px-3 py-2 text-[0.88rem] leading-snug">
           {q.explain && <p className="m-0">{q.explain}</p>}
           {q.tip && (
@@ -75,8 +79,10 @@ function QuestionBlock({ q, showAnswers }) {
 
 /** Toàn bộ câu hỏi trên một trang + tải bản PDF / Word để học offline, in ra giấy. */
 export default function AllQuestions() {
-  const [showAnswers, setShowAnswers] = useState(false)
-  const variant = showAnswers ? 'có đáp án và giải thích' : 'chỉ câu hỏi, đáp án ở cuối'
+  const [modeId, setModeId] = useState('none')
+  const mode = MODES.find((m) => m.id === modeId)
+  const showAnswers = modeId !== 'none'
+  const showExplain = modeId === 'explain'
 
   return (
     <Container>
@@ -87,29 +93,26 @@ export default function AllQuestions() {
       </p>
 
       <div className="mt-4 rounded-card border border-border bg-surface p-4 shadow-soft">
-        <div className="mb-3 inline-flex rounded-[12px] border border-border bg-surface-2 p-1" role="tablist">
-          {[
-            [false, 'Chỉ câu hỏi'],
-            [true, 'Có đáp án'],
-          ].map(([val, label]) => (
+        <div className="mb-3 flex w-full rounded-[12px] border border-border bg-surface-2 p-1" role="tablist">
+          {MODES.map((m) => (
             <button
-              key={label}
+              key={m.id}
               type="button"
               role="tab"
-              aria-selected={showAnswers === val}
-              onClick={() => setShowAnswers(val)}
+              aria-selected={modeId === m.id}
+              onClick={() => setModeId(m.id)}
               className={cx(
-                'cursor-pointer rounded-[9px] border-0 px-3.5 py-1.5 text-[0.88rem] font-semibold transition-colors duration-150',
-                showAnswers === val ? 'bg-primary text-white shadow-soft-sm' : 'bg-transparent text-text-muted hover:text-text'
+                'flex-1 cursor-pointer whitespace-nowrap rounded-[9px] border-0 px-2.5 py-1.5 text-[0.84rem] font-semibold transition-colors duration-150',
+                modeId === m.id ? 'bg-primary text-white shadow-soft-sm' : 'bg-transparent text-text-muted hover:text-text'
               )}
             >
-              {label}
+              {m.tab}
             </button>
           ))}
         </div>
         <div className="flex flex-col gap-2 min-[520px]:flex-row">
-          <DownloadButton href={fileUrl(showAnswers, 'pdf')} label="Tải PDF" sub={variant} />
-          <DownloadButton href={fileUrl(showAnswers, 'docx')} label="Tải Word (.docx)" sub={variant} />
+          <DownloadButton href={fileUrl(mode, 'pdf')} label="Tải PDF" sub={mode.sub} />
+          <DownloadButton href={fileUrl(mode, 'docx')} label="Tải Word (.docx)" sub={mode.sub} />
         </div>
       </div>
 
@@ -131,7 +134,7 @@ export default function AllQuestions() {
                   </span>
                 </h3>
                 {l.questions.map((q) => (
-                  <QuestionBlock key={q.id} q={q} showAnswers={showAnswers} />
+                  <QuestionBlock key={q.id} q={q} showAnswers={showAnswers} showExplain={showExplain} />
                 ))}
               </section>
             ))}

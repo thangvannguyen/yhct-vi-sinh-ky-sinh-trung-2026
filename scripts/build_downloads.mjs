@@ -1,7 +1,7 @@
-// Sinh file tải về cho trang "Toàn bộ câu hỏi": PDF và Word, mỗi loại 2 bản
-// (chỉ câu hỏi + bảng đáp án cuối / có đáp án và giải thích).
+// Sinh file tải về cho trang "Toàn bộ câu hỏi": PDF và Word, mỗi loại 3 bản —
+// không đáp án / có đáp án / có đáp án và giải thích (xem MODES).
 //
-//   npm run downloads        → public/downloads/vskst-cau-hoi[-dap-an].{pdf,docx}
+//   npm run downloads        → public/downloads/vskst-cau-hoi{,-dap-an,-giai-thich}.{pdf,docx}
 //
 // PDF được Chrome in từ HTML (puppeteer-core, dùng Chrome có sẵn trên máy hoặc
 // CHROME_PATH). GitHub Actions chạy script này trước `vite build` nên file tải về
@@ -12,7 +12,6 @@ import { fileURLToPath } from 'node:url'
 import puppeteer from 'puppeteer-core'
 import {
   AlignmentType,
-  BorderStyle,
   Document,
   Footer,
   HeadingLevel,
@@ -20,11 +19,7 @@ import {
   PageNumber,
   Paragraph,
   ShadingType,
-  Table,
-  TableCell,
-  TableRow,
   TextRun,
-  WidthType,
 } from 'docx'
 
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)))
@@ -32,6 +27,13 @@ const OUT = path.join(ROOT, 'public', 'downloads')
 const data = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'questions.json'), 'utf8'))
 
 const TITLE = 'Vi Sinh – Ký Sinh Trùng'
+
+// Đồng bộ với MODES ở src/pages/AllQuestions.jsx.
+const MODES = [
+  { id: 'none', suffix: '', label: 'Bản không đáp án' },
+  { id: 'answers', suffix: '-dap-an', label: 'Bản có đáp án' },
+  { id: 'explain', suffix: '-giai-thich', label: 'Bản có đáp án và giải thích' },
+]
 const SITE = 'thangvannguyen.github.io/yhct-vi-sinh-ky-sinh-trung-2026'
 
 // ---- dữ liệu chung ----------------------------------------------------------
@@ -68,7 +70,9 @@ const esc = (s) =>
     .replace(/>/g, '&gt;')
 const md = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\*(.+?)\*/g, '<em>$1</em>')
 
-function html(withAnswers) {
+function html(mode) {
+  const withAnswers = mode.id !== 'none'
+  const withExplain = mode.id === 'explain'
   const body = parts
     .map(
       ({ part, lessons }, pi) => `
@@ -92,7 +96,7 @@ function html(withAnswers) {
                   .join('')}
               </ol>
               ${
-                withAnswers
+                withExplain
                   ? `<div class="ans">
                       <p><b>Đáp án: ${letter(correct)}</b>${q.explain ? ` — ${md(q.explain)}` : ''}</p>
                       ${q.tip ? `<p class="tip"><b>Mẹo nhớ:</b> ${md(q.tip)}</p>` : ''}
@@ -108,21 +112,6 @@ function html(withAnswers) {
         .join('')}`
     )
     .join('')
-
-  const key = withAnswers
-    ? ''
-    : `<section class="key">
-        <h2 class="part">Bảng đáp án</h2>
-        ${parts
-          .flatMap((p) => p.lessons)
-          .map(
-            ({ lesson, questions }) => `
-          <div class="key-row"><div class="key-name">Bài ${lesson.num} · ${esc(lesson.short)}</div>
-            <div class="key-cells">${questions.map(({ num, correct }) => `<span><b>${num}</b>${letter(correct)}</span>`).join('')}</div>
-          </div>`
-          )
-          .join('')}
-      </section>`
 
   return `<!doctype html><html lang="vi"><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
@@ -147,18 +136,12 @@ function html(withAnswers) {
   .ans p { margin: 1px 0; }
   .ans .tip { color: #92400e; }
   .ans .note { color: #555; }
-  .key { break-before: page; }
-  .key-row { display: flex; gap: 10px; padding: 5px 0; border-bottom: 1px solid #e5e7eb; break-inside: avoid; }
-  .key-name { width: 150px; flex-shrink: 0; font-weight: 600; font-size: 9.5pt; }
-  .key-cells { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 9.5pt; }
-  .key-cells b { color: #555; font-weight: 600; margin-right: 3px; }
 </style></head><body>
   <header>
     <h1>${TITLE} · Câu hỏi trắc nghiệm</h1>
-    <p>${TOTAL} câu · ${LESSON_COUNT} bài · ${withAnswers ? 'Bản có đáp án và giải thích' : 'Bản chỉ có câu hỏi — bảng đáp án ở trang cuối'} · ${SITE}</p>
+    <p>${TOTAL} câu · ${LESSON_COUNT} bài · ${mode.label} · ${SITE}</p>
   </header>
   ${body}
-  ${key}
 </body></html>`
 }
 
@@ -182,11 +165,11 @@ function chromePath() {
 async function buildPdfs() {
   const browser = await puppeteer.launch({ executablePath: chromePath(), headless: 'new', args: ['--no-sandbox'] })
   try {
-    for (const withAnswers of [false, true]) {
+    for (const mode of MODES) {
       const page = await browser.newPage()
-      await page.setContent(html(withAnswers), { waitUntil: 'networkidle0' })
+      await page.setContent(html(mode), { waitUntil: 'networkidle0' })
       await page.evaluate(() => document.fonts.ready)
-      const file = path.join(OUT, `vskst-cau-hoi${withAnswers ? '-dap-an' : ''}.pdf`)
+      const file = path.join(OUT, `vskst-cau-hoi${mode.suffix}.pdf`)
       await page.pdf({
         path: file,
         format: 'A4',
@@ -216,14 +199,16 @@ function runs(s, opts = {}) {
     .map((t) => (t.startsWith('**') ? run(t.slice(2, -2), { ...opts, bold: true }) : run(t, opts)))
 }
 
-function docxFile(withAnswers) {
+function docxFile(mode) {
+  const withAnswers = mode.id !== 'none'
+  const withExplain = mode.id === 'explain'
   const children = [
     new Paragraph({ heading: HeadingLevel.TITLE, children: [run(`${TITLE} · Câu hỏi trắc nghiệm`, { size: 36, bold: true })] }),
     new Paragraph({
       spacing: { after: 240 },
       children: [
         run(
-          `${TOTAL} câu · ${LESSON_COUNT} bài · ${withAnswers ? 'Bản có đáp án và giải thích' : 'Bản chỉ có câu hỏi — bảng đáp án ở cuối'} · ${SITE}`,
+          `${TOTAL} câu · ${LESSON_COUNT} bài · ${mode.label} · ${SITE}`,
           { size: 20, color: '555555' }
         ),
       ],
@@ -262,7 +247,7 @@ function docxFile(withAnswers) {
           const ok = withAnswers && i === correct
           children.push(
             new Paragraph({
-              keepNext: withAnswers || i < q.options.length - 1,
+              keepNext: withExplain || i < q.options.length - 1,
               indent: { left: 400 },
               spacing: { after: 20 },
               children: [
@@ -273,7 +258,7 @@ function docxFile(withAnswers) {
             })
           )
         })
-        if (withAnswers) {
+        if (withExplain) {
           const box = { indent: { left: 400 }, shading: { type: ShadingType.CLEAR, fill: 'F0FDF4' }, spacing: { after: 20 } }
           children.push(
             new Paragraph({
@@ -289,47 +274,6 @@ function docxFile(withAnswers) {
       })
     })
   })
-
-  if (!withAnswers) {
-    children.push(
-      new Paragraph({
-        heading: HeadingLevel.HEADING_1,
-        pageBreakBefore: true,
-        spacing: { after: 160 },
-        children: [run('Bảng đáp án', { size: 30, bold: true, color: '1E3A8A' })],
-      })
-    )
-    const border = { style: BorderStyle.SINGLE, size: 4, color: 'D1D5DB' }
-    const borders = { top: border, bottom: border, left: border, right: border }
-    const rows = parts
-      .flatMap((p) => p.lessons)
-      .map(
-        ({ lesson, questions }) =>
-          new TableRow({
-            cantSplit: true,
-            children: [
-              new TableCell({
-                width: { size: 30, type: WidthType.PERCENTAGE },
-                borders,
-                children: [new Paragraph({ children: [run(`Bài ${lesson.num} · ${lesson.short}`, { bold: true, size: 22 })] })],
-              }),
-              new TableCell({
-                width: { size: 70, type: WidthType.PERCENTAGE },
-                borders,
-                children: [
-                  new Paragraph({
-                    children: questions.flatMap(({ num, correct }, i) => [
-                      run(`${i ? '    ' : ''}${num}`, { size: 22, color: '555555' }),
-                      run(` ${letter(correct)}`, { size: 22, bold: true }),
-                    ]),
-                  }),
-                ],
-              }),
-            ],
-          })
-      )
-    children.push(new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, rows }))
-  }
 
   return new Document({
     creator: SITE,
@@ -355,9 +299,9 @@ function docxFile(withAnswers) {
 }
 
 async function buildDocx() {
-  for (const withAnswers of [false, true]) {
-    const file = path.join(OUT, `vskst-cau-hoi${withAnswers ? '-dap-an' : ''}.docx`)
-    fs.writeFileSync(file, await Packer.toBuffer(docxFile(withAnswers)))
+  for (const mode of MODES) {
+    const file = path.join(OUT, `vskst-cau-hoi${mode.suffix}.docx`)
+    fs.writeFileSync(file, await Packer.toBuffer(docxFile(mode)))
     console.log(path.relative(ROOT, file), Math.round(fs.statSync(file).size / 1024), 'KB')
   }
 }

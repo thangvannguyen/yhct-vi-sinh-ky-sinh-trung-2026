@@ -52,7 +52,7 @@ data/fetch_images.py          tải hình từ Wikimedia Commons
    ```
 4. Viết `content/lessons/<id>.md` và `data/explanations/<id>.json`.
 5. Chạy `python3 data/build_questions.py`. Script kiểm tra mọi `section` trong phần giải thích có tồn tại trong bài học. Web tự nhận bài mới, không cần sửa code.
-6. (Tùy chọn) `npm run downloads` để tạo lại file PDF/Word ở trang "Toàn bộ câu hỏi" khi xem trên máy. Khi deploy, GitHub Actions tự chạy bước này nên file tải về luôn khớp câu hỏi mới; thư mục `public/downloads/` không đưa vào git.
+6. (Tùy chọn) `npm run downloads` để tạo lại file PDF/Word ở trang "Toàn bộ câu hỏi" (3 bản: không đáp án, có đáp án, có đáp án và giải thích) khi xem trên máy. Khi deploy, GitHub Actions tự chạy bước này nên file tải về luôn khớp câu hỏi mới; thư mục `public/downloads/` không đưa vào git.
 
 ## Quy ước viết bài học (Markdown)
 
