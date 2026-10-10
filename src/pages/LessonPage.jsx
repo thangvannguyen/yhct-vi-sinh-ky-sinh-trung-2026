@@ -5,10 +5,12 @@ import { LESSON_MD, lessonOutline } from '../lib/lessons.js'
 import {
   getLearnProgress,
   getStoredFontStep,
+  getStoredReaderMode,
   setLastLesson,
   setLastSection,
   setLessonRead,
   setStoredFontStep,
+  setStoredReaderMode,
 } from '../lib/storage.js'
 import { BackLink, Button, Container, cx } from '../components/ui.jsx'
 import LessonContent from '../components/LessonContent.jsx'
@@ -124,6 +126,33 @@ function FontControls({ step, setStep }) {
   )
 }
 
+/** Chọn cách hiển thị bài: Web (mặc định) hoặc trang giấy A4 như tài liệu Word. */
+function ReaderModeToggle({ mode, setMode }) {
+  const opts = [
+    { id: 'web', label: 'Web' },
+    { id: 'paper', label: 'Giấy A4' },
+  ]
+  return (
+    <div role="tablist" aria-label="Chế độ đọc" className="flex gap-0.5 rounded-[11px] border border-border bg-bg p-[3px]">
+      {opts.map((o) => (
+        <button
+          key={o.id}
+          type="button"
+          role="tab"
+          aria-selected={mode === o.id}
+          onClick={() => setMode(o.id)}
+          className={cx(
+            'h-[28px] cursor-pointer rounded-lg px-2.5 text-[0.78rem] font-semibold transition-colors',
+            mode === o.id ? 'bg-surface text-primary shadow-soft-sm' : 'text-text-muted hover:text-text'
+          )}
+        >
+          {o.label}
+        </button>
+      ))}
+    </div>
+  )
+}
+
 export default function LessonPage() {
   const { lessonId, sectionId } = useParams()
   const lesson = lessonById(lessonId)
@@ -131,6 +160,7 @@ export default function LessonPage() {
   const { toc } = useMemo(() => lessonOutline(lessonId), [lessonId])
 
   const [fontStep, setFontStepState] = useState(() => getStoredFontStep())
+  const [readerMode, setReaderModeState] = useState(() => getStoredReaderMode())
   const [read, setRead] = useState(() => Boolean(getLearnProgress()[lessonId]?.read))
   const [activeId, setActiveId] = useState(null)
   const [tocOpen, setTocOpen] = useState(false)
@@ -141,6 +171,11 @@ export default function LessonPage() {
     setFontStepState(s)
     setStoredFontStep(s)
   }
+  const setReaderMode = (m) => {
+    setReaderModeState(m)
+    setStoredReaderMode(m)
+  }
+  const paper = readerMode === 'paper'
 
   useEffect(() => {
     setRead(Boolean(getLearnProgress()[lessonId]?.read))
@@ -268,7 +303,8 @@ export default function LessonPage() {
                   <LessonIcon icon="svg:kiem-tra" /> {nQ} câu hỏi
                 </Link>
               )}
-              <div className="ml-auto">
+              <div className="ml-auto flex items-center gap-2">
+                <ReaderModeToggle mode={readerMode} setMode={setReaderMode} />
                 <FontControls step={fontStep} setStep={setFontStep} />
               </div>
             </div>
@@ -306,12 +342,30 @@ export default function LessonPage() {
             </button>
           )}
 
-          <article
-            ref={contentRef}
-            className="rounded-card border border-border bg-surface px-5 py-6 shadow-soft sm:px-8 sm:py-8"
-          >
-            <LessonContent markdown={md} style={{ '--reader-scale': FONT_SCALES[fontStep] }} />
-          </article>
+          {paper ? (
+            // Chế độ giấy A4: một trang giấy trắng rộng 210 mm, chữ Times, căn đều
+            // hai bên, đầu trang có tiêu đề in hoa giống tài liệu Word gốc.
+            <div className="paper-desk">
+              <article ref={contentRef} className="paper-sheet">
+                <div className="paper-title">
+                  <div className="paper-title__main">{lesson.title}</div>
+                  {lesson.latin && <div className="paper-title__latin">({lesson.latin})</div>}
+                </div>
+                <LessonContent
+                  markdown={md}
+                  className="lesson--paper"
+                  style={{ '--reader-scale': FONT_SCALES[fontStep] }}
+                />
+              </article>
+            </div>
+          ) : (
+            <article
+              ref={contentRef}
+              className="rounded-card border border-border bg-surface px-5 py-6 shadow-soft sm:px-8 sm:py-8"
+            >
+              <LessonContent markdown={md} style={{ '--reader-scale': FONT_SCALES[fontStep] }} />
+            </article>
+          )}
 
           <div className="mt-5 flex flex-col gap-3">
             {!read && (

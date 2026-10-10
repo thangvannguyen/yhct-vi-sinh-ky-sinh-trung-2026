@@ -341,3 +341,126 @@ input[type="range"]::-moz-range-thumb {
     box-shadow: 0 0 0 6px transparent;
   }
 }
+
+/* ------------------------------------------------------------------ *
+ * Chế độ đọc "Giấy A4" — bài học dàn như một trang tài liệu in.
+ * Đổi lại các biến màu ngay trong trang giấy để mọi thành phần (bảng,
+ * hộp ghi chú, sơ đồ chu trình, hình) tự chuyển sang đen trắng, và giấy
+ * luôn trắng kể cả khi web đang ở giao diện tối.
+ * ------------------------------------------------------------------ */
+.paper-desk {
+  margin: 0 -4px;
+  padding: 18px 0 8px;
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--border) 55%, var(--bg));
+}
+.paper-sheet {
+  --text: #111111;
+  --text-muted: #4b4b4b;
+  --border: #9a9a9a;
+  --border-strong: #5c5c5c;
+  --surface: #ffffff;
+  --surface-2: #ffffff;
+  --bg: #ffffff;
+  --primary: #111111;
+  --primary-dark: #000000;
+  --primary-soft: #f1f1f1;
+  --success: #111111;
+  --success-soft: #ffffff;
+  --danger: #111111;
+  --danger-soft: #ffffff;
+  --warning: #111111;
+  --warning-soft: #ffffff;
+  color-scheme: light;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 210mm;
+  min-height: 297mm;
+  margin: 0 auto;
+  padding: 22mm 20mm 24mm;
+  background: #ffffff;
+  color: var(--text);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18), 0 10px 30px -10px rgba(0, 0, 0, 0.35);
+}
+@media (max-width: 640px) {
+  .paper-sheet {
+    min-height: 0;
+    padding: 28px 18px 32px;
+  }
+}
+.paper-title {
+  margin-bottom: 1.6em;
+  text-align: center;
+  font-family: "Times New Roman", Times, "Noto Serif", serif;
+}
+.paper-title__main {
+  font-size: 1.35rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  line-height: 1.35;
+}
+.paper-title__latin {
+  margin-top: 0.2em;
+  font-size: 1.05rem;
+  font-style: italic;
+  font-weight: 700;
+}
+.lesson--paper {
+  font-family: "Times New Roman", Times, "Noto Serif", serif;
+  font-size: calc(1.0625rem * var(--reader-scale));
+  line-height: 1.55;
+  text-align: justify;
+  hyphens: auto;
+}
+.lesson--paper h2 {
+  margin: 1.6em 0 0.6em;
+  padding-bottom: 0;
+  border-bottom: 0;
+  font-size: 1.08em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  color: #000000;
+}
+.lesson--paper h3 {
+  margin: 1.2em 0 0.4em;
+  font-size: 1em;
+  font-weight: 700;
+}
+.lesson--paper h4 {
+  font-style: italic;
+  color: #000000;
+}
+.lesson--paper li::marker {
+  color: #000000;
+}
+.lesson--paper .table-wrap {
+  border: 0;
+  border-radius: 0;
+}
+.lesson--paper table {
+  border: 1px solid #000000;
+  text-align: left;
+}
+.lesson--paper th,
+.lesson--paper td {
+  border: 1px solid #000000;
+  padding: 0.4em 0.6em;
+}
+.lesson--paper th {
+  background: #f1f1f1;
+  color: #000000;
+}
+.lesson--paper aside,
+.lesson--paper figure {
+  border-radius: 4px;
+  text-align: left;
+}
+.lesson--paper figure img {
+  background: #ffffff;
+}
+.lesson--paper figcaption {
+  font-style: italic;
+  text-align: center;
+}

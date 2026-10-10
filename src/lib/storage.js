@@ -144,3 +144,21 @@ export function setLastLesson(lessonId) {
     /* ignore */
   }
 }
+
+// ---- chế độ đọc bài học: 'web' (mặc định) | 'paper' (trang giấy A4) ----------
+// Áp dụng cho mọi bài, nhớ cho các lần mở sau.
+export const READER_MODE_KEY = 'vskst_reader_mode_v1'
+export function getStoredReaderMode() {
+  try {
+    return localStorage.getItem(READER_MODE_KEY) === 'paper' ? 'paper' : 'web'
+  } catch {
+    return 'web'
+  }
+}
+export function setStoredReaderMode(mode) {
+  try {
+    localStorage.setItem(READER_MODE_KEY, mode)
+  } catch {
+    /* ignore */
+  }
+}
