@@ -40,9 +40,7 @@
 | Màu sắc | Trắng hồng hoặc xám đỏ (tùy giai đoạn, cách xử lý mẫu) | Thường **màu vàng** trong phân |
 | Cấu tạo | Hấp khẩu miệng nhỏ (khoảng 1 mm); hấp khẩu bụng to hơn (khoảng 1,6 mm). **Ruột phân nhánh phức tạp**, buồng trứng ở bên phải cơ thể, tinh hoàn phân nhánh rất nhiều theo hướng trước – sau. Là **sán lưỡng tính** | — |
 
-![Sán lá lớn ở gan Fasciola hepatica trưởng thành: thân dẹt hình chiếc lá, phần đầu nhô thành chóp có đĩa hút](san-la-lon-gan/truong-thanh.jpg) ![Trứng Fasciola hepatica: hình bầu dục, kích thước lớn](san-la-lon-gan/trung.jpg)
-
-![Fasciola gigantica trưởng thành (tranh vẽ thế kỷ 19 của T. S. Cobbold, mẫu được nhuộm màu): thân dài hơn, hai bờ gần song song so với F. hepatica. Bên trái nhuộm đỏ để thấy hệ mạch; bên phải nhuộm xanh để thấy ruột phân nhánh phức tạp](san-la-lon-gan/gigantica.jpg)
+![Sán lá lớn ở gan Fasciola hepatica trưởng thành: thân dẹt hình chiếc lá, phần đầu nhô thành chóp có đĩa hút](san-la-lon-gan/truong-thanh.jpg) ![Trứng Fasciola hepatica: hình bầu dục, kích thước lớn](san-la-lon-gan/trung.jpg) ![Fasciola gigantica trưởng thành (tranh vẽ thế kỷ 19 của T. S. Cobbold, mẫu được nhuộm màu): thân dài hơn, hai bờ gần song song so với F. hepatica. Bên trái nhuộm đỏ để thấy hệ mạch; bên phải nhuộm xanh để thấy ruột phân nhánh phức tạp](san-la-lon-gan/gigantica.jpg)
 
 ## 2. Chu trình phát triển {#chu-trinh}
 
@@ -106,7 +104,7 @@ Một số trường hợp ấu trùng **lạc chỗ** đến nhiều cơ quan k
 | **Ký chủ trung gian 2** (rau tươi) | Hay gặp nhất: cải xoong, rau răm, xà lách xoong, rau muống, diếp cá, bồ công anh, bạc hà lục, rau ngổ, rau đắng. Nang ấu trùng tạo kén trên các loại rau thủy sinh này |
 | **Ký chủ chính** | Động vật nhai lại, ăn cỏ: trâu, bò, dê, cừu, lạc đà, ngựa, chó, mèo |
 
-![Ốc Lymnaea (ảnh minh họa loài L. stagnalis ở châu Âu, không phải loài trung gian ở Việt Nam): vỏ xoắn nhọn, miệng vỏ rộng](san-la-lon-gan/oc-lymnaea.jpg) ![Vỏ ốc Lymnaea viridis (nay xếp vào giống Orientogalba), một trong hai loài ốc trung gian của F. gigantica ở Việt Nam: vỏ mỏng, vòng xoắn cuối phình to, miệng vỏ rộng (mẫu bảo tàng Úc)](san-la-lon-gan/oc-viridis.jpg)
+![Ốc Lymnaea (ảnh minh họa loài L. stagnalis ở châu Âu, không phải loài trung gian ở Việt Nam): vỏ xoắn nhọn, miệng vỏ rộng](san-la-lon-gan/oc-lymnaea.jpg) ![Vỏ ốc Lymnaea viridis (nay xếp vào giống Orientogalba), một trong hai loài ốc trung gian của F. gigantica ở Việt Nam: vỏ mỏng, vòng xoắn cuối phình to, miệng vỏ rộng (mẫu bảo tàng Úc)](san-la-lon-gan/oc-viridis.jpg) ![Ốc Radix rubiginosa (tên cũ Lymnaea rubiginosa, một loài ốc trung gian có trong bảng; ảnh chụp ở Java, Indonesia): ốc nhỏ, vỏ cao khoảng 13,5 mm, vỏ mỏng màu nâu, xoắn nhọn ở đỉnh, miệng vỏ rộng](san-la-lon-gan/oc-rubiginosa.jpg)
 
 > [!TIP] Mẹo nhớ ốc trung gian
 > ***Fasciola* ↔ *Lymnaea*** (cùng chữ cái đầu dễ nhớ "F–L"). Câu hỏi hay đưa *Bithynia* (sán lá nhỏ ở gan), *Melanoides* (sán lá phổi), *Planorbis* (sán lá ruột lớn) làm phương án nhiễu.
@@ -128,7 +126,7 @@ Mức độ bệnh **phụ thuộc số lượng ký sinh trùng**:
 - Sán cũng có thể làm đường mật xơ hóa, dày lên, giãn rộng.
 - **Thiếu máu** là một trong những triệu chứng đặc trưng. Chảy máu đường mật có lẽ là yếu tố quan trọng góp phần gây thiếu máu.
 
-![Gan cừu nhiễm F. hepatica: túi mật viêm, căng to (mũi tên); các ống mật dày lên, nổi rõ thành dải trắng trên mặt gan](san-la-lon-gan/duong-mat.jpg) ![Sán F. hepatica trưởng thành nằm trong ống mật đã được rạch mở (gan dê)](san-la-lon-gan/duong-mat-2.jpg)
+![Gan cừu nhiễm F. hepatica: túi mật viêm, căng to (mũi tên); các ống mật dày lên, nổi rõ thành dải trắng trên mặt gan](san-la-lon-gan/duong-mat.jpg) ![Sán F. hepatica trưởng thành nằm trong ống mật đã được rạch mở (gan dê)](san-la-lon-gan/duong-mat-2.jpg) ![Lát cắt gan dê nhiễm F. hepatica: các ống mật dày lên, nổi thành những vòng trắng trên mặt cắt — minh họa đường mật bị xơ hóa, dày lên, giãn rộng](san-la-lon-gan/ong-mat-day.jpg)
 
 ### 4.2. Triệu chứng lâm sàng {#trieu-chung}
 

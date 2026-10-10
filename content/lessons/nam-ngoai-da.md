@@ -309,7 +309,7 @@ Cần **chẩn đoán xét nghiệm xác định** trước khi điều trị, v
 
 *Nguồn bảng gốc: Bộ môn Ký sinh Y học, Trường Đại học Y khoa Phạm Ngọc Thạch.*
 
-![Bào tử đính nhỏ của Trichophyton rubrum mọc ra từ sợi tơ nấm (kính hiển vi quang học)](nam-ngoai-da/t-rubrum-nho.jpg) ![Khúm T. rubrum phân lập từ móng chân. Ống trái: môi trường Sabouraud có cycloheximide, chloramphenicol và gentamicin (14 ngày) — khúm trắng, mịn như lông tơ. Hai ống còn lại là môi trường phân biệt chuyên biệt (Littman Oxgall; Bromocresol Purple)](nam-ngoai-da/khum-t-rubrum.jpg)
+![Bào tử đính nhỏ của Trichophyton rubrum mọc ra từ sợi tơ nấm (kính hiển vi quang học)](nam-ngoai-da/t-rubrum-nho.jpg) ![Khúm T. rubrum phân lập từ móng chân. Ống trái: môi trường Sabouraud có cycloheximide, chloramphenicol và gentamicin (14 ngày) — khúm trắng, mịn như lông tơ. Hai ống còn lại là môi trường phân biệt chuyên biệt (Littman Oxgall; Bromocresol Purple)](nam-ngoai-da/khum-t-rubrum.jpg) ![Trichophyton mentagrophytes dưới kính hiển vi (475 lần, CDC): nhiều sợi tơ nấm mảnh, các bào tử đính lớn hình điếu xì gà có vách ngăn, và rất nhiều bào tử đính nhỏ hình cầu tụ thành đám](nam-ngoai-da/t-mentagrophytes.jpg)
 
 ## 4. Điều trị {#dieu-tri}
 

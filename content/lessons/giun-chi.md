@@ -78,7 +78,7 @@
 | *W. bancrofti* | *Culex quinquefasciatus* và *Anopheles hyrcanus* |
 | *B. malayi* | *Mansonia* spp. |
 
-![Muỗi Culex quinquefasciatus, vectơ chính truyền W. bancrofti (mẫu bảo tàng, thước đo 2 mm): thân nâu nhạt, không có hoa văn rõ](giun-chi/culex.jpg) ![Muỗi Mansonia (loài M. annulifera, ảnh chụp ở Ấn Độ), giống muỗi truyền B. malayi: chân và vòi có khoang trắng xen đen, thân lốm đốm vảy](giun-chi/mansonia.jpg)
+![Muỗi Culex quinquefasciatus, vectơ chính truyền W. bancrofti (mẫu bảo tàng, thước đo 2 mm): thân nâu nhạt, không có hoa văn rõ](giun-chi/culex.jpg) ![Muỗi Mansonia (loài M. annulifera, ảnh chụp ở Ấn Độ), giống muỗi truyền B. malayi: chân và vòi có khoang trắng xen đen, thân lốm đốm vảy](giun-chi/mansonia.jpg) ![Muỗi Anopheles hyrcanus, loài muỗi thứ hai truyền W. bancrofti ở Việt Nam theo bảng trên: thân mảnh, chân dài](giun-chi/anopheles.jpg)
 
 ### 2.2. Trong cơ thể người {#chu-trinh-nguoi}
 
@@ -144,7 +144,7 @@ Bệnh có tính chất **âm thầm, mạn tính**. Đặc thù của bệnh: n
 - Da có những khối tĩnh mạch trướng to, nứt nẻ, loét, bao bởi gai sừng phì đại kiểu mụn cóc.
 - Ở giai đoạn này **thường không thấy phôi trong máu**.
 
-![Tranh minh họa cổ (Wellcome Collection): bàn chân và cẳng chân phù voi, phù to, da dày, có nếp gấp sâu ở cổ chân](giun-chi/phu-voi.jpg) ![Phù voi hai chân do giun chỉ (ảnh chụp ở Philippines): cẳng chân và bàn chân to bè, da dày sần, tạo thành những nếp gấp lớn chồng lên nhau ở cổ chân](giun-chi/phu-voi-chan.jpg)
+![Tranh minh họa cổ (Wellcome Collection): bàn chân và cẳng chân phù voi, phù to, da dày, có nếp gấp sâu ở cổ chân](giun-chi/phu-voi.jpg) ![Phù voi hai chân do giun chỉ (ảnh chụp ở Philippines): cẳng chân và bàn chân to bè, da dày sần, tạo thành những nếp gấp lớn chồng lên nhau ở cổ chân](giun-chi/phu-voi-chan.jpg) ![Phù bạch huyết một bên chân do giun chỉ bạch huyết: cẳng chân to hơn hẳn chân bên kia, da dày, sẫm màu, nổi u cục](giun-chi/phu-voi-mot-ben.jpg)
 
 **Tăng bạch cầu toan tính phổi nhiệt đới**
 

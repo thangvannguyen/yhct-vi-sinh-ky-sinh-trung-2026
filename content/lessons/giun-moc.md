@@ -146,7 +146,7 @@ Biểu hiện lâm sàng chia làm **3 giai đoạn**:
 | **Cấy phân** | Thường dùng để chẩn đoán xác định, phân biệt với giun lươn |
 | Công thức máu | Thiếu máu **hồng cầu nhỏ nhược sắc**, kèm **tăng bạch cầu ái toan** |
 
-![Phần đầu ấu trùng I (dạng rhabditiform) dưới kính hiển vi (500 lần): bên trái là giun móc, xoang miệng dài; bên phải là giun lươn Strongyloides, xoang miệng ngắn. Khi cấy phân thu được ấu trùng, nhìn xoang miệng giúp phân biệt hai loại](giun-moc/au-trung-i-giun-luon.jpg) ![Phết máu ngoại biên một ca thiếu máu thiếu sắt nặng (không ghi rõ nguyên nhân): hồng cầu nhỏ, nhạt màu ở giữa (nhược sắc), hình dạng không đều — dạng thiếu máu gặp khi nhiễm giun móc mạn tính](giun-moc/mau-thieu-sat.jpg)
+![Phần đầu ấu trùng I (dạng rhabditiform) dưới kính hiển vi (500 lần): bên trái là giun móc, xoang miệng dài; bên phải là giun lươn Strongyloides, xoang miệng ngắn. Khi cấy phân thu được ấu trùng, nhìn xoang miệng giúp phân biệt hai loại](giun-moc/au-trung-i-giun-luon.jpg) ![Phết máu ngoại biên một ca thiếu máu thiếu sắt nặng (không ghi rõ nguyên nhân): hồng cầu nhỏ, nhạt màu ở giữa (nhược sắc), hình dạng không đều — dạng thiếu máu gặp khi nhiễm giun móc mạn tính](giun-moc/mau-thieu-sat.jpg) ![Trứng giun móc trong mẫu phân soi tươi: hình bầu dục, vỏ mỏng trong suốt, bên trong là các phôi bào — soi phân tìm trứng là phương pháp chẩn đoán chủ yếu](giun-moc/trung-soi-tuoi.jpg)
 
 ## 6. Điều trị {#dieu-tri}
 

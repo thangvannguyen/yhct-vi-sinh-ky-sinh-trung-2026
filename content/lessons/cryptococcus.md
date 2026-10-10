@@ -121,7 +121,7 @@
 - **Trong thành phố:** để ý đến việc **nuôi chim bồ câu**.
 - **Dự phòng tốt AIDS** cũng là cách dự phòng nhiễm *C. neoformans* nói riêng và các bệnh ký sinh trùng cơ hội nói chung.
 
-![Bên trong một chuồng nuôi chim bồ câu: phân chim khô bám đầy kệ, vách và nền chuồng](cryptococcus/chuong-bo-cau.jpg) ![Phân chim bồ câu khô tích tụ trên nền xi măng](cryptococcus/phan-bo-cau.jpg)
+![Bên trong một chuồng nuôi chim bồ câu: phân chim khô bám đầy kệ, vách và nền chuồng](cryptococcus/chuong-bo-cau.jpg) ![Phân chim bồ câu khô tích tụ trên nền xi măng](cryptococcus/phan-bo-cau.jpg) ![Đàn chim bồ câu thả rông kiếm ăn ở quảng trường thành phố (ảnh ở Glasgow, Anh): nơi bồ câu tụ tập đông, phân chim tích tụ là nguồn chứa C. neoformans trong môi trường đô thị](cryptococcus/bo-cau-thanh-pho.jpg)
 
 ## Tóm tắt {#tom-tat}
 

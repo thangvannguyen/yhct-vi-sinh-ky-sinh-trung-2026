@@ -30,9 +30,7 @@
 | Hình dạng | Thân màu nâu hay xám, dẹp lưng – bụng, hình chiếc lá bầu dục, **không phân đốt**; phần đầu nhỏ hơn phần cuối | Hình bầu dục, vỏ trong suốt, **có nắp** |
 | Cấu tạo | Có đĩa hút miệng và đĩa hút bụng. **Nhánh ruột đơn, không phân nhánh nhỏ**. Cơ quan sinh dục cái (tử cung, buồng trứng) ở khoảng 1/3 trên thân; cơ quan sinh dục đực gồm 2 tinh hoàn phân nhánh nhiều, chiếm gần hết phần giữa và sau thân | **Rất giống trứng sán lá lớn ở gan *Fasciola* spp.**, nhưng hơi phình ở giữa và noãn hoàng bên trong chiết quang nhiều hơn |
 
-![Fasciolopsis buski trưởng thành: thân dẹt hình chiếc lá bầu dục, không phân đốt](san-la-ruot/truong-thanh.jpg) ![Trứng Fasciolopsis buski: hình bầu dục, vỏ trong suốt](san-la-ruot/trung.jpg)
-
-![Hình vẽ cấu tạo F. buski (tranh cổ): (a) đĩa hút miệng, (b) đĩa hút bụng to hơn ở ngay sau; (i) nhánh ruột chạy dọc hai bên, không phân nhánh nhỏ; (h) buồng trứng phân nhánh và (k) tử cung ở nửa trên thân; (f, g) hai tinh hoàn phân nhánh nhiều, chiếm gần hết nửa sau thân](san-la-ruot/hinh-ve.jpg)
+![Fasciolopsis buski trưởng thành: thân dẹt hình chiếc lá bầu dục, không phân đốt](san-la-ruot/truong-thanh.jpg) ![Trứng Fasciolopsis buski: hình bầu dục, vỏ trong suốt](san-la-ruot/trung.jpg) ![Hình vẽ cấu tạo F. buski (tranh cổ): (a) đĩa hút miệng, (b) đĩa hút bụng to hơn ở ngay sau; (i) nhánh ruột chạy dọc hai bên, không phân nhánh nhỏ; (h) buồng trứng phân nhánh và (k) tử cung ở nửa trên thân; (f, g) hai tinh hoàn phân nhánh nhiều, chiếm gần hết nửa sau thân](san-la-ruot/hinh-ve.jpg)
 
 ## 2. Chu trình phát triển {#chu-trinh}
 

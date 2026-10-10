@@ -28,9 +28,7 @@ Sán dài **4 – 10 m**; thỉnh thoảng có con dài đến 25 m. Cơ thể g
 
 - Đốt sán già **rất di động**: có thể tự bò ra ngoài lúc bệnh nhân đi cầu, hoặc rơi ra quần áo, giường chiếu. Vì vậy bệnh nhân thường biết ngay mình mắc bệnh.
 
-![Một con sán dải bò T. saginata trưởng thành đặt cạnh thước đo: chuỗi đốt dài nhiều mét, đầu nhỏ như sợi chỉ ở góc phải, càng về cuối đốt càng to](san-dai-bo/truong-thanh.jpg)
-
-![Đầu sán dải bò: có các đĩa hút, không có chủy và móc](san-dai-bo/dau-san.jpg) ![Đốt sán già của T. saginata: tử cung ở giữa chia rất nhiều nhánh hai bên](san-dai-bo/dot-san.jpg)
+![Một con sán dải bò T. saginata trưởng thành đặt cạnh thước đo: chuỗi đốt dài nhiều mét, đầu nhỏ như sợi chỉ ở góc phải, càng về cuối đốt càng to](san-dai-bo/truong-thanh.jpg) ![Đầu sán dải bò: có các đĩa hút, không có chủy và móc](san-dai-bo/dau-san.jpg) ![Đốt sán già của T. saginata: tử cung ở giữa chia rất nhiều nhánh hai bên](san-dai-bo/dot-san.jpg)
 
 > [!TIP] Phân biệt với sán dải heo
 > Đầu **không móc** và tử cung **nhiều nhánh (15 – 30 mỗi bên, tức hơn 13 nhánh)** là sán dải bò. Bảng so sánh đầy đủ hai loài nằm trong bài *Sán dải heo*.

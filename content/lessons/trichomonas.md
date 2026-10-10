@@ -42,9 +42,7 @@
 > [!KEY] Ghi nhớ
 > *T. vaginalis* **không có thể bào nang**. Thể hoạt động **vừa là thể gây bệnh vừa là thể lây bệnh**.
 
-![Hai thể hoạt động của T. vaginalis (nuôi cấy, nhuộm Giemsa): thân hình quả lê, nhân đậm màu ở phía trước, các roi ở đầu](trichomonas/the-hoat-dong.jpg)
-
-![Hình vẽ cấu tạo thể hoạt động T. vaginalis (nhãn tiếng Anh): anterior flagella = 4 roi trước; undulating membrane = màng lượn sóng; nucleus = nhân ở phần trước thân; vacuoles = không bào; axostyle = trục sống thân nhô ra ở cuối thân. Thanh tỷ lệ 10 µm](trichomonas/so-do.jpg) ![T. vaginalis dưới kính hiển vi điện tử quét: (A, B) thân hình quả lê với các roi ở đầu; (C) trùng roi biến dạng, bám dàn mỏng trên bề mặt tế bào biểu mô](trichomonas/sem.jpg)
+![Hai thể hoạt động của T. vaginalis (nuôi cấy, nhuộm Giemsa): thân hình quả lê, nhân đậm màu ở phía trước, các roi ở đầu](trichomonas/the-hoat-dong.jpg) ![Hình vẽ cấu tạo thể hoạt động T. vaginalis (nhãn tiếng Anh): anterior flagella = 4 roi trước; undulating membrane = màng lượn sóng; nucleus = nhân ở phần trước thân; vacuoles = không bào; axostyle = trục sống thân nhô ra ở cuối thân. Thanh tỷ lệ 10 µm](trichomonas/so-do.jpg) ![T. vaginalis dưới kính hiển vi điện tử quét: (A, B) thân hình quả lê với các roi ở đầu; (C) trùng roi biến dạng, bám dàn mỏng trên bề mặt tế bào biểu mô](trichomonas/sem.jpg)
 
 ## 2. Chu trình phát triển {#chu-trinh}
 

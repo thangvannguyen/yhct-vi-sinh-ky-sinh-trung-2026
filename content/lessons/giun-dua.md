@@ -165,7 +165,7 @@ Một số điểm cần nhớ về các dạng trứng:
 | **Tại ruột** | **Tắc ruột non**: giun cuộn thành búi; hay gặp ở trẻ nhỏ; tử vong 9% số ca nhập viện. Ngoài ra: xoắn ruột, lồng ruột, thoát vị bẹn |
 | **Ngoài ruột** (giun "thích chu du", lạc chỗ và mang theo vi khuẩn đường ruột) | Thường gặp nhất là **tắc mật do giun chui ống mật chủ**. Ngoài ra: viêm túi mật; sỏi mật (xác hoặc trứng giun làm nhân sỏi); **viêm tụy cấp** (giun chui ống tụy); viêm ruột thừa; áp-xe gan; viêm phúc mạc |
 
-![Phim X-quang ruột non có uống thuốc cản quang (barium): giun đũa hiện thành những vệt tối dài nằm dọc trong lòng ruột (ca bệnh ở Nam Phi)](giun-dua/xquang-ruot.jpg) ![Búi giun đũa lấy ra khi phẫu thuật một trẻ 14 tuổi bị tắc ruột: rất nhiều giun cuộn lại với nhau, minh họa vì sao biến chứng tắc ruột cần xử trí ngoại khoa](giun-dua/tac-ruot.jpg)
+![Phim X-quang ruột non có uống thuốc cản quang (barium): giun đũa hiện thành những vệt tối dài nằm dọc trong lòng ruột (ca bệnh ở Nam Phi)](giun-dua/xquang-ruot.jpg) ![Búi giun đũa lấy ra khi phẫu thuật một trẻ 14 tuổi bị tắc ruột: rất nhiều giun cuộn lại với nhau, minh họa vì sao biến chứng tắc ruột cần xử trí ngoại khoa](giun-dua/tac-ruot.jpg) ![Phẫu thuật lấy giun đũa trưởng thành ra khỏi ống mật (bệnh nhân ở Nam Phi): giun màu trắng ngà được kéo ra từ đường mật — biến chứng tắc mật do giun chui ống mật chủ](giun-dua/giun-ong-mat.jpg)
 
 Đôi khi giun trưởng thành bò ra ngoài qua các lỗ tự nhiên như miệng, mũi, hậu môn.
 

@@ -177,7 +177,7 @@ Ký sinh trùng sốt rét có **2 giai đoạn**:
 | **Thể phân liệt** | Nhân chia thành nhiều mảnh, mỗi mảnh có tế bào chất bao quanh (mảnh trùng). Khối tròn hoặc bầu dục chiếm hết hồng cầu, nhiều sắc tố. Hồng cầu vỡ, mảnh trùng xâm nhập hồng cầu mới |
 | **Thể giao bào** | **Thể hữu tính** (đực và cái): 1 nhân, một khối tế bào chất, nhiều sắc tố. Phát triển tiếp trong dạ dày muỗi. Đây là **nguồn gốc lây lan** bệnh |
 
-![Thể phân liệt của P. vivax (phết máu mỏng, nhuộm Giemsa, thước đo 10 µm): mỗi khối gồm nhiều mảnh trùng có nhân tím đậm, sắc tố sốt rét màu nâu đen tụ ở giữa](sot-ret/vivax-phan-liet.jpg) ![Thể giao bào của P. vivax: khối tròn với một nhân, chiếm gần hết hồng cầu đã to ra](sot-ret/vivax-giao-bao.jpg)
+![Thể tư dưỡng của P. vivax (phết máu mỏng): phía trên là tư dưỡng trẻ hình nhẫn với chấm nhân đỏ; ở giữa và phía dưới là tư dưỡng già, tế bào chất to dạng amip, hồng cầu to ra và có hạt lấm tấm](sot-ret/vivax-tu-duong.jpg) ![Thể phân liệt của P. vivax (phết máu mỏng, nhuộm Giemsa, thước đo 10 µm): mỗi khối gồm nhiều mảnh trùng có nhân tím đậm, sắc tố sốt rét màu nâu đen tụ ở giữa](sot-ret/vivax-phan-liet.jpg) ![Thể giao bào của P. vivax: khối tròn với một nhân, chiếm gần hết hồng cầu đã to ra](sot-ret/vivax-giao-bao.jpg)
 
 ### 3.2. Đặc điểm hình thể theo loài {#hinh-the-theo-loai}
 
@@ -189,9 +189,7 @@ Ký sinh trùng sốt rét có **2 giai đoạn**:
 | **Phân liệt** | **Hiếm** gặp ở máu ngoại biên; 16 – 32 mảnh trùng; sắc tố tụ thành cụm | Thường gặp; 16 – 20 mảnh trùng; sắc tố rải rác | 6 – 8 mảnh trùng xếp **hình hoa thị** quanh cụm sắc tố | — |
 | **Giao bào** | Hình **liềm / trái chuối**; xuất hiện **trễ** (sau 10 ngày), tồn tại **lâu** (hàng tháng) | Tròn hoặc bầu dục; xuất hiện **sớm** (2 – 3 ngày), tồn tại **ngắn** (khoảng 1 tuần) | Tròn hoặc bầu dục, nhiều sắc tố | — |
 
-![P. falciparum: thể nhẫn nhỏ, thanh mảnh (mũi tên); hồng cầu nhiễm không to ra](sot-ret/falciparum-nhan.jpg) ![P. falciparum: giao bào hình liềm, hình trái chuối](sot-ret/falciparum.jpg) ![P. vivax: tư dưỡng trong hồng cầu to ra, màng hồng cầu có hạt Schüffner](sot-ret/vivax.jpg) ![P. malariae: tư dưỡng dạng dải băng vắt ngang hồng cầu](sot-ret/malariae.jpg)
-
-![P. malariae: thể phân liệt trưởng thành với các mảnh trùng xếp quanh cụm sắc tố nâu ở giữa (hình hoa thị); hồng cầu không to ra](sot-ret/malariae-phan-liet.jpg) ![P. ovale: thể nhẫn trong hồng cầu to ra, hơi bầu dục, có lấm tấm hạt Schüffner](sot-ret/ovale.jpg)
+![P. falciparum: thể nhẫn nhỏ, thanh mảnh (mũi tên); hồng cầu nhiễm không to ra](sot-ret/falciparum-nhan.jpg) ![P. falciparum: giao bào hình liềm, hình trái chuối](sot-ret/falciparum.jpg) ![P. vivax: tư dưỡng trong hồng cầu to ra, màng hồng cầu có hạt Schüffner](sot-ret/vivax.jpg) ![P. malariae: tư dưỡng dạng dải băng vắt ngang hồng cầu](sot-ret/malariae.jpg) ![P. malariae: thể phân liệt trưởng thành với các mảnh trùng xếp quanh cụm sắc tố nâu ở giữa (hình hoa thị); hồng cầu không to ra](sot-ret/malariae-phan-liet.jpg) ![P. ovale: thể nhẫn trong hồng cầu to ra, hơi bầu dục, có lấm tấm hạt Schüffner](sot-ret/ovale.jpg)
 
 ***P. knowlesi*:** hình thể dễ nhầm với *P. malariae*, thường chỉ chẩn đoán xác định được bằng **PCR**.
 

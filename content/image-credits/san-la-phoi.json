@@ -46,5 +46,17 @@
   "page": "https://commons.wikimedia.org/wiki/File:Charcot-Leyden_crystals_in_sputum_(50846253727).jpg",
   "license": "CC BY-SA 2.0",
   "artist": "Atlas of Medical Foreign Bodies"
+ },
+ "truong-thanh-nhuom.jpg": {
+  "title": "File:Paragonimus westermani adult.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Paragonimus_westermani_adult.jpg",
+  "license": "Public domain",
+  "artist": "DPDx-CDC"
+ },
+ "tom.jpg": {
+  "title": "File:Macrobrachium Lanchesteri (19306434602).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Macrobrachium_Lanchesteri_(19306434602).jpg",
+  "license": "CC BY 2.0",
+  "artist": "Weimar Meneses"
  }
 }

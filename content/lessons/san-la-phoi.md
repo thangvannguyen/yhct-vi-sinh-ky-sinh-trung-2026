@@ -26,7 +26,7 @@
 | Hình dạng, màu | Màu **nâu đỏ**, trông **tựa hạt cà phê** | Hình bầu dục, màu nâu sẫm |
 | Đặc điểm | Có **2 đĩa hút bằng nhau**: 1 ở miệng, 1 ở bụng. Thực quản tương đối ngắn, ống tiêu hóa theo một vòng tròn. Tinh hoàn ít phân nhánh, ở đầu cuối ống tiêu hóa. Buồng trứng to, chia thùy | **Nắp bằng, ít lồi**. Vỏ dày nhất ở cực đối diện nắp. Trứng mới sinh chỉ có một đám tế bào |
 
-![Sán lá phổi trưởng thành (hình vẽ P. westermani của Patrick Manson): thân bầu dục, hai đĩa hút miệng và bụng có kích thước gần bằng nhau](san-la-phoi/truong-thanh.jpg) ![Trứng sán lá phổi P. westermani: hình bầu dục, màu nâu, vỏ dày](san-la-phoi/trung.jpg)
+![Sán lá phổi trưởng thành (hình vẽ P. westermani của Patrick Manson): thân bầu dục, hai đĩa hút miệng và bụng có kích thước gần bằng nhau](san-la-phoi/truong-thanh.jpg) ![P. westermani trưởng thành (tiêu bản nhuộm, thước 1 mm): thân bầu dục; OS = đĩa hút miệng, AC = đĩa hút bụng, CE = ống tiêu hóa, OV = buồng trứng chia thùy, TE = tinh hoàn, UT = tử cung, EB = túi bài tiết](san-la-phoi/truong-thanh-nhuom.jpg) ![Trứng sán lá phổi P. westermani: hình bầu dục, màu nâu, vỏ dày](san-la-phoi/trung.jpg)
 
 ## 2. Chu trình phát triển {#chu-trinh}
 
@@ -72,7 +72,7 @@
 | Chó | 9,8 – 34,5% nhiễm |
 | Bệnh nhân là trẻ em | Chiếm 69,4%; người lớn thấp hơn (0,2 – 15%) |
 
-![Vỏ ốc Melanoides tuberculata — ký chủ trung gian thứ nhất: vỏ xoắn dài, nhọn như mũi khoan, có gờ và đốm nâu (vỏ dài khoảng 2,4 cm)](san-la-phoi/oc-melanoides.jpg) ![Một loài cua suối (Potamiscus montosus, ảnh minh họa, không phải loài Ranguna kimboiensis): cua nước ngọt sống ở suối vùng núi là ký chủ trung gian thứ hai, mang nang ấu trùng ở cơ](san-la-phoi/cua-suoi.jpg)
+![Vỏ ốc Melanoides tuberculata — ký chủ trung gian thứ nhất: vỏ xoắn dài, nhọn như mũi khoan, có gờ và đốm nâu (vỏ dài khoảng 2,4 cm)](san-la-phoi/oc-melanoides.jpg) ![Một loài cua suối (Potamiscus montosus, ảnh minh họa, không phải loài Ranguna kimboiensis): cua nước ngọt sống ở suối vùng núi là ký chủ trung gian thứ hai, mang nang ấu trùng ở cơ](san-la-phoi/cua-suoi.jpg) ![Một loài tôm nước ngọt (Macrobrachium lanchesteri, chụp trong bể cá, ảnh minh họa): tài liệu ghi tôm cũng là ký chủ trung gian, tuy ở Việt Nam chưa có dữ liệu](san-la-phoi/tom.jpg)
 
 **Nguồn lây**
 

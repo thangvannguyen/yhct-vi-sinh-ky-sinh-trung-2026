@@ -37,9 +37,7 @@
 | Không bào | **2 không bào co bóp**; không bào tiêu hóa chứa xác vi trùng, bạch cầu, mảnh vụn tế bào biểu bì của ký chủ | Có các không bào co bóp |
 | Vai trò | **Ký sinh và gây bệnh** trong cơ thể ký chủ; **không sống được** bên ngoài ký chủ | Nhờ vách dày, **tồn tại được ngoài môi trường**; là dạng **lây lan**, truyền nhiễm cho ký chủ khác |
 
-![Thể hoạt động của Balantidium coli dưới kính hiển vi: thân hình bầu dục phủ một hàng lông tơ ngắn quanh viền (mẫu phân khỉ, thanh tỷ lệ 5 µm)](balantidium/the-hoat-dong.jpg) ![Hình vẽ B. coli: thể hoạt động (trên) có lông tơ và nhân lớn hình hạt đậu; bào nang (dưới) hình cầu, vách dày](balantidium/hai-the.gif)
-
-![Bào nang B. coli trong phân, nhuộm Lugol: hình cầu, vách nang dày sáng màu bao quanh khối tế bào chất bắt màu nâu; đây là dạng tồn tại ngoài môi trường và lây truyền](balantidium/bao-nang-lugol.jpg)
+![Thể hoạt động của Balantidium coli dưới kính hiển vi: thân hình bầu dục phủ một hàng lông tơ ngắn quanh viền (mẫu phân khỉ, thanh tỷ lệ 5 µm)](balantidium/the-hoat-dong.jpg) ![Hình vẽ B. coli: thể hoạt động (trên) có lông tơ và nhân lớn hình hạt đậu; bào nang (dưới) hình cầu, vách dày](balantidium/hai-the.gif) ![Bào nang B. coli trong phân, nhuộm Lugol: hình cầu, vách nang dày sáng màu bao quanh khối tế bào chất bắt màu nâu; đây là dạng tồn tại ngoài môi trường và lây truyền](balantidium/bao-nang-lugol.jpg)
 
 > [!WARN] Dễ nhầm
 > Thể hoạt động có **1 nhân lớn hình hạt đậu** và **1 nhân nhỏ** nằm ở chỗ lõm của nhân lớn. Câu tự lượng giá ghi "nhân lớn hình hạt đậu và **nhân thể** ở chỗ lõm nhân". Theo đáp án của tài liệu, đây là đặc điểm **không thuộc** thể hoạt động, vì chỗ lõm là **nhân nhỏ** chứ không phải "nhân thể".

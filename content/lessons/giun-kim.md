@@ -36,9 +36,7 @@
 | Đuôi | **Cong**, có **1 gai giao hợp** | **Nhọn** |
 | Đặc điểm khác | Chết ngay sau giao hợp | Tử cung chứa đầy trứng |
 
-![Hình vẽ giun kim cái (trái, "Femelă") và giun đực (phải, "Masculul"), chú thích tiếng Rumani: giun cái to hơn, đuôi dài nhọn, tử cung (Uter) chứa đầy trứng; giun đực nhỏ, đuôi cong, có gai giao hợp (Spicul). Ở đầu cả hai đều có chỗ phình (Vezicula, Ale cefalice = cánh đầu)](giun-kim/duc-cai.jpg)
-
-![Phần đầu giun kim dưới kính hiển vi: lớp biểu bì phình ra thành cánh ở hai bên đầu](giun-kim/dau-canh.jpg) ![Giun kim trưởng thành dưới kính hiển vi, quanh thân là rất nhiều trứng](giun-kim/truong-thanh.jpg)
+![Hình vẽ giun kim cái (trái, "Femelă") và giun đực (phải, "Masculul"), chú thích tiếng Rumani: giun cái to hơn, đuôi dài nhọn, tử cung (Uter) chứa đầy trứng; giun đực nhỏ, đuôi cong, có gai giao hợp (Spicul). Ở đầu cả hai đều có chỗ phình (Vezicula, Ale cefalice = cánh đầu)](giun-kim/duc-cai.jpg) ![Phần đầu giun kim dưới kính hiển vi: lớp biểu bì phình ra thành cánh ở hai bên đầu](giun-kim/dau-canh.jpg) ![Giun kim trưởng thành dưới kính hiển vi, quanh thân là rất nhiều trứng](giun-kim/truong-thanh.jpg)
 
 ### 1.2. Trứng {#hinh-the-trung}
 
