@@ -391,6 +391,119 @@ const ICONS = {
       </g>
     </>
   ),
+
+  // ---- Icon giao diện (thay emoji) ----
+  // Giải thích (💡): bóng đèn.
+  'y-tuong': (
+    <>
+      <g stroke="#b45309" strokeWidth="3.2" strokeLinecap="round">
+        <line x1="32" y1="2.5" x2="32" y2="7.5" />
+        <line x1="10" y1="12" x2="13.6" y2="15.6" />
+        <line x1="54" y1="12" x2="50.4" y2="15.6" />
+        <line x1="3.5" y1="31" x2="8.5" y2="31" />
+        <line x1="60.5" y1="31" x2="55.5" y2="31" />
+      </g>
+      <Shape d="M32 11 C 20 11, 13 21, 15 31 C 16.5 38, 22 41, 23 47 L 41 47 C 42 41, 47.5 38, 49 31 C 51 21, 44 11, 32 11 Z" fill="#fde047" edge="#a16207" />
+      <path d="M22 26 C 22 21, 26 18, 30 17.5" fill="none" stroke="#ffffff" strokeOpacity="0.8" strokeWidth="3" strokeLinecap="round" />
+      <path d="M27 47 L 27 38 C 27 34, 37 34, 37 38 L 37 47" fill="none" stroke="#a16207" strokeWidth="2.2" />
+      <Shape d="M22.5 47 L 41.5 47 L 41.5 53 Q 41.5 56, 38.5 56 L 25.5 56 Q 22.5 56, 22.5 53 Z" fill="#94a3b8" edge="#334155" w={2.6} />
+      <path d="M27 60 L 37 60" stroke="#334155" strokeWidth="3.4" strokeLinecap="round" />
+    </>
+  ),
+  // Giao diện sáng (☀️).
+  'mat-troi': (
+    <>
+      <g stroke="#b45309" strokeWidth="4" strokeLinecap="round">
+        {Array.from({ length: 8 }, (_, i) => {
+          const a = (i / 8) * Math.PI * 2
+          return <line key={i} x1={32 + Math.cos(a) * 21} y1={32 + Math.sin(a) * 21} x2={32 + Math.cos(a) * 28} y2={32 + Math.sin(a) * 28} />
+        })}
+      </g>
+      <circle cx="32" cy="32" r="14" fill="#fbbf24" stroke="#b45309" strokeWidth="3" />
+      <path d="M24 28 A 9 9 0 0 1 30 22.5" fill="none" stroke="#fef3c7" strokeWidth="3" strokeLinecap="round" />
+    </>
+  ),
+  // Giao diện tối (🌙).
+  'mat-trang': (
+    <>
+      <Shape d="M40 6 C 24 8, 12 21, 13 36 C 14 51, 28 60, 42 57 C 49 55.5, 54 51, 57 45 C 44 49, 30 41, 30 27 C 30 18, 34 10, 40 6 Z" fill="#fde68a" edge="#a16207" />
+      <circle cx="24" cy="38" r="3" fill="#fbbf24" />
+      <circle cx="33" cy="49" r="2.2" fill="#fbbf24" />
+      <path d="M50 14 l 1.6 3.4 l 3.4 1.6 l -3.4 1.6 l -1.6 3.4 l -1.6 -3.4 l -3.4 -1.6 l 3.4 -1.6 Z" fill="#facc15" stroke="#a16207" strokeWidth="1.4" strokeLinejoin="round" />
+    </>
+  ),
+  // Trộn câu hỏi (🔀): hai mũi tên bắt chéo.
+  tron: (
+    <>
+      {['M6 18 L 18 18 C 30 18, 34 46, 46 46 L 54 46', 'M6 46 L 18 46 C 30 46, 34 18, 46 18 L 54 18'].map((d) => (
+        <g key={d}>
+          <path d={d} fill="none" stroke="#1e3a8a" strokeWidth="8.5" strokeLinecap="round" strokeLinejoin="round" />
+          <path d={d} fill="none" stroke="#60a5fa" strokeWidth="4.2" strokeLinecap="round" strokeLinejoin="round" />
+        </g>
+      ))}
+      <Shape d="M50 9 L 61 18 L 50 27 Z" fill="#60a5fa" edge="#1e3a8a" w={2.6} />
+      <Shape d="M50 37 L 61 46 L 50 55 Z" fill="#60a5fa" edge="#1e3a8a" w={2.6} />
+    </>
+  ),
+  // Tìm kiếm (🔎): kính lúp.
+  'tim-kiem': (
+    <>
+      <path d="M38 38 L 56 56" stroke="#334155" strokeWidth="10" strokeLinecap="round" />
+      <path d="M38 38 L 56 56" stroke="#94a3b8" strokeWidth="5" strokeLinecap="round" />
+      <circle cx="26" cy="26" r="18" fill="#bfdbfe" stroke="#1e3a8a" strokeWidth="4" />
+      <path d="M16 22 A 11 11 0 0 1 24 14.5" fill="none" stroke="#ffffff" strokeWidth="3.4" strokeLinecap="round" />
+    </>
+  ),
+  // Ý chính (📌): đinh ghim.
+  ghim: (
+    <>
+      <path d="M26 40 L 10 56" stroke="#475569" strokeWidth="4" strokeLinecap="round" />
+      <g transform="rotate(45 34 30)">
+        <Shape d="M25 6 L 43 6 L 40 12 L 40 28 C 46 31, 48 35, 48 38 L 20 38 C 20 35, 22 31, 28 28 L 28 12 Z" fill="#ef4444" edge="#7f1d1d" />
+        <path d="M31.5 12 L 31.5 27" stroke="#fecaca" strokeWidth="2.6" strokeLinecap="round" />
+      </g>
+    </>
+  ),
+  // Mẹo ghi nhớ (🧠): bộ não.
+  nao: (
+    <>
+      <Shape d="M32 9 C 26 4, 16 6, 15 14 C 7 15, 4 24, 9 30 C 4 36, 7 46, 15 47 C 17 55, 27 58, 32 52 C 37 58, 47 55, 49 47 C 57 46, 60 36, 55 30 C 60 24, 57 15, 49 14 C 48 6, 38 4, 32 9 Z" fill="#f9a8d4" edge="#9d174d" />
+      <g fill="none" stroke="#9d174d" strokeWidth="2.4" strokeLinecap="round">
+        <path d="M32 10 L 32 51" />
+        <path d="M16 22 C 21 21, 24 25, 23 29 M 13 36 C 18 34, 22 37, 23 41" />
+        <path d="M48 22 C 43 21, 40 25, 41 29 M 51 36 C 46 34, 42 37, 41 41" />
+      </g>
+    </>
+  ),
+  // Dễ nhầm / cảnh báo (⚠️): tam giác vàng có dấu chấm than.
+  'canh-bao': (
+    <>
+      <Shape d="M32 5 C 34 5, 35.5 6, 36.5 8 L 60 52 C 61.6 55, 59.6 58, 56.4 58 L 7.6 58 C 4.4 58, 2.4 55, 4 52 L 27.5 8 C 28.5 6, 30 5, 32 5 Z" fill="#facc15" edge="#92400e" />
+      <path d="M32 22 L 32 39" stroke="#451a03" strokeWidth="6" strokeLinecap="round" />
+      <circle cx="32" cy="48.5" r="3.6" fill="#451a03" />
+    </>
+  ),
+  // Ghi chú (ℹ️): vòng tròn xanh chữ i.
+  'thong-tin': (
+    <>
+      <circle cx="32" cy="32" r="26" fill="#60a5fa" stroke="#1e3a8a" strokeWidth="3.4" />
+      <circle cx="32" cy="19" r="4" fill="#ffffff" />
+      <path d="M32 29 L 32 47" stroke="#ffffff" strokeWidth="7" strokeLinecap="round" />
+    </>
+  ),
+  // Sơ đồ chu trình (🔄): hai mũi tên vòng.
+  'chu-trinh': (
+    <>
+      {['M14 26 A 19 19 0 0 1 48 20', 'M50 38 A 19 19 0 0 1 16 44'].map((d) => (
+        <g key={d}>
+          <path d={d} fill="none" stroke="#1e3a8a" strokeWidth="8.5" strokeLinecap="round" />
+          <path d={d} fill="none" stroke="#60a5fa" strokeWidth="4.2" strokeLinecap="round" />
+        </g>
+      ))}
+      <Shape d="M43 10 L 57 16 L 46 27 Z" fill="#60a5fa" edge="#1e3a8a" w={2.6} />
+      <Shape d="M21 54 L 7 48 L 18 37 Z" fill="#60a5fa" edge="#1e3a8a" w={2.6} />
+    </>
+  ),
   // Phần Vi sinh: một hạt virus.
   virus: <Virion cx={32} cy={32} r={14} fill="#93c5fd" edge="#1e3a8a" spikes={8} />,
 }

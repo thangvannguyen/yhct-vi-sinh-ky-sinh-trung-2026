@@ -88,7 +88,7 @@ export default function DocList({
         onClick={onShuffle}
         className="mt-1 flex w-full items-center justify-center gap-1.5 rounded-[9px] border-[1.5px] border-primary bg-primary-soft px-3 py-2.5 text-[0.85rem] font-bold text-primary-dark transition-colors hover:bg-primary hover:text-white min-[720px]:mt-3 cursor-pointer"
       >
-        🔀 Trộn câu hỏi
+        <LessonIcon icon="svg:tron" /> Trộn câu hỏi
       </button>
       <div className="flex justify-center gap-3 text-[0.72rem] text-text-muted">
         <span className="text-success">✔ Đúng {stats.correct}</span>

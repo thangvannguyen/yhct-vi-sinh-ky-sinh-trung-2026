@@ -4,6 +4,7 @@ import remarkGfm from 'remark-gfm'
 import { lessonImage, parseHeading } from '../lib/lessons.js'
 import { cx } from './ui.jsx'
 import CycleDiagram from './CycleDiagram.jsx'
+import LessonIcon from './LessonIcon.jsx'
 
 function textOf(node) {
   if (!node) return ''
@@ -47,10 +48,10 @@ function remarkLesson() {
 }
 
 const CALLOUT = {
-  key: { icon: '📌', title: 'Ý chính cần nhớ', box: 'border-primary bg-primary-soft', head: 'text-primary-dark' },
-  tip: { icon: '🧠', title: 'Mẹo ghi nhớ', box: 'border-warning bg-warning-soft', head: 'text-warning' },
-  warn: { icon: '⚠️', title: 'Dễ nhầm', box: 'border-danger bg-danger-soft', head: 'text-danger' },
-  note: { icon: 'ℹ️', title: 'Ghi chú', box: 'border-border-strong bg-surface-2', head: 'text-text-muted' },
+  key: { icon: 'svg:ghim', title: 'Ý chính cần nhớ', box: 'border-primary bg-primary-soft', head: 'text-primary-dark' },
+  tip: { icon: 'svg:nao', title: 'Mẹo ghi nhớ', box: 'border-warning bg-warning-soft', head: 'text-warning' },
+  warn: { icon: 'svg:canh-bao', title: 'Dễ nhầm', box: 'border-danger bg-danger-soft', head: 'text-danger' },
+  note: { icon: 'svg:thong-tin', title: 'Ghi chú', box: 'border-border-strong bg-surface-2', head: 'text-text-muted' },
 }
 
 function Blockquote({ node, children, ...props }) {
@@ -64,7 +65,7 @@ function Blockquote({ node, children, ...props }) {
   return (
     <aside className={cx('my-5 rounded-[14px] border-[1.5px] px-4 py-3 [&>p]:my-1.5 [&>ul]:my-1.5', c.box)}>
       <div className={cx('mb-1 flex items-center gap-1.5 text-[0.78em] font-bold uppercase tracking-[0.03em]', c.head)}>
-        <span>{c.icon}</span> {props['data-title'] || c.title}
+        <LessonIcon icon={c.icon} className="text-[1.05em]" /> {props['data-title'] || c.title}
       </div>
       {children}
     </aside>

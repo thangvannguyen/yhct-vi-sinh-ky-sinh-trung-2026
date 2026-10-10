@@ -33,7 +33,7 @@ export default function LessonSearch({ lessonIds = ALL_LESSON_IDS, placeholder }
   return (
     <div className="relative">
       <div className="relative">
-        <span className="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2 text-text-muted">🔎</span>
+        <LessonIcon icon="svg:tim-kiem" className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2" />
         <input
           type="search"
           value={query}

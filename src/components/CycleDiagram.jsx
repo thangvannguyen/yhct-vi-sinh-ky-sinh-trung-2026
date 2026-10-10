@@ -1,3 +1,5 @@
+import LessonIcon from './LessonIcon.jsx'
+
 /**
  * Sơ đồ chu trình phát triển, viết trong Markdown bằng khối ```cycle:
  *
@@ -48,7 +50,7 @@ export default function CycleDiagram({ source }) {
     <figure className="my-6 rounded-[16px] border border-border bg-surface-2 px-4 py-4 sm:px-5">
       {title && (
         <figcaption className="mb-3 flex items-center gap-1.5 text-[0.8em] font-bold uppercase tracking-[0.03em] text-primary">
-          <span>🔄</span> {title}
+          <LessonIcon icon="svg:chu-trinh" className="text-[1.1em]" /> {title}
         </figcaption>
       )}
       <ol className="!m-0 !list-none !p-0">

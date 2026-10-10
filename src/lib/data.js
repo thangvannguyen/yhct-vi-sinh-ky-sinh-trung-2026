@@ -56,7 +56,7 @@ export function chapterShortOf(id) {
 }
 
 export function chapterIcon(id) {
-  return (chapterById(id) || {}).icon || '📘'
+  return (chapterById(id) || {}).icon || 'svg:hoc-tap'
 }
 
 export function groupById(id) {
