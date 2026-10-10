@@ -61,16 +61,6 @@ function LessonProgressRow({ lesson, read, progress }) {
         )}
       </div>
       <div className="flex flex-shrink-0 gap-1.5">
-        {ready && (
-          <Link
-            to={`/learn/${lesson.id}`}
-            title="Đọc lý thuyết"
-            className="flex h-[36px] items-center rounded-[10px] border border-border bg-surface px-2.5 text-[0.8rem] font-bold text-text hover:border-primary hover:bg-primary-soft"
-          >
-            <LessonIcon icon="svg:hoc-tap" className="text-[0.9rem]" />
-            <span className="ml-1 max-[420px]:hidden">Học</span>
-          </Link>
-        )}
         {ids.length > 0 && (
           <Link
             to={`/study/${lesson.id}/0`}
@@ -79,6 +69,16 @@ function LessonProgressRow({ lesson, read, progress }) {
           >
             <LessonIcon icon="svg:kiem-tra" className="text-[0.9rem]" />
             <span className="ml-1">{done}/{ids.length}</span>
+          </Link>
+        )}
+        {ready && (
+          <Link
+            to={`/learn/${lesson.id}`}
+            title="Đọc lý thuyết"
+            className="flex h-[36px] items-center rounded-[10px] border border-border bg-surface px-2.5 text-[0.8rem] font-bold text-text hover:border-primary hover:bg-primary-soft"
+          >
+            <LessonIcon icon="svg:hoc-tap" className="text-[0.9rem]" />
+            <span className="ml-1 max-[420px]:hidden">Học</span>
           </Link>
         )}
       </div>

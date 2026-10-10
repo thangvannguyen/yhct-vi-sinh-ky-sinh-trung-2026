@@ -253,43 +253,22 @@ const ICONS = {
   ),
 
   // ---- Icon chế độ học (trang chủ, nút) — cùng phong cách với icon bài ----
-  // Học tập: quyển sách mở.
+  // Học tập: quyển sách mở — tối giản, nét đậm như các icon bài.
   'hoc-tap': (
     <>
-      <Shape d="M32 14 C 24 8, 12 8, 5 11 L 5 52 C 12 49, 24 49, 32 55 C 40 49, 52 49, 59 52 L 59 11 C 52 8, 40 8, 32 14 Z" fill="#3b82f6" edge="#1e3a8a" />
-      <Shape d="M32 16 C 25 11, 15 11, 9 13 L 9 47 C 15 45, 25 45, 32 50 Z" fill="#ffffff" edge="#1e3a8a" w={2.6} />
-      <Shape d="M32 16 C 39 11, 49 11, 55 13 L 55 47 C 49 45, 39 45, 32 50 Z" fill="#ffffff" edge="#1e3a8a" w={2.6} />
-      <g stroke="#93c5fd" strokeWidth="2.4" strokeLinecap="round">
-        <line x1="14" y1="21" x2="27" y2="22" />
-        <line x1="14" y1="28" x2="27" y2="29" />
-        <line x1="14" y1="35" x2="24" y2="35.6" />
-        <line x1="37" y1="22" x2="50" y2="21" />
-        <line x1="37" y1="29" x2="50" y2="28" />
-        <line x1="37" y1="35.6" x2="47" y2="35" />
-      </g>
+      <Shape d="M32 15 C 24 9, 13 9, 5 12 L 5 52 C 13 49, 24 49, 32 55 Z" fill="#bfdbfe" edge="#1e3a8a" w={3.4} />
+      <Shape d="M32 15 C 40 9, 51 9, 59 12 L 59 52 C 51 49, 40 49, 32 55 Z" fill="#93c5fd" edge="#1e3a8a" w={3.4} />
+      <path d="M11 19 C 16 16.5, 22 16.5, 26 18" fill="none" stroke="#ffffff" strokeWidth="3.2" strokeLinecap="round" />
+      <Shape d="M44 10.5 L 52 10.5 L 52 30 L 48 26.5 L 44 30 Z" fill="#ef4444" edge="#7f1d1d" w={2.4} />
     </>
   ),
-  // Kiểm tra thử: bảng kẹp giấy có danh sách đánh dấu đúng + bút chì.
+  // Kiểm tra thử: bảng kẹp giấy với một dấu tích lớn.
   'kiem-tra': (
     <>
-      <Shape d="M10 9 L 46 9 Q 50 9, 50 13 L 50 57 Q 50 61, 46 61 L 10 61 Q 6 61, 6 57 L 6 13 Q 6 9, 10 9 Z" fill="#d6a46c" edge="#78461f" />
-      <Shape d="M12 15 L 44 15 L 44 55 L 12 55 Z" fill="#ffffff" edge="#78461f" w={2.4} />
-      <Shape d="M19 5 L 37 5 L 37 13 L 19 13 Z" fill="#94a3b8" edge="#334155" w={2.4} />
-      <g fill="none" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M16 24 L 19 27 L 24 21" stroke="#16a34a" strokeWidth="2.8" />
-        <path d="M16 35 L 19 38 L 24 32" stroke="#16a34a" strokeWidth="2.8" />
-        <path d="M16.5 43.5 L 22.5 49.5 M 22.5 43.5 L 16.5 49.5" stroke="#dc2626" strokeWidth="2.8" />
-        <g stroke="#cbd5e1" strokeWidth="2.4">
-          <line x1="28" y1="24" x2="39" y2="24" />
-          <line x1="28" y1="35" x2="39" y2="35" />
-          <line x1="28" y1="46.5" x2="36" y2="46.5" />
-        </g>
-      </g>
-      <g transform="translate(-5 3) rotate(35 50 38)">
-        <Shape d="M46 18 L 54 18 L 54 50 L 50 57 L 46 50 Z" fill="#facc15" edge="#854d0e" w={2.4} />
-        <path d="M46 50 L 54 50" stroke="#854d0e" strokeWidth="2" />
-        <Shape d="M46 18 L 54 18 L 54 23 L 46 23 Z" fill="#f472b6" edge="#854d0e" w={2.2} />
-      </g>
+      <Shape d="M13 9 L 51 9 Q 56 9, 56 14 L 56 56 Q 56 61, 51 61 L 13 61 Q 8 61, 8 56 L 8 14 Q 8 9, 13 9 Z" fill="#fde68a" edge="#92400e" w={3.4} />
+      <Shape d="M23 4 L 41 4 Q 43 4, 43 6 L 43 14 L 21 14 L 21 6 Q 21 4, 23 4 Z" fill="#94a3b8" edge="#334155" w={3} />
+      <path d="M19 37 L 28 46 L 46 26" fill="none" stroke="#14532d" strokeWidth="10" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M19 37 L 28 46 L 46 26" fill="none" stroke="#4ade80" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
     </>
   ),
   // Ôn tuần tự: chồng thẻ câu hỏi, lật lần lượt.
@@ -299,8 +278,8 @@ const ICONS = {
       <Shape d="M10 14 L 44 14 Q 48 14, 48 18 L 48 50 Q 48 54, 44 54 L 10 54 Q 6 54, 6 50 L 6 18 Q 6 14, 10 14 Z" fill="#ffffff" edge="#1e3a8a" />
       <path d="M20 27 C 20 21, 34 21, 34 27 C 34 32, 27 32, 27 37" fill="none" stroke="#2563eb" strokeWidth="3.2" strokeLinecap="round" />
       <circle cx="27" cy="44" r="2.2" fill="#2563eb" />
-      <path d="M36 57 L 55 57 M 49 51 L 55 57 L 49 63" fill="none" stroke="#14532d" strokeWidth="7" strokeLinecap="round" strokeLinejoin="round" />
-      <path d="M36 57 L 55 57 M 49 51 L 55 57 L 49 63" fill="none" stroke="#4ade80" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M36 54 L 55 54 M 49.5 48.5 L 55 54 L 49.5 59.5" fill="none" stroke="#14532d" strokeWidth="7" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M36 54 L 55 54 M 49.5 48.5 L 55 54 L 49.5 59.5" fill="none" stroke="#4ade80" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round" />
     </>
   ),
   // Ôn câu sai: vòng mũi tên ôn lại quanh dấu sai.
