@@ -10,5 +10,29 @@
   "page": "https://commons.wikimedia.org/wiki/File:Rabies_Virus_092824.jpg",
   "license": "CC BY 2.0",
   "artist": "NIAID"
+ },
+ "so-do-virion.png": {
+  "title": "File:Rabid virus schema.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Rabid_virus_schema.png",
+  "license": "Public domain",
+  "artist": "André Koehne"
+ },
+ "cho-dai.jpg": {
+  "title": "File:Rabid dog.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Rabid_dog.jpg",
+  "license": "Public domain",
+  "artist": "CDC"
+ },
+ "pasteur-tho.jpg": {
+  "title": "File:Louis Pasteur injecting rabies virus into a rabbit's brain Wellcome V0028849.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Louis_Pasteur_injecting_rabies_virus_into_a_rabbit%27s_brain_Wellcome_V0028849.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Wellcome Collection"
+ },
+ "tiem-cho.jpg": {
+  "title": "File:US Navy 070810-N-4954I-038 Lt. Col. Raveesh Chhajed, a veterinarian from the Indian Army, gives a rabies vaccination to a family dog during a veterinarian civil-assistance program.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:US_Navy_070810-N-4954I-038_Lt._Col._Raveesh_Chhajed,_a_veterinarian_from_the_Indian_Army,_gives_a_rabies_vaccination_to_a_family_dog_during_a_veterinarian_civil-assistance_program.jpg",
+  "license": "Public domain",
+  "artist": "U.S. Navy photo by Mass Communication Specialist 3rd Class Bryan M. Ilyankoff"
  }
 }

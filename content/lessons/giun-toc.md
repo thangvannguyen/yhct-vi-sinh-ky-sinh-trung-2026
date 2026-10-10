@@ -98,6 +98,8 @@
 | *Ancylostoma duodenale* (giun móc) | 15,09% |
 | *Trichuris trichiura* (giun tóc) | 10,06% |
 
+![Bản đồ gánh nặng bệnh giun tóc trên thế giới (WHO, 2012; số năm sống khỏe bị mất trên một triệu dân): màu càng ngả đỏ, gánh nặng càng lớn; vùng xám là không có số liệu. Bệnh tập trung ở vùng nhiệt đới nóng ẩm — châu Phi, Nam Mỹ, Nam Á và Đông Nam Á](giun-toc/ban-do.jpg)
+
 **Phương thức lây:** **trực tiếp**, do nuốt trứng có ấu trùng, đưa vào miệng qua tay bẩn hoặc qua thức ăn, nước uống bị nhiễm.
 
 **Điều kiện cho trứng phát triển ở ngoại cảnh**
@@ -149,7 +151,11 @@ Giun lan từ manh tràng ra khắp đại tràng, gây:
 
 - Bệnh nhân bị lỵ đôi khi có bạch cầu ái toan hoặc tinh thể Charcot-Leyden trong phân.
 
+![Kỹ thuật Kato-Katz: phân được đong qua tấm khuôn thành một khoanh tròn trên lam kính, rồi phủ miếng giấy bóng kính đã thấm glycerol và xanh malachite. Bên phải là các dụng cụ, hóa chất cần dùng: lọ đựng phân, lam kính, que gỗ, xanh malachite, găng tay, glycerol](giun-toc/kato-katz.jpg)
+
 **Nội soi đại trực tràng:** có thể thấy nhiều giun tóc đang cắm trên niêm mạc.
+
+![Giun tóc thấy khi nội soi đại tràng: phần đuôi to cuộn tròn hoặc gấp khúc nằm trên bề mặt, phần đầu mảnh như sợi tóc cắm vào niêm mạc ruột](giun-toc/noi-soi.jpg)
 
 ### 5.2. Chẩn đoán phân biệt {#chan-doan-phan-biet}
 

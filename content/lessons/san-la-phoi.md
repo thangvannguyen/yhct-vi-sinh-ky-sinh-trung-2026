@@ -72,10 +72,14 @@
 | Chó | 9,8 – 34,5% nhiễm |
 | Bệnh nhân là trẻ em | Chiếm 69,4%; người lớn thấp hơn (0,2 – 15%) |
 
+![Vỏ ốc Melanoides tuberculata — ký chủ trung gian thứ nhất: vỏ xoắn dài, nhọn như mũi khoan, có gờ và đốm nâu (vỏ dài khoảng 2,4 cm)](san-la-phoi/oc-melanoides.jpg) ![Một loài cua suối (Potamiscus montosus, ảnh minh họa, không phải loài Ranguna kimboiensis): cua nước ngọt sống ở suối vùng núi là ký chủ trung gian thứ hai, mang nang ấu trùng ở cơ](san-la-phoi/cua-suoi.jpg)
+
 **Nguồn lây**
 
 - Món ăn chính gây nhiễm: **cua nướng, canh cua**. Việc **giã cua lấy nước chữa bệnh** cũng là yếu tố nguy cơ.
 - **Tôm** cũng là ký chủ trung gian; món tôm chưa chín có nang ấu trùng có thể gây nhiễm. Tuy nhiên, tại Việt Nam chưa có dữ liệu nghiên cứu về ký chủ trung gian này.
+
+![Cua đồng nước ngọt muối sống (món "pu dong" ở Thái Lan, ảnh minh họa): cua chỉ ngâm muối, không nấu chín — kiểu chế biến như mắm cua, cua sống là đường lây sán lá phổi](san-la-phoi/cua-song.jpg)
 
 > [!TIP] Mẹo nhớ
 > Sán lá **PHỔI** ↔ **CUA**. Sán lá nhỏ ở gan ↔ **CÁ**. Câu hỏi hay gài "ăn cá sống" hoặc "ăn thịt chó, lợn" — đó **không phải** đường lây sán lá phổi. Chó, lợn chỉ là **tàng chủ**.
@@ -92,6 +96,8 @@
   - nhu mô phổi có nốt mờ, mảng mờ có hang nhỏ;
   - tổn thương chủ yếu ở vùng phổi thấp.
 - **Bạch cầu toan tính tăng** trong đa số trường hợp.
+
+![Mô phổi bệnh nhân nhiễm sán lá phổi (nhuộm HE, ảnh giải phẫu bệnh): rất nhiều trứng sán lớn, vỏ dày màu vàng nằm trong nhu mô phổi viêm — trứng từ đây theo đờm ra ngoài](san-la-phoi/trung-trong-phoi.jpg)
 
 **Khi sán ký sinh ở phủ tạng khác**
 
@@ -110,6 +116,8 @@
 
 - **Xét nghiệm đờm tìm thấy trứng sán**, có thể kèm tinh thể Charcot-Leyden.
 - Có thể thấy trứng trong phân do bệnh nhân nuốt đờm, **nhất là trẻ em**.
+
+![Tinh thể Charcot-Leyden trong mẫu đờm: hình thoi mảnh, hai đầu nhọn, bắt màu đỏ hồng (ảnh minh họa, không phải từ bệnh nhân sán lá phổi) — loại tinh thể có thể gặp kèm trứng sán khi xét nghiệm đờm](san-la-phoi/charcot-leyden.jpg)
 
 **Hỗ trợ**
 

@@ -32,6 +32,8 @@
 
 ![Fasciolopsis buski trưởng thành: thân dẹt hình chiếc lá bầu dục, không phân đốt](san-la-ruot/truong-thanh.jpg) ![Trứng Fasciolopsis buski: hình bầu dục, vỏ trong suốt](san-la-ruot/trung.jpg)
 
+![Hình vẽ cấu tạo F. buski (tranh cổ): (a) đĩa hút miệng, (b) đĩa hút bụng to hơn ở ngay sau; (i) nhánh ruột chạy dọc hai bên, không phân nhánh nhỏ; (h) buồng trứng phân nhánh và (k) tử cung ở nửa trên thân; (f, g) hai tinh hoàn phân nhánh nhiều, chiếm gần hết nửa sau thân](san-la-ruot/hinh-ve.jpg)
+
 ## 2. Chu trình phát triển {#chu-trinh}
 
 ```cycle
@@ -70,6 +72,8 @@
 | Ấn Độ | 29 – 60%; có trường hợp chứa đến 57 con sán trưởng thành |
 | Khác | Malaysia, Indonesia, Myanmar |
 
+![Bản đồ các nước có báo cáo ca nhiễm F. buski (tô xanh): tập trung ở châu Á — Trung Quốc, Ấn Độ, Bangladesh, Đông Nam Á; vài nước ngoài châu Á cũng có ca báo cáo](san-la-ruot/ban-do.jpg)
+
 **Ở Việt Nam**
 
 - Đã có báo cáo nhiễm từ 1954 (Fournier) và 1984 (Harinasuta), **cả người lẫn heo** (Yoshihara và cộng sự, 1999).
@@ -85,6 +89,10 @@
 - Người hoặc heo nhiễm do ăn các loại **cây dưới nước** có nang ấu trùng: rau muống, rau nhút, rau ngổ, cải xoong, ngó sen, súng, củ năng, các loại bèo…, hoặc **uống nước** có nang ấu trùng.
 - **Ốc ký chủ trung gian** ở Việt Nam, Trung Quốc, Đài Loan: các giống ***Segmentina*, *Hippeutis* và *Gyraulus*** của *Planorbis*.
 
+![Rau nhút (Neptunia oleracea) mọc nổi trên mặt nước](san-la-ruot/rau-nhut.jpg) ![Củ năng (Eleocharis dulcis): củ của một loại cây mọc dưới nước](san-la-ruot/cu-nang.jpg) ![Rau muống (Ipomoea aquatica) bò trên mặt nước](san-la-ruot/rau-muong.jpg)
+
+![Vỏ ốc Segmentina (loài S. nitida ở châu Âu, ảnh minh họa): ốc rất nhỏ (khoảng 5 mm), vỏ cuộn phẳng hình đĩa — kiểu vỏ chung của nhóm ốc Planorbis](san-la-ruot/oc-segmentina.jpg)
+
 > [!WARN] Dễ nhầm
 > Người nhiễm do ăn rau mọc dưới nước có **NANG ẤU TRÙNG**, không phải "bào tử nang" (bào tử nang là giai đoạn trong ốc). Không phải do ăn cua (sán lá phổi) hay cá (sán lá nhỏ ở gan).
 
@@ -93,6 +101,8 @@
 **Tổn thương**
 
 - **Tại chỗ bám:** sán bám vào thành ruột làm giãn ruột non, xoắn tá tràng, loét xuất huyết, áp-xe, viêm xuất tiết, đôi khi xuất huyết.
+
+![Hình nội soi dạ dày – tá tràng: nhiều con F. buski màu hồng nhạt, dẹt như chiếc lá, bám ở hang vị (a) và tá tràng (b, c, d)](san-la-ruot/noi-soi.jpg)
 - **Do độc tố và dị ứng** với chất chuyển hóa của sán: **báng bụng, phù toàn thân, phù mặt** (phù hốc mắt, phù má).
 - **Nhiễm nặng:**
   - rối loạn tiết dịch ruột, tiết chất nhầy quá mức, tắc nghẽn lưu thông thức ăn;

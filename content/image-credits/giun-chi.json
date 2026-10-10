@@ -22,5 +22,29 @@
   "page": "https://commons.wikimedia.org/wiki/File:Foot_and_leg_displaying_elephantiasis_Wellcome_L0074827.jpg",
   "license": "CC BY 4.0",
   "artist": "Wellcome Collection"
+ },
+ "culex.jpg": {
+  "title": "File:Culex quinquefasciatus.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Culex_quinquefasciatus.jpg",
+  "license": "CC BY 3.0 au",
+  "artist": "Simon Hinkley & Ken Walker, Museum Victoria"
+ },
+ "mansonia.jpg": {
+  "title": "File:Mansonia annulifera sunnyjosef.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mansonia_annulifera_sunnyjosef.jpg",
+  "license": "CC BY 4.0",
+  "artist": "iNaturalist use sunnyjosef"
+ },
+ "phu-voi-chan.jpg": {
+  "title": "File:Elephantiasis.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Elephantiasis.jpg",
+  "license": "Public domain",
+  "artist": "CDC"
+ },
+ "dai-duong-trap.jpg": {
+  "title": "File:Chyluria urine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Chyluria_urine.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Sham Sunder và cộng sự"
  }
 }

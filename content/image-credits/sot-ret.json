@@ -34,5 +34,77 @@
   "page": "https://commons.wikimedia.org/wiki/File:Plasmodium_vivax_01.png",
   "license": "Public domain",
   "artist": "CDC"
+ },
+ "vivax-phan-liet.jpg": {
+  "title": "File:P. vivax - schizonts.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:P._vivax_-_schizonts.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Stefan Walkowski"
+ },
+ "malariae-phan-liet.jpg": {
+  "title": "File:Mature Plasmodium malariae schizont PHIL 2715 lores.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mature_Plasmodium_malariae_schizont_PHIL_2715_lores.jpg",
+  "license": "Public domain",
+  "artist": "CDC/ Dr. Mae Melvin"
+ },
+ "vivax-giao-bao.jpg": {
+  "title": "File:Microgametocyte of the parasite Plasmodium vivax PHIL 2727 lores.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Microgametocyte_of_the_parasite_Plasmodium_vivax_PHIL_2727_lores.jpg",
+  "license": "Public domain",
+  "artist": "CDC"
+ },
+ "lam-mau.jpg": {
+  "title": "File:5901 lores.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:5901_lores.jpg",
+  "license": "Public domain",
+  "artist": "CDC/ Steven Glenn, Laboratory & Consultation Division"
+ },
+ "giot-day.jpg": {
+  "title": "File:P. falciparum thick smear with gametocytes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:P._falciparum_thick_smear_with_gametocytes.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Jenkayaks"
+ },
+ "rdt.jpg": {
+  "title": "File:Malaria rapid diagnostic test 3.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Malaria_rapid_diagnostic_test_3.jpg",
+  "license": "Public domain",
+  "artist": "USAID"
+ },
+ "mung.jpg": {
+  "title": "File:Malaria prevention-Insecticide treated bed net-PMI.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Malaria_prevention-Insecticide_treated_bed_net-PMI.jpg",
+  "license": "Public domain",
+  "artist": "President's Malaria Initiative (USAID)"
+ },
+ "phun.jpg": {
+  "title": "File:Malaria prevention-Indoor Residual Spraying (IRS)-USAID.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Malaria_prevention-Indoor_Residual_Spraying_(IRS)-USAID.jpg",
+  "license": "Public domain",
+  "artist": "Elissa Jensen / USAID"
+ },
+ "bo-gay.jpg": {
+  "title": "File:AnophelesLarvaPhoto CDCHarryWeinburgh publicdomain.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:AnophelesLarvaPhoto_CDCHarryWeinburgh_publicdomain.jpg",
+  "license": "Public domain",
+  "artist": "Harry Weinburgh, CDC"
+ },
+ "u-loi.jpg": {
+  "title": "File:Red blood cells infected with malaria.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Red_blood_cells_infected_with_malaria.jpg",
+  "license": "Public domain",
+  "artist": "Rick Fairhurst, Jordan Zuspann (NIAID)"
+ },
+ "kinh-hien-vi.jpg": {
+  "title": "File:Microscopist, Wendy Saravagy checks blood for malaria at Borohinaba clinic, Central Province, Solomon Islands 2004. Photo- Peter Davis - AusAID (10697821434).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Microscopist,_Wendy_Saravagy_checks_blood_for_malaria_at_Borohinaba_clinic,_Central_Province,_Solomon_Islands_2004._Photo-_Peter_Davis_-_AusAID_(10697821434).jpg",
+  "license": "CC BY 2.0",
+  "artist": "Peter Davis / AusAID (DFAT)"
+ },
+ "ovale.jpg": {
+  "title": "File:Plasmodium ovale 01.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Plasmodium_ovale_01.png",
+  "license": "Public domain",
+  "artist": "CDC"
  }
 }

@@ -44,6 +44,8 @@
 
 ![Hai thể hoạt động của T. vaginalis (nuôi cấy, nhuộm Giemsa): thân hình quả lê, nhân đậm màu ở phía trước, các roi ở đầu](trichomonas/the-hoat-dong.jpg)
 
+![Hình vẽ cấu tạo thể hoạt động T. vaginalis (nhãn tiếng Anh): anterior flagella = 4 roi trước; undulating membrane = màng lượn sóng; nucleus = nhân ở phần trước thân; vacuoles = không bào; axostyle = trục sống thân nhô ra ở cuối thân. Thanh tỷ lệ 10 µm](trichomonas/so-do.jpg) ![T. vaginalis dưới kính hiển vi điện tử quét: (A, B) thân hình quả lê với các roi ở đầu; (C) trùng roi biến dạng, bám dàn mỏng trên bề mặt tế bào biểu mô](trichomonas/sem.jpg)
+
 ## 2. Chu trình phát triển {#chu-trinh}
 
 ```cycle
@@ -120,6 +122,8 @@
 | **Lưu ý khi lấy mẫu** | Đặt mỏ vịt **không bôi dầu hoặc kem**, vì có thể làm chết trùng roi, khó nhận dạng dưới kính hiển vi | Trùng roi ở nam **rất ít di động**, dễ bỏ sót |
 | **Kỹ thuật** | Soi tươi với nước muối sinh lý 0,9%: thấy rất nhiều ký sinh trùng di động nhanh, chiết quang, dễ nhận ra. Trùng roi chết rất nhanh trong nước muối đẳng trương, nên **phải xét nghiệm ngay** sau khi lấy mẫu. Điều tra cộng đồng có thể dùng phết nhuộm Giemsa | Soi trực tiếp; nếu âm tính thì **cấy chất nhờn đầu dương vật**, kỹ thuật hữu ích nhất, độ nhạy cao. Hầu hết canh cấy dương tính trong 48 giờ, nhưng nên theo dõi tiếp 7 – 10 ngày rồi mới kết luận âm tính |
 | **Kiểm tra sau điều trị** | Sau kỳ kinh kế tiếp: soi tươi và cấy chất tiết âm đạo trên môi trường Diamond hay Trusell – Johnson | — |
+
+![Soi tươi dịch âm đạo (kính hiển vi tương phản pha, CDC): nhiều thể hoạt động T. vaginalis nhỏ, hình bầu dục, chiết quang, một số còn thấy roi, tụ quanh các tế bào biểu mô vảy lớn](trichomonas/soi-tuoi-2.jpg)
 
 ## 6. Điều trị {#dieu-tri}
 

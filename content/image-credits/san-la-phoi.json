@@ -16,5 +16,35 @@
   "page": "https://commons.wikimedia.org/wiki/File:Paragonimus_westermanii.jpg",
   "license": "Public domain",
   "artist": "Patrick Manson"
+ },
+ "oc-melanoides.jpg": {
+  "title": "File:Melanoides tuberculata 001.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Melanoides_tuberculata_001.JPG",
+  "license": "CC BY-SA 3.0",
+  "artist": "H. Zell"
+ },
+ "cua-suoi.jpg": {
+  "title": "File:Potamiscus montosus dorsal view held.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Potamiscus_montosus_dorsal_view_held.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Wang J.P."
+ },
+ "cua-song.jpg": {
+  "title": "File:Pu dong.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pu_dong.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Takeaway"
+ },
+ "trung-trong-phoi.jpg": {
+  "title": "File:Paragonimiasis - Case 285.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Paragonimiasis_-_Case_285.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Yale Rosen from USA"
+ },
+ "charcot-leyden.jpg": {
+  "title": "File:Charcot-Leyden crystals in sputum (50846253727).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Charcot-Leyden_crystals_in_sputum_(50846253727).jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Atlas of Medical Foreign Bodies"
  }
 }

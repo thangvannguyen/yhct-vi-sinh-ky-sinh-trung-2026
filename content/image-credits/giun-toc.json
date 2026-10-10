@@ -16,5 +16,23 @@
   "page": "https://commons.wikimedia.org/wiki/File:Trichuris_trichiura_Life_Cycle_CDC.tif",
   "license": "Public domain",
   "artist": "CDC / Alexander J. da Silva, Melanie Moser"
+ },
+ "kato-katz.jpg": {
+  "title": "File:Kato-Katz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kato-Katz.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Negar99m"
+ },
+ "noi-soi.jpg": {
+  "title": "File:Trichuris trichiura encontrado em exame de colonoscopia.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Trichuris_trichiura_encontrado_em_exame_de_colonoscopia.png",
+  "license": "CC BY 4.0",
+  "artist": "Dayane Parasitologia UERJ"
+ },
+ "ban-do.jpg": {
+  "title": "File:Trichuriasis world map-DALYs per million persons-WHO2012.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Trichuriasis_world_map-DALYs_per_million_persons-WHO2012.svg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Chris55"
  }
 }

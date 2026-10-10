@@ -16,5 +16,35 @@
   "page": "https://commons.wikimedia.org/wiki/File:Taenia_solium_Life_cycle_(01).jpg",
   "license": "Public domain",
   "artist": "CDC"
+ },
+ "nao-ct.jpg": {
+  "title": "File:Neurocysticercosis brain CT.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Neurocysticercosis_brain_CT.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Innocent Lule Segamwenge"
+ },
+ "nao-mri.jpg": {
+  "title": "File:Extraparenchymal neurocysticercosis MRI.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Extraparenchymal_neurocysticercosis_MRI.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Rodrigo Bazan, Pedro Tadao Hamamoto Filho, Gustavo José Luvizutto, Hélio Rubens "
+ },
+ "dot-san.jpg": {
+  "title": "File:Taenia solium tapeworm proglottids 5261 lores.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Taenia_solium_tapeworm_proglottids_5261_lores.jpg",
+  "license": "Public domain",
+  "artist": "CDC"
+ },
+ "nang-nao-mo.jpg": {
+  "title": "File:Intraoperative Finding of Neurocysticercosis.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Intraoperative_Finding_of_Neurocysticercosis.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Michael J. Kavanaugh"
+ },
+ "nang-mo-hinh.jpg": {
+  "title": "File:Modell von Cysticercus cellulasae (Schweinefinne) -Weisker-.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Modell_von_Cysticercus_cellulasae_(Schweinefinne)_-Weisker-.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "David Ludwig"
  }
 }

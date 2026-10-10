@@ -16,5 +16,17 @@
   "page": "https://commons.wikimedia.org/wiki/File:Gravid_proglottid_from_the_cestode_Taenia_saginata_5259_lores.jpg",
   "license": "Public domain",
   "artist": "CDC"
+ },
+ "trung.jpg": {
+  "title": "File:T.saginata-egg.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:T.saginata-egg.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Stefan Walkowski"
+ },
+ "truong-thanh.jpg": {
+  "title": "File:Taenia saginata adult 5260 lores.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Taenia_saginata_adult_5260_lores.jpg",
+  "license": "Public domain",
+  "artist": "CDC"
  }
 }

@@ -177,6 +177,8 @@ Ký sinh trùng sốt rét có **2 giai đoạn**:
 | **Thể phân liệt** | Nhân chia thành nhiều mảnh, mỗi mảnh có tế bào chất bao quanh (mảnh trùng). Khối tròn hoặc bầu dục chiếm hết hồng cầu, nhiều sắc tố. Hồng cầu vỡ, mảnh trùng xâm nhập hồng cầu mới |
 | **Thể giao bào** | **Thể hữu tính** (đực và cái): 1 nhân, một khối tế bào chất, nhiều sắc tố. Phát triển tiếp trong dạ dày muỗi. Đây là **nguồn gốc lây lan** bệnh |
 
+![Thể phân liệt của P. vivax (phết máu mỏng, nhuộm Giemsa, thước đo 10 µm): mỗi khối gồm nhiều mảnh trùng có nhân tím đậm, sắc tố sốt rét màu nâu đen tụ ở giữa](sot-ret/vivax-phan-liet.jpg) ![Thể giao bào của P. vivax: khối tròn với một nhân, chiếm gần hết hồng cầu đã to ra](sot-ret/vivax-giao-bao.jpg)
+
 ### 3.2. Đặc điểm hình thể theo loài {#hinh-the-theo-loai}
 
 | | *P. falciparum* | *P. vivax* | *P. malariae* | *P. ovale* |
@@ -188,6 +190,8 @@ Ký sinh trùng sốt rét có **2 giai đoạn**:
 | **Giao bào** | Hình **liềm / trái chuối**; xuất hiện **trễ** (sau 10 ngày), tồn tại **lâu** (hàng tháng) | Tròn hoặc bầu dục; xuất hiện **sớm** (2 – 3 ngày), tồn tại **ngắn** (khoảng 1 tuần) | Tròn hoặc bầu dục, nhiều sắc tố | — |
 
 ![P. falciparum: thể nhẫn nhỏ, thanh mảnh (mũi tên); hồng cầu nhiễm không to ra](sot-ret/falciparum-nhan.jpg) ![P. falciparum: giao bào hình liềm, hình trái chuối](sot-ret/falciparum.jpg) ![P. vivax: tư dưỡng trong hồng cầu to ra, màng hồng cầu có hạt Schüffner](sot-ret/vivax.jpg) ![P. malariae: tư dưỡng dạng dải băng vắt ngang hồng cầu](sot-ret/malariae.jpg)
+
+![P. malariae: thể phân liệt trưởng thành với các mảnh trùng xếp quanh cụm sắc tố nâu ở giữa (hình hoa thị); hồng cầu không to ra](sot-ret/malariae-phan-liet.jpg) ![P. ovale: thể nhẫn trong hồng cầu to ra, hơi bầu dục, có lấm tấm hạt Schüffner](sot-ret/ovale.jpg)
 
 ***P. knowlesi*:** hình thể dễ nhầm với *P. malariae*, thường chỉ chẩn đoán xác định được bằng **PCR**.
 
@@ -267,6 +271,8 @@ Ký sinh trùng sốt rét có **2 giai đoạn**:
   - các điểm u lồi này **chỉ có ở *P. falciparum***.
 - **Tạo hoa hồng (rosetting):** hồng cầu nhiễm kết dính với hồng cầu bình thường thành khối, làm tắc vi tuần hoàn.
 
+![Ảnh hiển vi điện tử quét: hồng cầu nhiễm P. falciparum (ở giữa) có bề mặt lấm tấm các điểm u lồi (knob), khác hẳn bề mặt nhẵn của các hồng cầu lành xung quanh. Nhờ các u lồi này, hồng cầu nhiễm bám được vào nội mạc mạch máu](sot-ret/u-loi.jpg)
+
 > [!KEY] Vì sao *P. falciparum* nguy hiểm nhất?
 > Ba cơ chế trên làm hồng cầu nhiễm **kẹt lại trong vi mạch của các cơ quan quan trọng**, gây sốt rét thể não và suy đa cơ quan.
 
@@ -339,6 +345,8 @@ Triệu chứng lâm sàng (sốt, lạnh run, nôn, nhức đầu…) không đ
 
 Xét nghiệm khác có thể bất thường: thiếu máu, giảm tiểu cầu, tăng bilirubin máu, tăng phosphatase kiềm…
 
+![Lam máu soi tìm ký sinh trùng sốt rét: bên trái là phết máu mỏng (giọt máu kéo thành lớp mỏng), bên phải là giọt máu dày (giọt máu tròn, dày)](sot-ret/lam-mau.jpg) ![Giọt máu dày nhuộm Giemsa: hồng cầu đã bị tan nên không còn thấy; mũi tên chỉ giao bào hình liềm của P. falciparum](sot-ret/giot-day.jpg) ![Test chẩn đoán nhanh sốt rét (ảnh ở Kenya): nhỏ máu vào giếng S, đọc kết quả ở vạch chứng C và vạch thử T sau khoảng 20 phút](sot-ret/rdt.jpg)
+
 ## 10. Điều trị {#dieu-tri}
 
 **Mục tiêu điều trị**
@@ -367,10 +375,14 @@ Ba mục tiêu:
    - biện pháp sinh học: thả cá ăn bọ gậy, dùng vi khuẩn *Bacillus thuringiensis* diệt bọ gậy.
 3. **Giảm lượng ký sinh trùng trong cộng đồng:** phát hiện sớm, điều trị đúng phác đồ, uống thuốc dự phòng.
 
+![Mùng tẩm hóa chất diệt côn trùng giúp giảm tiếp xúc người – muỗi (ảnh ở Tanzania)](sot-ret/mung.jpg) ![Phun hóa chất tồn lưu lên tường vách trong nhà, nơi muỗi đậu nghỉ sau khi hút máu (ảnh ở Mozambique)](sot-ret/phun.jpg) ![Bọ gậy (ấu trùng) muỗi Anopheles, đối tượng của các biện pháp diệt bọ gậy: hóa chất, cá ăn bọ gậy, vi khuẩn Bacillus thuringiensis](sot-ret/bo-gay.jpg)
+
 > [!NOTE] Riêng tại Việt Nam
 > Việt Nam **không chủ trương uống thuốc dự phòng** mà dùng biện pháp **cấp thuốc tự điều trị**. Người vào vùng sốt rét được cấp sẵn 1 liều điều trị (thường là ACT) để uống ngay khi có triệu chứng, trong lúc chờ xét nghiệm máu.
 
 **Kết quả ở Việt Nam**
+
+![Nhân viên xét nghiệm soi lam máu tìm ký sinh trùng sốt rét tại một trạm y tế (ảnh ở quần đảo Solomon, 2004). Các "điểm kính hiển vi" ở xã vùng sốt rét làm đúng công việc này](sot-ret/kinh-hien-vi.jpg)
 
 - Sốt rét đã bị đẩy lùi ở nhiều tỉnh, nhờ:
   - triển khai rộng "**điểm kính hiển vi**" tại các xã vùng sốt rét;

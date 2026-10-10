@@ -78,6 +78,8 @@
 | *W. bancrofti* | *Culex quinquefasciatus* và *Anopheles hyrcanus* |
 | *B. malayi* | *Mansonia* spp. |
 
+![Muỗi Culex quinquefasciatus, vectơ chính truyền W. bancrofti (mẫu bảo tàng, thước đo 2 mm): thân nâu nhạt, không có hoa văn rõ](giun-chi/culex.jpg) ![Muỗi Mansonia (loài M. annulifera, ảnh chụp ở Ấn Độ), giống muỗi truyền B. malayi: chân và vòi có khoang trắng xen đen, thân lốm đốm vảy](giun-chi/mansonia.jpg)
+
 ### 2.2. Trong cơ thể người {#chu-trinh-nguoi}
 
 | | Vị trí ấu trùng khu trú |
@@ -142,7 +144,7 @@ Bệnh có tính chất **âm thầm, mạn tính**. Đặc thù của bệnh: n
 - Da có những khối tĩnh mạch trướng to, nứt nẻ, loét, bao bởi gai sừng phì đại kiểu mụn cóc.
 - Ở giai đoạn này **thường không thấy phôi trong máu**.
 
-![Tranh minh họa cổ (Wellcome Collection): bàn chân và cẳng chân phù voi, phù to, da dày, có nếp gấp sâu ở cổ chân](giun-chi/phu-voi.jpg)
+![Tranh minh họa cổ (Wellcome Collection): bàn chân và cẳng chân phù voi, phù to, da dày, có nếp gấp sâu ở cổ chân](giun-chi/phu-voi.jpg) ![Phù voi hai chân do giun chỉ (ảnh chụp ở Philippines): cẳng chân và bàn chân to bè, da dày sần, tạo thành những nếp gấp lớn chồng lên nhau ở cổ chân](giun-chi/phu-voi-chan.jpg)
 
 **Tăng bạch cầu toan tính phổi nhiệt đới**
 
@@ -157,6 +159,8 @@ Bệnh có tính chất **âm thầm, mạn tính**. Đặc thù của bệnh: n
 Mạch bạch huyết xơ hóa, tắc nghẽn rồi vỡ vào nội tạng, nhất là thận, ống dẫn tiểu, bàng quang:
 
 - **Đái dưỡng trấp:** nước tiểu trắng đục như nước vo gạo, **chứa phôi giun chỉ**.
+
+![Nước tiểu của bệnh nhân đái dưỡng trấp do giun chỉ: trắng đục như sữa, như nước vo gạo](giun-chi/dai-duong-trap.jpg)
 - Vỡ vào âm đạo, bìu.
 - Tiểu ra máu; bội nhiễm nhiều loại vi khuẩn với các đợt nhiễm khuẩn huyết, có thể tử vong.
 - Viêm tinh hoàn, ống mào tinh, thừng tinh tái diễn có thể gây **vô sinh**.

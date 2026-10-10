@@ -143,6 +143,8 @@ Một số điểm cần nhớ về các dạng trứng:
 - Mức độ nặng tùy số lượng ấu trùng trong phổi và tiền sử nhiễm. Ở người cơ địa dị ứng, chỉ vài ấu trùng cũng có thể gây mề đay, suyễn nặng.
 - Ở giai đoạn này, **xét nghiệm phân âm tính**. Phải khoảng **2 – 2,5 tháng** sau khi có hội chứng Loeffler mới tìm thấy trứng trong phân.
 
+![Tinh thể Charcot-Leyden trong đàm (nhuộm): các tinh thể màu hồng đỏ, mảnh, nhọn hai đầu. Đây là loại tinh thể có thể tìm thấy trong đàm ở giai đoạn ấu trùng qua phổi (ảnh từ một mẫu đàm nói chung, không ghi rõ do giun đũa)](giun-dua/dam-charcot-leyden.jpg)
+
 ### 4.2. Giai đoạn giun trưởng thành trong ruột {#lam-sang-ruot}
 
 - **Rối loạn tiêu hóa:**
@@ -162,6 +164,8 @@ Một số điểm cần nhớ về các dạng trứng:
 |---|---|
 | **Tại ruột** | **Tắc ruột non**: giun cuộn thành búi; hay gặp ở trẻ nhỏ; tử vong 9% số ca nhập viện. Ngoài ra: xoắn ruột, lồng ruột, thoát vị bẹn |
 | **Ngoài ruột** (giun "thích chu du", lạc chỗ và mang theo vi khuẩn đường ruột) | Thường gặp nhất là **tắc mật do giun chui ống mật chủ**. Ngoài ra: viêm túi mật; sỏi mật (xác hoặc trứng giun làm nhân sỏi); **viêm tụy cấp** (giun chui ống tụy); viêm ruột thừa; áp-xe gan; viêm phúc mạc |
+
+![Phim X-quang ruột non có uống thuốc cản quang (barium): giun đũa hiện thành những vệt tối dài nằm dọc trong lòng ruột (ca bệnh ở Nam Phi)](giun-dua/xquang-ruot.jpg) ![Búi giun đũa lấy ra khi phẫu thuật một trẻ 14 tuổi bị tắc ruột: rất nhiều giun cuộn lại với nhau, minh họa vì sao biến chứng tắc ruột cần xử trí ngoại khoa](giun-dua/tac-ruot.jpg)
 
 Đôi khi giun trưởng thành bò ra ngoài qua các lỗ tự nhiên như miệng, mũi, hậu môn.
 
@@ -225,6 +229,8 @@ Phải phối hợp nhiều biện pháp để cắt đứt chu trình ở nhi�
    - Phát hiện và điều trị người mang mầm bệnh.
    - Ở vùng nội dịch: **tẩy giun hàng loạt**, đặc biệt cho học sinh.
 4. **Lồng ghép** chương trình phòng chống giun sán vào các chương trình sức khỏe khác.
+
+![Học sinh tiểu học ở Điện Biên uống thuốc tẩy giun tại trường (năm 2012): một ví dụ về tẩy giun hàng loạt cho học sinh ở Việt Nam](giun-dua/tay-giun-hoc-sinh.jpg)
 
 ## Tóm tắt {#tom-tat}
 

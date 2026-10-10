@@ -52,6 +52,8 @@
 - Một số nang trong nhu mô não có thể tích lên tới **60 ml**.
 - Bên trong nang chứa dịch và **một đầu sán lộn vào trong**; đầu sán non có 4 đĩa hút và 2 hàng móc.
 
+![Mô hình phóng to nang ấu trùng sán dải heo (mô hình sáp cổ của Weisker, cắt đôi): một bọc chứa dịch, ở giữa là đầu sán non lộn vào trong thành bọc](san-dai-heo/nang-mo-hinh.jpg)
+
 > [!NOTE] Ghi chú về số liệu
 > Tài liệu gốc ghi kích thước nang "dài # 5 mm, rộng # 8 – 10 mm". Chiều rộng lớn hơn chiều dài là bất thường, có thể hai số bị đảo; web giữ nguyên số liệu, bạn nên đối chiếu giáo trình.
 
@@ -188,11 +190,15 @@ Biểu hiện thường gặp nhất là **nang ấu trùng ở não**. Bệnh c
 - Nang ở **tủy sống** (khoảng 5%) có thể gây viêm màng não tủy, rối loạn cơ vòng, yếu chi tiến triển.
 - Dịch não tủy: bạch cầu ái toan tăng, protein tăng nhẹ, đường thường bình thường.
 
+![Nang ấu trùng ngoài nhu mô não trên MRI: A–C, chùm nang như chùm nho ở các bể đáy và rãnh Sylvius; D, nang khổng lồ (*) và nang ngấm thuốc trong nhu mô (mũi tên); E, ngấm thuốc do viêm quanh nang đang thoái hóa; F, não thất giãn to (*) do nang gây tắc dịch não tủy](san-dai-heo/nao-mri.jpg)
+
 ## 5. Chẩn đoán {#chan-doan}
 
 ### 5.1. Nhiễm sán trưởng thành {#chan-doan-truong-thanh}
 
 - **Xét nghiệm phân:** đốt sán thường thải theo từng chuỗi ngắn **5 – 6 đốt, không di động**, số nhánh tử cung **< 13**, chiều dài gấp đôi chiều rộng.
+
+![Đốt sán già của T. solium nhuộm mực tàu: thân tử cung ở giữa, mỗi bên chỉ có khoảng 7 – 13 nhánh. Đếm số nhánh này giúp phân biệt với sán dải bò (15 – 30 nhánh)](san-dai-heo/dot-san.jpg)
 - Soi tươi phân có thể thấy trứng do đốt sán vỡ trong lòng ruột, nhưng **không phân biệt được** trứng *T. solium* với *T. saginata*.
 - Có thể dùng **phương pháp Graham** tìm trứng, giống như tìm trứng giun kim.
 
@@ -204,6 +210,10 @@ Biểu hiện thường gặp nhất là **nang ấu trùng ở não**. Bệnh c
   - nang vôi hóa dễ thấy trên phim X-quang;
   - **CT scan / MRI**: nang còn sống hình tròn, đường kính khoảng 1 cm; khi nang phát triển có thể phù não xung quanh; giai đoạn cuối có vôi hóa quanh hoặc trong nang;
   - nang trong não thất **chỉ phát hiện được bằng MRI** não.
+
+![CT não bệnh nang ấu trùng: A–B, trước điều trị, rất nhiều nang tròn nhỏ giảm tỷ trọng kèm các chấm vôi hóa trắng; C–D, sau điều trị, hầu hết nang đã tan, chỉ còn lại các nốt vôi hóa](san-dai-heo/nao-ct.jpg)
+
+![Nang ấu trùng ở não thất 4 được mổ lấy ra: A, MRI có thuốc tương phản thấy cấu trúc dạng nang ở não thất 4; B, vi thể thành nang; C, nang lộ ra trong lúc mổ; D, nang sau khi lấy ra, đặt cạnh thước đo](san-dai-heo/nang-nao-mo.jpg)
 
 | Xét nghiệm | Đặc điểm |
 |---|---|

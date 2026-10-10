@@ -28,6 +28,8 @@ Sán dài **4 – 10 m**; thỉnh thoảng có con dài đến 25 m. Cơ thể g
 
 - Đốt sán già **rất di động**: có thể tự bò ra ngoài lúc bệnh nhân đi cầu, hoặc rơi ra quần áo, giường chiếu. Vì vậy bệnh nhân thường biết ngay mình mắc bệnh.
 
+![Một con sán dải bò T. saginata trưởng thành đặt cạnh thước đo: chuỗi đốt dài nhiều mét, đầu nhỏ như sợi chỉ ở góc phải, càng về cuối đốt càng to](san-dai-bo/truong-thanh.jpg)
+
 ![Đầu sán dải bò: có các đĩa hút, không có chủy và móc](san-dai-bo/dau-san.jpg) ![Đốt sán già của T. saginata: tử cung ở giữa chia rất nhiều nhánh hai bên](san-dai-bo/dot-san.jpg)
 
 > [!TIP] Phân biệt với sán dải heo
@@ -38,6 +40,8 @@ Sán dài **4 – 10 m**; thỉnh thoảng có con dài đến 25 m. Cơ thể g
 - Màu nâu sậm, hình bầu dục, kích thước **30 – 40 µm**.
 - Vỏ dày, có **tia sọc**; bên trong có **phôi 6 móc**.
 - **Giống trứng sán dải heo** nên khó phân biệt.
+
+![Trứng T. saginata dưới kính hiển vi, thước đo 10 µm: hình bầu dục hơi tròn, vỏ dày có tia sọc xuyên tâm, bên trong là phôi](san-dai-bo/trung.jpg)
 
 ### 1.3. Nang ấu trùng sán dải bò {#hinh-the-nang}
 
@@ -99,6 +103,8 @@ Sán dài **4 – 10 m**; thỉnh thoảng có con dài đến 25 m. Cơ thể g
   - đếm **số nhánh tử cung** của đốt sán mang trứng; hoặc
   - định danh bằng **đầu sán** sau khi uống thuốc tẩy sán.
 - **Tìm trứng:** xét nghiệm phân hoặc **kỹ thuật Graham**.
+
+![Để so sánh — đốt sán già của sán dải heo T. solium (nhuộm mực tàu): mỗi bên chỉ có khoảng 7 – 13 nhánh tử cung, ít hơn hẳn so với 15 – 30 nhánh của sán dải bò ở mục Hình thể](san-dai-heo/dot-san.jpg)
 
 ## 6. Điều trị {#dieu-tri}
 

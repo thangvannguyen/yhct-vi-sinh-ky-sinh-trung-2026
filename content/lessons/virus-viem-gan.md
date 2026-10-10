@@ -89,6 +89,8 @@ Virus viêm gan A thuộc họ **Picornaviridae** và là **typ 72 của *Entero
 ~> Không chuyển thành viêm gan mạn tính
 ```
 
+![Vàng da ở bệnh nhân viêm gan A: củng mạc mắt và da mặt nhuốm màu vàng](virus-viem-gan/vang-da.jpg)
+
 ### 1.7. Chẩn đoán {#hav-chan-doan}
 
 | Phương pháp | Nội dung |
@@ -149,6 +151,8 @@ Trong huyết thanh bệnh nhân có **3 dạng hạt**:
 | **Gen P** | **ADN polymerase** |
 | **Gen X** | Một protein có chức năng **hoạt hóa chéo** |
 
+![Sơ đồ cấu tạo HBV (tiếng Anh). Bên trái là tiểu thể Dane: vỏ ngoài mang kháng nguyên bề mặt HBsAg (Hepatitis B surface antigen), bên trong là lõi nucleocapsid hình khối mang kháng nguyên lõi HBcAg (core antigen), chứa ADN hai chuỗi không hoàn toàn (partially double-stranded DNA), ADN polymerase và HBeAg (e antigen). Bên phải là các hạt hình cầu nhỏ và hình sợi, chỉ gồm vật liệu vỏ HBsAg](virus-viem-gan/hbv-so-do.png)
+
 ### 2.2. Sự nhân lên {#hbv-nhan-len}
 
 - HBV **chưa nuôi cấy được** trên tổ chức nuôi cấy tế bào, nhưng sao chép được trên tế bào gan người.
@@ -184,6 +188,8 @@ Trong huyết thanh bệnh nhân có **3 dạng hạt**:
 > [!WARN] Dễ nhầm
 > - **HBcAg không có trong huyết thanh**, chỉ có trong nhân tế bào gan. Trong huyết thanh chỉ tìm được **anti-HBc**.
 > - **Anti-HBs** là kháng thể **bảo vệ** chống tái nhiễm, vì vậy vaccine viêm gan B làm từ **HBsAg**.
+
+![Diễn biến các dấu ấn huyết thanh trong viêm gan B cấp tự khỏi, trục ngang tính theo tuần (tiếng Anh). HBsAg và HBeAg xuất hiện sớm; anti-HBc (IgM rồi IgG) xuất hiện sớm và tồn tại lâu; anti-HBe xuất hiện khi HBeAg mất; anti-HBs xuất hiện muộn, sau khi HBsAg đã hết. Khoảng trống giữa lúc HBsAg mất và anti-HBs xuất hiện là "giai đoạn cửa sổ" (window period), lúc đó chỉ còn anti-HBc. Dải màu dưới cùng: ủ bệnh (incubation), giai đoạn cấp (acute), hồi phục sớm (early recovery), hồi phục (recovery)](virus-viem-gan/hbv-huyet-thanh.jpg)
 
 ### 2.4. Dịch tễ học {#hbv-dich-te}
 
@@ -291,6 +297,8 @@ Trong huyết thanh bệnh nhân có **3 dạng hạt**:
 - Tổn thương gan ở viêm gan C mạn không chỉ do virus mà còn liên quan **bệnh lý tự miễn** của cơ thể.
 - Biến chứng cuối cùng của viêm gan C mạn: **xơ gan ở 20 – 25%** trường hợp và **ung thư tế bào gan**.
 
+![Lát cắt gan tử thiết của một bệnh nhân có kháng thể anti-HCV dương tính: khối ung thư tế bào gan lớn (phía trên) phát triển trên nền gan xơ có nhiều nốt — biến chứng cuối cùng của viêm gan C mạn](virus-viem-gan/ung-thu-gan-hcv.jpg)
+
 ### 3.4. Chẩn đoán {#hcv-chan-doan}
 
 | Kỹ thuật | Nội dung |
@@ -333,6 +341,8 @@ Virus viêm gan D còn gọi là **virus viêm gan Delta**, hay **virus viêm ga
 
 > [!KEY] Vì sao HDV "khiếm khuyết"?
 > HDV tự sao chép được bộ gen, nhưng **không tự làm được vỏ**: vỏ của nó mượn **HBsAg của HBV**. Vì vậy **không có HBV thì không có hạt HDV**, và **phòng viêm gan B cũng là phòng viêm gan D**.
+
+![Sơ đồ hạt virus HDV (tiếng Anh): ở giữa là ARN một sợi (ssRNA) gắn với kháng nguyên HDAg (dạng lớn L-HDAg và dạng nhỏ S-HDAg); bao ngoài là vỏ mượn của HBV, gồm ba dạng protein HBsAg (S, M, L)](virus-viem-gan/hdv-so-do.jpg)
 
 ### 4.2. Dịch tễ học {#hdv-dich-te}
 

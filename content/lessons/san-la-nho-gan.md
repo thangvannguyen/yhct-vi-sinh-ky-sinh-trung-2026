@@ -48,6 +48,10 @@
 
 ![Clonorchis sinensis trưởng thành (nhuộm). Các chữ viết tắt trên ảnh: TE = tinh hoàn phân nhánh ở phần sau thân, UT = tử cung, OS = đĩa hút miệng, AC = đĩa hút bụng](san-la-nho-gan/clonorchis.jpg) ![Opisthorchis viverrini trưởng thành nằm trong ống mật (tiêu bản mô chuột hamster nhiễm thực nghiệm)](san-la-nho-gan/opisthorchis.jpg)
 
+**Đặc điểm phân biệt 2 loài — tinh hoàn:**
+
+![Tinh hoàn C. sinensis nhìn gần (tiêu bản nhuộm): phân thành nhiều nhánh nhỏ như cành cây](san-la-nho-gan/tinh-hoan-clonorchis.jpg) ![O. viverrini trưởng thành (tiêu bản nhuộm): ở phần sau thân có 2 tinh hoàn chia thùy thành búi tròn, xếp chéo nhau — khác hẳn tinh hoàn phân nhánh của C. sinensis](san-la-nho-gan/opisthorchis-toan-than.jpg)
+
 ### 1.2. Trứng {#hinh-the-trung}
 
 - **Rất khó phân biệt giữa 2 loài.**
@@ -92,16 +96,22 @@
 
 - Sự phân bố 2 loài phù hợp với **sự phân bố của các giống ốc** là ký chủ trung gian 1.
 
+![Vỏ ốc Bithynia siamensis (thu ở Campuchia): ốc nhỏ, vỏ xoắn tròn, miệng vỏ hình bầu dục; vạch thước = 10 mm](san-la-nho-gan/oc-bithynia.jpg) ![Vỏ ốc Melanoides tuberculata (thu ở Campuchia): vỏ xoắn dài, nhọn, có gờ và nốt sần; vạch thước = 10 mm](san-la-nho-gan/oc-melanoides.jpg)
+
 **Ký chủ trung gian 2: cá nước ngọt**
 
 - Thường là cá họ Cyprinidae (*C. sinensis*) hoặc cá diếc *Carassius carassius*.
 - Danh sách cá mang mầm bệnh ngày càng dài: theo Rim (1994), đã có **hơn 113 loài cá nước ngọt** là vật chủ của sán lá gan nhỏ.
+
+![Cá mè trắng (Hypophthalmichthys molitrix) thuộc họ cá chép Cyprinidae — loại cá hay được thái lát làm gỏi cá ở miền Bắc](san-la-nho-gan/ca-me.jpg)
 
 **Phương thức lây — ăn cá chưa chín có nang ấu trùng**
 
 - **Miền Bắc:** thái cá (chủ yếu **cá mè**) thành lát mỏng, tái sơ, trộn làm **nộm (gỏi) cá**.
 - **Miền Trung:** ăn cá sống hoặc **gỏi cá diếc** để uống rượu thưởng trăng.
 - Di dân và giao thoa văn hóa đã đưa mầm bệnh ra xa khỏi vùng nội dịch.
+
+![Món "koi pla" của vùng Đông Bắc Thái Lan: cá nước ngọt sống băm trộn gia vị, ăn kèm rau — tương tự gỏi cá, là nguồn lây O. viverrini rất phổ biến](san-la-nho-gan/koi-pla.jpg)
 
 **Tàng chủ**
 

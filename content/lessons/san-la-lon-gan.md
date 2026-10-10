@@ -42,6 +42,8 @@
 
 ![Sán lá lớn ở gan Fasciola hepatica trưởng thành: thân dẹt hình chiếc lá, phần đầu nhô thành chóp có đĩa hút](san-la-lon-gan/truong-thanh.jpg) ![Trứng Fasciola hepatica: hình bầu dục, kích thước lớn](san-la-lon-gan/trung.jpg)
 
+![Fasciola gigantica trưởng thành (tranh vẽ thế kỷ 19 của T. S. Cobbold, mẫu được nhuộm màu): thân dài hơn, hai bờ gần song song so với F. hepatica. Bên trái nhuộm đỏ để thấy hệ mạch; bên phải nhuộm xanh để thấy ruột phân nhánh phức tạp](san-la-lon-gan/gigantica.jpg)
+
 ## 2. Chu trình phát triển {#chu-trinh}
 
 ```cycle
@@ -65,6 +67,8 @@
 - **Vật chủ cuối cùng**, nơi sán trưởng thành tồn tại: các động vật ăn cỏ như gia súc, cừu, trâu, bò, lừa, heo, ngựa, dê, họ lạc đà…, và người.
 - **Vật chủ trung gian**, nơi ấu trùng phát triển: ốc nước ngọt.
 - **Giá thể mang ấu trùng**: thường là thực vật thủy sinh. Cải xoong và rau mùi bạc hà là loại ưu thế nhất trong lan truyền bệnh, nhưng ấu trùng đóng kén cũng có trên nhiều loại rau ăn dạng "salad".
+
+![Nang trùng Fasciola (mũi tên) bám trên thân cây thủy sinh ở ao, dưới kính hiển vi: các kén tròn nhỏ dính chặt vào bề mặt cây — đây là dạng người và gia súc nuốt phải khi ăn rau sống](san-la-lon-gan/nang-trung.jpg)
 
 Một số trường hợp ấu trùng **lạc chỗ** đến nhiều cơ quan khác nhau, gây biến chứng nghiêm trọng, đe dọa tính mạng.
 
@@ -102,7 +106,7 @@ Một số trường hợp ấu trùng **lạc chỗ** đến nhiều cơ quan k
 | **Ký chủ trung gian 2** (rau tươi) | Hay gặp nhất: cải xoong, rau răm, xà lách xoong, rau muống, diếp cá, bồ công anh, bạc hà lục, rau ngổ, rau đắng. Nang ấu trùng tạo kén trên các loại rau thủy sinh này |
 | **Ký chủ chính** | Động vật nhai lại, ăn cỏ: trâu, bò, dê, cừu, lạc đà, ngựa, chó, mèo |
 
-![Ốc Lymnaea (ảnh minh họa loài L. stagnalis ở châu Âu, không phải loài trung gian ở Việt Nam): vỏ xoắn nhọn, miệng vỏ rộng](san-la-lon-gan/oc-lymnaea.jpg)
+![Ốc Lymnaea (ảnh minh họa loài L. stagnalis ở châu Âu, không phải loài trung gian ở Việt Nam): vỏ xoắn nhọn, miệng vỏ rộng](san-la-lon-gan/oc-lymnaea.jpg) ![Vỏ ốc Lymnaea viridis (nay xếp vào giống Orientogalba), một trong hai loài ốc trung gian của F. gigantica ở Việt Nam: vỏ mỏng, vòng xoắn cuối phình to, miệng vỏ rộng (mẫu bảo tàng Úc)](san-la-lon-gan/oc-viridis.jpg)
 
 > [!TIP] Mẹo nhớ ốc trung gian
 > ***Fasciola* ↔ *Lymnaea*** (cùng chữ cái đầu dễ nhớ "F–L"). Câu hỏi hay đưa *Bithynia* (sán lá nhỏ ở gan), *Melanoides* (sán lá phổi), *Planorbis* (sán lá ruột lớn) làm phương án nhiễu.
@@ -122,6 +126,8 @@ Mức độ bệnh **phụ thuộc số lượng ký sinh trùng**:
 | **Mạn tính** | Tắc nghẽn đường mật, gây viêm đường mật trong gan, viêm ống mật chủ, viêm túi mật. Lâu ngày gây **xơ hóa, chít hẹp đường mật**, đau và vàng da |
 
 - Sán cũng có thể làm đường mật xơ hóa, dày lên, giãn rộng.
+
+![Gan cừu nhiễm F. hepatica: túi mật viêm, căng to (mũi tên); các ống mật dày lên, nổi rõ thành dải trắng trên mặt gan](san-la-lon-gan/duong-mat.jpg) ![Sán F. hepatica trưởng thành nằm trong ống mật đã được rạch mở (gan dê)](san-la-lon-gan/duong-mat-2.jpg)
 - **Thiếu máu** là một trong những triệu chứng đặc trưng. Chảy máu đường mật có lẽ là yếu tố quan trọng góp phần gây thiếu máu.
 
 ### 4.2. Triệu chứng lâm sàng {#trieu-chung}
@@ -199,6 +205,8 @@ Dựa vào **dịch tễ học vùng lưu hành, lâm sàng, cận lâm sàng v�
 | (i) Phát tán trứng | Quản lý phân |
 | (ii) Trung gian truyền bệnh | Diệt ốc, phá bỏ nơi ốc cư trú. **Không thực tế** và ảnh hưởng môi trường |
 | (iii) Nhiễm bệnh | **Không ăn cây thủy sinh chưa nấu chín**, làm sạch nơi chứa mầm bệnh |
+
+![Cải xoong (Nasturtium officinale), loại rau thủy sinh hay truyền bệnh nhất: không ăn sống khi rau trồng ở nơi có thể nhiễm nang trùng](san-la-lon-gan/cai-xoong.jpg)
 | (iv) Nguồn bệnh | Điều trị thuốc đặc hiệu cho bệnh nhân; phối hợp thú y điều trị cho súc vật mang bệnh |
 
 **Các biện pháp tổng thể:**

@@ -22,5 +22,41 @@
   "page": "https://commons.wikimedia.org/wiki/File:Opisthorchis_viverrini_2.jpg",
   "license": "CC BY 2.5",
   "artist": "Banchob Sripa"
+ },
+ "tinh-hoan-clonorchis.jpg": {
+  "title": "File:Clonorchis wm Testes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Clonorchis_wm_Testes.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "The Other 95%"
+ },
+ "ca-me.jpg": {
+  "title": "File:Silver Carp Adult (Hypophthalmichthys molitrix).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Silver_Carp_Adult_(Hypophthalmichthys_molitrix).jpg",
+  "license": "Public domain",
+  "artist": "USFWS Mountain-Prairie"
+ },
+ "koi-pla.jpg": {
+  "title": "File:Koi pla.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Koi_pla.jpg",
+  "license": "CC BY 2.5",
+  "artist": "Banchob Sripa và cs."
+ },
+ "oc-bithynia.jpg": {
+  "title": "File:Freshwater gastropods (10.3897-zookeys.958.53865) Figure 5.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Freshwater_gastropods_(10.3897-zookeys.958.53865)_Figure_5.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Ng T.H. và cs."
+ },
+ "oc-melanoides.jpg": {
+  "title": "File:Freshwater gastropods (10.3897-zookeys.958.53865) Figure 5.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Freshwater_gastropods_(10.3897-zookeys.958.53865)_Figure_5.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Ng T.H. và cs."
+ },
+ "opisthorchis-toan-than.jpg": {
+  "title": "File:Opisthorchis viverrini 3.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Opisthorchis_viverrini_3.png",
+  "license": "CC BY 2.5",
+  "artist": "Banchob Sripa và cs."
  }
 }

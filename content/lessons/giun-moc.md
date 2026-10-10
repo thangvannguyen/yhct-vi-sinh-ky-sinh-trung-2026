@@ -59,6 +59,8 @@ Màu **trắng sữa**. Bộ phận miệng có **răng**, bám chắc vào màn
 | Thực quản | **Ụ phình** | **Hình trụ** |
 | Lây nhiễm | **Không** | **Có** |
 
+![Ấu trùng II (dạng filariform) của Necator americanus soi tươi, không nhuộm: thân dài, mảnh, đuôi nhọn. Đây là dạng lây nhiễm, xuyên qua da người](giun-moc/au-trung-ii.jpg)
+
 *Nguồn bảng: Bộ môn Ký sinh học, trường Đại học Y khoa Phạm Ngọc Thạch.*
 
 ## 2. Chu trình phát triển {#chu-trinh}
@@ -103,6 +105,8 @@ Màu **trắng sữa**. Bộ phận miệng có **răng**, bám chắc vào màn
 | Miền Bắc, đồng bằng cấy lúa ngập nước hoặc miền núi | Thấp |
 | **Miền Nam** | 10 – 50%; khá cao ở vùng trồng rẫy, vườn cao su |
 
+![Vườn cao su ở Việt Nam: gốc cây có bóng râm, nền đất phủ lá mục, ẩm. Người cạo mủ thường xuyên tiếp xúc với đất ở những vườn như thế này](giun-moc/vuon-cao-su.jpg)
+
 ## 4. Lâm sàng {#lam-sang}
 
 Biểu hiện lâm sàng chia làm **3 giai đoạn**:
@@ -126,6 +130,8 @@ Biểu hiện lâm sàng chia làm **3 giai đoạn**:
   2. **chảy máu rỉ rả** tại chỗ bám, có thể do giun tiết **chất kháng đông**.
 - Nhiễm *A. duodenale* thường gây **mất máu nhiều hơn** nhiễm *N. americanus*.
 
+![Giun móc bám trên niêm mạc ruột (ảnh CDC chụp loài Ancylostoma caninum của chó, minh họa cách giun móc bám vào niêm mạc ruột non để hút máu)](giun-moc/bam-niem-mac.jpg)
+
 | Thể | Biểu hiện |
 |---|---|
 | **Cấp tính** (tùy số lượng giun) | Mệt mỏi, buồn nôn, nôn ói, đau bụng, đi cầu phân đỏ hoặc phân đen, suy nhược, xanh xao. Trẻ nhỏ nhiễm nặng có thể để lại di chứng, thậm chí tử vong |
@@ -138,6 +144,8 @@ Biểu hiện lâm sàng chia làm **3 giai đoạn**:
 | **Soi phân tìm trứng** | Phương pháp **chủ yếu** |
 | Phương pháp tập trung **Willis** hoặc **Kato-Katz** | Khi nhiễm ít |
 | **Cấy phân** | Thường dùng để chẩn đoán xác định, phân biệt với giun lươn |
+
+![Phần đầu ấu trùng I (dạng rhabditiform) dưới kính hiển vi (500 lần): bên trái là giun móc, xoang miệng dài; bên phải là giun lươn Strongyloides, xoang miệng ngắn. Khi cấy phân thu được ấu trùng, nhìn xoang miệng giúp phân biệt hai loại](giun-moc/au-trung-i-giun-luon.jpg) ![Phết máu ngoại biên một ca thiếu máu thiếu sắt nặng (không ghi rõ nguyên nhân): hồng cầu nhỏ, nhạt màu ở giữa (nhược sắc), hình dạng không đều — dạng thiếu máu gặp khi nhiễm giun móc mạn tính](giun-moc/mau-thieu-sat.jpg)
 | Công thức máu | Thiếu máu **hồng cầu nhỏ nhược sắc**, kèm **tăng bạch cầu ái toan** |
 
 ## 6. Điều trị {#dieu-tri}

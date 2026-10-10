@@ -67,6 +67,8 @@
 | **Đường tiết niệu** | Vi nấm thường được phân lập từ **nước tiểu** người có vi nấm phát tán; đôi khi có viêm bể thận, viêm tuyến tiền liệt |
 | **Hiếm gặp** | Sang thương ở thượng thận, nội tâm mạc, viêm gan, viêm xoang, viêm thực quản khu trú |
 
+![Mặt cắt phổi nhiễm Cryptococcus (mẫu tử thiết): một vùng lớn của phổi bị đông đặc, màu vàng nhạt, khác hẳn phần nhu mô phổi màu sẫm còn lại](cryptococcus/phoi.jpg)
+
 ## 3. Chẩn đoán {#chan-doan}
 
 **Bệnh phẩm:** dịch não tủy, mẫu sinh thiết, đàm, dịch rửa phế quản, mủ, máu, nước tiểu.
@@ -81,6 +83,10 @@
 ![Cryptococcus neoformans nhuộm mực Tàu: các tế bào hạt men tròn, mỗi tế bào được bao quanh bởi một vầng sáng rộng là nang, nổi trên nền mực sẫm](cryptococcus/muc-tau.jpg)
 
 ![Cryptococcus ở phổi bệnh nhân AIDS, nhuộm mucicarmine: tế bào hạt men bắt màu đỏ hồng nằm trong vách phế nang](cryptococcus/mucicarmine.jpg)
+
+![Tiêu bản mô nhuộm Grocott methenamine bạc (GMS): tế bào hạt men Cryptococcus tròn, bắt màu đen trên nền xanh, nhiều tế bào đang nảy chồi](cryptococcus/gms.jpg)
+
+![Cấy C. neoformans trên thạch Sabouraud dextrose (SDA): các khúm nấm nhẵn, màu kem mọc theo đường cấy ria](cryptococcus/cay-sda.jpg)
 
 > [!TIP] Mẹo nhớ
 > **Mực Tàu "vẽ" ra cái nang.** Nền mực đen, nang không bắt màu nên hiện thành vầng sáng quanh tế bào hạt men. Tài liệu chỉ định nhuộm mực Tàu cho **dịch ngoại tiết và dịch cơ thể** (như dịch não tủy); đàm, mủ phải làm lỏng bằng KOH 10% trước.
@@ -114,6 +120,8 @@
 - **Ổn định các bệnh nội khoa** càng sớm càng tốt; **không lạm dụng** corticoid, kháng sinh, thuốc ức chế miễn dịch.
 - **Trong thành phố:** để ý đến việc **nuôi chim bồ câu**.
 - **Dự phòng tốt AIDS** cũng là cách dự phòng nhiễm *C. neoformans* nói riêng và các bệnh ký sinh trùng cơ hội nói chung.
+
+![Bên trong một chuồng nuôi chim bồ câu: phân chim khô bám đầy kệ, vách và nền chuồng](cryptococcus/chuong-bo-cau.jpg) ![Phân chim bồ câu khô tích tụ trên nền xi măng](cryptococcus/phan-bo-cau.jpg)
 
 ## Tóm tắt {#tom-tat}
 

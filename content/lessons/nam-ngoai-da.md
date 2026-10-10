@@ -96,6 +96,8 @@ Về lâm sàng chia **3 nhóm**: **nấm đầu** (tổn thương ở tóc, có
 | **Đèn Wood** | **Có thể phát huỳnh quang** | **Không** phát huỳnh quang | **Không** phát huỳnh quang | Phát huỳnh quang **xanh – xám** |
 | **Sẹo** | Tóc gãy rụng nhưng **không để sẹo** | — | Viêm nhiều có thể **rụng tóc có sẹo**, da đầu hóa sẹo | Để lại **sói đầu** do da đầu **teo và hóa sẹo** |
 
+![Nấm đầu thể mảng xám (do Microsporum, lây từ mèo) ở trẻ 3 tuổi: một mảng tròn trụi tóc, ranh giới rõ, da đầu phủ vảy nhạt màu](nam-ngoai-da/mang-xam.jpg) ![Nấm đầu thể mưng mủ (kerion): mảng da đầu sưng viêm, mụn mủ và mủ đóng mài vàng, tóc trên mảng rụng](nam-ngoai-da/mung-mu.jpg) ![Nấm đầu thể lõm chén (favus) ở một trẻ nhỏ: mài dày, sần như tổ ong bám chặt trên da đầu, tóc vùng đó rụng gần hết](nam-ngoai-da/lom-chen.jpg)
+
 > [!WARN] Hai câu hỏi hay gặp
 > - Thể nấm đầu **rất dễ gây dịch ở trường học** là **mảng xám**: do loài *Microsporum* ưa người, rất hay lây.
 > - Thể mà tóc **chắc chắn không mọc lại** là **lõm chén**: da đầu teo, hóa sẹo, để lại sói đầu.
@@ -140,6 +142,8 @@ Về lâm sàng chia **3 nhóm**: **nấm đầu** (tổn thương ở tóc, có
 
 ![Nấm da vùng da nhẵn ở cánh tay do Trichophyton mentagrophytes: mảng hình tròn, bờ đỏ rõ, trung tâm bong vảy](nam-ngoai-da/nam-than.jpg)
 
+![Vảy rồng (Tinea imbricata, do T. concentricum) giai đoạn lan rộng: vảy da xếp thành nhiều vòng tròn đồng tâm phủ khắp lưng (ảnh tư liệu cũ)](nam-ngoai-da/vay-rong.jpg)
+
 **Nấm má (vùng râu)** — chỉ xuất hiện ở **nam**
 
 - Tỷ lệ đã giảm nhờ vệ sinh tốt hơn, ít lây qua dụng cụ cạo râu. Hiện lây chủ yếu do **tiếp xúc trực tiếp với thú nuôi** (trâu, bò, ngựa, chó…), nên gặp chủ yếu ở nông dân, người nuôi súc vật ở nông thôn.
@@ -167,6 +171,8 @@ Về lâm sàng chia **3 nhóm**: **nấm đầu** (tổn thương ở tóc, có
 | **Dày sừng mạn tính** | Mảng hồng ban tróc vảy riêng rẽ hoặc lan khắp lòng bàn chân và mặt bên bàn chân. Tác nhân thường gặp nhất *T. rubrum*; ít hơn *E. floccosum*, *T. interdigitale* |
 | **Bóng nước dạng tổ đỉa** | Tác nhân chủ yếu nhóm ưa thú, *T. interdigitale*. Mụn nước lớn > 3 mm, mụn mủ, bóng nước ở lòng hoặc mặt bên bàn chân |
 | **Loét cấp tính** | *T. interdigitale* kèm **bội nhiễm vi trùng Gram âm**: mụn nước, mụn mủ, loét chảy mủ ở lòng bàn chân; có thể viêm mô tế bào, viêm mạch và hạch bạch huyết, thường có sốt |
+
+![Nấm bàn chân thể viêm kẽ: da kẽ ngón chân đỏ, tróc vảy và bong lớp trắng](nam-ngoai-da/ke-chan.jpg)
 
 **Nấm bẹn**
 
@@ -196,6 +202,8 @@ Về lâm sàng chia **3 nhóm**: **nấm đầu** (tổn thương ở tóc, có
 | **Nấm móng bờ tự do** (phổ biến nhất) | Vi nấm xâm nhập lớp sừng ở rãnh móng và giường móng bờ tự do. Móng chuyển trắng đến vàng nâu, giòn, dễ gãy, bị đội lên do **tăng sừng dưới móng**; bề mặt lồi lõm. Bội nhiễm nấm mốc thì móng nâu đen hoặc xanh lá |
 | **Nấm móng gốc móng** (bờ gần) | Do *T. rubrum*, *T. megninii* tại nếp gấp biểu bì gốc móng. Phần móng bờ gần chuyển trắng hoặc xám nhạt, rồi lan toàn bộ móng kèm tăng sừng dưới móng. Được xem là **dấu hiệu gợi ý nhiễm HIV** |
 | **Nấm móng trắng nông** | Vi nấm xâm nhập từ lớp nông rồi xuống sâu. Móng giòn, nhiều **đốm trắng đục** dần hợp thành mảng phủ toàn bộ móng. Tác nhân thường gặp *T. interdigitale*; ngoài ra *Aspergillus*, *Scopulariopsis*, *Fusarium* |
+
+![Nấm móng chân do Trichophyton rubrum ở hai ngón cái: móng chuyển vàng nâu, có sọc, dày lên, bờ tự do bị đội lên và mủn](nam-ngoai-da/nam-mong.jpg)
 
 ## 3. Chẩn đoán {#chan-doan}
 
@@ -243,6 +251,8 @@ Cần **chẩn đoán xét nghiệm xác định** trước khi điều trị, v
 | **Phát ngoại – nội** | Giống Microsporum (microide) | Như kiểu Microsporum nhưng bào tử bao quanh **không đều**, dễ tách khỏi sợi tóc khi gặp KOH | *T. mentagrophytes* |
 | **Phát ngoại – nội** | Bào tử lớn (megasporique) | Như kiểu Microsporum nhưng bào tử **lớn hơn, 5 – 6 µm** | *T. verrucosum*, *T. ochraceum* |
 
+![Soi tươi vảy da với KOH: sợi tơ nấm mảnh, phân nhánh, có vách ngăn nằm giữa các tế bào biểu bì đã bị KOH làm trong — hình ảnh đủ để chẩn đoán nhiễm vi nấm ngoài da](nam-ngoai-da/koh.jpg)
+
 ### 3.3. Cấy {#cay}
 
 - Một số nấm nhận biết được ngay trên môi trường phân lập đầu tiên; số khác cần môi trường hoặc test sinh hóa chuyên biệt.
@@ -253,6 +263,8 @@ Cần **chẩn đoán xét nghiệm xác định** trước khi điều trị, v
 - **Dermatophyte test medium (DTM)** có chỉ thị pH đỏ phenol, có thể thay SDA. Có Dermatophytes thì vi nấm làm **tăng pH**, môi trường chuyển **đỏ**; không có thì chuyển **vàng**.
 > [!NOTE] Ghi chú về DTM
 > Tài liệu gốc viết "vi nấm sẽ làm tăng độ pH của mt 8": câu bị lỗi chữ. Web chỉ ghi ý chắc chắn là vi nấm **làm tăng pH** và môi trường chuyển đỏ.
+
+![Đĩa thạch hai ngăn (DTM và môi trường sinh bào tử nhanh) cấy Microsporum canis: môi trường quanh khúm nấm chuyển đỏ, dấu hiệu dương tính sớm của Dermatophytes](nam-ngoai-da/dtm.jpg)
 
 - **Môi trường đặc biệt:** thạch khoai đường, Borelli's lactrimel agar (BLA) kích thích sinh bào tử, sinh sắc tố và khúm điển hình.
 - **Thử nghiệm phân biệt:**
@@ -297,7 +309,7 @@ Cần **chẩn đoán xét nghiệm xác định** trước khi điều trị, v
 
 *Nguồn bảng gốc: Bộ môn Ký sinh Y học, Trường Đại học Y khoa Phạm Ngọc Thạch.*
 
-![Bào tử đính nhỏ của Trichophyton rubrum mọc ra từ sợi tơ nấm (kính hiển vi quang học)](nam-ngoai-da/t-rubrum-nho.jpg)
+![Bào tử đính nhỏ của Trichophyton rubrum mọc ra từ sợi tơ nấm (kính hiển vi quang học)](nam-ngoai-da/t-rubrum-nho.jpg) ![Khúm T. rubrum phân lập từ móng chân. Ống trái: môi trường Sabouraud có cycloheximide, chloramphenicol và gentamicin (14 ngày) — khúm trắng, mịn như lông tơ. Hai ống còn lại là môi trường phân biệt chuyên biệt (Littman Oxgall; Bromocresol Purple)](nam-ngoai-da/khum-t-rubrum.jpg)
 
 ## 4. Điều trị {#dieu-tri}
 

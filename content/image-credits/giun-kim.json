@@ -22,5 +22,23 @@
   "page": "https://commons.wikimedia.org/wiki/File:Adult_of_Enterobius_vermicularis.jpg",
   "license": "CC BY-SA 4.0",
   "artist": "Ebrahim almansuri"
+ },
+ "duc-cai.jpg": {
+  "title": "File:Enterobius vermicularis 1.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Enterobius_vermicularis_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Danvasilis"
+ },
+ "ruot-thua.jpg": {
+  "title": "File:Pinworms in the Appendix (1).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pinworms_in_the_Appendix_(1).jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Ed Uthman, MD"
+ },
+ "rua-tay.jpg": {
+  "title": "File:Washing hands kids.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Washing_hands_kids.jpg",
+  "license": "CC0",
+  "artist": "safaritravelplus"
  }
 }

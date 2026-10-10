@@ -39,6 +39,8 @@
 
 ![Thể hoạt động của Balantidium coli dưới kính hiển vi: thân hình bầu dục phủ một hàng lông tơ ngắn quanh viền (mẫu phân khỉ, thanh tỷ lệ 5 µm)](balantidium/the-hoat-dong.jpg) ![Hình vẽ B. coli: thể hoạt động (trên) có lông tơ và nhân lớn hình hạt đậu; bào nang (dưới) hình cầu, vách dày](balantidium/hai-the.gif)
 
+![Bào nang B. coli trong phân, nhuộm Lugol: hình cầu, vách nang dày sáng màu bao quanh khối tế bào chất bắt màu nâu; đây là dạng tồn tại ngoài môi trường và lây truyền](balantidium/bao-nang-lugol.jpg)
+
 > [!WARN] Dễ nhầm
 > Thể hoạt động có **1 nhân lớn hình hạt đậu** và **1 nhân nhỏ** nằm ở chỗ lõm của nhân lớn. Câu tự lượng giá ghi "nhân lớn hình hạt đậu và **nhân thể** ở chỗ lõm nhân". Theo đáp án của tài liệu, đây là đặc điểm **không thuộc** thể hoạt động, vì chỗ lõm là **nhân nhỏ** chứ không phải "nhân thể".
 
@@ -49,6 +51,8 @@
 - **Heo là tàng chủ quan trọng**, tỉ lệ nhiễm **20% đến 100%**. Heo nhiễm *B. coli* nhưng **không có triệu chứng**.
 - **Đường lây:** nuốt **bào nang** vấy nhiễm từ **phân heo** qua thức ăn và nước uống.
 - *B. coli* không được coi là mầm bệnh truyền qua nước quan trọng. Tuy nhiên, ở nơi nuôi heo, mổ heo mà không xử lý nước thải chứa phân trước khi thải ra ngoài, bào nang có thể phát tán theo sông suối, làm ô nhiễm nguồn nước và gây nhiễm cho dân vùng lân cận.
+
+![Heo thả rong trên đường ở đảo Cát Bà (Hải Phòng): phân heo thải tự do ra môi trường là nguồn phát tán bào nang B. coli](balantidium/heo-tha-rong.jpg)
 
 > [!TIP] Mẹo nhớ
 > **Balantidium = "Heo"**. Người có nguy cơ cao là người **thường xuyên tiếp xúc phân heo**, chứ không phải người ăn thịt heo chưa chín, vì bào nang được **thải theo phân heo** và lây qua thức ăn, nước uống vấy phân.
@@ -103,6 +107,8 @@
 | **Nội soi** ruột già, trực tràng | Thấy các vết loét |
 | **Sinh thiết**, nhuộm tế bào học | Thấy thể hoạt động trong mô ruột |
 
+![Phết phân tươi: thể hoạt động B. coli to, hình bầu dục, viền lông tơ ngắn quanh thân thấy rõ, nhưng nhân bên trong không rõ](balantidium/phet-tuoi.jpg) ![Phết tươi với nước muối sinh lý: một tế bào B. coli hình cầu, bên trong có nhiều không bào; nhân cũng không nhìn rõ](balantidium/bao-nang-nuoc-muoi.jpg) ![Tiêu bản phân đã nhuộm: B. coli bắt màu hồng, vùng nhân lớn bắt màu đậm (đường cong màu đen là lỗi máy ảnh, không phải cấu trúc của ký sinh trùng)](balantidium/nhuom.jpg)
+
 > [!TIP] Câu hỏi hay gặp
 > Muốn **thấy rõ nhân** của *B. coli* phải dùng **phết phân nhuộm** (trichrome, H&E). Phết tươi với Lugol, với nước muối, hay phết cố định F2AM đều không thấy rõ nhân.
 
@@ -116,6 +122,8 @@
 - **Không thả rong heo** trên đồng cỏ.
 - **Rửa tay** sau khi tiếp xúc với heo hoặc làm thịt heo, nhất là khâu xử lý lòng, ruột heo.
 - **Công nhân trại chăn nuôi heo và lò mổ** cần xét nghiệm phân định kỳ để phát hiện và điều trị sớm.
+
+![Heo nuôi trong chuồng hợp vệ sinh, nền xi măng, ở Thanh Hóa (ảnh dự án AusAID, 2010): nuôi nhốt và thu gom phân giúp hạn chế phát tán bào nang](balantidium/chuong-heo.jpg)
 
 ## Tóm tắt {#tom-tat}
 

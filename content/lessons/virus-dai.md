@@ -19,6 +19,8 @@
 - **Nucleocapsid** đối xứng hình xoắn ốc, chứa **ARN một sợi**.
 - Có **một vỏ ngoài** mang các **gai ngưng kết hồng cầu**, bản chất là **glycoprotein**.
 
+![Sơ đồ virus dại hình viên đạn (bên phải): (1) ARN polymerase; (2) gai glycoprotein trên vỏ ngoài; (3) sợi ARN; (4) lớp lipid của vỏ ngoài; (5) nucleocapsid xoắn ốc; (6) lớp protein nền. Bên trái: tiểu thể Negri tự do (A) và trong tế bào thần kinh (B)](virus-dai/so-do-virion.png)
+
 ![Virus dại dưới kính hiển vi điện tử truyền qua (ảnh tô màu, virus màu vàng nâu) đang nhân lên trong bào tương một tế bào nuôi cấy bị nhiễm](virus-dai/virion-mau.jpg)
 
 ### 1.2. Nuôi cấy và nhân lên {#nhan-len}
@@ -45,6 +47,8 @@
 
 > [!TIP] Mẹo nhớ
 > Chủng **cố định** là chủng "đã được thuần hóa" trong phòng thí nghiệm: ủ bệnh **cố định 7 ngày**, độc lực yếu, **không tạo tiểu thể Negri**, nên **dùng làm vaccine**. Chủng **đường phố** thì ngược lại ở cả bốn điểm.
+
+![Tranh khắc thế kỷ 19 về thí nghiệm của Pasteur: tiêm virus dại vào não một con thỏ đã gây mê. Tiêm truyền nhiều lần qua não thỏ là cách tạo ra chủng virus cố định](virus-dai/pasteur-tho.jpg)
 
 ## 2. Khả năng gây bệnh {#gay-benh}
 
@@ -125,6 +129,8 @@ Bệnh dại là một bệnh **viêm não – màng não**.
 - Nước dãi chảy, con vật chạy rong khắp nơi, **cắn xé nhiều**, uống nước nhiều.
 - Về sau rối loạn hô hấp, chó gầy, liệt rồi **chết vào khoảng ngày thứ 5 – 7**.
 
+![Chó bị dại: dáng đứng bất thường, đầu cúi, miệng há, nước dãi chảy](virus-dai/cho-dai.jpg)
+
 ## 5. Chẩn đoán phòng thí nghiệm {#chan-doan}
 
 - Chẩn đoán vi sinh vật bệnh dại ở người **ít làm**: lấy bệnh phẩm rất khó khăn, và cũng không có ý nghĩa trong điều trị.
@@ -180,6 +186,8 @@ Bệnh dại là một bệnh **viêm não – màng não**.
 |---|---|
 | **Ở người** | Người vì **nghề nghiệp** phải tiếp xúc gần động vật có thể bất ngờ lên cơn dại (thú y, thợ lột da thú, gác rừng, nhân viên phòng thí nghiệm chẩn đoán và nghiên cứu): dùng **vaccine chống dại với mục đích dự phòng** |
 | **Ở động vật** | Thực hiện đồng bộ và nghiêm túc: **tiêm vaccine bắt buộc** cho chó, mèo ở vùng có bệnh dại lưu hành; tiêu diệt chó bị dại; bắt giữ chó chạy rong… |
+
+![Bác sĩ thú y tiêm vaccine phòng dại cho chó nuôi trong gia đình — biện pháp phòng bệnh ở động vật](virus-dai/tiem-cho.jpg)
 
 ## Tóm tắt {#tom-tat}
 

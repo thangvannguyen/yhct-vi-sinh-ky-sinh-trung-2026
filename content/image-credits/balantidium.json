@@ -16,5 +16,41 @@
   "page": "https://commons.wikimedia.org/wiki/File:Balantidium.jpg",
   "license": "Public domain",
   "artist": "CDC"
+ },
+ "bao-nang-lugol.jpg": {
+  "title": "File:Quiste de Balantidium coli-lugol.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Quiste_de_Balantidium_coli-lugol.jpg",
+  "license": "CC0",
+  "artist": "Litzy Villalta"
+ },
+ "bao-nang-nuoc-muoi.jpg": {
+  "title": "File:Quiste de Balantidium coli-suero fisiológico.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Quiste_de_Balantidium_coli-suero_fisiol%C3%B3gico.jpg",
+  "license": "CC0",
+  "artist": "Litzy Villalta"
+ },
+ "phet-tuoi.jpg": {
+  "title": "File:Balantidium coli wet mount.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Balantidium_coli_wet_mount.jpg",
+  "license": "CC BY-SA 2.5",
+  "artist": "Euthman"
+ },
+ "nhuom.jpg": {
+  "title": "File:Balantidium coli 1000x oil (1).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Balantidium_coli_1000x_oil_(1).jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "The Other 95%"
+ },
+ "chuong-heo.jpg": {
+  "title": "File:Fat Pig in Sanitary Livestock Pen Thanh Hoa, Vietnam 2010. Photo- AusAID (10694872904).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Fat_Pig_in_Sanitary_Livestock_Pen_Thanh_Hoa,_Vietnam_2010._Photo-_AusAID_(10694872904).jpg",
+  "license": "CC BY 2.0",
+  "artist": "Department of Foreign Affairs and Trade"
+ },
+ "heo-tha-rong.jpg": {
+  "title": "File:Pigs on Cat Ba Island, Vietnam, 20240130 1603 4443.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pigs_on_Cat_Ba_Island,_Vietnam,_20240130_1603_4443.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Jakub Hałun"
  }
 }

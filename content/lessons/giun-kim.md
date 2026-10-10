@@ -36,6 +36,8 @@
 | Đuôi | **Cong**, có **1 gai giao hợp** | **Nhọn** |
 | Đặc điểm khác | Chết ngay sau giao hợp | Tử cung chứa đầy trứng |
 
+![Hình vẽ giun kim cái (trái, "Femelă") và giun đực (phải, "Masculul"), chú thích tiếng Rumani: giun cái to hơn, đuôi dài nhọn, tử cung (Uter) chứa đầy trứng; giun đực nhỏ, đuôi cong, có gai giao hợp (Spicul). Ở đầu cả hai đều có chỗ phình (Vezicula, Ale cefalice = cánh đầu)](giun-kim/duc-cai.jpg)
+
 ![Phần đầu giun kim dưới kính hiển vi: lớp biểu bì phình ra thành cánh ở hai bên đầu](giun-kim/dau-canh.jpg) ![Giun kim trưởng thành dưới kính hiển vi, quanh thân là rất nhiều trứng](giun-kim/truong-thanh.jpg)
 
 ### 1.2. Trứng {#hinh-the-trung}
@@ -151,6 +153,8 @@
 | Đường tiết niệu, sinh dục nam | Giun lạc vào niệu đạo, bàng quang, tiền liệt tuyến |
 | Sinh dục nữ (gần vùng rìa hậu môn) | Viêm âm đạo, viêm cổ tử cung, viêm nội mạc tử cung, viêm vòi trứng, viêm phúc mạc toàn bộ; ảnh hưởng sức khỏe sinh sản |
 
+![Lát cắt ngang ruột thừa (nhuộm HE): nhiều mặt cắt giun kim nằm trong lòng ruột thừa; hai bên mỗi mặt cắt có gờ nhọn nhô ra, đúng là đường gờ dùng để nhận dạng giun kim trên lát cắt giải phẫu bệnh. Ở ca này, giun được phát hiện tình cờ khi phẫu thuật vì bệnh khác](giun-kim/ruot-thua.jpg)
+
 ## 5. Chẩn đoán {#chan-doan}
 
 **Gợi ý:** **ngứa hậu môn buổi tối hoặc ban đêm**. Tìm thấy **giun trưởng thành hoặc trứng** thì chẩn đoán xác định.
@@ -213,6 +217,8 @@ Phối hợp nhiều biện pháp, đòi hỏi **mọi thành viên trong gia đ
 - **Giặt sạch thường xuyên:** quần áo, chăn mền, chiếu gối, drap giường, đồ chơi của trẻ.
 - **Cắt ngắn móng tay** cho trẻ.
 - **Ngăn hành vi nguy cơ:** mút tay, cắn móng tay, ngậm đồ chơi. **Rửa tay** trước khi ăn.
+
+![Học sinh rửa tay bằng nước sạch tại trường (ảnh ở Kenya): rửa tay trước khi ăn là một trong các biện pháp cắt đường lây trứng giun kim từ tay vào miệng](giun-kim/rua-tay.jpg)
 - **Rửa sạch vùng quanh hậu môn, đáy chậu mỗi sáng thức dậy.** Đây là hành vi **mang tính quyết định** để cắt đứt chu trình.
 - **Xổ giun thường xuyên cho cả nhà.**
 

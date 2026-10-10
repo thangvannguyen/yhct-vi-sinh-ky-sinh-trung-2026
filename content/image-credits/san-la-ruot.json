@@ -16,5 +16,47 @@
   "page": "https://commons.wikimedia.org/wiki/File:Fasciolopsis_buski_adult_GA.jpg",
   "license": "Public domain",
   "artist": "CDC"
+ },
+ "hinh-ve.jpg": {
+  "title": "File:Fasciolopsis buski Giant intestinal fluke.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Fasciolopsis_buski_Giant_intestinal_fluke.JPG",
+  "license": "Public domain",
+  "artist": "Maximilian Braun (1850–1930) after Theodor Odhner (1879–1928)"
+ },
+ "oc-segmentina.jpg": {
+  "title": "File:Segmentina nitida.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Segmentina_nitida.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Głodny at Polish Wikipedia"
+ },
+ "rau-nhut.jpg": {
+  "title": "File:Neptunia oleracea 1zz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Neptunia_oleracea_1zz.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "David J. Stang"
+ },
+ "cu-nang.jpg": {
+  "title": "File:Wasserkastanien.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Wasserkastanien.jpg",
+  "license": "Public domain",
+  "artist": "Joscha Feth"
+ },
+ "rau-muong.jpg": {
+  "title": "File:Ipomoea aquatica kz01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ipomoea_aquatica_kz01.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Krzysztof Ziarnek, Kenraiz"
+ },
+ "noi-soi.jpg": {
+  "title": "File:Endoscopic view of multiple Fasciolopsis buski.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Endoscopic_view_of_multiple_Fasciolopsis_buski.png",
+  "license": "CC BY 4.0",
+  "artist": "Ashish K Jha, Sharad K Jha"
+ },
+ "ban-do.jpg": {
+  "title": "File:Fasciolopsiasis.webp",
+  "page": "https://commons.wikimedia.org/wiki/File:Fasciolopsiasis.webp",
+  "license": "CC BY 4.0",
+  "artist": "Xiao-Ting Lu và cs."
  }
 }
