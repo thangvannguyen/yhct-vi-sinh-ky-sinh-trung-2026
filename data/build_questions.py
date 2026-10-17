@@ -6,11 +6,12 @@
 Schema đầu ra:
   { parts, groups, lessons: [ { id, num, part, group, title, latin, short, icon,
       questions: [ { id, type, text, options, correct, answerText, explain, tip,
-                     image, flag, answerNote, lessonRef } ] } ] }
+                     image, flag, answerNote, lessonRef, priority } ] } ] }
 
   * `correct` là text của phương án đúng (giống web Sinh Học Di Truyền).
   * Câu điền khuyết được chuyển thành trắc nghiệm (`fromFill: true`): phương án
     là đáp án của các câu điền khuyết cùng bài — xem convert_fills().
+  * `priority: true` = câu thuộc bộ câu hỏi riêng (banks) — bắt buộc học, web hiện ★.
   * `lessonRef` = { lessonId, sectionId } — nút "Xem lý thuyết" trỏ tới heading
     `{#sectionId}` trong content/lessons/<lessonId>.md.
 
@@ -121,6 +122,10 @@ def main():
                 'answerNote': None,
                 'lessonRef': None,
             }
+            # Câu lấy từ bộ câu hỏi riêng (banks) — chắc chắn có trong bài kiểm tra,
+            # web hiện dấu ★ sau câu hỏi để học trước.
+            if bq.get('bank'):
+                q['priority'] = True
             if bq['type'] == 'mcq':
                 q['correct'] = options['ABCD'.index(answer)]
             else:

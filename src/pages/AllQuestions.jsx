@@ -4,6 +4,7 @@ import { CHAPTERS, LESSON_TREE, TOTAL_QUESTIONS, letterFor, optionLabel } from '
 import { hasLessonContent } from '../lib/lessons.js'
 import { BackLink, Container, SectionTitle, cx } from '../components/ui.jsx'
 import LessonIcon from '../components/LessonIcon.jsx'
+import { PriorityStar } from '../components/Question.jsx'
 
 // Đồng bộ với MODES ở scripts/build_downloads.mjs (sinh file lúc build vào public/downloads/).
 const MODES = [
@@ -12,6 +13,8 @@ const MODES = [
   { id: 'explain', suffix: '-giai-thich', tab: 'Có giải thích', sub: 'có đáp án và giải thích' },
 ]
 const fileUrl = (mode, ext) => `${import.meta.env.BASE_URL}downloads/vskst-cau-hoi${mode.suffix}.${ext}`
+
+const PRIORITY_COUNT = CHAPTERS.reduce((s, l) => s + l.questions.filter((q) => q.priority).length, 0)
 
 // Đánh số liên tục 1…N theo thứ tự bài, giống file tải về.
 const NUMBER = {}
@@ -42,6 +45,7 @@ function QuestionBlock({ q, showAnswers, showExplain }) {
     <div className="border-b border-border py-3.5 last:border-b-0">
       <p className="m-0 mb-2 leading-snug">
         <strong>Câu {NUMBER[q.id]}.</strong> {q.text}
+        <PriorityStar question={q} />
       </p>
       <ol className="m-0 list-none space-y-1 p-0 pl-3">
         {q.options.map((o, i) => {
@@ -89,7 +93,9 @@ export default function AllQuestions() {
       <BackLink to="/">← Trang chủ</BackLink>
       <h1 className="m-0 mb-1 text-[1.5rem] font-extrabold tracking-[-0.02em]">Toàn bộ câu hỏi</h1>
       <p className="m-0 text-[0.92rem] text-text-muted">
-        {TOTAL_QUESTIONS} câu · {CHAPTERS.length} bài — xem trên một trang hoặc tải về để học offline, in ra giấy.
+        {TOTAL_QUESTIONS} câu · {CHAPTERS.length} bài — xem trên một trang hoặc tải về để học offline, in ra giấy. Câu có dấu{' '}
+        <span className="font-bold text-warning">★</span> là câu bắt buộc học ({PRIORITY_COUNT} câu), chắc chắn có trong bài
+        kiểm tra.
       </p>
 
       <div className="mt-4 rounded-card border border-border bg-surface p-4 shadow-soft">

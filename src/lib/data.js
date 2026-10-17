@@ -38,6 +38,21 @@ LESSONS.forEach((ch) => {
 
 export const TOTAL_QUESTIONS = ALL_IDS.length
 
+// ---- phạm vi "tất cả câu" / "chỉ câu ★" ---------------------------------------
+// Câu ★ (`priority`) là bộ câu bắt buộc học — xem data/build_questions.py.
+const isPriorityId = (id) => QUESTION_INDEX[id].question.priority === true
+
+/** Câu của một bài (hoặc 'all') theo phạm vi đang chọn, giữ thứ tự tài liệu. */
+export function scopedIds(chapterId, allQuestions) {
+  const base = chapterId === 'all' ? ALL_IDS : CHAPTER_QUESTIONS[chapterId] || []
+  return allQuestions ? base : base.filter(isPriorityId)
+}
+
+/** Bài có ít nhất một câu trong phạm vi đang chọn. */
+export function scopedChapters(allQuestions) {
+  return allQuestions ? CHAPTERS : CHAPTERS.filter((c) => c.questions.some((q) => q.priority))
+}
+
 // ---- helpers ----------------------------------------------------------------
 export function chapterById(id) {
   return LESSONS.find((c) => c.id === id)
@@ -81,10 +96,10 @@ export function isGraded(q) {
 }
 
 /** Only questions with a confirmed answer are eligible for graded quizzes. */
-export function getEligibleIds(chapterIds) {
+export function getEligibleIds(chapterIds, allQuestions = true) {
   const ids = []
   chapterIds.forEach((cid) => {
-    ;(CHAPTER_QUESTIONS[cid] || []).forEach((id) => {
+    scopedIds(cid, allQuestions).forEach((id) => {
       if (isGraded(QUESTION_INDEX[id].question)) ids.push(id)
     })
   })

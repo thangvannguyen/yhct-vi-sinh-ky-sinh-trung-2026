@@ -58,6 +58,8 @@ const parts = data.parts
   .filter((p) => p.lessons.length)
 const TOTAL = n
 const LESSON_COUNT = parts.reduce((s, p) => s + p.lessons.length, 0)
+const PRIORITY_COUNT = data.lessons.reduce((s, l) => s + l.questions.filter((q) => q.priority).length, 0)
+const STAR_NOTE = `Câu có dấu ★ là câu bắt buộc học (${PRIORITY_COUNT} câu), chắc chắn có trong bài kiểm tra.`
 
 // Ghi chú phương án bổ sung (câu điền khuyết chuyển thành trắc nghiệm).
 const noteText = (q) => (q.answerNote?.body || '').replace(/\*\*/g, '')
@@ -86,7 +88,7 @@ function html(mode) {
             .map(
               ({ q, num, correct }) => `
             <div class="q">
-              <p class="stem"><b>Câu ${num}.</b> ${md(q.text)}</p>
+              <p class="stem"><b>Câu ${num}.</b> ${md(q.text)}${q.priority ? ' <span class="star">★</span>' : ''}</p>
               <ol class="opts">
                 ${q.options
                   .map(
@@ -130,6 +132,7 @@ function html(mode) {
   .opts { list-style: none; margin: 0; padding: 0 0 0 16px; }
   .opts li { margin: 1px 0; }
   .opts .L { font-weight: 600; color: #444; }
+  .star { color: #d97706; font-weight: 700; }
   .opts li.ok { font-weight: 700; color: #15803d; }
   .opts li.ok .L { color: #15803d; }
   .ans { margin: 4px 0 0 16px; padding: 5px 9px; background: #f0fdf4; border-left: 3px solid #16a34a; border-radius: 3px; font-size: 9.4pt; }
@@ -140,6 +143,7 @@ function html(mode) {
   <header>
     <h1>${TITLE} · Câu hỏi trắc nghiệm</h1>
     <p>${TOTAL} câu · ${LESSON_COUNT} bài · ${mode.label} · ${SITE}</p>
+    <p><span class="star">★</span> ${STAR_NOTE}</p>
   </header>
   ${body}
 </body></html>`
@@ -213,6 +217,10 @@ function docxFile(mode) {
         ),
       ],
     }),
+    new Paragraph({
+      spacing: { after: 240 },
+      children: [run('★ ', { size: 20, bold: true, color: 'D97706' }), run(STAR_NOTE, { size: 20, color: '555555' })],
+    }),
   ]
 
   parts.forEach(({ part, lessons }, pi) => {
@@ -240,7 +248,9 @@ function docxFile(mode) {
           new Paragraph({
             keepNext: true,
             spacing: { before: 140, after: 40 },
-            children: [run(`Câu ${num}. `, { bold: true, size: 24 }), ...runs(q.text, { size: 24 })],
+            children: [run(`Câu ${num}. `, { bold: true, size: 24 }), ...runs(q.text, { size: 24 }),
+              ...(q.priority ? [run(' ★', { size: 24, bold: true, color: 'D97706' })] : []),
+            ],
           })
         )
         q.options.forEach((o, i) => {

@@ -5,7 +5,7 @@ import { pushHistory, recordAnswer } from '../lib/storage.js'
 import { useApp } from '../lib/store.jsx'
 import { BackLink, Button, Card, Container, ProgressBar, StickyBar, useSwipe } from '../components/ui.jsx'
 import QuizNav from '../components/QuizNav.jsx'
-import { ChapterTag, DocOption, SimpleOption } from '../components/Question.jsx'
+import { ChapterTag, DocOption, SimpleOption, PriorityStar } from '../components/Question.jsx'
 
 function useFinishQuiz() {
   const { quiz, setQuiz } = useApp()
@@ -91,7 +91,10 @@ function QuizPlaySimple() {
         <div className="min-w-0 flex-1">
           <Card className="mb-[18px] px-4 py-5 sm:px-[22px] sm:py-[22px]" {...swipe}>
             <ChapterTag>{chapterShort}</ChapterTag>
-            <div className="mb-4 text-[1.05rem] font-semibold leading-relaxed">{q.text}</div>
+            <div className="mb-4 text-[1.05rem] font-semibold leading-relaxed">
+              {q.text}
+              <PriorityStar question={q} />
+            </div>
             <div className="flex flex-col gap-2.5">
               {item.displayOptions.map((opt, oi) => (
                 <SimpleOption
@@ -199,6 +202,7 @@ function QuizPlayFull() {
                   </div>
                   <div className="mb-2.5 text-[1.04rem] font-bold leading-relaxed">
                     Câu {i + 1}: {q.text}
+                    <PriorityStar question={q} />
                   </div>
                   <div className="flex flex-col gap-[7px]">
                     {item.displayOptions.map((opt, oi) => (

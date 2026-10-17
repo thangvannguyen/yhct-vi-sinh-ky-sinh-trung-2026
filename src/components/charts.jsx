@@ -10,10 +10,13 @@ import { cx } from './ui.jsx'
  */
 
 /** Khung thẻ chung cho cả hai biểu đồ: nhãn ở trên, số lớn, rồi phần hình. */
-function ChartCard({ label, value, hint, children }) {
+function ChartCard({ label, value, hint, action, children }) {
   return (
     <div className="flex flex-col rounded-card border border-border bg-surface p-4 shadow-soft-sm">
-      <div className="mb-0.5 text-[0.78rem] font-semibold text-text-muted">{label}</div>
+      <div className="mb-0.5 flex items-center justify-between gap-2">
+        <div className="text-[0.78rem] font-semibold text-text-muted">{label}</div>
+        {action}
+      </div>
       <div className="mb-3 flex items-baseline gap-1.5">
         <span className="text-[1.45rem] font-extrabold leading-none tracking-[-0.02em] text-text">
           {value}
@@ -48,11 +51,43 @@ function Tooltip({ x, children }) {
 }
 
 /**
+ * Công tắc phạm vi câu hỏi: bật = tất cả câu, tắt = chỉ câu ★ (bộ câu bắt buộc).
+ * Nhãn bên cạnh luôn nói phạm vi đang dùng để không phải đoán nghĩa của công tắc.
+ */
+function ScopeSwitch({ on, onToggle }) {
+  return (
+    <button
+      type="button"
+      role="switch"
+      aria-checked={on}
+      onClick={onToggle}
+      title={on ? 'Đang học tất cả câu — tắt để chỉ học câu ★' : 'Đang chỉ học câu ★ — bật để học tất cả câu'}
+      className="-my-1 flex cursor-pointer items-center gap-2 rounded-full py-1 text-[0.76rem] font-semibold text-text-muted"
+    >
+      <span className={cx(!on && 'text-warning')}>{on ? 'Tất cả câu' : 'Chỉ câu ★'}</span>
+      <span
+        className={cx(
+          'relative h-[20px] w-[36px] flex-shrink-0 rounded-full transition-colors duration-150',
+          on ? 'bg-primary' : 'bg-border-strong'
+        )}
+      >
+        <span
+          className={cx(
+            'absolute top-[2px] h-[16px] w-[16px] rounded-full bg-white shadow-soft-sm transition-[left] duration-150',
+            on ? 'left-[18px]' : 'left-[2px]'
+          )}
+        />
+      </span>
+    </button>
+  )
+}
+
+/**
  * Tiến độ ôn tập — thanh xếp chồng ngang (part-to-whole trên tổng đã biết).
  * Phần "chưa học" là nền của thanh chứ không phải một lớp dữ liệu, nên nó mang
  * màu viền nhạt thay vì một màu riêng.
  */
-export function ProgressMeter({ mastered, review, total }) {
+export function ProgressMeter({ mastered, review, total, allQuestions, onToggleScope }) {
   const [hover, setHover] = useState(null)
   const unseen = Math.max(0, total - mastered - review)
   const studied = mastered + review
@@ -69,7 +104,8 @@ export function ProgressMeter({ mastered, review, total }) {
     <ChartCard
       label="Tiến độ ôn tập"
       value={`${studied}/${total}`}
-      hint={`câu · ${Math.round(pct(studied))}%`}
+      hint={`câu${allQuestions ? '' : ' ★'} · ${Math.round(pct(studied))}%`}
+      action={onToggleScope && <ScopeSwitch on={allQuestions} onToggle={onToggleScope} />}
     >
       {/* giãn ra chiếm hết chỗ trống: thanh nằm giữa, chú giải tụt xuống đáy thẻ,
           nhờ vậy thẻ này cao bằng thẻ biểu đồ điểm bên cạnh mà không hở một mảng trống */}

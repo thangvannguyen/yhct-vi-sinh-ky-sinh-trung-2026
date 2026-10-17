@@ -9,6 +9,7 @@ import {
   ChapterTag,
   ExplanationReveal,
   QuestionNote,
+  PriorityStar,
   SimpleOption,
 } from './Question.jsx'
 
@@ -95,7 +96,10 @@ export default function BrowsableQuestions({ ids, index, title, backTo, onIndexC
           <ChapterTag className="!mb-0">{title ? title : chapterShort}</ChapterTag>
           <AnswerBadge question={q} />
         </div>
-        <div className="mb-4 text-[1.05rem] font-semibold leading-relaxed">{q.text}</div>
+        <div className="mb-4 text-[1.05rem] font-semibold leading-relaxed">
+          {q.text}
+          <PriorityStar question={q} />
+        </div>
 
         <QuestionNote question={q} />
 

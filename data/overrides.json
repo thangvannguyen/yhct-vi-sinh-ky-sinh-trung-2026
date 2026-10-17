@@ -161,5 +161,41 @@
   "options": {
    "2": "C. Phết phân tươi với nước muối 0,85%"
   }
+ },
+ "giun-kim-14": {
+  "options": {
+   "1": "B. Giun kim lạc chỗ vào cơ quan sinh dục"
+  }
+ },
+ "giun-kim-18": {
+  "text": "Để chẩn đoán bệnh Enterobius vermicularis, người ta dùng kỹ thuật giấy bóng kính dính vào:",
+  "options": {
+   "0": "A. Buổi sáng sau khi trẻ thức dậy."
+  }
+ },
+ "san-la-phoi-6": {
+  "noteKind": "typo",
+  "noteWhy": "Tài liệu tô đỏ **Limnea**, nhưng bài học ghi ốc ký chủ trung gian thứ nhất của sán lá phổi là ***Melanoides*** — không có trong 4 phương án. *Limnea* (*Lymnaea*) là ốc của **sán lá lớn ở gan**. Web giữ đáp án tô đỏ của tài liệu;"
+ },
+ "san-la-lon-gan-6": {
+  "options": {
+   "1": "B. 0,4 ml."
+  }
+ },
+ "san-la-ruot-7": {
+  "answer": "D",
+  "noteKind": "corrected",
+  "noteWhy": "Tài liệu tô đỏ **C. Bulimus**. Bài học ghi ốc ký chủ trung gian của *Fasciolopsis buski* là các giống *Segmentina*, *Hippeutis*, *Gyraulus* **của *Planorbis*** → chọn **D**."
+ },
+ "san-la-ruot-8": {
+  "answer": "C",
+  "noteKind": "corrected",
+  "options": {
+   "0": "A. Đau bụng vùng hạ sườn phải, tiêu chảy, mệt mỏi, sụt cân, phù.",
+   "1": "B. Đau bụng vùng thượng vị, tiêu chảy, mệt mỏi, sụt cân, phù.",
+   "2": "C. Đau bụng vùng hạ vị, tiêu chảy, mệt mỏi, sụt cân, phù.",
+   "3": "D. Đau bụng vùng hạ vị, đi cầu phân nhầy máu, sốt."
+  },
+  "noteWhy": "Tài liệu tô đỏ **A** (đau hạ sườn phải). Bài học ghi nhiễm nặng sán lá ruột lớn gây **đau dạ dày, đau bụng dưới** kèm tiêu chảy (phân **không có máu**), mệt mỏi, phù → chọn **C** (hạ vị). Đau hạ sườn phải là vùng gan mật, hợp với sán lá gan hơn."
  }
 }

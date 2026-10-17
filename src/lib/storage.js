@@ -10,6 +10,7 @@ export const MODE_KEY = 'vskst_view_mode_v1'
 export const EXPLAIN_KEY = 'vskst_auto_explain_v1'
 export const LEARN_KEY = 'vskst_learn_v1'
 export const FONT_KEY = 'vskst_reader_font_v1'
+export const SCOPE_KEY = 'vskst_all_questions_v1'
 
 function readJSON(key, fallback) {
   try {
@@ -82,6 +83,22 @@ export function getStoredAutoExplain() {
 }
 export function setStoredAutoExplain(on) {
   localStorage.setItem(EXPLAIN_KEY, on ? '1' : '0')
+}
+
+// ---- phạm vi câu hỏi: true = tất cả câu, false = chỉ câu ★ (mặc định: tất cả) --
+export function getStoredAllQuestions() {
+  try {
+    return localStorage.getItem(SCOPE_KEY) !== '0'
+  } catch {
+    return true
+  }
+}
+export function setStoredAllQuestions(on) {
+  try {
+    localStorage.setItem(SCOPE_KEY, on ? '1' : '0')
+  } catch {
+    /* ignore */
+  }
 }
 
 // ---- trang Học tập: lessonId -> { read: bool, lastSection: string|null } ----

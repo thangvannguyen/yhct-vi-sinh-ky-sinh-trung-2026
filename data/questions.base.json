@@ -203,6 +203,132 @@
       "D. Sáng sớm thức dậy chưa tắm rửa"
      ],
      "answer": "D"
+    },
+    {
+     "num": 11,
+     "type": "mcq",
+     "text": "Thuốc điều trị Enterobius vermicularis:",
+     "options": [
+      "A. Fansidar",
+      "B. Mebendazole.",
+      "C. Niclosamide.",
+      "D. Praziquantel."
+     ],
+     "answer": "B",
+     "bank": "35-cau",
+     "bankNum": 8
+    },
+    {
+     "num": 12,
+     "type": "mcq",
+     "text": "Giun kim cái thường đẻ trứng ở:",
+     "options": [
+      "A. Trực tràng.",
+      "B. Hậu môn.",
+      "C. Tá tràng.",
+      "D. Ruột non."
+     ],
+     "answer": "B",
+     "bank": "35-cau",
+     "bankNum": 11
+    },
+    {
+     "num": 13,
+     "type": "mcq",
+     "text": "Chu kỳ ngược dòng của Enterobius vermicularis:",
+     "options": [
+      "A. Ấu trùng giun kim nở ra ở hậu môn đi lên manh tràng.",
+      "B. Ấu trùng giun kim từ ruột già lên sống ở ruột non.",
+      "C. Giun kim từ ruột già lên sống ở ruột non.",
+      "D. Trứng giun kim theo gió bụi vào miệng."
+     ],
+     "answer": "A",
+     "bank": "35-cau",
+     "bankNum": 14
+    },
+    {
+     "num": 14,
+     "type": "mcq",
+     "text": "Enterobius vermicularis không gây tác hại này:",
+     "options": [
+      "A. Rối loạn tiêu hoá.",
+      "B. Giun kim lạc chỗ vào cơ quan sinh dụ",
+      "C. Ngứa hậu môn.",
+      "D. Tắc ruột."
+     ],
+     "answer": "D",
+     "bank": "35-cau",
+     "bankNum": 17
+    },
+    {
+     "num": 15,
+     "type": "mcq",
+     "text": "Tuổi thọ của giun Enterobius vermicularis:",
+     "options": [
+      "A. 3-4 tháng.",
+      "B. 1 năm.",
+      "C. 6 tháng.",
+      "D. 1-2 tháng"
+     ],
+     "answer": "D",
+     "bank": "35-cau",
+     "bankNum": 22
+    },
+    {
+     "num": 16,
+     "type": "mcq",
+     "text": "Phòng bệnh giun kim không cần làm điều này:",
+     "options": [
+      "A. Ăn chín, uống sôi.",
+      "B. Cắt móng tay.",
+      "C. Không ăn thịt bò tái.",
+      "D. Không mặc quần không đáy cho trẻ em."
+     ],
+     "answer": "C",
+     "bank": "35-cau",
+     "bankNum": 27
+    },
+    {
+     "num": 17,
+     "type": "mcq",
+     "text": "Giun kim sống ở:",
+     "options": [
+      "A. Tá tràng.",
+      "B. Ruột già.",
+      "C. Ruột non.",
+      "D. Vùng hồi manh tràng."
+     ],
+     "answer": "D",
+     "bank": "35-cau",
+     "bankNum": 32
+    },
+    {
+     "num": 18,
+     "type": "mcq",
+     "text": "Để chẩn đoán bệnh Enterobius vermicularis, người ta dùng kỹ thật giấy bóng kính dính vào:",
+     "options": [
+      "A. Buổi sáng sau khi trẻ thức đậy.",
+      "B. Bất kỳ thời điểm nào.",
+      "C. Buổi sáng sau khi trẻ đã làm vệ sinh thân thể.",
+      "D. Buổi trưa."
+     ],
+     "answer": "A",
+     "bank": "35-cau",
+     "bankNum": 33
+    },
+    {
+     "num": 19,
+     "type": "mcq",
+     "text": "Enterobius vermicularis chủ yếu đẻ trứng:",
+     "options": [
+      "A. Tuỳ theo lúc mà có thể đẻ ban đêm hoặc ban ngày",
+      "B. Vào ban đêm, ở rìa hậu môn nên thường gây ngứa hậu môn",
+      "C. Đẻ ban ngày, sau khi đẻ, giun cái chết.",
+      "D. Vào ban đêm ngay trong lòng ruột"
+     ],
+     "answer": "B",
+     "bank": "35-cau",
+     "bankNum": 35
     }
    ]
   },
@@ -441,6 +567,118 @@
       "D. Cừu"
      ],
      "answer": "C"
+    },
+    {
+     "num": 6,
+     "type": "mcq",
+     "text": "Loài ốc nào sau đây là vật chủ phụ thứ I của sán lá phổi:",
+     "options": [
+      "A. Bythinia.",
+      "B. Limnea.",
+      "C. Bulimus.",
+      "D. Planorbis."
+     ],
+     "answer": "B",
+     "bank": "35-cau",
+     "bankNum": 2
+    },
+    {
+     "num": 7,
+     "type": "mcq",
+     "text": "Vật chủ phụ thứ I của sán lá phổi:",
+     "options": [
+      "A. Ốc.",
+      "B. Lươn",
+      "C. Cá giếc.",
+      "D. Tôm, cua"
+     ],
+     "answer": "A",
+     "bank": "35-cau",
+     "bankNum": 3
+    },
+    {
+     "num": 8,
+     "type": "mcq",
+     "text": "Ngoài người, vật chủ chính của sán lá phổi có thể là:",
+     "options": [
+      "A. Chó, mèo.",
+      "B. Gà, vịt.",
+      "C. Cừu, dê.",
+      "D. Trâu, bò."
+     ],
+     "answer": "A",
+     "bank": "35-cau",
+     "bankNum": 15
+    },
+    {
+     "num": 9,
+     "type": "mcq",
+     "text": "Hình ảnh X-Quang phổi trong bệnh sán lá phổi dễ nhầm với bệnh nào sau đây:",
+     "options": [
+      "A. Giãn phế quản.",
+      "B. Viêm phế quản.",
+      "C. Tràn dịch màng phổi.",
+      "D. Lao hạch ở phổi."
+     ],
+     "answer": "D",
+     "bank": "35-cau",
+     "bankNum": 21
+    },
+    {
+     "num": 10,
+     "type": "mcq",
+     "text": "Để dự phòng bệnh sán lá phổi không nên ăn:",
+     "options": [
+      "A. Gỏi tôm, cua sống",
+      "B. Gỏi cá giếc",
+      "C. Lươn nướng",
+      "D. Ếch nướng"
+     ],
+     "answer": "A",
+     "bank": "35-cau",
+     "bankNum": 28
+    },
+    {
+     "num": 11,
+     "type": "mcq",
+     "text": "Trứng sán lá phổi sau khi bài xuất ra khỏi cơ thể phát triển thành ấu trùng lông khi trứng rơi vào môi trường thích hợp nào sau đây:",
+     "options": [
+      "A. Nước mặn (biển).",
+      "B. Nước lợ (đầm, phá).",
+      "C. Đất cát xốp có độ pH cao.",
+      "D. Nước ngọt (sông, ao, hồ)."
+     ],
+     "answer": "D",
+     "bank": "35-cau",
+     "bankNum": 30
+    },
+    {
+     "num": 12,
+     "type": "mcq",
+     "text": "Kích thước sán lá phổi:",
+     "options": [
+      "A. 8 - 16 mm",
+      "B. 45-55 mm",
+      "C. 20-25 mm",
+      "D. 30-40 mm"
+     ],
+     "answer": "A",
+     "bank": "35-cau",
+     "bankNum": 31
+    },
+    {
+     "num": 13,
+     "type": "mcq",
+     "text": "Thời gian từ khi sán lá phổi xâm nhập vào vật chủ chính đến khi trưởng thành đẻ trứng khoảng:",
+     "options": [
+      "A. 2 tháng.",
+      "B. 4 tháng.",
+      "C. 1 tháng.",
+      "D. 3 tháng."
+     ],
+     "answer": "D",
+     "bank": "35-cau",
+     "bankNum": 34
     }
    ]
   },
@@ -511,6 +749,118 @@
      ],
      "answer": "C",
      "srcNum": 8
+    },
+    {
+     "num": 6,
+     "type": "mcq",
+     "text": "Mỗi con sán lá gan lớn trưởng thành, hút bao nhiêu ml máu mỗi ngày:",
+     "options": [
+      "A. 0,1 ml.",
+      "B. 0,4m",
+      "C. 0,2 ml.",
+      "D. 0,3ml."
+     ],
+     "answer": "C",
+     "bank": "35-cau",
+     "bankNum": 1
+    },
+    {
+     "num": 7,
+     "type": "mcq",
+     "text": "Vật chủ phụ thứ I của sán lá gan lớn:",
+     "options": [
+      "A. Ốc.",
+      "B. Tôm.",
+      "C. Cá giếc.",
+      "D. Cua."
+     ],
+     "answer": "A",
+     "bank": "35-cau",
+     "bankNum": 13
+    },
+    {
+     "num": 8,
+     "type": "mcq",
+     "text": "Về mặt hình thể, sán lá gan lớn trưởng thành có đặc điểm:",
+     "options": [
+      "A. Dài 3 - 4cm, ống tiêu hoá phân hai nhánh lớn.",
+      "B. Dài 5 - 6cm, ống tiêu hoá phân hai nhánh chính, sau đó phân nhiều nhánh nhỏ.",
+      "C. Dài 3 – 4 cm, ống tiêu hoá phân 2 nhánh chính, sau đó phân nhiều nhánh nhỏ.",
+      "D. Dài 5 - 6 cm, ống tiêu hoá phân 2 nhánh lớn."
+     ],
+     "answer": "C",
+     "bank": "35-cau",
+     "bankNum": 18
+    },
+    {
+     "num": 9,
+     "type": "mcq",
+     "text": "Kích thước của trứng sán lá gan lớn:",
+     "options": [
+      "A. (40-60) µm x (10-12) µm.",
+      "B. (70-90) µm x (30-40) µm.",
+      "C. (100-120) µm x (30-40) µm.",
+      "D. (130-150) µm x (60-90) µm."
+     ],
+     "answer": "D",
+     "bank": "35-cau",
+     "bankNum": 19
+    },
+    {
+     "num": 10,
+     "type": "mcq",
+     "text": "Người nhiễm sán lá gan lớn do ăn:",
+     "options": [
+      "A. Rau sống.",
+      "B. Tôm cua nướng.",
+      "C. Các loại thực vật thuỷ sinh có chứa nang ấu trùng chưa nấu chín",
+      "D. Cá gỏi."
+     ],
+     "answer": "C",
+     "bank": "35-cau",
+     "bankNum": 20
+    },
+    {
+     "num": 11,
+     "type": "mcq",
+     "text": "Trong bệnh sán lá gan lớn, giai đoạn ấu trùng chu du, bạch cầu toan tính có thể tăng đến:",
+     "options": [
+      "A. 60%",
+      "B. 40%",
+      "C. 80%.",
+      "D. 50%"
+     ],
+     "answer": "C",
+     "bank": "35-cau",
+     "bankNum": 23
+    },
+    {
+     "num": 12,
+     "type": "mcq",
+     "text": "Ngoài người, vật chủ chính của sán lá gan lớn có thể là:",
+     "options": [
+      "A. Lợn.",
+      "B. Gà, vịt.",
+      "C. Trâu, bò.",
+      "D. Chuột."
+     ],
+     "answer": "C",
+     "bank": "35-cau",
+     "bankNum": 25
+    },
+    {
+     "num": 13,
+     "type": "mcq",
+     "text": "Chẩn đoán bệnh sán lá gan lớn giai đoạn trưởng thành dựa vào:",
+     "options": [
+      "A. Triệu chứng lâm sàng",
+      "B. Xét nghiệm máu bạch cầu toan tính tăng.",
+      "C. Tìm trứng trong phân hay dịch hút tá tràng.",
+      "D. Siêu âm gan."
+     ],
+     "answer": "D",
+     "bank": "35-cau",
+     "bankNum": 26
     }
    ]
   },
@@ -647,6 +997,118 @@
      ],
      "answer": "A",
      "sourceExplain": "Không nuôi heo thả rong và tẩy sán cho heo và người bị nhiễm sán để hạn chế thải mầm bệnh ra môi trường."
+    },
+    {
+     "num": 6,
+     "type": "mcq",
+     "text": "Thời gian từ khi ấu trùng lông của sán lá ruột xâm nhập vào ốc và hoàn tất sự phát triển trong cơ thể ốc là:",
+     "options": [
+      "A. 2 tháng.",
+      "B. 4 tháng",
+      "C. 3 tháng.",
+      "D. 1 tháng."
+     ],
+     "answer": "A",
+     "bank": "35-cau",
+     "bankNum": 4
+    },
+    {
+     "num": 7,
+     "type": "mcq",
+     "text": "Loài ốc nào sau đây là vật chủ phụ thứ I của sán lá ruột:",
+     "options": [
+      "A. Limnea.",
+      "B. Bythinia.",
+      "C. Bulimus.",
+      "D. Planorbis."
+     ],
+     "answer": "C",
+     "bank": "35-cau",
+     "bankNum": 5
+    },
+    {
+     "num": 8,
+     "type": "mcq",
+     "text": "Khi nhiễm với số lượng nhiều sán lá ruột bệnh nhân có triệu chứng:",
+     "options": [
+      "A. Đau bụng vùng hạ sường phải, tiêu chảy, mệt mõi, sụt cân, phù.",
+      "B. Đau bụng vùng thượngû vị, tiêu chảy, mệt mõi, sụt cân, phù.",
+      "C. Đau bụng vùng hạ vị, tiêu chảy, mệt mõi, sụt cân, phù.",
+      "D. Đau bụng vùng hạ vị, đi cầu phân nhầy máu, sốt."
+     ],
+     "answer": "A",
+     "bank": "35-cau",
+     "bankNum": 6
+    },
+    {
+     "num": 9,
+     "type": "mcq",
+     "text": "Người nhiễm sán lá ruột do ăn các loại thực phẩm nào sau đây chưa nấu chín:",
+     "options": [
+      "A. Các loại rau thuỷ sinh: ngó sen, rau muống, củ ấu...",
+      "B. Tôm sống.",
+      "C. Gỏi cá giếc.",
+      "D. Cua nướng."
+     ],
+     "answer": "A",
+     "bank": "35-cau",
+     "bankNum": 9
+    },
+    {
+     "num": 10,
+     "type": "mcq",
+     "text": "Thời gian từ khi nhiễm nang ấu trùng sán lá ruột đến khi phát triển con trưởng thành:",
+     "options": [
+      "A. 3 tháng.",
+      "B. 2 tháng.",
+      "C. 1 tháng.",
+      "D. 4 tháng."
+     ],
+     "answer": "A",
+     "bank": "35-cau",
+     "bankNum": 10
+    },
+    {
+     "num": 11,
+     "type": "mcq",
+     "text": "Trong bệnh sán lá ruột, bạch cầu toan tính có thể tăng đến:",
+     "options": [
+      "A. 26-30%.",
+      "B. 31-35%.",
+      "C. 20-25%.",
+      "D. 36-40%."
+     ],
+     "answer": "C",
+     "bank": "35-cau",
+     "bankNum": 16
+    },
+    {
+     "num": 12,
+     "type": "mcq",
+     "text": "Vật chủ phụ thứ I của sán lá ruột:",
+     "options": [
+      "A. Tôm.",
+      "B. Cua.",
+      "C. Ốc.",
+      "D. Cá giếc."
+     ],
+     "answer": "C",
+     "bank": "35-cau",
+     "bankNum": 24
+    },
+    {
+     "num": 13,
+     "type": "mcq",
+     "text": "Trứng sán lá ruột sau khi bài xuất ra khỏi cơ thể người phát triển thành ấu trùng lông khi gặp môi trường thích hợp nào sau đây:",
+     "options": [
+      "A. Nước ngọt (sông, ao, hồ...)",
+      "B. Nước biển.",
+      "C. Đất cát, nhiều khí O2.",
+      "D. Đất xốp, nhiều khí O2."
+     ],
+     "answer": "A",
+     "bank": "35-cau",
+     "bankNum": 29
     }
    ]
   },

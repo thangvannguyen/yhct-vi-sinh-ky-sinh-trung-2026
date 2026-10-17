@@ -3,7 +3,7 @@ import { QUESTION_INDEX, letterFor, optionLabel } from '../lib/data.js'
 import { useApp } from '../lib/store.jsx'
 import { Button, Card, Container, SectionTitle, cx } from '../components/ui.jsx'
 import LessonIcon from '../components/LessonIcon.jsx'
-import { AnswerBadge, AnswerNote, DocOption, ExplanationReveal } from '../components/Question.jsx'
+import { AnswerBadge, AnswerNote, DocOption, ExplanationReveal, PriorityStar } from '../components/Question.jsx'
 
 function scoreTone(percent) {
   if (percent >= 80) return { color: 'var(--success)', emoji: 'svg:chuc-mung' }
@@ -70,6 +70,7 @@ export default function QuizResult() {
               </div>
               <div className="mb-2.5 font-semibold leading-relaxed">
                 {i + 1}. {q.text}
+                <PriorityStar question={q} />
               </div>
               {mode === 'full' ? (
                 <div className="flex flex-col gap-1">

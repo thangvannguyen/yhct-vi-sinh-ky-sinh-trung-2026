@@ -1,26 +1,26 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import {
-  CHAPTERS,
   QUESTION_INDEX,
   chapterById,
   getEligibleIds,
+  scopedChapters,
   shuffle,
 } from '../lib/data.js'
 import { useApp } from '../lib/store.jsx'
 import { BackLink, Button, Container, cx } from '../components/ui.jsx'
 import LessonIcon from '../components/LessonIcon.jsx'
 
-const ALL_CHAPTER_IDS = CHAPTERS.map((c) => c.id)
-
 export default function QuizSetup() {
   const navigate = useNavigate()
-  const { setQuiz } = useApp()
+  const { setQuiz, allQuestions } = useApp()
+  const chapters = scopedChapters(allQuestions)
+  const allChapterIds = chapters.map((c) => c.id)
 
-  const [selected, setSelected] = useState(ALL_CHAPTER_IDS)
+  const [selected, setSelected] = useState(allChapterIds)
   const [count, setCount] = useState(20)
 
-  const eligible = getEligibleIds(selected)
+  const eligible = getEligibleIds(selected, allQuestions)
   const max = Math.max(1, eligible.length)
   const clampedCount = Math.min(count, max)
 
@@ -34,12 +34,12 @@ export default function QuizSetup() {
   }
 
   function start() {
-    const pool = getEligibleIds(selected)
+    const pool = getEligibleIds(selected, allQuestions)
     const picked = shuffle(pool).slice(0, clampedCount)
     const scope =
-      selected.length === CHAPTERS.length
+      (selected.length === chapters.length
         ? 'Tất cả các bài'
-        : selected.map((cid) => (chapterById(cid) || {}).short).join(', ')
+        : selected.map((cid) => (chapterById(cid) || {}).short).join(', ')) + (allQuestions ? '' : ' · chỉ câu ★')
 
     const items = picked.map((qid) => {
       const q = QUESTION_INDEX[qid].question
@@ -56,19 +56,25 @@ export default function QuizSetup() {
     navigate('/quiz')
   }
 
-  const allActive = selected.length === CHAPTERS.length
+  const allActive = selected.length === chapters.length
 
   return (
     <Container>
       <BackLink to="/" />
       <h1 className="mb-4 text-[1.25rem] font-extrabold">Thiết lập bài kiểm tra</h1>
+      {!allQuestions && (
+        <p className="-mt-2 mb-4 text-[0.85rem] text-text-muted">
+          Đang ở chế độ <strong className="text-warning">chỉ câu ★</strong> — bật lại "Tất cả câu" ở thẻ Tiến độ ôn tập
+          trên trang chủ để làm bài với mọi câu.
+        </p>
+      )}
 
       <div className="mb-5">
         <span className="mb-2.5 block text-[0.9rem] font-bold">Bài</span>
         <div className="flex flex-wrap gap-2">
           <button
             type="button"
-            onClick={() => setSelected(ALL_CHAPTER_IDS)}
+            onClick={() => setSelected(allChapterIds)}
             className={cx(
               'rounded-full border-[1.5px] px-3.5 py-2 text-[0.85rem] cursor-pointer',
               allActive
@@ -78,7 +84,7 @@ export default function QuizSetup() {
           >
             Tất cả
           </button>
-          {CHAPTERS.map((ch) => {
+          {chapters.map((ch) => {
             const active = selected.includes(ch.id)
             return (
               <button

@@ -465,6 +465,213 @@
       "lessonId": "giun-kim",
       "sectionId": "chan-doan"
      }
+    },
+    {
+     "id": "giun-kim-11",
+     "type": "mcq",
+     "text": "Thuốc điều trị Enterobius vermicularis:",
+     "options": [
+      "A. Fansidar",
+      "B. Mebendazole.",
+      "C. Niclosamide.",
+      "D. Praziquantel."
+     ],
+     "correct": "B. Mebendazole.",
+     "answerText": null,
+     "explain": "Bảng thuốc điều trị giun kim có mebendazole 100 mg liều duy nhất (cùng albendazole, pyrantel pamoate…). Praziquantel và niclosamide dùng cho sán; Fansidar là thuốc sốt rét.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-kim",
+      "sectionId": "dieu-tri"
+     },
+     "priority": true
+    },
+    {
+     "id": "giun-kim-12",
+     "type": "mcq",
+     "text": "Giun kim cái thường đẻ trứng ở:",
+     "options": [
+      "A. Trực tràng.",
+      "B. Hậu môn.",
+      "C. Tá tràng.",
+      "D. Ruột non."
+     ],
+     "correct": "B. Hậu môn.",
+     "answerText": null,
+     "explain": "Ban đêm giun cái bò ra rìa hậu môn đẻ trứng rồi chết — vì trứng cần oxy để phát triển đến giai đoạn lây nhiễm.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-kim",
+      "sectionId": "chu-trinh"
+     },
+     "priority": true
+    },
+    {
+     "id": "giun-kim-13",
+     "type": "mcq",
+     "text": "Chu kỳ ngược dòng của Enterobius vermicularis:",
+     "options": [
+      "A. Ấu trùng giun kim nở ra ở hậu môn đi lên manh tràng.",
+      "B. Ấu trùng giun kim từ ruột già lên sống ở ruột non.",
+      "C. Giun kim từ ruột già lên sống ở ruột non.",
+      "D. Trứng giun kim theo gió bụi vào miệng."
+     ],
+     "correct": "A. Ấu trùng giun kim nở ra ở hậu môn đi lên manh tràng.",
+     "answerText": null,
+     "explain": "Đây là kiểu tự tái nhiễm hiếm gặp gọi là nhiễm ngược: ấu trùng nở ở da quanh hậu môn rồi bò ngược lên trực tràng, về lại manh tràng.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-kim",
+      "sectionId": "chu-trinh"
+     },
+     "priority": true
+    },
+    {
+     "id": "giun-kim-14",
+     "type": "mcq",
+     "text": "Enterobius vermicularis không gây tác hại này:",
+     "options": [
+      "A. Rối loạn tiêu hoá.",
+      "B. Giun kim lạc chỗ vào cơ quan sinh dục",
+      "C. Ngứa hậu môn.",
+      "D. Tắc ruột."
+     ],
+     "correct": "D. Tắc ruột.",
+     "answerText": null,
+     "explain": "Giun kim gây rối loạn tiêu hóa, ngứa hậu môn và có thể lạc vào cơ quan sinh dục. Tắc ruột không có trong các tác hại, biến chứng của giun kim (tắc ruột là biến chứng của giun đũa).",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-kim",
+      "sectionId": "bien-chung"
+     },
+     "priority": true
+    },
+    {
+     "id": "giun-kim-15",
+     "type": "mcq",
+     "text": "Tuổi thọ của giun Enterobius vermicularis:",
+     "options": [
+      "A. 3-4 tháng.",
+      "B. 1 năm.",
+      "C. 6 tháng.",
+      "D. 1-2 tháng"
+     ],
+     "correct": "D. 1-2 tháng",
+     "answerText": null,
+     "explain": "Đời sống giun cái 4 – 13 tuần, giun đực 2 – 7 tuần, tức khoảng 1 – 2 tháng (dưới 3 tháng).",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-kim",
+      "sectionId": "chu-trinh"
+     },
+     "priority": true
+    },
+    {
+     "id": "giun-kim-16",
+     "type": "mcq",
+     "text": "Phòng bệnh giun kim không cần làm điều này:",
+     "options": [
+      "A. Ăn chín, uống sôi.",
+      "B. Cắt móng tay.",
+      "C. Không ăn thịt bò tái.",
+      "D. Không mặc quần không đáy cho trẻ em."
+     ],
+     "correct": "C. Không ăn thịt bò tái.",
+     "answerText": null,
+     "explain": "Giun kim lây qua trứng (tay bẩn, đồ chơi, bụi), không liên quan thịt bò. Không ăn thịt bò tái là cách phòng sán dải bò.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-kim",
+      "sectionId": "du-phong"
+     },
+     "priority": true
+    },
+    {
+     "id": "giun-kim-17",
+     "type": "mcq",
+     "text": "Giun kim sống ở:",
+     "options": [
+      "A. Tá tràng.",
+      "B. Ruột già.",
+      "C. Ruột non.",
+      "D. Vùng hồi manh tràng."
+     ],
+     "correct": "D. Vùng hồi manh tràng.",
+     "answerText": null,
+     "explain": "Giun trưởng thành sống ở manh tràng (vùng hồi manh tràng, ruột già), không ở tá tràng hay ruột non.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-kim",
+      "sectionId": "chu-trinh"
+     },
+     "priority": true
+    },
+    {
+     "id": "giun-kim-18",
+     "type": "mcq",
+     "text": "Để chẩn đoán bệnh Enterobius vermicularis, người ta dùng kỹ thuật giấy bóng kính dính vào:",
+     "options": [
+      "A. Buổi sáng sau khi trẻ thức dậy.",
+      "B. Bất kỳ thời điểm nào.",
+      "C. Buổi sáng sau khi trẻ đã làm vệ sinh thân thể.",
+      "D. Buổi trưa."
+     ],
+     "correct": "A. Buổi sáng sau khi trẻ thức dậy.",
+     "answerText": null,
+     "explain": "Kỹ thuật Graham lấy mẫu sáng sớm, khi trẻ vừa thức dậy, chưa vệ sinh vùng hạ bộ. Vệ sinh trước khi lấy mẫu là yếu tố gây nhiễu (làm mất trứng).",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-kim",
+      "sectionId": "graham"
+     },
+     "priority": true
+    },
+    {
+     "id": "giun-kim-19",
+     "type": "mcq",
+     "text": "Enterobius vermicularis chủ yếu đẻ trứng:",
+     "options": [
+      "A. Tuỳ theo lúc mà có thể đẻ ban đêm hoặc ban ngày",
+      "B. Vào ban đêm, ở rìa hậu môn nên thường gây ngứa hậu môn",
+      "C. Đẻ ban ngày, sau khi đẻ, giun cái chết.",
+      "D. Vào ban đêm ngay trong lòng ruột"
+     ],
+     "correct": "B. Vào ban đêm, ở rìa hậu môn nên thường gây ngứa hậu môn",
+     "answerText": null,
+     "explain": "Giun cái đẻ trứng ban đêm ở rìa hậu môn; chất bài tiết và cử động của giun khi đẻ gây ngứa hậu môn về đêm.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "giun-kim",
+      "sectionId": "chu-trinh"
+     },
+     "priority": true
     }
    ]
   },
@@ -943,6 +1150,195 @@
       "lessonId": "san-la-phoi",
       "sectionId": "chu-trinh"
      }
+    },
+    {
+     "id": "san-la-phoi-6",
+     "type": "mcq",
+     "text": "Loài ốc nào sau đây là vật chủ phụ thứ I của sán lá phổi:",
+     "options": [
+      "A. Bythinia.",
+      "B. Limnea.",
+      "C. Bulimus.",
+      "D. Planorbis."
+     ],
+     "correct": "B. Limnea.",
+     "answerText": null,
+     "explain": "Bài học ghi ốc ký chủ trung gian thứ nhất là *Melanoides* — không có trong 4 phương án. *Limnea* (*Lymnaea*) là ốc của sán lá lớn ở gan, *Bithynia* của sán lá nhỏ ở gan, *Planorbis* của sán lá ruột lớn. Xem ghi chú bên dưới.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": {
+      "kind": "typo",
+      "title": "Lỗi trong tài liệu gốc",
+      "body": "Tài liệu tô đỏ **Limnea**, nhưng bài học ghi ốc ký chủ trung gian thứ nhất của sán lá phổi là ***Melanoides*** — không có trong 4 phương án. *Limnea* (*Lymnaea*) là ốc của **sán lá lớn ở gan**. Web giữ đáp án tô đỏ của tài liệu;",
+      "sourceAnswer": "B"
+     },
+     "lessonRef": {
+      "lessonId": "san-la-phoi",
+      "sectionId": "chu-trinh"
+     },
+     "priority": true
+    },
+    {
+     "id": "san-la-phoi-7",
+     "type": "mcq",
+     "text": "Vật chủ phụ thứ I của sán lá phổi:",
+     "options": [
+      "A. Ốc.",
+      "B. Lươn",
+      "C. Cá giếc.",
+      "D. Tôm, cua"
+     ],
+     "correct": "A. Ốc.",
+     "answerText": null,
+     "explain": "Ký chủ trung gian thứ nhất là ốc (*Melanoides*); thứ hai là cua, tôm nước ngọt.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-phoi",
+      "sectionId": "chu-trinh"
+     },
+     "priority": true
+    },
+    {
+     "id": "san-la-phoi-8",
+     "type": "mcq",
+     "text": "Ngoài người, vật chủ chính của sán lá phổi có thể là:",
+     "options": [
+      "A. Chó, mèo.",
+      "B. Gà, vịt.",
+      "C. Cừu, dê.",
+      "D. Trâu, bò."
+     ],
+     "correct": "A. Chó, mèo.",
+     "answerText": null,
+     "explain": "Ngoài người, gia súc như chó, mèo, heo cũng nhiễm sán lá phổi.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-phoi",
+      "sectionId": "chu-trinh"
+     },
+     "priority": true
+    },
+    {
+     "id": "san-la-phoi-9",
+     "type": "mcq",
+     "text": "Hình ảnh X-Quang phổi trong bệnh sán lá phổi dễ nhầm với bệnh nào sau đây:",
+     "options": [
+      "A. Giãn phế quản.",
+      "B. Viêm phế quản.",
+      "C. Tràn dịch màng phổi.",
+      "D. Lao hạch ở phổi."
+     ],
+     "correct": "D. Lao hạch ở phổi.",
+     "answerText": null,
+     "explain": "Triệu chứng và X-quang (hạch trung thất to, nốt mờ, hang nhỏ) rất giống lao, nhưng xét nghiệm trực khuẩn lao (BK) âm tính.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-phoi",
+      "sectionId": "lam-sang"
+     },
+     "priority": true
+    },
+    {
+     "id": "san-la-phoi-10",
+     "type": "mcq",
+     "text": "Để dự phòng bệnh sán lá phổi không nên ăn:",
+     "options": [
+      "A. Gỏi tôm, cua sống",
+      "B. Gỏi cá giếc",
+      "C. Lươn nướng",
+      "D. Ếch nướng"
+     ],
+     "correct": "A. Gỏi tôm, cua sống",
+     "answerText": null,
+     "explain": "Người nhiễm do ăn tôm, cua nước ngọt chưa nấu chín → không ăn tôm, cua sống dưới bất kỳ hình thức nào.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-phoi",
+      "sectionId": "du-phong"
+     },
+     "priority": true
+    },
+    {
+     "id": "san-la-phoi-11",
+     "type": "mcq",
+     "text": "Trứng sán lá phổi sau khi bài xuất ra khỏi cơ thể phát triển thành ấu trùng lông khi trứng rơi vào môi trường thích hợp nào sau đây:",
+     "options": [
+      "A. Nước mặn (biển).",
+      "B. Nước lợ (đầm, phá).",
+      "C. Đất cát xốp có độ pH cao.",
+      "D. Nước ngọt (sông, ao, hồ)."
+     ],
+     "correct": "D. Nước ngọt (sông, ao, hồ).",
+     "answerText": null,
+     "explain": "Trứng theo đờm hoặc phân ra ngoài, rơi vào nước ngọt; sau 2 – 3 tuần nở ra ấu trùng lông rồi vào ốc nước ngọt.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-phoi",
+      "sectionId": "chu-trinh"
+     },
+     "priority": true
+    },
+    {
+     "id": "san-la-phoi-12",
+     "type": "mcq",
+     "text": "Kích thước sán lá phổi:",
+     "options": [
+      "A. 8 - 16 mm",
+      "B. 45-55 mm",
+      "C. 20-25 mm",
+      "D. 30-40 mm"
+     ],
+     "correct": "A. 8 - 16 mm",
+     "answerText": null,
+     "explain": "Bài học ghi sán trưởng thành dài 8 – 12 mm (tài liệu 35 câu ghi 8 – 16 mm). Chỉ phương án A nằm trong khoảng này.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-phoi",
+      "sectionId": "hinh-the"
+     },
+     "priority": true
+    },
+    {
+     "id": "san-la-phoi-13",
+     "type": "mcq",
+     "text": "Thời gian từ khi sán lá phổi xâm nhập vào vật chủ chính đến khi trưởng thành đẻ trứng khoảng:",
+     "options": [
+      "A. 2 tháng.",
+      "B. 4 tháng.",
+      "C. 1 tháng.",
+      "D. 3 tháng."
+     ],
+     "correct": "D. 3 tháng.",
+     "answerText": null,
+     "explain": "Bài học không nêu mốc thời gian này; đáp án theo tài liệu 35 câu.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-phoi",
+      "sectionId": "chu-trinh"
+     },
+     "priority": true
     }
    ]
   },
@@ -1065,6 +1461,190 @@
       "lessonId": "san-la-lon-gan",
       "sectionId": "dieu-tri"
      }
+    },
+    {
+     "id": "san-la-lon-gan-6",
+     "type": "mcq",
+     "text": "Mỗi con sán lá gan lớn trưởng thành, hút bao nhiêu ml máu mỗi ngày:",
+     "options": [
+      "A. 0,1 ml.",
+      "B. 0,4 ml.",
+      "C. 0,2 ml.",
+      "D. 0,3ml."
+     ],
+     "correct": "C. 0,2 ml.",
+     "answerText": null,
+     "explain": "Bài học không nêu lượng máu mỗi con sán hút; chỉ ghi sán ăn tổ chức gan và máu, thiếu máu là triệu chứng đặc trưng. Đáp án theo tài liệu 35 câu.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-lon-gan",
+      "sectionId": "lam-sang"
+     },
+     "priority": true
+    },
+    {
+     "id": "san-la-lon-gan-7",
+     "type": "mcq",
+     "text": "Vật chủ phụ thứ I của sán lá gan lớn:",
+     "options": [
+      "A. Ốc.",
+      "B. Tôm.",
+      "C. Cá giếc.",
+      "D. Cua."
+     ],
+     "correct": "A. Ốc.",
+     "answerText": null,
+     "explain": "Ký chủ trung gian thứ nhất là ốc nước ngọt *Lymnaea* spp.; rau thủy sinh chỉ là giá thể mang nang trùng.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-lon-gan",
+      "sectionId": "chu-trinh"
+     },
+     "priority": true
+    },
+    {
+     "id": "san-la-lon-gan-8",
+     "type": "mcq",
+     "text": "Về mặt hình thể, sán lá gan lớn trưởng thành có đặc điểm:",
+     "options": [
+      "A. Dài 3 - 4cm, ống tiêu hoá phân hai nhánh lớn.",
+      "B. Dài 5 - 6cm, ống tiêu hoá phân hai nhánh chính, sau đó phân nhiều nhánh nhỏ.",
+      "C. Dài 3 – 4 cm, ống tiêu hoá phân 2 nhánh chính, sau đó phân nhiều nhánh nhỏ.",
+      "D. Dài 5 - 6 cm, ống tiêu hoá phân 2 nhánh lớn."
+     ],
+     "correct": "C. Dài 3 – 4 cm, ống tiêu hoá phân 2 nhánh chính, sau đó phân nhiều nhánh nhỏ.",
+     "answerText": null,
+     "explain": "Sán hình chiếc lá dẹt, dài 20 – 75 mm; ruột phân nhánh phức tạp (2 nhánh chính rồi chia nhiều nhánh nhỏ).",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-lon-gan",
+      "sectionId": "hinh-the"
+     },
+     "priority": true
+    },
+    {
+     "id": "san-la-lon-gan-9",
+     "type": "mcq",
+     "text": "Kích thước của trứng sán lá gan lớn:",
+     "options": [
+      "A. (40-60) µm x (10-12) µm.",
+      "B. (70-90) µm x (30-40) µm.",
+      "C. (100-120) µm x (30-40) µm.",
+      "D. (130-150) µm x (60-90) µm."
+     ],
+     "correct": "D. (130-150) µm x (60-90) µm.",
+     "answerText": null,
+     "explain": "Trứng 130 – 150 × 63 – 90 µm — lớn nhất so với trứng các loài sán khác.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-lon-gan",
+      "sectionId": "hinh-the"
+     },
+     "priority": true
+    },
+    {
+     "id": "san-la-lon-gan-10",
+     "type": "mcq",
+     "text": "Người nhiễm sán lá gan lớn do ăn:",
+     "options": [
+      "A. Rau sống.",
+      "B. Tôm cua nướng.",
+      "C. Các loại thực vật thuỷ sinh có chứa nang ấu trùng chưa nấu chín",
+      "D. Cá gỏi."
+     ],
+     "correct": "C. Các loại thực vật thuỷ sinh có chứa nang ấu trùng chưa nấu chín",
+     "answerText": null,
+     "explain": "Người nhiễm do ăn sống rau thủy sinh có nang trùng (cải xoong, rau răm, rau ngổ…) hoặc uống nước lã có nang trùng. Tôm cua là đường lây sán lá phổi, gỏi cá là sán lá nhỏ ở gan.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-lon-gan",
+      "sectionId": "chu-trinh"
+     },
+     "priority": true
+    },
+    {
+     "id": "san-la-lon-gan-11",
+     "type": "mcq",
+     "text": "Trong bệnh sán lá gan lớn, giai đoạn ấu trùng chu du, bạch cầu toan tính có thể tăng đến:",
+     "options": [
+      "A. 60%",
+      "B. 40%",
+      "C. 80%.",
+      "D. 50%"
+     ],
+     "correct": "C. 80%.",
+     "answerText": null,
+     "explain": "Giai đoạn cấp: bạch cầu ái toan (toan tính) hầu như > 5%, nhiều trường hợp tới 80%.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-lon-gan",
+      "sectionId": "can-lam-sang"
+     },
+     "priority": true
+    },
+    {
+     "id": "san-la-lon-gan-12",
+     "type": "mcq",
+     "text": "Ngoài người, vật chủ chính của sán lá gan lớn có thể là:",
+     "options": [
+      "A. Lợn.",
+      "B. Gà, vịt.",
+      "C. Trâu, bò.",
+      "D. Chuột."
+     ],
+     "correct": "C. Trâu, bò.",
+     "answerText": null,
+     "explain": "Ký chủ chính là động vật nhai lại, ăn cỏ: trâu, bò, dê, cừu…",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-lon-gan",
+      "sectionId": "dich-te"
+     },
+     "priority": true
+    },
+    {
+     "id": "san-la-lon-gan-13",
+     "type": "mcq",
+     "text": "Chẩn đoán bệnh sán lá gan lớn giai đoạn trưởng thành dựa vào:",
+     "options": [
+      "A. Triệu chứng lâm sàng",
+      "B. Xét nghiệm máu bạch cầu toan tính tăng.",
+      "C. Tìm trứng trong phân hay dịch hút tá tràng.",
+      "D. Siêu âm gan."
+     ],
+     "correct": "D. Siêu âm gan.",
+     "answerText": null,
+     "explain": "Theo bài học, tìm trứng trong phân là \"chuẩn vàng\" nhưng dương tính < 5%; chẩn đoán xác định phối hợp dịch tễ, lâm sàng, bạch cầu ái toan, ELISA và hình ảnh (siêu âm: ổ hỗn hợp âm hình tổ ong). Tài liệu 35 câu chọn siêu âm gan; phương án C cũng có cơ sở trong bài học.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-lon-gan",
+      "sectionId": "chan-doan-xac-dinh"
+     },
+     "priority": true
     }
    ]
   },
@@ -1314,6 +1894,200 @@
       "lessonId": "san-la-ruot",
       "sectionId": "du-phong"
      }
+    },
+    {
+     "id": "san-la-ruot-6",
+     "type": "mcq",
+     "text": "Thời gian từ khi ấu trùng lông của sán lá ruột xâm nhập vào ốc và hoàn tất sự phát triển trong cơ thể ốc là:",
+     "options": [
+      "A. 2 tháng.",
+      "B. 4 tháng",
+      "C. 3 tháng.",
+      "D. 1 tháng."
+     ],
+     "correct": "A. 2 tháng.",
+     "answerText": null,
+     "explain": "Bài học không nêu thời gian phát triển trong ốc; đáp án theo tài liệu 35 câu.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-ruot",
+      "sectionId": "chu-trinh"
+     },
+     "priority": true
+    },
+    {
+     "id": "san-la-ruot-7",
+     "type": "mcq",
+     "text": "Loài ốc nào sau đây là vật chủ phụ thứ I của sán lá ruột:",
+     "options": [
+      "A. Limnea.",
+      "B. Bythinia.",
+      "C. Bulimus.",
+      "D. Planorbis."
+     ],
+     "correct": "D. Planorbis.",
+     "answerText": null,
+     "explain": "Ốc ký chủ trung gian ở Việt Nam là các giống *Segmentina*, *Hippeutis*, *Gyraulus* của *Planorbis*.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": {
+      "kind": "corrected",
+      "title": "Đáp án đã sửa so với tài liệu gốc",
+      "body": "Tài liệu tô đỏ **C. Bulimus**. Bài học ghi ốc ký chủ trung gian của *Fasciolopsis buski* là các giống *Segmentina*, *Hippeutis*, *Gyraulus* **của *Planorbis*** → chọn **D**.",
+      "sourceAnswer": "C"
+     },
+     "lessonRef": {
+      "lessonId": "san-la-ruot",
+      "sectionId": "dich-te"
+     },
+     "priority": true
+    },
+    {
+     "id": "san-la-ruot-8",
+     "type": "mcq",
+     "text": "Khi nhiễm với số lượng nhiều sán lá ruột bệnh nhân có triệu chứng:",
+     "options": [
+      "A. Đau bụng vùng hạ sườn phải, tiêu chảy, mệt mỏi, sụt cân, phù.",
+      "B. Đau bụng vùng thượng vị, tiêu chảy, mệt mỏi, sụt cân, phù.",
+      "C. Đau bụng vùng hạ vị, tiêu chảy, mệt mỏi, sụt cân, phù.",
+      "D. Đau bụng vùng hạ vị, đi cầu phân nhầy máu, sốt."
+     ],
+     "correct": "C. Đau bụng vùng hạ vị, tiêu chảy, mệt mỏi, sụt cân, phù.",
+     "answerText": null,
+     "explain": "Nhiễm nặng: mệt mỏi, đau dạ dày, đau bụng dưới kèm tiêu chảy (phân lỏng, nhầy, không có máu), phù toàn thân do độc tố, có thể suy kiệt.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": {
+      "kind": "corrected",
+      "title": "Đáp án đã sửa so với tài liệu gốc",
+      "body": "Tài liệu tô đỏ **A** (đau hạ sườn phải). Bài học ghi nhiễm nặng sán lá ruột lớn gây **đau dạ dày, đau bụng dưới** kèm tiêu chảy (phân **không có máu**), mệt mỏi, phù → chọn **C** (hạ vị). Đau hạ sườn phải là vùng gan mật, hợp với sán lá gan hơn.",
+      "sourceAnswer": "A"
+     },
+     "lessonRef": {
+      "lessonId": "san-la-ruot",
+      "sectionId": "lam-sang"
+     },
+     "priority": true
+    },
+    {
+     "id": "san-la-ruot-9",
+     "type": "mcq",
+     "text": "Người nhiễm sán lá ruột do ăn các loại thực phẩm nào sau đây chưa nấu chín:",
+     "options": [
+      "A. Các loại rau thuỷ sinh: ngó sen, rau muống, củ ấu...",
+      "B. Tôm sống.",
+      "C. Gỏi cá giếc.",
+      "D. Cua nướng."
+     ],
+     "correct": "A. Các loại rau thuỷ sinh: ngó sen, rau muống, củ ấu...",
+     "answerText": null,
+     "explain": "Nhiễm do ăn sống cây, rau mọc dưới nước có nang ấu trùng: rau muống, rau nhút, ngó sen, củ năng, bèo…",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-ruot",
+      "sectionId": "dich-te"
+     },
+     "priority": true
+    },
+    {
+     "id": "san-la-ruot-10",
+     "type": "mcq",
+     "text": "Thời gian từ khi nhiễm nang ấu trùng sán lá ruột đến khi phát triển con trưởng thành:",
+     "options": [
+      "A. 3 tháng.",
+      "B. 2 tháng.",
+      "C. 1 tháng.",
+      "D. 4 tháng."
+     ],
+     "correct": "A. 3 tháng.",
+     "answerText": null,
+     "explain": "Sán non bám vào thành ruột non và thành sán trưởng thành trong vòng 3 tháng.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-ruot",
+      "sectionId": "chu-trinh"
+     },
+     "priority": true
+    },
+    {
+     "id": "san-la-ruot-11",
+     "type": "mcq",
+     "text": "Trong bệnh sán lá ruột, bạch cầu toan tính có thể tăng đến:",
+     "options": [
+      "A. 26-30%.",
+      "B. 31-35%.",
+      "C. 20-25%.",
+      "D. 36-40%."
+     ],
+     "correct": "C. 20-25%.",
+     "answerText": null,
+     "explain": "Giai đoạn toàn phát, bạch cầu ái toan có thể tăng 20 – 25%.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-ruot",
+      "sectionId": "lam-sang"
+     },
+     "priority": true
+    },
+    {
+     "id": "san-la-ruot-12",
+     "type": "mcq",
+     "text": "Vật chủ phụ thứ I của sán lá ruột:",
+     "options": [
+      "A. Tôm.",
+      "B. Cua.",
+      "C. Ốc.",
+      "D. Cá giếc."
+     ],
+     "correct": "C. Ốc.",
+     "answerText": null,
+     "explain": "Ấu trùng lông xâm nhập ốc, phát triển qua bào tử nang → redia → ấu trùng đuôi.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-ruot",
+      "sectionId": "chu-trinh"
+     },
+     "priority": true
+    },
+    {
+     "id": "san-la-ruot-13",
+     "type": "mcq",
+     "text": "Trứng sán lá ruột sau khi bài xuất ra khỏi cơ thể người phát triển thành ấu trùng lông khi gặp môi trường thích hợp nào sau đây:",
+     "options": [
+      "A. Nước ngọt (sông, ao, hồ...)",
+      "B. Nước biển.",
+      "C. Đất cát, nhiều khí O2.",
+      "D. Đất xốp, nhiều khí O2."
+     ],
+     "correct": "A. Nước ngọt (sông, ao, hồ...)",
+     "answerText": null,
+     "explain": "Trứng theo phân ra ngoài, gặp nước ngọt mới phát triển và nở ra ấu trùng lông.",
+     "tip": null,
+     "image": null,
+     "flag": null,
+     "answerNote": null,
+     "lessonRef": {
+      "lessonId": "san-la-ruot",
+      "sectionId": "chu-trinh"
+     },
+     "priority": true
     }
    ]
   },

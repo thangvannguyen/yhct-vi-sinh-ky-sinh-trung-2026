@@ -1,14 +1,15 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import {
-  ALL_IDS,
-  CHAPTER_QUESTIONS,
   QUESTION_INDEX,
+  scopedIds,
   chapterIcon,
   optionLabel,
 } from '../lib/data.js'
+import { useApp } from '../lib/store.jsx'
 import { cx } from './ui.jsx'
 import LessonIcon from './LessonIcon.jsx'
+import { PriorityStar } from './Question.jsx'
 
 const MAX_DROPDOWN_RESULTS = 30
 
@@ -39,6 +40,7 @@ function searchIds(ids, query, limit = Infinity) {
  */
 export default function StudySearch({ chapterId, onScopeFilterChange }) {
   const navigate = useNavigate()
+  const { allQuestions } = useApp()
   const [query, setQuery] = useState('')
   const [scope, setScope] = useState(chapterId === 'all' ? 'all' : 'chapter')
   const [open, setOpen] = useState(false)
@@ -46,12 +48,12 @@ export default function StudySearch({ chapterId, onScopeFilterChange }) {
   const isChapterScope = scope === 'chapter' && chapterId !== 'all'
 
   const chapterResults = useMemo(
-    () => (isChapterScope ? searchIds(CHAPTER_QUESTIONS[chapterId] || [], query) : []),
-    [isChapterScope, chapterId, query]
+    () => (isChapterScope ? searchIds(scopedIds(chapterId, allQuestions), query) : []),
+    [isChapterScope, chapterId, query, allQuestions]
   )
   const allResults = useMemo(
-    () => (!isChapterScope ? searchIds(ALL_IDS, query, MAX_DROPDOWN_RESULTS) : []),
-    [isChapterScope, query]
+    () => (!isChapterScope ? searchIds(scopedIds('all', allQuestions), query, MAX_DROPDOWN_RESULTS) : []),
+    [isChapterScope, query, allQuestions]
   )
 
   useEffect(() => {
@@ -67,7 +69,7 @@ export default function StudySearch({ chapterId, onScopeFilterChange }) {
   const showDropdown = !isChapterScope && open && query.trim().length >= 2
 
   function goTo(result) {
-    const list = CHAPTER_QUESTIONS[result.chapterId] || []
+    const list = scopedIds(result.chapterId, allQuestions)
     const idx = Math.max(list.indexOf(result.id), 0)
     setQuery('')
     setOpen(false)
@@ -157,7 +159,7 @@ export default function StudySearch({ chapterId, onScopeFilterChange }) {
                   )}
                 </div>
                 <div className="line-clamp-2 text-[0.86rem] leading-snug text-text">
-                  {r.question.text}
+                  {r.question.text}<PriorityStar question={r.question} />
                 </div>
               </button>
             ))

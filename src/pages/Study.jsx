@@ -1,13 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, Navigate, useNavigate, useParams } from 'react-router-dom'
-import {
-  ALL_IDS,
-  CHAPTERS,
-  CHAPTER_QUESTIONS,
-  chapterById,
-  chapterShortOf,
-  shuffle,
-} from '../lib/data.js'
+import { chapterById, chapterShortOf, scopedChapters, scopedIds, shuffle } from '../lib/data.js'
 import { useApp } from '../lib/store.jsx'
 import { cx } from '../components/ui.jsx'
 import BrowsableQuestions from '../components/BrowsableQuestions.jsx'
@@ -35,7 +28,7 @@ function TheoryShortcut({ chapterId }) {
 // remounts) so the strip reopens exactly where it was left, not recentred.
 let savedChapterTabsScroll = 0
 
-function ChapterTabs({ activeId, onPick }) {
+function ChapterTabs({ chapters, activeId, onPick }) {
   const containerRef = useRef(null)
 
   useEffect(() => {
@@ -50,7 +43,7 @@ function ChapterTabs({ activeId, onPick }) {
       }}
       className="sh-scroll mb-1.5 flex gap-2 overflow-x-auto border-b border-border pb-3.5 pt-1"
     >
-      {CHAPTERS.map((ch) => (
+      {chapters.map((ch) => (
         <button
           key={ch.id}
           type="button"
@@ -76,27 +69,31 @@ function ChapterTabs({ activeId, onPick }) {
 
 function StudyFull({ chapterId, index }) {
   const navigate = useNavigate()
+  const { allQuestions } = useApp()
+  const chapters = scopedChapters(allQuestions)
   const chapter = chapterById(chapterId)
+  const chapterIds = scopedIds(chapterId, allQuestions)
   const [order, setOrder] = useState(null)
   const [shuffleKey, setShuffleKey] = useState(0)
   const [filteredIds, setFilteredIds] = useState(null)
 
-  // Reset any shuffle/search filter when switching chapters.
+  // Reset any shuffle/search filter when switching chapters or question scope.
   useEffect(() => {
     setOrder(null)
     setShuffleKey(0)
     setFilteredIds(null)
-  }, [chapterId])
+  }, [chapterId, allQuestions])
 
-  if (!chapter) return <Navigate to={`/study/${CHAPTERS[0].id}/0`} replace />
+  // Bài không có câu nào trong phạm vi (vd. chế độ chỉ câu ★) → sang bài đầu tiên có câu.
+  if (!chapter || !chapterIds.length) return <Navigate to={`/study/${chapters[0].id}/0`} replace />
 
-  const baseIds = order || CHAPTER_QUESTIONS[chapterId]
+  const baseIds = order || chapterIds
   const ids = filteredIds !== null ? filteredIds : baseIds
   // Only jump/highlight for a specific (non-zero) index — plain chapter-tab
   // navigation always targets index 0, which is already at the top.
   const jumpIndex = parseInt(index, 10)
   const scrollToId =
-    Number.isInteger(jumpIndex) && jumpIndex > 0 ? CHAPTER_QUESTIONS[chapterId][jumpIndex] : null
+    Number.isInteger(jumpIndex) && jumpIndex > 0 ? chapterIds[jumpIndex] : null
 
   return (
     <DocList
@@ -110,11 +107,11 @@ function StudyFull({ chapterId, index }) {
         <>
           <StudySearch chapterId={chapterId} onScopeFilterChange={setFilteredIds} />
           <TheoryShortcut chapterId={chapterId} />
-          <ChapterTabs activeId={chapterId} onPick={(cid) => navigate(`/study/${cid}/0`)} />
+          <ChapterTabs chapters={chapters} activeId={chapterId} onPick={(cid) => navigate(`/study/${cid}/0`)} />
         </>
       }
       onShuffle={() => {
-        setOrder(shuffle(CHAPTER_QUESTIONS[chapterId]))
+        setOrder(shuffle(chapterIds))
         setShuffleKey((k) => k + 1)
         window.scrollTo({ top: 0, behavior: 'smooth' })
       }}
@@ -125,7 +122,7 @@ function StudyFull({ chapterId, index }) {
 export default function Study() {
   const { chapterId, index } = useParams()
   const navigate = useNavigate()
-  const { mode } = useApp()
+  const { mode, allQuestions } = useApp()
   const [filteredIds, setFilteredIds] = useState(null)
   const [filterIndex, setFilterIndex] = useState(0)
 
@@ -133,15 +130,19 @@ export default function Study() {
   useEffect(() => {
     setFilteredIds(null)
     setFilterIndex(0)
-  }, [chapterId, mode])
+  }, [chapterId, mode, allQuestions])
 
   if (mode === 'full') {
-    if (chapterId === 'all') return <Navigate to={`/study/${CHAPTERS[0].id}/0`} replace />
+    if (chapterId === 'all') return <Navigate to={`/study/${scopedChapters(allQuestions)[0].id}/0`} replace />
     return <StudyFull chapterId={chapterId} index={index} />
   }
 
-  const baseIds = chapterId === 'all' ? ALL_IDS : CHAPTER_QUESTIONS[chapterId] || []
-  if (!baseIds.length) return <Navigate to="/" replace />
+  const baseIds = scopedIds(chapterId, allQuestions)
+  if (!baseIds.length) {
+    // Bài không có câu ★ (chế độ chỉ câu ★) → sang bài đầu tiên có câu ★.
+    const first = scopedChapters(allQuestions)[0]
+    return <Navigate to={chapterById(chapterId) && first ? `/study/${first.id}/0` : '/'} replace />
+  }
 
   const ids = filteredIds !== null ? filteredIds : baseIds
 

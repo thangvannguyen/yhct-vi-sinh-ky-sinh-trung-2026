@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
-import { CHAPTER_QUESTIONS, LESSONS, LESSON_TREE, TOTAL_QUESTIONS, lessonById } from '../lib/data.js'
+import { LESSONS, LESSON_TREE, TOTAL_QUESTIONS, lessonById, scopedIds } from '../lib/data.js'
+import { useApp } from '../lib/store.jsx'
 import { hasLessonContent } from '../lib/lessons.js'
 import { getHistory, getLastLesson, getLearnProgress, getProgress } from '../lib/storage.js'
 import { Card, Container, Pill, ProgressBar, SectionTitle, cx } from '../components/ui.jsx'
@@ -33,8 +34,9 @@ function ModeCard({ to, emoji, title, desc, featured }) {
 }
 
 /** Một dòng bài trong danh sách theo bài: đọc lý thuyết + tiến độ câu hỏi. */
-function LessonProgressRow({ lesson, read, progress }) {
-  const ids = CHAPTER_QUESTIONS[lesson.id] || []
+function LessonProgressRow({ lesson, read, progress, allQuestions }) {
+  const ids = scopedIds(lesson.id, allQuestions)
+  const hasAny = lesson.questions.length > 0
   const done = ids.filter((id) => progress[id]).length
   const pct = ids.length ? Math.round((done / ids.length) * 100) : 0
   const ready = hasLessonContent(lesson.id)
@@ -57,7 +59,7 @@ function LessonProgressRow({ lesson, read, progress }) {
         {ids.length ? (
           <ProgressBar percent={pct} />
         ) : (
-          <div className="text-[0.76rem] text-text-muted">Chưa có câu hỏi</div>
+          <div className="text-[0.76rem] text-text-muted">{hasAny ? 'Không có câu ★' : 'Chưa có câu hỏi'}</div>
         )}
       </div>
       <div className="flex flex-shrink-0 gap-1.5">
@@ -87,9 +89,12 @@ function LessonProgressRow({ lesson, read, progress }) {
 }
 
 export default function Home() {
+  const { allQuestions, toggleAllQuestions } = useApp()
   const progress = getProgress()
   const learn = getLearnProgress()
-  const answeredIds = Object.keys(progress)
+  // Mọi số liệu câu hỏi trên trang chủ theo phạm vi của công tắc ở thẻ tiến độ.
+  const scopeIds = scopedIds('all', allQuestions)
+  const answeredIds = scopeIds.filter((id) => progress[id])
 
   let totalCorrect = 0
   let totalAttempts = 0
@@ -152,7 +157,13 @@ export default function Home() {
       </div>
 
       <div className="mt-[22px] mb-1 grid gap-3 min-[560px]:grid-cols-2">
-        <ProgressMeter mastered={masteredCount} review={wrongCount} total={TOTAL_QUESTIONS} />
+        <ProgressMeter
+          mastered={masteredCount}
+          review={wrongCount}
+          total={scopeIds.length}
+          allQuestions={allQuestions}
+          onToggleScope={toggleAllQuestions}
+        />
         <ScoreTrend history={history} accuracy={accuracy} />
       </div>
 
@@ -162,7 +173,11 @@ export default function Home() {
           to="/study/all/0"
           emoji="svg:on-tuan-tu"
           title="Ôn tuần tự"
-          desc={`Lần lượt toàn bộ ${TOTAL_QUESTIONS} câu, kèm giải thích và liên kết tới lý thuyết`}
+          desc={
+            allQuestions
+              ? `Lần lượt toàn bộ ${scopeIds.length} câu, kèm giải thích và liên kết tới lý thuyết`
+              : `Lần lượt ${scopeIds.length} câu ★ bắt buộc, kèm giải thích và liên kết tới lý thuyết`
+          }
         />
         <ModeCard
           to="/review-wrong/0"
@@ -207,7 +222,13 @@ export default function Home() {
               <div className="mb-1.5 pl-1 text-[0.78rem] font-semibold text-text-muted">{group.title}</div>
               <div className="flex flex-col gap-2">
                 {lessons.map((l) => (
-                  <LessonProgressRow key={l.id} lesson={l} read={learn[l.id]?.read} progress={progress} />
+                  <LessonProgressRow
+                    key={l.id}
+                    lesson={l}
+                    read={learn[l.id]?.read}
+                    progress={progress}
+                    allQuestions={allQuestions}
+                  />
                 ))}
               </div>
             </div>

@@ -42,5 +42,41 @@
   "section": "chan-doan",
   "explain": "Kỹ thuật Graham thực hiện vào sáng sớm khi trẻ vừa thức dậy, chưa vệ sinh vùng hạ bộ. Vệ sinh hậu môn trước khi lấy mẫu sẽ làm sai kết quả.",
   "tip": "Graham: sáng sớm — chưa tắm — chưa đi vệ sinh."
+ },
+ "giun-kim-11": {
+  "section": "dieu-tri",
+  "explain": "Bảng thuốc điều trị giun kim có mebendazole 100 mg liều duy nhất (cùng albendazole, pyrantel pamoate…). Praziquantel và niclosamide dùng cho sán; Fansidar là thuốc sốt rét."
+ },
+ "giun-kim-12": {
+  "section": "chu-trinh",
+  "explain": "Ban đêm giun cái bò ra rìa hậu môn đẻ trứng rồi chết — vì trứng cần oxy để phát triển đến giai đoạn lây nhiễm."
+ },
+ "giun-kim-13": {
+  "section": "chu-trinh",
+  "explain": "Đây là kiểu tự tái nhiễm hiếm gặp gọi là nhiễm ngược: ấu trùng nở ở da quanh hậu môn rồi bò ngược lên trực tràng, về lại manh tràng."
+ },
+ "giun-kim-14": {
+  "section": "bien-chung",
+  "explain": "Giun kim gây rối loạn tiêu hóa, ngứa hậu môn và có thể lạc vào cơ quan sinh dục. Tắc ruột không có trong các tác hại, biến chứng của giun kim (tắc ruột là biến chứng của giun đũa)."
+ },
+ "giun-kim-15": {
+  "section": "chu-trinh",
+  "explain": "Đời sống giun cái 4 – 13 tuần, giun đực 2 – 7 tuần, tức khoảng 1 – 2 tháng (dưới 3 tháng)."
+ },
+ "giun-kim-16": {
+  "section": "du-phong",
+  "explain": "Giun kim lây qua trứng (tay bẩn, đồ chơi, bụi), không liên quan thịt bò. Không ăn thịt bò tái là cách phòng sán dải bò."
+ },
+ "giun-kim-17": {
+  "section": "chu-trinh",
+  "explain": "Giun trưởng thành sống ở manh tràng (vùng hồi manh tràng, ruột già), không ở tá tràng hay ruột non."
+ },
+ "giun-kim-18": {
+  "section": "graham",
+  "explain": "Kỹ thuật Graham lấy mẫu sáng sớm, khi trẻ vừa thức dậy, chưa vệ sinh vùng hạ bộ. Vệ sinh trước khi lấy mẫu là yếu tố gây nhiễu (làm mất trứng)."
+ },
+ "giun-kim-19": {
+  "section": "chu-trinh",
+  "explain": "Giun cái đẻ trứng ban đêm ở rìa hậu môn; chất bài tiết và cử động của giun khi đẻ gây ngứa hậu môn về đêm."
  }
 }

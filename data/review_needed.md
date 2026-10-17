@@ -20,6 +20,19 @@ Lỗi chính tả, chữ viết tắt trong câu hỏi/phương án được vi�
 | trichomonas-1 | lỗi tài liệu gốc | Phương án B "Giao hợp" có vẻ chép nhầm từ câu 2; giữ nguyên chữ, đáp án D không đổi. |
 | giun-moc-4, giun-moc-5, san-dai-bo-3, san-dai-bo-4 | phương án bổ sung | Câu điền khuyết chuyển trắc nghiệm, bài chỉ có 2 đáp án điền khuyết → thêm 2 phương án sai mỗi câu (`extraOptions`): giun-moc-4 "Sa trực tràng", "Tắc ruột"; giun-moc-5 "Manh tràng", "Dạ dày"; san-dai-bo-3 "Ấu trùng", "Nang ấu trùng"; san-dai-bo-4 "30 nhánh", "40 nhánh" (chọn số lớn hơn vì "hơn 7/9 nhánh" cũng đúng về mặt chữ). Đáp án đúng không đổi. |
 
+## Bộ "35 CÂU HỎI CÓ đáp án" (đáp án tô đỏ)
+Chia vào 4 bài theo `banks` trong `lessons.meta.json`, đánh số nối tiếp câu của bài: giun-kim-11…19, san-la-phoi-6…13, san-la-lon-gan-6…13, san-la-ruot-6…13.
+- **Bỏ câu 7 và 12:** trùng hệt câu 2 (cùng câu hỏi, cùng 4 phương án, chỉ đảo thứ tự) → 33 câu được thêm.
+- **Sửa trình bày:** giun-kim-14 "sinh dụ" → "sinh dục"; giun-kim-18 "kỹ thật" → "kỹ thuật", "thức đậy" → "thức dậy"; san-la-lon-gan-6 "0,4m" → "0,4 ml."; san-la-ruot-8 "hạ sường" → "hạ sườn", "thượngû vị" → "thượng vị", "mệt mõi" → "mệt mỏi".
+
+| Câu | Nhãn | Lý do |
+|---|---|---|
+| san-la-ruot-7 (gốc câu 5) | đáp án đã sửa | Gốc tô C. Bulimus; bài học ghi ốc *Planorbis* (*Segmentina*, *Hippeutis*, *Gyraulus*) → D. |
+| san-la-ruot-8 (gốc câu 6) | đáp án đã sửa | Gốc tô A (đau hạ sườn phải); bài học ghi đau dạ dày, đau bụng dưới, tiêu chảy không máu, phù → C (hạ vị). |
+| san-la-phoi-6 (gốc câu 2, 7, 12) | lỗi tài liệu gốc | Gốc tô Limnea; bài học ghi ốc *Melanoides*, không có trong phương án. Giữ đáp án gốc, ghi chú nên hỏi lại giảng viên. |
+
+Không có trong bài học, giữ đáp án gốc (giải thích ghi rõ): san-la-lon-gan-6 (0,2 ml máu/ngày), san-la-ruot-6 (2 tháng trong ốc), san-la-phoi-13 (3 tháng). Lệch nhẹ: san-la-phoi-12 gốc ghi 8 – 16 mm, bài học 8 – 12 mm. san-la-lon-gan-13 gốc chọn "Siêu âm gan"; bài học coi tìm trứng trong phân là "chuẩn vàng" (dương tính < 5%) — giải thích nêu cả hai.
+
 ## Đánh số lại
 - san-la-lon-gan: câu hỏi trong tài liệu đánh số 4–8 (nối tiếp danh sách tự động của phần lý thuyết), đáp án đánh 1–5 → web đánh lại 1–5 theo thứ tự.
 

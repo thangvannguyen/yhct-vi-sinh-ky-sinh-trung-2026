@@ -44,6 +44,8 @@ data/fetch_images.py          tải hình từ Wikimedia Commons
    - `expectedQuestions`: số câu hỏi trong tài liệu, 0 nếu không có.
 
    Muốn thêm phần hoặc nhóm mới thì thêm vào `parts` / `groups`.
+
+   File chỉ gồm câu hỏi, đáp án tô đỏ (không có dòng "ĐÁP ÁN"): thêm vào `banks` thay vì `lessons`, ghi số câu trong file thuộc bài nào (`lessons`) và câu trùng cần bỏ (`skip`). Câu được đánh số nối tiếp câu hỏi của bài.
 3. Chạy hai script:
    ```bash
    python3 -m pip install python-docx   # lần đầu

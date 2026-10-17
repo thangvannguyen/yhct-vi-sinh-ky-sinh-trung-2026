@@ -1,8 +1,10 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react'
 import {
+  getStoredAllQuestions,
   getStoredAutoExplain,
   getStoredMode,
   getStoredTheme,
+  setStoredAllQuestions,
   setStoredAutoExplain,
   setStoredMode,
   setStoredTheme,
@@ -24,6 +26,8 @@ export function AppProvider({ children }) {
   const [mode, setMode] = useState(() => getStoredMode())
   // Whether the explanation + tip reveals automatically after an answer.
   const [autoExplain, setAutoExplain] = useState(() => getStoredAutoExplain())
+  // Phạm vi học: true = tất cả câu, false = chỉ câu ★ (bộ câu bắt buộc).
+  const [allQuestions, setAllQuestions] = useState(() => getStoredAllQuestions())
   // Transient quiz session — intentionally not persisted across reloads.
   const [quiz, setQuiz] = useState(null)
 
@@ -57,6 +61,14 @@ export function AppProvider({ children }) {
     })
   }, [])
 
+  const toggleAllQuestions = useCallback(() => {
+    setAllQuestions((v) => {
+      const next = !v
+      setStoredAllQuestions(next)
+      return next
+    })
+  }, [])
+
   const value = useMemo(
     () => ({
       theme,
@@ -66,10 +78,12 @@ export function AppProvider({ children }) {
       setMode: changeMode,
       autoExplain,
       toggleAutoExplain,
+      allQuestions,
+      toggleAllQuestions,
       quiz,
       setQuiz,
     }),
-    [theme, isDark, toggleTheme, mode, changeMode, autoExplain, toggleAutoExplain, quiz]
+    [theme, isDark, toggleTheme, mode, changeMode, autoExplain, toggleAutoExplain, allQuestions, toggleAllQuestions, quiz]
   )
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>

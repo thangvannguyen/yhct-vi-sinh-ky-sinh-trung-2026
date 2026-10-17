@@ -1,5 +1,5 @@
 {
-  "_doc": "Danh mục bài học — nguồn duy nhất cho thứ tự, nhóm, tiêu đề. Thêm bài mới: thêm 1 dòng vào `lessons` (id dạng slug, không đổi về sau), đặt file nguồn ở docs/source/, viết content/lessons/<id>.md. `num` tự đánh theo thứ tự trong mảng. `expectedQuestions` để parse_docx.py tự kiểm tra (0 = bài không có câu hỏi).",
+  "_doc": "Danh mục bài học — nguồn duy nhất cho thứ tự, nhóm, tiêu đề. Thêm bài mới: thêm 1 dòng vào `lessons` (id dạng slug, không đổi về sau), đặt file nguồn ở docs/source/, viết content/lessons/<id>.md. `num` tự đánh theo thứ tự trong mảng. `expectedQuestions` để parse_docx.py tự kiểm tra (0 = bài không có câu hỏi). `banks`: bộ câu hỏi riêng (đáp án tô đỏ), mỗi câu gán vào một bài qua `lessons` (số câu trong file), đánh số nối tiếp câu của bài; `skip` = câu bỏ qua kèm lý do.",
   "parts": [
     { "id": "kst", "title": "Ký sinh trùng", "icon": "svg:giun-dua" },
     { "id": "vs", "title": "Vi sinh", "icon": "svg:virus" }
@@ -31,5 +31,23 @@
     { "id": "nam-ngoai-da", "group": "vi-nam", "title": "Bệnh do vi nấm ngoài da", "latin": "Dermatophytes", "short": "Vi nấm ngoài da", "icon": "svg:nam-ngoai-da", "source": "BỆNH DO VI NẤM NGOÀI DA.docx", "expectedQuestions": 6 },
     { "id": "virus-dai", "group": "virus", "title": "Virus dại", "latin": "Rabies virus", "short": "Virus dại", "icon": "svg:virus-dai", "source": "3. VIRUS DẠI.docx", "expectedQuestions": 0 },
     { "id": "virus-viem-gan", "group": "virus", "title": "Các virus viêm gan", "latin": "HAV · HBV · HCV · HDV · HEV", "short": "Virus viêm gan", "icon": "svg:virus-viem-gan", "source": "8. CÁC VIRUS VIÊM GAN.docx", "expectedQuestions": 0 }
+  ],
+  "banks": [
+    {
+      "id": "35-cau",
+      "source": "35 CÂU HỎI CÓ đáp án.docx",
+      "answerColor": "FF0000",
+      "expectedQuestions": 35,
+      "lessons": {
+        "giun-kim": [8, 11, 14, 17, 22, 27, 32, 33, 35],
+        "san-la-phoi": [2, 3, 15, 21, 28, 30, 31, 34],
+        "san-la-lon-gan": [1, 13, 18, 19, 20, 23, 25, 26],
+        "san-la-ruot": [4, 5, 6, 9, 10, 16, 24, 29]
+      },
+      "skip": {
+        "7": "trùng câu 2 (cùng câu hỏi, cùng 4 phương án, chỉ đảo thứ tự)",
+        "12": "trùng câu 2 (cùng câu hỏi, cùng 4 phương án, chỉ đảo thứ tự)"
+      }
+    }
   ]
 }

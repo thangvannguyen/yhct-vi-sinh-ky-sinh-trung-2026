@@ -51,6 +51,19 @@ export function QuestionNote({ question, className }) {
   )
 }
 
+/**
+ * Dấu ★ sau câu hỏi thuộc bộ "35 câu hỏi có đáp án" — câu bắt buộc học, chắc
+ * chắn có trong bài kiểm tra. Không hiện gì với câu thường.
+ */
+export function PriorityStar({ question }) {
+  if (!question.priority) return null
+  return (
+    <span className="ml-1 font-sans text-warning" title="Câu bắt buộc học — chắc chắn có trong bài kiểm tra">
+      ★
+    </span>
+  )
+}
+
 /** Chuyển **đoạn in đậm** trong chuỗi thành <strong>. */
 function richText(s) {
   return String(s)
