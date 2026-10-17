@@ -5,6 +5,7 @@ import { hasLessonContent } from '../lib/lessons.js'
 import { BackLink, Container, SectionTitle, cx } from '../components/ui.jsx'
 import LessonIcon from '../components/LessonIcon.jsx'
 import { PriorityStar } from '../components/Question.jsx'
+import { useApp } from '../lib/store.jsx'
 
 // Đồng bộ với MODES ở scripts/build_downloads.mjs (sinh file lúc build vào public/downloads/).
 const MODES = [
@@ -12,16 +13,26 @@ const MODES = [
   { id: 'answers', suffix: '-dap-an', tab: 'Có đáp án', sub: 'có đáp án' },
   { id: 'explain', suffix: '-giai-thich', tab: 'Có giải thích', sub: 'có đáp án và giải thích' },
 ]
-const fileUrl = (mode, ext) => `${import.meta.env.BASE_URL}downloads/vskst-cau-hoi${mode.suffix}.${ext}`
+// Bộ "-cau-sao" chỉ gồm câu ★ — đồng bộ với collect() ở scripts/build_downloads.mjs.
+const fileUrl = (mode, ext, allQuestions) =>
+  `${import.meta.env.BASE_URL}downloads/vskst-cau-hoi${allQuestions ? '' : '-cau-sao'}${mode.suffix}.${ext}`
 
 const PRIORITY_COUNT = CHAPTERS.reduce((s, l) => s + l.questions.filter((q) => q.priority).length, 0)
 
-// Đánh số liên tục 1…N theo thứ tự bài, giống file tải về.
-const NUMBER = {}
-let n = 0
-LESSON_TREE.forEach(({ groups }) =>
-  groups.forEach(({ lessons }) => lessons.forEach((l) => l.questions.forEach((q) => (NUMBER[q.id] = ++n))))
-)
+/** Câu hiển thị theo phạm vi (tất cả / chỉ câu ★), đánh số liên tục 1…N theo thứ tự bài, giống file tải về. */
+function scopedTree(allQuestions) {
+  let n = 0
+  return LESSON_TREE.map(({ part, groups }) => ({
+    part,
+    lessons: groups
+      .flatMap((g) => g.lessons)
+      .map((lesson) => ({
+        lesson,
+        questions: lesson.questions.filter((q) => allQuestions || q.priority).map((q) => ({ q, num: ++n })),
+      }))
+      .filter((l) => l.questions.length),
+  }))
+}
 
 function DownloadButton({ href, label, sub }) {
   return (
@@ -39,12 +50,12 @@ function DownloadButton({ href, label, sub }) {
   )
 }
 
-function QuestionBlock({ q, showAnswers, showExplain }) {
+function QuestionBlock({ q, num, showAnswers, showExplain }) {
   const ref = q.lessonRef
   return (
     <div className="border-b border-border py-3.5 last:border-b-0">
       <p className="m-0 mb-2 leading-snug">
-        <strong>Câu {NUMBER[q.id]}.</strong> {q.text}
+        <strong>Câu {num}.</strong> {q.text}
         <PriorityStar question={q} />
       </p>
       <ol className="m-0 list-none space-y-1 p-0 pl-3">
@@ -83,6 +94,10 @@ function QuestionBlock({ q, showAnswers, showExplain }) {
 
 /** Toàn bộ câu hỏi trên một trang + tải bản PDF / Word để học offline, in ra giấy. */
 export default function AllQuestions() {
+  const { allQuestions } = useApp()
+  const tree = scopedTree(allQuestions)
+  const total = tree.reduce((s, p) => s + p.lessons.reduce((t, l) => t + l.questions.length, 0), 0)
+  const lessonCount = tree.reduce((s, p) => s + p.lessons.length, 0)
   const [modeId, setModeId] = useState('none')
   const mode = MODES.find((m) => m.id === modeId)
   const showAnswers = modeId !== 'none'
@@ -93,9 +108,18 @@ export default function AllQuestions() {
       <BackLink to="/">← Trang chủ</BackLink>
       <h1 className="m-0 mb-1 text-[1.5rem] font-extrabold tracking-[-0.02em]">Toàn bộ câu hỏi</h1>
       <p className="m-0 text-[0.92rem] text-text-muted">
-        {TOTAL_QUESTIONS} câu · {CHAPTERS.length} bài — xem trên một trang hoặc tải về để học offline, in ra giấy. Câu có dấu{' '}
-        <span className="font-bold text-warning">★</span> là câu bắt buộc học ({PRIORITY_COUNT} câu), chắc chắn có trong bài
-        kiểm tra.
+        {total} câu · {lessonCount} bài — xem trên một trang hoặc tải về để học offline, in ra giấy.{' '}
+        {allQuestions ? (
+          <>
+            Câu có dấu <span className="font-bold text-warning">★</span> là câu bắt buộc học ({PRIORITY_COUNT} câu),
+            chắc chắn có trong bài kiểm tra.
+          </>
+        ) : (
+          <>
+            Đang ở chế độ <strong className="text-warning">chỉ câu ★</strong> — bật lại "Tất cả câu" ở thẻ Tiến độ ôn
+            tập trên trang chủ để xem và tải đủ cả {TOTAL_QUESTIONS} câu.
+          </>
+        )}
       </p>
 
       <div className="mt-4 rounded-card border border-border bg-surface p-4 shadow-soft">
@@ -117,20 +141,18 @@ export default function AllQuestions() {
           ))}
         </div>
         <div className="flex flex-col gap-2 min-[520px]:flex-row">
-          <DownloadButton href={fileUrl(mode, 'pdf')} label="Tải PDF" sub={mode.sub} />
-          <DownloadButton href={fileUrl(mode, 'docx')} label="Tải Word (.docx)" sub={mode.sub} />
+          <DownloadButton href={fileUrl(mode, 'pdf', allQuestions)} label="Tải PDF" sub={allQuestions ? mode.sub : `${mode.sub} · chỉ câu ★`} />
+          <DownloadButton href={fileUrl(mode, 'docx', allQuestions)} label="Tải Word (.docx)" sub={allQuestions ? mode.sub : `${mode.sub} · chỉ câu ★`} />
         </div>
       </div>
 
-      {LESSON_TREE.map(({ part, groups }, pi) => {
-        const lessons = groups.flatMap((g) => g.lessons).filter((l) => l.questions.length)
-        if (!lessons.length) return null
-        return (
+      {tree.map(({ part, lessons }, pi) =>
+        lessons.length ? (
           <div key={part.id}>
             <SectionTitle className="!mt-7">
               <LessonIcon icon={part.icon} className="mr-1" />Phần {pi + 1} · {part.title}
             </SectionTitle>
-            {lessons.map((l) => (
+            {lessons.map(({ lesson: l, questions }) => (
               <section key={l.id} className="mb-4 rounded-card border border-border bg-surface px-4 py-2 shadow-soft-sm">
                 <h3 className="m-0 flex items-center gap-2 border-b border-border py-2.5 text-[1rem] font-bold">
                   <LessonIcon icon={l.icon} />
@@ -139,14 +161,14 @@ export default function AllQuestions() {
                     {l.title}
                   </span>
                 </h3>
-                {l.questions.map((q) => (
-                  <QuestionBlock key={q.id} q={q} showAnswers={showAnswers} showExplain={showExplain} />
+                {questions.map(({ q, num }) => (
+                  <QuestionBlock key={q.id} q={q} num={num} showAnswers={showAnswers} showExplain={showExplain} />
                 ))}
               </section>
             ))}
           </div>
-        )
-      })}
+        ) : null
+      )}
     </Container>
   )
 }

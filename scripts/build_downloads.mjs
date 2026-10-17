@@ -1,7 +1,8 @@
 // Sinh file tải về cho trang "Toàn bộ câu hỏi": PDF và Word, mỗi loại 3 bản —
 // không đáp án / có đáp án / có đáp án và giải thích (xem MODES).
 //
-//   npm run downloads        → public/downloads/vskst-cau-hoi{,-dap-an,-giai-thich}.{pdf,docx}
+//   npm run downloads        → public/downloads/vskst-cau-hoi{,-cau-sao}{,-dap-an,-giai-thich}.{pdf,docx}
+//                              (bộ "-cau-sao" chỉ gồm câu ★)
 //
 // PDF được Chrome in từ HTML (puppeteer-core, dùng Chrome có sẵn trên máy hoặc
 // CHROME_PATH). GitHub Actions chạy script này trước `vite build` nên file tải về
@@ -40,26 +41,37 @@ const SITE = 'thangvannguyen.github.io/yhct-vi-sinh-ky-sinh-trung-2026'
 const letter = (i) => String.fromCharCode(65 + i)
 const optionLabel = (o) => String(o).replace(/^[A-Za-z]\.\s*/, '')
 
-let n = 0
-const parts = data.parts
-  .map((part) => ({
-    part,
-    lessons: data.lessons
-      .filter((l) => l.part === part.id && l.questions.length)
-      .map((l) => ({
-        lesson: l,
-        questions: l.questions.map((q) => ({
-          q,
-          num: ++n,
-          correct: q.options.indexOf(q.correct),
-        })),
-      })),
-  }))
-  .filter((p) => p.lessons.length)
-const TOTAL = n
-const LESSON_COUNT = parts.reduce((s, p) => s + p.lessons.length, 0)
 const PRIORITY_COUNT = data.lessons.reduce((s, l) => s + l.questions.filter((q) => q.priority).length, 0)
 const STAR_NOTE = `Câu có dấu ★ là câu bắt buộc học (${PRIORITY_COUNT} câu), chắc chắn có trong bài kiểm tra.`
+
+// Hai bộ file: tất cả câu, và chỉ câu ★ (trang "Toàn bộ câu hỏi" ở chế độ
+// "Chỉ câu ★" tải bộ này). Đồng bộ với SCOPE_SUFFIX ở src/pages/AllQuestions.jsx.
+// Câu được đánh số 1…N liên tục trong từng bộ, khớp số trên trang web.
+function collect(onlyStar) {
+  let n = 0
+  const parts = data.parts
+    .map((part) => ({
+      part,
+      lessons: data.lessons
+        .filter((l) => l.part === part.id)
+        .map((l) => ({ lesson: l, list: l.questions.filter((q) => !onlyStar || q.priority) }))
+        .filter((x) => x.list.length)
+        .map(({ lesson, list }) => ({
+          lesson,
+          questions: list.map((q) => ({ q, num: ++n, correct: q.options.indexOf(q.correct) })),
+        })),
+    }))
+    .filter((p) => p.lessons.length)
+  return {
+    onlyStar,
+    suffix: onlyStar ? '-cau-sao' : '',
+    parts,
+    total: n,
+    lessonCount: parts.reduce((s, p) => s + p.lessons.length, 0),
+    note: onlyStar ? `Chỉ gồm ${PRIORITY_COUNT} câu ★ — câu bắt buộc học, chắc chắn có trong bài kiểm tra.` : STAR_NOTE,
+  }
+}
+const SETS = [collect(false), collect(true)]
 
 // Ghi chú phương án bổ sung (câu điền khuyết chuyển thành trắc nghiệm).
 const noteText = (q) => (q.answerNote?.body || '').replace(/\*\*/g, '')
@@ -72,7 +84,8 @@ const esc = (s) =>
     .replace(/>/g, '&gt;')
 const md = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\*(.+?)\*/g, '<em>$1</em>')
 
-function html(mode) {
+function html(mode, set) {
+  const { parts } = set
   const withAnswers = mode.id !== 'none'
   const withExplain = mode.id === 'explain'
   const body = parts
@@ -142,8 +155,8 @@ function html(mode) {
 </style></head><body>
   <header>
     <h1>${TITLE} · Câu hỏi trắc nghiệm</h1>
-    <p>${TOTAL} câu · ${LESSON_COUNT} bài · ${mode.label} · ${SITE}</p>
-    <p><span class="star">★</span> ${STAR_NOTE}</p>
+    <p>${set.total} câu · ${set.lessonCount} bài · ${mode.label} · ${SITE}</p>
+    <p><span class="star">★</span> ${set.note}</p>
   </header>
   ${body}
 </body></html>`
@@ -169,11 +182,11 @@ function chromePath() {
 async function buildPdfs() {
   const browser = await puppeteer.launch({ executablePath: chromePath(), headless: 'new', args: ['--no-sandbox'] })
   try {
-    for (const mode of MODES) {
+    for (const set of SETS) for (const mode of MODES) {
       const page = await browser.newPage()
-      await page.setContent(html(mode), { waitUntil: 'networkidle0' })
+      await page.setContent(html(mode, set), { waitUntil: 'networkidle0' })
       await page.evaluate(() => document.fonts.ready)
-      const file = path.join(OUT, `vskst-cau-hoi${mode.suffix}.pdf`)
+      const file = path.join(OUT, `vskst-cau-hoi${set.suffix}${mode.suffix}.pdf`)
       await page.pdf({
         path: file,
         format: 'A4',
@@ -203,7 +216,8 @@ function runs(s, opts = {}) {
     .map((t) => (t.startsWith('**') ? run(t.slice(2, -2), { ...opts, bold: true }) : run(t, opts)))
 }
 
-function docxFile(mode) {
+function docxFile(mode, set) {
+  const { parts } = set
   const withAnswers = mode.id !== 'none'
   const withExplain = mode.id === 'explain'
   const children = [
@@ -212,14 +226,14 @@ function docxFile(mode) {
       spacing: { after: 240 },
       children: [
         run(
-          `${TOTAL} câu · ${LESSON_COUNT} bài · ${mode.label} · ${SITE}`,
+          `${set.total} câu · ${set.lessonCount} bài · ${mode.label} · ${SITE}`,
           { size: 20, color: '555555' }
         ),
       ],
     }),
     new Paragraph({
       spacing: { after: 240 },
-      children: [run('★ ', { size: 20, bold: true, color: 'D97706' }), run(STAR_NOTE, { size: 20, color: '555555' })],
+      children: [run('★ ', { size: 20, bold: true, color: 'D97706' }), run(set.note, { size: 20, color: '555555' })],
     }),
   ]
 
@@ -309,9 +323,9 @@ function docxFile(mode) {
 }
 
 async function buildDocx() {
-  for (const mode of MODES) {
-    const file = path.join(OUT, `vskst-cau-hoi${mode.suffix}.docx`)
-    fs.writeFileSync(file, await Packer.toBuffer(docxFile(mode)))
+  for (const set of SETS) for (const mode of MODES) {
+    const file = path.join(OUT, `vskst-cau-hoi${set.suffix}${mode.suffix}.docx`)
+    fs.writeFileSync(file, await Packer.toBuffer(docxFile(mode, set)))
     console.log(path.relative(ROOT, file), Math.round(fs.statSync(file).size / 1024), 'KB')
   }
 }
