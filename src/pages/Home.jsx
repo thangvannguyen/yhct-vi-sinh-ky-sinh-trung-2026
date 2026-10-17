@@ -193,7 +193,11 @@ export default function Home() {
           to="/questions"
           emoji="svg:tai-ve"
           title="Toàn bộ câu hỏi"
-          desc={`Xem cả ${TOTAL_QUESTIONS} câu trên một trang · tải về dạng PDF hoặc Word`}
+          desc={
+            allQuestions
+              ? `Xem cả ${scopeIds.length} câu trên một trang · tải về dạng PDF hoặc Word`
+              : `Xem ${scopeIds.length} câu ★ trên một trang · tải về dạng PDF hoặc Word`
+          }
         />
       </div>
 
